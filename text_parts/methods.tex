@@ -1,8 +1,8 @@
 \section{Cultivation and differentiation of HAoSMCs}
 \label{sec:cultivation}
-For the following experiments human arortic smooth muscle cells were used. [Describe some properties of the cells]. Cells were kept at 37°C and 5\% CO2 when ever possibile.
+For the following experiments human arortic smooth muscle cells were used. A cell type commonly used for the study of cardiovascular function and disease. Cells were kept at 37°C and 5\% CO2 when ever possibile.
 
-Cells were differentiated using Cytokines -> reference to the introdcution and cited literature.
+Cells were differentiated treated first with TGFb and then with IL-1 & PDGF-BB to induce a synthetic phenotype. For more imformation please check the section on smooth muscle cells in CAD.
 
     \subsection{Thawing \& Cultivation}
     Cells were cultivated to a maximum passage of 10, after that new passage cells were thawed. For long time storage cells were kept in liquid nitrogen in [cryo medium]. When required new cells (6th passage) were need cells were thawed at 37°C in the water bath and transfered to a falcon. After centrifugation for 2 min at 300xg the supernatant was remoced and the cell pellet taken up in 14 mL of M231 + SMSG and cultivated in a T75 flask. Every other day 2/3 of the medium were removed and replaced by fresh.
@@ -13,7 +13,7 @@ Cells were differentiated using Cytokines -> reference to the introdcution and c
     \subsection{Preparation of Collagen I matrix}
     Have a look at the protocol
 
-    \subsection{Differentitation of cells}
+    \subsection{Differentitation of HAoSMCs}
     Differentiation was carried out in 24 wells plates with 1 mL M231 supplemented with 1 \% FBS and different cytokines:
     \begin{itemize}
         \item \textbf{Day 0:} Matrix and cells were prepareed as described in the sections Preparation of Col I matrix and Passaging. Seeding $\num{40e3}$ in M231 + SMGS after hardening of 160 µL collagen 1 matrix.
@@ -24,7 +24,9 @@ Cells were differentiated using Cytokines -> reference to the introdcution and c
 
 \section{mRNA Quantification}
 \label{sec:qpcr}
-Some sentence ragarding the cells and primers and the method.
+qPCR was utilized to assess the mRNA concentration of the two reporter genes CNN1 and MMP9 in HAoSMC differentiated as described in section on differentiation. Using the house keeping gene GAPDH for reference.
+
+\noindent SYBR® Green is an intercalating DNA dye that allows for the monitoring of DNA amplification. Flourescence is measured after every amplification cycle of the PCR yielding a crossing point when signal reaches a certain threshhold. A lower threshhold cycle (ct) corresponds to an higher inital DNA concentration.
 
     \subsection{RNA Isolation}
     RNA was isolated using the kit and extraction was performed according to the corresponding protocol, using an extra washing step with Ethanol and eluting with 20 µL of RNase-free water. Determination of nucleic acid concentration was carried out with the NanoDrop.
@@ -32,13 +34,59 @@ Some sentence ragarding the cells and primers and the method.
     \subsection{Reverse Transcription}
     For reverse transcription RNA samples were diluted to yield 10 µL of ng/µL RNA. The samples were heated for 5 min at 68°C before adding 10 µL of the RT reaction mix described in the following table:
 
-    The reaction was carried out for 60 min at 37°C before inactivating the enzyme for 5 min at 95°C. cDNA was used for qPCR or stored at -20°C.
+    \noindent The reaction was carried out for 60 min at 37°C before inactivating the enzyme for 5 min at 95°C. cDNA was used for qPCR or stored at -20°C.
 
     \subsection{qPCR}
-    qPCR was performed for CNN1 and MMP9, using GAPDH mRNA levels as a reference. The analysis was performed with 4 biological replicated with 3 technical replicates each.
+    The samples were prepared in a 384-well plate using SYBR® Green Master Mix:
+
+    \begin{table}[]
+    \capstart
+	\centering
+	\begin{minipage}{\captionwidth}
+	   	\caption[qPCR samples]{\uzlemph{qPCR samples}\newline The samples for the qPCR}
+	   	\label{tab:qPCR_samples}
+	\end{minipage}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        component                  & conentration & volume (µL) \\ \hline
+        SYBR GREEN Master Mix      & 1:2          & 3.75        \\
+        Primer (forward + reverse) & 5 pM (each)  & 1.125       \\
+        H20                        & -            & 1.625       \\
+        cDNA                       & -            & 1           \\ \hline
+    \end{tabular}
+    \end{table}
+
+    \noindent Wells were thoroughly mixed the assay performed using follwing programme on the TaqMan:
+
+    \begin{table}[]
+    \capstart
+    \centering
+    \begin{minipage}{\captionwidth}
+        \caption[qPCR programme]{\uzlemph{qPCR programme}\newline The programme for the qPCR}
+        \label{tab:qPCR_programme}
+    \end{minipage}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+        step & time (s) & temperature (°C) & loop to & passes \\ \hline
+        1    & 120      & 50               &         & 1      \\
+        2    & 600      & 95               &         & 1      \\
+        3    & 15       & 60               &         & 40     \\
+        4    & 60       & 60               & 3       & 40     \\
+        5    & 600      & 95               &         & 1      \\
+        6    & -        & 16               &         & 1      \\ \hline
+    \end{tabular}
+    \end{table}
+
+    \noindent Ct values were automatically calculated by the software SDS2.2.2 and exported for further analysis. The arithmetic  mean of three 3 technical was calculated for each sample, disregarding values that are obvious outliers. For normalization the mean ct of the reference gene GAPDH was substracted from the mean ct of the gene of interest:
+
+    $$\Delta ct = ct(\mathrm{gene of interest}) - ct(\mathrm{GAPDH})$$
+
+    \noindent Taking into account the exponential amplification of DNA in PCR, the $\Delta ct$ can then be transformed into an relative expression level. Where $\num{10e6}$ is just a constant to yield values that are easier to work with:
+
+    $$\mathrm{rel. expr.} = 2^{-\Delta ct\num{10e6}}$$
 
     \subsection{Processing of data}
-    Data visualization and statistical analysis was done using python and the modules: pandas, numpy, scipy as well as pyplot and seaborn. Assuming a normal distribution, student's t-test was used, a p-value of 0.05 is considered as significant. For detailed information please check the script.
+    In total four biological replicates were done. Data visualization and statistical analysis was done in python using the modules: pandas, numpy, scipy as well as pyplot and seaborn. Assuming a normal distribution, student's t-test was used, a p-value of 0.05 is considered as significant. For detailed information please check the script.
 
 \section{Energy Profiling}
 \label{sec:seahorse}
