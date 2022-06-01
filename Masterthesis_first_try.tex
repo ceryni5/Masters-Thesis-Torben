@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%
+%               %
+%   SETUP       %
+%               %
+%%%%%%%%%%%%%%%%%
+\documentclass[english, version-2019-07]{uzl-thesis}
+\UzLStyle{computer modern oldschool design}
+\UzLThesisSetup{
+  Masterarbeit,
+  Titel auf Deutsch     = {Identification genetischer Risikovarianten für Artheriosklerose via oxidativem Stress Assay in glatten Muskulaturzellen und bioinformatische Ansätze},
+  Titel auf Englisch    = {Identification of genetic risk variants for atherosclerosis using oxidative stress assays in vascular smooth muscle cells and bioinformatic approaches
+},
+  Logo-Dateiname        = {Logo-Institut-fuer-Kardiogenetik.pdf},
+  Verfasst              = {am}{Institut für Kardiogenetik},
+  Autor                 = {Torben Falk},
+  Betreuerin            = {Prof. Dr. Jeanette Erdmann},
+  Mit Unterstützung von = {Dr. Tobias Reinberger},
+  Studiengang           = {Molecular Life Science},
+  Datum                 = {21. Juli 2022},
+  Zusammenfassung       = {
+    \input{text_parts/zusammenfassung}
+  },
+  Abstract              = {
+    \input{text_parts/abstract}
+  },
+  Alphabetische Bibliographie,
+  %Numerische Bibliographie
+  Acknowledgements = {
+Daaanke an alle!
+  }
+}
+
+%Packages
+\usepackage{textgreek}
+\usepackage{siunitx}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage[nohyperlinks, withpage]{acronym}
+\usepackage[flushleft]{threeparttable}
+\usepackage{layouts}
+\usepackage{hypcap}
+
+%Grafiken
+\graphicspath{{C:/Users/torbe/OneDrive/Dokumente/Uni/Masterarbeit/Thesis/Abbildung/}}
+
+%Hersteller:
+\newcommand{\Roth}{Carl Roth GmbH + Co. KG}
+\newcommand{\SigmaA}{Sigma-Aldrich Chemie GmbH}
+\newcommand{\Merck}{Merck KGaA}
+\newcommand{\Invitrogen}{Invitrogen\texttrademark~(Marke von Thermo Fisher Scientific Inc.)}
+\newcommand{\NEB}{New England Biolabs GmbH}
+\newcommand{\viro}{„Doku-Viro''}
+\newcommand{\diy}{„Doku-DIY''}
+
+%Farben
+\definecolor{mygray}{gray}{0.5}
+\definecolor{myblue}{RGB}{74,134,232}
+\definecolor{mygreen}{RGB}{0,0,0}
+\definecolor{myred}{RGB}{152,0,0}
+\definecolor{myyellow}{RGB}{255,153,0}
+
+%commands
+\newcommand\TILDE{\char`\~}
+\newlength{\captionwidth}
+\setlength{\captionwidth}{0.9\textwidth}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%  START OF DOC %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\fontdimen16\textfont2=3pt
+\fontdimen17\textfont2=3pt
+
+%%%%%%%%%%%%%%%%%
+%               %
+%  Abk. Verz.   %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter*{Abkürzungsverzeichnis}
+\input{text_parts/abbreviations}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%   Grundlagen  %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+\input{text_parts/intro}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%   Material    %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter{Material}
+\input{text_parts/material}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%   Methods     %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter{Methods}
+\input{text_parts/methods}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%   Ergebnisse  %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter{Results}
+\input{text_parts/results}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%   Diskussion  %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter{Discussion}
+\input{text_parts/discussion}
+
+%%%%%%%%%%%%%%%%%
+%               %
+%    Ausblick   %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter{Conclusion \& Outlook}
+\input{text_parts/outlook}
+
+%%%%%%%%%%%%%%%%%
+%               %
+% Bibliographie %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\begin{bibtex-entries}
+
+\input{Literatur/literatur.bib}
+
+\end{bibtex-entries}
+
+\end{document}

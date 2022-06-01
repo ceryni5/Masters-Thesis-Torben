@@ -1,0 +1,136 @@
+\section{Differentitaion}
+\label{sec:differentiation}
+
+Characterization of the phenotype we are inducing.
+
+    \subsection{Expression of CNN1 \& MMP9}
+
+    Markers CNN1 and MMP9.
+
+    \label{subsec:qPCR}
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\input{Abbildung/qPCR_result.pgf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[CNN_qPCR]{\uzlemph{Expression of CNN1 \& MMP9 in HAoSMCs} \newline WUHU!. Meine erste Abbildung!}
+    		\label{fig:qPCR}
+    	\end{minipage}
+    \end{figure}
+
+    Further getting a quick glimps into the energy profile of the cells.
+
+    \subsection{Energy profile}
+    \label{subsec:energy}
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\input{Abbildung/seahorse_rates.pgf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[seahorse_tracks]{\uzlemph{Seahorse tracks} \newline The seahorse tracks I did record.}
+    		\label{fig:energy_profile}
+    	\end{minipage}
+    \end{figure}
+
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\includegraphics{Abbildung/seaborn_energy_profiles.pdf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[energy_profile]{\uzlemph{Energy profile} \newline Evaluation of those seahorse tracks.}
+    		\label{fig:energy_profile}
+    	\end{minipage}
+    \end{figure}
+
+    Looking at the extracellulat matrix.
+
+\section{Evaluation of oxidative Stress}
+\label{sec:oxStress}
+
+    \subsection{PDGF boost of out cells indcues oxidative stress}
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\includegraphics{Abbildung/CellROX_initial_cond.pdf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[repeat_Lisa]{\uzlemph{Stimulation with PDGF induces oxidative stress.} \newline Repeat of the result already shown by Tobi.}
+    		\label{fig:qPCR}
+    	\end{minipage}
+    \end{figure}
+
+    \subsection{Characterization of the CellROX Assay}
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\includegraphics{Abbildung/CellROX_titration_no_norm.pdf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[cellROX_titration]{\uzlemph{CellROX titration} \newline Titration}
+    		\label{fig:qPCR}
+    	\end{minipage}
+    \end{figure}
+
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\includegraphics{Abbildung/CellROX_titration_norm.pdf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[cellROX_titration_norm]{\uzlemph{Stimulation with PDGF induces oxidative stress - normalized.} \newline My attempt at normalization.}
+    		\label{fig:qPCR}
+    	\end{minipage}
+    \end{figure}
+
+    \subsection{Rescue of ROS production using NAC}
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\includegraphics{Abbildung/NAC_quench.pdf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[NAC quench]{\uzlemph{NAC  quench} \newline The NAC quench. :).}
+    		\label{fig:qPCR}
+    	\end{minipage}
+    \end{figure}
+
+\section{Visualization of GWAS data}
+After tinkering around for quite a bit we decided to build a webapplication for a multitude of reasons.
+After tinkering around for even more time we decided to build a backend in the for of sqlite database because it is the most sustainable. Relational databases are used so much for a reason.
+
+    \subsection{Curation of Data for postGWAS analyses}
+    Describe all the data that is in the database and how we processed it.
+
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\includegraphics{Abbildung/db-schema.pdf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[database]{\uzlemph{My super duper database} \newline DATABASE!!}
+    		\label{fig:db}
+    	\end{minipage}
+    \end{figure}
+
+    \subsection{Visualization of GWAS data}
+    \label{subsec:result_vis}
+    The first use case of this database and our original goal is the bokeh app for visualization. Wuhu!
+    Show some screenshots but easiest would just be to try it out.
+
+    \subsection{Enrichment analysis}
+    \label{subsec:result_enrichment}
+    Second the data that we are curating can als be put to use for other scenarios. Running a first test analysis as a proof of concept. 
+
+    \begin{figure}[htbp]
+    \capstart
+        \centering
+    	\input{Abbildung/enrichment_scatter.pgf}
+
+    	\begin{minipage}{\captionwidth}
+    		\caption[enrichemtn]{\uzlemph{Enrichment Analysis} \newline This stuff actually seems to be working!!}
+    		\label{fig:qPCR}
+    	\end{minipage}
+    \end{figure}
