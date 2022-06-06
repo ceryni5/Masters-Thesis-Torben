@@ -1,48 +1,261 @@
 
 \section{Manufactors}
 \label{sec:manufactors}
-Just get me the list. lol -> first I need to write the methods part.
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Manufacturer} & \textbf{Seat}\\ \hline
+    Agilent Technologies, Inc.  & Santa Clara, CA, USA\\
+    BRAND GMBH \& Co. KG & Wertheim, DE\\
+    Eppendorf AG & Hamburg, DE\\
+    Merck KGaA & Darmstadt, DE \\
+    Keyence Corporation & Osaka, JP\\
+    Sarstedt AG \& Co. & Nürnberg, DE \\
+    Sigma-Aldrich Co. LLC. & St. Louis, MO, USA\\
+    Thermo Fisher Scientific Inc. & Waltham, MA, USA \\
+\end{longtblr}
 
 \section{Antibodies}
 \label{sec:ab}
-fibronektion
-8oxoG
-primary ones
+\begin{longtblr}[]{
+    colspec = {X|X|X},
+    rowhead = 1
+}
+    \textbf{Name} & \textbf{Species} & \textbf{Manufacturer} \\ \hline
+    8oxoG & ?  & ?\\
+    other oxStress & ?  & ?\\
+    Fibronectin & ?  & ?\\
+    secondary ones & ?  & ?\\
+\end{longtblr}
 
 \section{Celllines}
 \label{sec:cells}
-HAoSMCs
+\begin{longtblr}[]{
+    colspec = {X|X|X},
+    rowhead = 1
+}
+    \textbf{Name}                            & \textbf{Celltype}    & \textbf{Manufacturer} \\ \hline
+    Human Aortic Smooth Muscle Cell (HAoSMC) & prim. human cell     &              \\
+\end{longtblr}
 
 \section{Primer}
 \label{sec:primer}
-GAPDH
-CNN1
-MMP9
+\begin{longtblr}[]{
+    colspec = {X|X|X[3]},
+    rowhead = 1
+}
+\textbf{Target}                 & \textbf{Name}  & \textbf{Sequence}  \\ \hline
+\SetCell[r=2]{m}CNN1   & Fw   & 5'-seq-3' \\
+                       & Rv   & 5'-seq-3' \\
+\SetCell[r=2]{m}GAPDH  & Fw   & 5'-seq-3' \\
+                       & Rv   & 5'-seq-3' \\
+\SetCell[r=2]{m}MMP9   & Fw   & 5'-seq-3' \\
+                       & Rv   & 5'-seq-3' \\
+\end{longtblr}
 
 \section{Chemicals}
 \label{sec:chemicals}
-NAC, stuff for IF, ...
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Name} &  \textbf{Manufacturer} \\ \hline
+    5x First STardn buffer & \\
+    Antimycin & \\
+    BSA & \\
+    CellROX & \\
+    Collagen I & \\
+    dNTP & \\
+    DTT & \\
+    Ethanol & \\
+    FCCP & \\
+    Hoechst & \\
+    IL1 & \\
+    M-MLVRT & \\
+    NAC & \\
+    NaHCO3  & \\
+    NaOH & \\
+    Oligomycin & \\
+    Oligos & \\
+    PBS & \\
+    PDGF & \\
+    RiboLick & \\
+    Seahorse XF calibrant & \\
+    SYBR GREEN Master Mix & \\
+    TGF & \\
+\end{longtblr}
 
-\section{Media, Supplements \& Cytokines}
-\label{sec:chemicals}
+
+\section{Media, Supplements}
+\label{sec:media}
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Name} &  \textbf{Manufacturer}\\ \hline
+    Cryomedium & even necessary?\\
+    Fetal Bovine Serum (FBS) & ?\\
+    Medium 231 (M231) & LIFE TECHNOLOGIES EUROPE BV \\
+    Smooth Muscle Cell Growth Supplement (SMGS) & ?\\
+    XF Base Medium & Agilent Technologies, Inc\\
+\end{longtblr}
+
+\section{Solutions}
+\label{sec:solutions}
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+\textbf{Name}                                                   &  \textbf{Manufacturer}\\ \hline
+\SetCell[r=3]{m}Interleukin 1 beta \newline (IL-1β)             & IL-1β   \\
+                                                                & BSA   \\
+                                                                & in PBS   \\ \hline
+\SetCell[r=2]{m}N-Acetylcystein \newline (NAC)                  & 0.25 M NAC    \\
+                                                                & in water, \TILDE pH 7  \\ \hline
+\SetCell[r=3]{m}Platelet-derived growth factor-BB (PDGF-BB)     & PDGF-BB   \\
+                                                                & BSA   \\
+                                                                & in PBS   \\ \hline
+\SetCell[r=3]{m}Transforming Growth Factor beta (TGFβ)          & TGFβ   \\
+                                                                & BSA   \\
+                                                                & in PBS   \\
+\end{longtblr}
 
 \section{Kits}
 \label{sec:kits}
-Jena RNA Extraction
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Kit} &  \textbf{Manufacturer} \\ \hline
+    Total RNA Purification Kit & Jena Bioscience GmbH\\
+\end{longtblr}
 
 \section{Consumables}
-\label{sec:kits}
-tubes and stuff
+\label{sec:consuables}
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Name} & \textbf{Manufacturer} \\ \hline
+    0.2 mL tubes &\\
+    0.5 mL tubes &\\
+    1.5 mL tubes &\\
+    2 mL tubes &\\
+    5 mL tubes &\\
+    24-well plate &\\
+    Seahorse cultivation plate &\\
+    Seahorse sensor plate &\\
+    384 Well Multiply PCR plates &\\
+    pasteur pipettes &\\
+    tips gray &\\
+    tips yellow &\\
+    tips blue &\\
+    tips gray, filter &\\
+    tips yellow, filter &\\
+    tips blue, filter &\\
+    syringe &\\
+    filter &\\
+    Wiege Schälchen &\\
+    Cell counter thinys &\\
+    falcon 15 ml &\\
+    falcon 50 ml, blue cap &\\
+    falcon 50 ml &\\
+    5 ml pipette &\\
+    10 ml pipette &\\
+    20 ml pipette &\\
+    50 ml pipette &\\
+    parafilm &\\
+    T75 cellculture flask &\\
+    cover foil for qPCR &\\
+    pH Papier &\\
+\end{longtblr}
 
-\section{Devises}
+\section{Devices}
 \label{sec:devices}
-microscope, zentrifuge cellculture, centrifuge RNA iso, centrifuge  plate, taqman, seahorse,
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Name} & \textbf{Manufacturer} \\ \hline
+    Cell culture &\\
+    Bench 1 &\\
+    Bench 2 &\\
+    Pipette very small &\\
+    Pipette small &\\
+    Pipette medium &\\
+    Pipette large &\\
+    Incubator 1 &\\
+    Incubator 2 &\\
+    Cell Counter &\\
+    Water Bath &\\
+    Centrifuge cell culture &\\
+    microscope &\\
+    pipette boy &\\
+    big lab &\\
+    Centrifuge RNA place &\\
+    large centrifuge &\\
+    Seahorse &\\
+    qPCR maschine &\\
+    scale &\\
+    vortex &\\
+    magnetic stirer &\\
+    keyence &\\
+    Thermo Cycler &\\
+    pH electrode &\\
+    other &\\
+    nanodrop &\\
+    Ice maschine &\\
+\end{longtblr}
 
 \section{Programs \& Modules}
 \label{sec:packages}
 
-- python 3.9 conda
-- software on the keyence
-- lualatex and template of Till Tantau
+\subsection{Programs}
+\begin{longtblr}[]{
+    colspec = {X[3]|X[2]|X[5]},
+    rowhead = 1
+}
+    \textbf{Program}            & \textbf{Version}      & \textbf{Manufacturer} \\ \hline
+    Affinity Designer           & 1.10                  & Serif (Europe) Ltd. \\
+    Excel                       & Version 2205          & Microsoft Corporation\\
+    GitHub                      &                       & GitHub, Inc\\
+    keyence sftware?!           &                       &  \\
+    MiKTeX                      & 2.9                   & Christian Schenk\\
+    python                      & 3.9                   & Python Software Foundation \\
+    PyCharm (Community edition) & 2021.2.2              & JetBrains s.r.o.\\
+    SchemaSpy                   & 5.0.0                 & John Currier\\
+    SDS                         & 2.2.2                 & Thermo Fisher Scientific GmbH Im \\
+    sqlite3\_analyzer           & 3.38.5.               & The SQLite Consortium \\
+    Wave Controller             & 2.6.3                 & Agilent Technologies \\
+\end{longtblr}
 
-- python packages: get a list
+\subsection{Python Modules}
+\begin{longtblr}[]{
+    colspec = {X[3]|X[2]|X[5]},
+    rowhead = 1
+}
+    \textbf{Module}         & \textbf{Version}     & \textbf{Info}  \\ \hline
+    beautifulsoup4          & 4.11.1        & \MYhref{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}{crummy.com/software/BeautifulSoup}\\
+    bokeh                   & 2.4.1         & \MYhref{https://bokeh.org/}{bokeh.org}\\
+    numpy                   & 1.21.4        & \MYhref{https://numpy.org/}{numpy.org}\\
+    pandas                  & 1.3.4         & \MYhref{https://pandas.pydata.org/}{pandas.pydata.org}\\
+    Pillow                  & 8.4.0         & \MYhref{https://python-pillow.org/}{python-pillow.org}\\
+    pyliftover              & 0.4           & \MYhref{https://github.com/konstantint/pyliftover}{github.com/konstantint/pyliftover}\\
+    python standard library & 3.9           & \MYhref{https://docs.python.org/3/library/index.html}{docs.python.org}\\
+    matplotlib              & 3.4.3         & \MYhref{https://matplotlib.org/}{matplotlib.org}\\
+    requests                & 2.26.0        & \MYhref{https://requests.readthedocs.io/en/latest/}{requests.readthedocs.io}\\
+    scipy                   & 1.7.3         & \MYhref{https://scipy.org/}{scipy.org}\\
+    seaborn                 & 0.11.2        & \MYhref{https://seaborn.pydata.org/}{seaborn.pydata.org}\\
+    urllib3                 & 1.26.7        & \MYhref{https://urllib3.readthedocs.io/en/stable/}{urllib3.readthedocs.io}\\
+    wget                    & 3.2           & \MYhref{https://bitbucket.org/licface/pywget/src/master/}{bitbucket.org/licface/pywget}\\
+\end{longtblr}
+
+\subsection{Frameworks}
+\begin{itemize}
+    \item This thesis was generated with the \MYhref{https://moodle.uni-luebeck.de/course/view.php?id=4439}{uzl-thesis class} have been written and kindly provided by Till Tantau.
+    \item Styling of the GWAS Visualizer was done with the \MYhref{https://getbootstrap.com/}{CSS Framework Bootstrap}.
+\end{itemize}
+
+\section{Public Data}
+\label{sec:data}

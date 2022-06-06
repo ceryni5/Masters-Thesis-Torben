@@ -31,6 +31,8 @@ Daaanke an alle!
 }
 
 %Packages
+\usepackage{tabularx}
+\usepackage{tabularray}
 \usepackage{textgreek}
 \usepackage{siunitx}
 \usepackage{multirow}
@@ -63,6 +65,7 @@ Daaanke an alle!
 \newcommand\TILDE{\char`\~}
 \newlength{\captionwidth}
 \setlength{\captionwidth}{0.9\textwidth}
+\newcommand{\MYhref}[2]{\href{#1}{\color{myblue}{#2}}}
 
 %%%%%%%%%%%%%%%%%
 %               %
@@ -73,6 +76,10 @@ Daaanke an alle!
 \begin{document}
 \fontdimen16\textfont2=3pt
 \fontdimen17\textfont2=3pt
+
+\DefTblrTemplate{caption-tag}{default}{}
+\DefTblrTemplate{caption-sep}{default}{}
+\DefTblrTemplate{caption-text}{default}{}
 
 %%%%%%%%%%%%%%%%%
 %               %

@@ -1,14 +1,12 @@
 \section{Differentitaion}
 \label{sec:differentiation}
-
-Characterization of the phenotype we are inducing.
+To generate a controlable phenotype, that is representive for the synthetic phenotype in vivo, HAoSMCs were first treated for two days with TGFb to induce a phenotype that ressambles the contrat phenotype. Using this contractile phenotype as a precursors, cells were further treated for five days with IL-1b and PDGF-BB which should induce differentiation into the synthetic phenotype.
 
     \subsection{Expression of CNN1 \& MMP9}
-
-    Markers CNN1 and MMP9.
+    To track the differentiation and confirm the protocoll, the HAoSMCs were characterized using qPCR, assessing mRNA levels of CNN1 as a contractivle marker and MMP9 as a synthetic marker. For better compariability mRNA levels are considered in realtion to the house keeping gene GAPDH.
 
     \label{subsec:qPCR}
-    \begin{figure}[htbp]
+    \begin{figure}[h]
     \capstart
         \centering
     	\input{Abbildung/qPCR_result.pgf}
@@ -19,11 +17,14 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
-    Further getting a quick glimps into the energy profile of the cells.
+    As seen in figure [],
+
 
     \subsection{Energy profile}
+    Further the energy profile of the cells were assesed via Seahorse Assay, OCR and EACR for the different conditions are displayed in figure.
+
     \label{subsec:energy}
-    \begin{figure}[htbp]
+    \begin{figure}[h]
     \capstart
         \centering
     	\input{Abbildung/seahorse_rates.pgf}
@@ -34,7 +35,9 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
-    \begin{figure}[htbp]
+    It is important to note, that these were recorded on plastic because the matrix would not fit into the wells when the piston comes down. Looking at the energy profile [Figure] of the cells it is easy to see that the cells seem to be quite similar, the only eception being the -+ condition which we have the least information about.
+
+    \begin{figure}[h]
     \capstart
         \centering
     	\includegraphics{Abbildung/seaborn_energy_profiles.pdf}
@@ -45,13 +48,18 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
-    Looking at the extracellulat matrix.
+    Using a combination of toxins that inhibit the respiratory chain important characteristics of the mitochondrial respiration can extracted as described in the methods section. Even with two repeats we can observe a trend looking at the capacity. Comparing not further differentiated cells with the TGFb stimulated cells, there is a drop. Then it goes up again.
+
+    Finally it is important to note that only two repeats were recorded because it is quite an expensive assay and not being carried out on plastic makes it not that useful for us. For Seahorse Assays this is a super low number of repeats.
 
 \section{Evaluation of oxidative Stress}
 \label{sec:oxStress}
+As already described in the methods section it was further evaluated if stimulation of the synthetic phenotype with higher concentrations of PDGF-BB would yield ROS generation to an extend that can't be compensated by the ROS defense.
 
     \subsection{PDGF boost of out cells indcues oxidative stress}
-    \begin{figure}[htbp]
+    An experient already done within the group was repeated.
+
+    \begin{figure}[h]
     \capstart
         \centering
     	\includegraphics{Abbildung/CellROX_initial_cond.pdf}
@@ -62,8 +70,12 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
+    Indeed the cells that have both stimuli can be stressed as seen in the CellROX Assay.
+
     \subsection{Characterization of the CellROX Assay}
-    \begin{figure}[htbp]
+    To get a better understanding of the Assay a titration was done.
+
+    \begin{figure}[h]
     \capstart
         \centering
     	\includegraphics{Abbildung/CellROX_titration_no_norm.pdf}
@@ -74,7 +86,9 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
-    \begin{figure}[htbp]
+    It is clear from the data that we have this trend in figure. We can see the clear influence of time and PDGF concentration. Unfortunatly there is also a plethora of other factors.
+
+    \begin{figure}[h]
     \capstart
         \centering
     	\includegraphics{Abbildung/CellROX_titration_norm.pdf}
@@ -85,8 +99,14 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
+    To account for these an attempt at normalization was made. Basically looking at relative signal in comparison to the highest.
+
+    Over all we observe that we have negliable signal for concentrations < 100 ng/mL, drastic increase for 200 ng/mL, finaly very mixed results for 400 ng/mL. An further note that is not reflected in the visualized data, is that signal only seems to develop after cells are taken out of the incubator. It might be that PDGF boost is not the sole trigger but only a part, still it plays a role.
+
     \subsection{Rescue of ROS production using NAC}
-    \begin{figure}[htbp]
+    Finally to verify, trusting the trend overserved in the titration, a rescue experiment was performed. Quenching the signal with NAC.
+
+    \begin{figure}[h]
     \capstart
         \centering
     	\includegraphics{Abbildung/NAC_quench.pdf}
@@ -97,14 +117,16 @@ Characterization of the phenotype we are inducing.
     	\end{minipage}
     \end{figure}
 
-\section{Visualization of GWAS data}
-After tinkering around for quite a bit we decided to build a webapplication for a multitude of reasons.
-After tinkering around for even more time we decided to build a backend in the for of sqlite database because it is the most sustainable. Relational databases are used so much for a reason.
+    Confirmation that the signal is indeed due to generation of intracellular ROS.
 
-    \subsection{Curation of Data for postGWAS analyses}
-    Describe all the data that is in the database and how we processed it.
+\section{Database and GWAS Visualizer}
+This was quite a long process, tinkering around with different designs to get a working solution. For this use case visualization in the browser using a database as the backend was the final decision. Compare to fetching everything online -> slow and just grabbing everything from files -> extremely stressful to maintain.
 
-    \begin{figure}[htbp]
+    \subsection{Curation of Data}
+    Describe what actually happend to the data, probably in the methods section.
+    This should be pretty self explanatory. Just have a look at the table and figure. 
+
+    \begin{figure}[h]
     \capstart
         \centering
     	\includegraphics{Abbildung/db-schema.pdf}
@@ -115,22 +137,27 @@ After tinkering around for even more time we decided to build a backend in the f
     	\end{minipage}
     \end{figure}
 
-    \subsection{Visualization of GWAS data}
+    \subsection{Visualization}
     \label{subsec:result_vis}
-    The first use case of this database and our original goal is the bokeh app for visualization. Wuhu!
-    Show some screenshots but easiest would just be to try it out.
+    Building on the initially intended use case for the data a visualization tool was build as briefly described in the methods section, for more details please check the source code or just ask.
 
-    \subsection{Enrichment analysis}
-    \label{subsec:result_enrichment}
-    Second the data that we are curating can als be put to use for other scenarios. Running a first test analysis as a proof of concept. 
+    Describe what the tool can do. Search function for SNPs, also for genes, providing info for associated SNPs. Visualization of the window SNPs, including linked SNPs annotated with important info such as most severe consequence. Further the data is aligned with important stuff like overlapping genes (integrating l2g scores). Also enesembl regulatory build and TADs. Further a lot of cell specific data in the form of scATAC seq tracks and promotor gene links from the ABC model. These are also shown and for easier navigation grouped into different classes using cellosaurus. To have a better look a individual variants these can be clicked, only highlighting tracks that overlap with the specific selected variant.
 
-    \begin{figure}[htbp]
-    \capstart
-        \centering
-    	\input{Abbildung/enrichment_scatter.pgf}
+    For more information regarding the aligned data please check the corresping paragraph in the intrdocution.
 
-    	\begin{minipage}{\captionwidth}
-    		\caption[enrichemtn]{\uzlemph{Enrichment Analysis} \newline This stuff actually seems to be working!!}
-    		\label{fig:qPCR}
-    	\end{minipage}
-    \end{figure}
+\section{Enrichment analysis}
+\label{sec:result_enrichment}
+The only data that is not displayed in the plot are cCRE elements which were used for an enrichment analysis, described in methods.
+
+\begin{figure}[h]
+\capstart
+    \centering
+	\input{Abbildung/enrichment_scatter.pgf}
+
+	\begin{minipage}{\captionwidth}
+		\caption[enrichemtn]{\uzlemph{Enrichment Analysis} \newline This stuff actually seems to be working!!}
+		\label{fig:qPCR}
+	\end{minipage}
+\end{figure}
+
+It was nice to oberserve, that significant overrepesentation of elements with SNPs from the analysis is obersved in tissue of the heart and atrial system.
