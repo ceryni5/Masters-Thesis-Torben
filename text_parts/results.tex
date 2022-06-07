@@ -116,7 +116,7 @@ It was evaluated if further stimulation of the induced synthetic phenotype with 
     In an attempt at normalization (figure \ref{fig:cellROX_titration_norm}), trying for account for these external factors, all data points were selected that were used in all biological repeats and itensities were normalized by the cummulative intensity of all selected conditins. This is quite similar to normaliazing to the highest signal observed for the biological repeat because signal at 200 ng/mL after 240 min has by far the biggest contribution to the cummulative value of the biological repeat.
 
     \subsection{Rescue of ROS production using NAC}
-    Finally to verify, trusting the trend overserved in the titration, a rescue experiment was performed. Quenching the signal with NAC.
+    Finally, trusting the trend over all trend of the titration, a rescue experiment was performed, to verify that observed signal in the CellROX assay was indeed due to generation of \ac{ros}. For this \ac{ros} generation was quenched by the addition of 2, 4, or 8 mM of \ac{nac} Quenching the signal with NAC.
 
     \begin{figure}[h]
     \capstart
@@ -124,8 +124,8 @@ It was evaluated if further stimulation of the induced synthetic phenotype with 
     	\includegraphics{Abbildung/NAC_quench.pdf}
 
     	\begin{minipage}{\captionwidth}
-    		\caption[NAC quench]{\uzlemph{NAC  quench} \newline The NAC quench. :).}
-    		\label{fig:qPCR}
+    		\caption[NAC quench]{\uzlemph{NAC  quench}}
+    		\label{fig:NAC_quench}
     	\end{minipage}
     \end{figure}
 
@@ -146,7 +146,7 @@ This was quite a long process, tinkering around with different designs to get a 
     	\includegraphics{Abbildung/db-schema.pdf}
 
     	\begin{minipage}{\captionwidth}
-    		\caption[database]{\uzlemph{My super duper database} \newline DATABASE!!}
+    		\caption[database]{\uzlemph{Entity-Relationship Diagram of the Database}}
     		\label{fig:db}
     	\end{minipage}
     \end{figure}
@@ -161,17 +161,40 @@ This was quite a long process, tinkering around with different designs to get a 
 
 \section{Enrichment analysis}
 \label{sec:result_enrichment}
-The only data that is not displayed in the plot are cCRE elements which were used for an enrichment analysis, described in methods.
+The only data that is not displayed in the plot are cCRE elements which were used for an enrichment analysis. Checking different biosamples for significant enrichment of \acp{ccre} that are overlapping with proxy SNPs identified in the \ac{cad} \ac{gwas} or variants that are in \ac{ld} with these. The procedure is described described in methods.
 
 \begin{figure}[h]
 \capstart
     \centering
-	\input{Abbildung/enrichment_scatter.pgf}
+	\includegraphics{Abbildung/enrichment_scatter.pdf}
 
 	\begin{minipage}{\captionwidth}
 		\caption[enrichemtn]{\uzlemph{Enrichment Analysis} \newline This stuff actually seems to be working!!}
-		\label{fig:qPCR}
+		\label{fig:enrichment}
 	\end{minipage}
 \end{figure}
 
-It was nice to oberserve, that significant overrepesentation of elements with SNPs from the analysis is obersved in tissue of the heart and atrial system.
+As seen in figure \ref{fig:enrichment}, statistical signifcant enrichment ($p_{adj.}<0.05$) was observed for 34 biosamples. These biosamples were annoted using Cellosaurus data. The most prominent groups of associated tissues were heart (8), lung (7) and artery (6).
+
+
+\begin{table}[h]
+\capstart
+\centering
+\begin{minipage}{\captionwidth}
+    \caption[enriched tissues]{\uzlemph{Enriched tissues}
+    \label{tab:enriched_tissues}
+\end{minipage}
+\begin{tabular}{|c|c|}
+    \hline
+    tissue      & count in significant biosamples \\ \hline
+    heart       & 8                               \\
+    lung        & 7                               \\
+    artery      & 6                               \\
+    liver       & 2                               \\
+    GI tract    & 2                               \\
+    brain       & 2                               \\
+    immune cell & 2                               \\
+    other       & 5                               \\ \hline
+    total       & 34                              \\ \hline
+    \end{tabular}
+\end{table}
