@@ -1,22 +1,22 @@
 \section{Cultivation and differentiation of HAoSMCs}
 \label{sec:cultivation}
-For the following experiments human arortic smooth muscle cells were used. A cell type commonly used for the study of cardiovascular function and disease [Reference for this claim]. Cells were kept at 37°C and 5\% CO2 when ever possibile.\\
-Cells were differentiated treated first with TGFb and then with IL-1 \& PDGF-BB to induce a synthetic phenotype. For more imformation please check the section on smooth muscle cells in CAD.
+For the following experiments \acp{haosmc} were used. A cell type commonly used for the study of cardiovascular function and disease [Reference for this claim]. Cells were kept at 37°C and 5\% CO2 when ever possibile.\\
+Cells were differentiated treated first with \ac{tgf} and then with \ac{il1} \& \ac{pdgf} to induce a synthetic phenotype. For more imformation please check the section \ref{sec:haosms} on smooth muscle cells in \ac{cad}.
 
     \subsection{Thawing \& Cultivation}
-    Cells were cultivated to a maximum passage of 10, after that new passage cells were thawed. For long time storage cells were kept in liquid nitrogen in [cryo medium]. When required new cells (6th passage) were need cells were thawed at 37°C in the water bath and transfered to a falcon. After centrifugation for 2 min at 300xg the supernatant was remoced and the cell pellet taken up in 14 mL of M231 + SMSG and cultivated in a T75 flask. Every other day 2/3 of the medium were removed and replaced by fresh.
+    Cells were cultivated to a maximum passage of 10, after that new passage cells were thawed. For long time storage cells were kept in [cryo medium] and stored in liquid nitrogen. When required, new cells (6th passage) were need cells were thawed at 37°C in the water bath and transfered to a falcon. After centrifugation for 2 min at 300xg the supernatant was removed and the cell pellet taken up in 14 mL of M231 + \ac{smgs} for cultivation in a T75 flask. Every other day 2/3 of the medium were removed and replaced by fresh.
 
     \subsection{Passaging}
-    When reaching a maximum of ~80\% confluency (approx. once a week) the medium was removed completely and cells were washed once with 5 mL of PBS. Then the cells were incubation with 3 mL trypsin for 4 min at 37°C. After 7 mL M231 were added to the deattched cells and the cells were transfered to a falcon and pelleted for 4 min at 300xg. The supernatant was removed and the pellet resuspenden in M231 + SMGS, seeding ~$\num{500e3}$ cells per T75 flask.
+    When reaching a maximum of ~80\% confluency (approx. once a week) the medium was removed completely and cells were washed once with 5 mL of \ac{pbs}. Then the cells were incubation with 3 mL trypsin for 4 min at 37°C. After 7 mL M231 were added to the deattched cells and the cells were transfered to a falcon and pelleted for 4 min at 300xg. The supernatant was removed and the pellet resuspended in M231 + SMGS, seeding ~$\num{500e3}$ cells per T75 flask.
 
     \subsection{Preparation of Collagen I matrix}
-    For preparation of the collagen matrix (1.8 mg/mL) all the components were mixed, adding the collagen last. All components were stored at 4°C and all pipetting steps were carried out on ice:
+    For preparation of the \ac{col1} matrix (1.8 mg/mL) all the components were mixed, adding the collagen last. All components were stored at 4°C and all pipetting steps were carried out on ice:
 
     \begin{table}[h]
     \capstart
 	\centering
 	\begin{minipage}{\captionwidth}
-	   	\caption[Col I matrix]{\uzlemph{Col I Matrix composition}\newline The stupid matrix}
+	   	\caption[Col I matrix]{\uzlemph{\ac{col1} Matrix Composition}}
 	   	\label{tab:qPCR_samples}
 	\end{minipage}
     \begin{tabular}{|c|c|c|}
@@ -35,24 +35,24 @@ Cells were differentiated treated first with TGFb and then with IL-1 \& PDGF-BB 
     160 µL of matrix mix were transfered in each used well of a 24-well plate, fully coating the bottom of the well. For polymerization the matrix was incubated at 37°C for at least 60 min.
 
     \subsection{Differentitation of HAoSMCs}
-    Differentiation was carried out in 24 wells plates with 1 mL M231 supplemented with 1 \% FBS and different cytokines:
+    Differentiation was carried out in 24 wells plates with 1 mL M231 supplemented with 1 \% \ac{fbs} and different cytokines:
     \begin{itemize}
-        \item \textbf{Day 0:} Matrix and cells were prepareed as described in the sections Preparation of Col I matrix and Passaging. Seeding of $\num{40e3}$ in M231 + SMGS on plastic or on 160 µL collagen 1 matrix.
-        \item \textbf{Day 1:} After ~24 h the medium was replaced with 1 mL M231 + 1\% FBS + 5 ng/mL TGFb (or just 1 mL M231 + 1\% FBS).
-        \item \textbf{Day 5:} The medium was replaced with 1 mL M231 + 1\% FBS + 10 ng/mL IL-1 + 10 ng/mL PDGF-BB (or just 1 mL M231 + 1\% FBS).
+        \item \textbf{Day 0:} Matrix and cells were prepareed as described in the sections Preparation of \ac{col1} matrix and Passaging. Seeding of $\num{40e3}$ in M231 + \ac{smgs} on plastic or on 160 µL \ac{col1} matrix.
+        \item \textbf{Day 1:} After ~24 h the medium was replaced with 1 mL M231 + 1\% \ac{fbs} + 5 ng/mL \ac{tgf} (or just 1 mL M231 + 1\% \ac{fbs}).
+        \item \textbf{Day 5:} The medium was replaced with 1 mL M231 + 1\% \ac{fbs} + 10 ng/mL \ac{il1} + 10 ng/mL \ac{pdgf} (or just 1 mL M231 + 1\% \ac{fbs}).
         \item \textbf{Day 7:} Potentially further stimulation described in the section of the used assay.
     \end{itemize}
 
 \section{mRNA Quantification}
 \label{sec:qpcr}
-qPCR was utilized to assess the mRNA concentration of the two reporter genes CNN1 and MMP9 in HAoSMC differentiated as described in section on differentiation. Using the house keeping gene GAPDH for reference.\\
-SYBR® Green is an intercalating DNA dye that allows for the monitoring of DNA amplification. Flourescence is measured after every amplification cycle of the PCR yielding a crossing point when signal reaches a certain threshhold. A lower quantification cycle (Cq) corresponds to an higher inital DNA concentration \cite{huggettStandardisationReportingNucleic2011}.
+\ac{qpcr} was utilized to assess the m\ac{rna} concentration of the two reporter genes \ac{cnn1} and \ac{mmp9} in \acp{haosmc} differentiated as described in section on differentiation. Using the house keeping gene \ac{gapdh} for reference.\\
+SYBR® Green is an intercalating \ac{dna} dye that allows for the monitoring of \ac{dna} amplification. Flourescence is measured after every amplification cycle of the PCR yielding a crossing point when signal reaches a certain threshhold. A lower \ac{Cq} corresponds to an higher inital \ac{dna} concentration \cite{huggettStandardisationReportingNucleic2011}.
 
-    \subsection{RNA Isolation}
-    RNA was isolated using the kit and extraction was performed according to the corresponding protocol, using an extra washing step with 700 µL 80 \% ethanol and eluting with 30 µL of RNase-free water. Determination of nucleic acid concentration was carried out with the NanoDrop.
+    \subsection{\ac{rna} Isolation}
+    \ac{rna} was isolated using the kit and extraction was performed according to the corresponding protocol, using an extra washing step with 700 µL 80 \% ethanol and eluting with 30 µL of RNase-free water. Determination of nucleic acid concentration was carried out with the NanoDrop.
 
     \subsection{Reverse Transcription}
-    For reverse transcription RNA samples were diluted to yield 10 µL of ~ 10 ng/µL RNA. The samples were heated for 5 min at 68°C before adding 10 µL of the RT reaction mix described in the following table:
+    For \ac{RT}, \ac{rna} samples were diluted to yield 10 µL of ~ 10 ng/µL \ac{rna}. The samples were heated for 5 min at 68°C before adding 10 µL of the RT reaction mix described in the following table:
 
     \begin{table}[h]
     \capstart
@@ -65,8 +65,8 @@ SYBR® Green is an intercalating DNA dye that allows for the monitoring of DNA a
         \hline
         component           & concentration & volume (µL) \\ \hline
         First Strand Buffer & 5x            & 4           \\
-        DTT                 &               & 2           \\
-        dNTP                &               & 1           \\
+        \acs{DTT}            &               & 2           \\
+        \acs{dNTP}           &               & 1           \\
         Oligos              &               & 1           \\
         RiboLock            &               & 1           \\
         M-MLVRT             &               & 1           \\ \hline
@@ -134,7 +134,7 @@ The Seahorse XF Analyzer allows real time measurement of dissolved oxygen and pr
 
     \subsection{Seahorse Assay}
     On the day before the assay the Seahorse XF Analyzer was turned on to calibrate and the sensor cartrigae was left to equilibrate in Seahorse XF calibrant over night at 37 °C (in non-CO2 environment).\\
-    On the day of the assay, cells were washed with 500 µL PBS each and afterwards 500 µL supplemented XF BASE medium were added, cels were left to incubate for 1 h at 37°C in non-CO2 environment. During this time toxins for disruption of the respiratory chain were prepared and added to the catridge:
+    On the day of the assay, cells were washed with 500 µL PBS each and afterwards 500 µL supplemented XF BASE medium were added, cells were left to incubate for 1 h at 37°C in non-CO2 environment. During this time toxins for disruption of the respiratory chain were prepared and added to the catridge:
 
     \begin{table}[h]
     \capstart
