@@ -1,22 +1,18 @@
 \section{Coronary artery disease}
 \label{sec:cad}
-- CAD is serious.
-- Describe the pheontype
-- Describe prevalence
-- Check intro of Anja, papers for more info
-- Go into treatment and Risk
-- herditary parts in disease
+\ac{cad} is among the leading causes of death in the (western) world wide, being prevelant in about 6.7 \% of US-american adults and killing more than 350'000 people in the USA in 2019 \cite{cdcHeartDiseaseFacts2022, fryarPrevalenceUncontrolledRisk2012}. Its most common complication is myocardial infarction (MI), which is characterized by chest pain (angina) and can cause serious damage to the heart muscle. It is triggered by the build up of fatty plaques in the ateries leading to the heart. This process, also called artherosclerosis, can interrupt the blood supply of the heart \cite{HeartAttack2017}. Known risk factors for artherosclerosis and \ac{cad} are of course life style factors such as tobacco use or physical inactivity \cite{taskforcemembers2013ESCGuidelines2013}, but also hereditary components.
 
 \section{GWAS}
 \label{sec:gwas}
+These hereditary factors of disease can provide access to the molecular pathology of the disease.
 
     \subsection{GWAS}
     \label{subsec:gwas_general}
-    What are GWAS. Describe how it works, why we do it.
+    One amazing resource for studying these interactions are \ac{gwas}. Orginally introduced in 2007
 
     \subsection{Post GWAS}
     \label{subsec:gwas_limit}
-    And their limitations. Possible follow up studies. Focus on computational and cell based assays.
+    Unfortunately, \ac{gwas} are just the first step in a longer journey of establishing causal loci to gene links, uncovering the molecular basis of disease, and implementing tools for clinical risk prediction. A plethora of follow up analyses (postGWAS) can and need to be performed.
 
 \section{Muscle Cells in CAD}
 \label{sec:haosms}
@@ -41,6 +37,7 @@
 
 \section{Complementary High Through Put Methods}
 \label{sec:bioinformatics}
+The development of high trough put methods as well as the great increase in computing power over the last few years have spawned a plethora of incredible datasets that all ready have been and can be further utilzed for post\ac{gwas} analyses. A short overview of some definitions and methods mentioned in this thesis can be found in the follwing paragraphs:
 
     \subsection{Linkage Disequilibrium}
     Linkage disequilibrium is a parameter from populations genetics that describes the non-random association of two or more allels. The LD is often quantified using the correlation coefficient $r^2$ \cite{slatkinLinkageDisequilibriumUnderstanding2008}.
@@ -51,17 +48,24 @@
     Where $p_A$ and $p_B$ is the frequency of the alleles A and B respectively. $p_{AB}$ is the frequency of the AB haplotype.
 
     \subsection{Locus To Gene Scores}
+    \cite{mountjoyOpenApproachSystematically2021}
 
     \subsection{Regulatory Build}
     The ensembl regulatory build compiles a summary of regulatory regions found in the human genome. It is build on the basis publically available epigenetic marks and transcription factor binding and contains Promotors, Proximal enhancers, distal enhancers and CTCF binding sites \cite{zerbinoEnsemblRegulatoryBuild2015}.
 
     \subsection{ENCODE cCREs}
+    \cite{SCREENSearchCandidate, mooreExpandedEncyclopaediasDNA2020}
 
     \subsection{scATAC Seq}
+    \cite{buenrostroTranspositionNativeChromatin2013} % Nature methods paper
+    \cite{turnerCellspecificChromatinLandscape2021a} % application
+    \cite{zhangSinglecellAtlasChromatin2021} % CATlas
 
     \subsection{ABC Model}
+    \cite{fulcoActivitybycontactModelEnhancer2019a, nasserGenomewideEnhancerMaps2021a}
 
     \subsection{TADs}
+    \cite{wang3DGenomeBrowser2018}
 
 \section{Aim of the thesis}
 \label{sec:Aim}
