@@ -47,8 +47,10 @@ The development of high trough put methods as well as the great increase in comp
 
     Where $p_A$ and $p_B$ is the frequency of the alleles A and B respectively. $p_{AB}$ is the frequency of the AB haplotype.
 
+    The \ac{ld} becomes important in the context of \ac{gwas} because identified SNPs often do no occur in isolation, but can span large haplotype blocks in the genome \cite{slatkinLinkageDisequilibriumUnderstanding2008}.
+
     \subsection{Locus To Gene Scores}
-    \cite{mountjoyOpenApproachSystematically2021}
+    Problems of interpretation of \ac{gwas} data are already described in section \ref{sec:gwas}. \ac{l2g} scores are an attempt at overcoming the challenges of establishing causal realtionships between variants and genes. The authors employed a machine learning-model to integrate fine-mapping with functional genomics data and \textit{in silico} predictions to link \ac{gwas} loci to their target genes \cite{mountjoyOpenApproachSystematically2021}. The output \ac{l2g} scores are calibrated to represent the probability (0, 1) that the
 
     \subsection{Regulatory Build}
     The ensembl regulatory build compiles a summary of regulatory regions found in the human genome. It is build on the basis publically available epigenetic marks and transcription factor binding and contains Promotors, Proximal enhancers, distal enhancers and CTCF binding sites \cite{zerbinoEnsemblRegulatoryBuild2015}.
