@@ -6,14 +6,35 @@
     rowhead = 1
 }
     \textbf{Manufacturer} & \textbf{Seat}\\ \hline
-    Agilent Technologies, Inc.  & Santa Clara, CA, USA\\
-    BRAND GMBH \& Co. KG & Wertheim, DE\\
-    Eppendorf AG & Hamburg, DE\\
-    Merck KGaA & Darmstadt, DE \\
-    Keyence Corporation & Osaka, JP\\
-    Sarstedt AG \& Co. & Nürnberg, DE \\
-    Sigma-Aldrich Co. LLC. & St. Louis, MO, USA\\
-    Thermo Fisher Scientific Inc. & Waltham, MA, USA \\
+    \Agilent  & Santa Clara, CA, USA\\
+    \Assistent & ?!, DE\\
+    \Brand & Wertheim, DE\\
+    \chemometec & Allerod, DK \\
+    \Eppendorf & Hamburg, DE\\
+    \Heraeus & Hanau, DE \\
+    \Merck & Darmstadt, DE \\
+    \Keyence & Osaka, JP\\
+    \Kisker & ?!, DE \\
+    \Sarstedt & Nürnberg, DE \\
+    \SigmaA & St. Louis, MO, USA\\
+    \Thermo & Waltham, MA, USA \\
+    \PeproTech & ?! \\
+    \Pechiney & Chicago, IL, USA \\
+    \Baker & ?! \\
+    GFL mbH & Burgwedel, DE \\
+    \AB & Warrington, UK\\
+    \Gibco \newline (Brand of \Thermo & Gaithersburg, MD, USA \\
+    \Ibidi & \\
+    \Invitrogen \newline (Brand of \Thermo)& \\
+    \Lonza & Basel, CHE \\
+    \Biosell & \\
+    \NEB & Ipswich, MA, USA \\
+    \Nikon & Minato, JP\\
+    \Sartorius & Göttingen, DE \\
+    \SensoQuest & G¨ottingen, DE \\
+    HANNA Instruments & ?? \\
+    \Heidolph & Schwabach, DE\\
+    Ziegra Eis Machinen & ?!, DE \\
 \end{longtblr}
 
 \section{Antibodies}
@@ -61,32 +82,32 @@
     rowhead = 1
 }
     \textbf{Name} &  \textbf{Manufacturer} \\ \hline
-    5x First STardn buffer & \\
-    Antimycin & \\
-    BSA & \\
-    CellROX & \\
-    Collagen I & \\
-    dNTP & \\
-    DTT & \\
-    Ethanol & \\
-    FCCP & \\
-    Glucose & \\
-    Glutamin & \\
-    Hoechst & \\
-    IL1 & \\
-    M-MLVRT & \\
-    NAC & \\
-    NaHCO3  & \\
-    NaOH & \\
-    Oligomycin & \\
-    Oligos & \\
-    PBS & \\
-    PDGF & \\
-    Pyruvate & \\
-    RiboLick & \\
-    Seahorse XF calibrant & \\
-    SYBR GREEN Master Mix & \\
-    TGF & \\
+    5X First Strand Buffer & \Invitrogen \\
+    Antimycin A & \SigmaA \\
+    BSA & ?!? \\
+    CellROX & \Thermo \\
+    Collagen Type I, rat tail & \Ibidi \\
+    dNTP Mix & \AB \\
+    DTT & \Invitrogen \\
+    Ethanol (concentration?) & \Baker \\
+    \acs{fccp} & \SigmaA \\
+    D-Glucose & \SigmaA \\
+    GlutaMAX\texttrademark-I & \Gibco \\
+    Hoechst & ?!? \\
+    \acs{il1} & \PeproTech \\
+    M-MLV \acs{RT} & \Thermo \\
+    \acs{nac} & \SigmaA \\
+    NaHCO3  & \Roth  \\
+    NaOH, 1 N & \Roth \\
+    Oligomycin & \SigmaA \\
+    Roth Hexanukleotid Random-Primer & \Roth \\
+    \acs{pbs} & \Lonza \\
+    \acs{pdgf} & \PeproTech \\
+    Sodium Pyruvate & \Gibco \\
+    RiboLock R & \Thermo \\
+    Seahorse XF calibrant & \Agilent \\
+    PowerUp\texttrademark SYBR\texttrademark GREEN Master Mix & \Thermo \\
+    \acs{tgf} & \PeproTech \\
 \end{longtblr}
 
 
@@ -97,11 +118,10 @@
     rowhead = 1
 }
     \textbf{Name} &  \textbf{Manufacturer}\\ \hline
-    Cryomedium & even necessary?\\
-    Fetal Bovine Serum (FBS) & ?\\
-    Medium 231 (M231) & LIFE TECHNOLOGIES EUROPE BV \\
-    Smooth Muscle Cell Growth Supplement (SMGS) & ?\\
-    XF Base Medium & Agilent Technologies, Inc\\
+    \acs{fbs} Gold Plus & \Biosell \\
+    Medium 231 (M231) & \Gibco \\
+    \acl{smgs} & ?!? \\
+    XF Base Medium & \Agilent \\
 \end{longtblr}
 
 \section{Solutions}
@@ -110,17 +130,17 @@
     colspec = {X|X},
     rowhead = 1
 }
-\textbf{Name}                                                   &  \textbf{Manufacturer}\\ \hline
-\SetCell[r=3]{m}Interleukin 1 beta \newline (IL-1β)             & IL-1β   \\
-                                                                & BSA   \\
+\textbf{Name}                                                   & \textbf{Manufacturer}\\ \hline
+\SetCell[r=3]{m}Interleukin 1 beta \newline (IL-1β)             & \acs{il1}   \\
+                                                                & 0.1 \% BSA   \\
                                                                 & in PBS   \\ \hline
 \SetCell[r=2]{m}N-Acetylcystein \newline (NAC)                  & 0.25 M NAC    \\
                                                                 & in water, \TILDE pH 7  \\ \hline
-\SetCell[r=3]{m}Platelet-derived growth factor-BB (PDGF-BB)     & PDGF-BB   \\
-                                                                & BSA   \\
+\SetCell[r=3]{m}Platelet-derived growth factor-BB (PDGF-BB)     & \acs{pdgf}   \\
+                                                                & 0.1 \% BSA   \\
                                                                 & in PBS   \\ \hline
-\SetCell[r=3]{m}Transforming Growth Factor beta (TGFβ)          & TGFβ   \\
-                                                                & BSA   \\
+\SetCell[r=3]{m}Transforming Growth Factor beta (TGFβ)          & \acs{tgf}   \\
+                                                                & 0.1 \% BSA   \\
                                                                 & in PBS   \\
 \end{longtblr}
 
@@ -141,37 +161,34 @@
     rowhead = 1
 }
     \textbf{Name} & \textbf{Manufacturer} \\ \hline
-    0.2 mL tubes &\\
-    0.5 mL tubes &\\
-    1.5 mL tubes &\\
-    2 mL tubes &\\
-    5 mL tubes &\\
-    24-well plate &\\
-    Seahorse cultivation plate &\\
-    Seahorse sensor plate &\\
+    Quali-PCR-Tubes 0,2 mL & \Kisker \\
+    Quali-PCR-Tubes 0,5 mL & \Kisker  \\
+    SafeSeal Gefäß 1,5 mL & \Sarstedt \\
+    SafeSeal Gefäß 1,5 mL & \Sarstedt \\
+    SafeSeal Gefäß 5 mL & \Sarstedt \\
+    NUNC MULTIDISH 24 & \Thermo\\
+    Agilent Seahorse XF24 Cell Culture Microplate & \Agilent \\
+    Agilent Seahorse XF24 Extracellular Flux Assy Kit & \Agilent \\
     384 Well Multiply PCR plates &\\
-    pasteur pipettes &\\
-    tips gray &\\
-    tips yellow &\\
-    tips blue &\\
-    tips gray, filter &\\
-    tips yellow, filter &\\
-    tips blue, filter &\\
-    syringe &\\
-    filter &\\
-    Wiege Schälchen &\\
-    Cell counter thinys &\\
-    falcon 15 ml &\\
-    falcon 50 ml, blue cap &\\
-    falcon 50 ml &\\
-    5 ml pipette &\\
-    10 ml pipette &\\
-    20 ml pipette &\\
-    50 ml pipette &\\
-    parafilm &\\
-    T75 cellculture flask &\\
-    cover foil for qPCR &\\
-    pH Papier &\\
+    Pasteurpipetten ISO 7712 & \Assistent \\
+    Pipette tip 20 µL & \Sarstedt \\
+    Pipette tip 200 µL & \Sarstedt \\
+    Pipette tip 1000 µL & \Sarstedt \\
+    Filter tip 20 µL & \Sarstedt \\
+    Filter tip 200 µL & \Sarstedt \\
+    Filter tip 1000 µL & \Sarstedt \\
+    BD Discardit\texttrademark II & ?!? \\
+    0,20 µm filter & ?!? \\
+    Via1-Casette\texttrademark & \chemometec \\
+    Tube 15 ml & \Sarstedt\\
+    Tube 50 ml & \Sarstedt\\
+    Serological pipette 5 mL & \Sarstedt \\
+    Serological pipette 10 mL & \Sarstedt \\
+    Serological pipette 25 mL & \Sarstedt \\
+    Serological pipette 50 mL & \Sarstedt \\
+    Parafilm®M & \Pechiney \\
+    TC Flask T75, Cell+, Vented Cap & \Sarstedt \\
+    CRYSTAL qPCR-Folie & \NEB \\
 \end{longtblr}
 
 \section{Devices}
@@ -181,34 +198,34 @@
     rowhead = 1
 }
     \textbf{Name} & \textbf{Manufacturer} \\ \hline
-    Cell culture &\\
-    Bench 1 &\\
+    % Cell culture
+    Bench Heraus & \Heraeus\\
     Bench 2 &\\
-    Pipette very small &\\
-    Pipette small &\\
-    Pipette medium &\\
-    Pipette large &\\
-    Incubator 1 &\\
-    Incubator 2 &\\
-    Cell Counter &\\
-    Water Bath &\\
-    Centrifuge cell culture &\\
-    microscope &\\
-    pipette boy &\\
-    big lab &\\
-    Centrifuge RNA place &\\
-    large centrifuge &\\
-    Seahorse &\\
-    qPCR maschine &\\
-    scale &\\
-    vortex &\\
-    magnetic stirer &\\
-    keyence &\\
-    Thermo Cycler &\\
-    pH electrode &\\
-    other &\\
-    nanodrop &\\
-    Ice maschine &\\
+    Research pipettes (2.5µL, 10 µL, 100 µL, 1000µL) & \Eppendorf \\
+    Hera Cell & \Heraeus \\
+    Hera Cell 150 & \Heraeus \\
+    NucleoCounter NC-200 & \chemometec\\
+    Incubation/Inactivation bath 1083 & GFL mbH \\
+    Centrifuge 5702 R & \Eppendorf \\
+    Eclipse TS100 & \Nikon \\
+    pipet X rainin & ?!? \\
+
+    % big lab
+    Centrifuge 5415 R & \Eppendorf \\
+    Rotana 460 R & \Hettich \\
+    XF24 Extracellular Flux Analyzer & \Agilent \\
+    7900HT Fast Real-Time PCR System & \Thermo \\
+    LA 120 S & \Sartorius \\
+    Reax Top & \Heidolph \\
+    MR 3001 & \Heidolph \\
+    BZ-X810 All-in-One Flourescence Microscope & \Keyence\\
+    BZ-X800 All-in-One Flourescence Microscope POWER & \Keyence\\
+    SensoQuest labcycler & \SensoQuest \\
+    pH 221 Mircoprocessor pH Meter & HANNA Instruments \\
+
+    % other
+    NanoDrop 2000 & \Thermo \\
+    Ice maschine & Ziegra Eis Machinen \\
 \end{longtblr}
 
 \section{Programs \& Modules}

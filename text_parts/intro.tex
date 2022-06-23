@@ -8,11 +8,41 @@ These hereditary factors of disease can provide access to the molecular patholog
 
     \subsection{GWAS}
     \label{subsec:gwas_general}
-    One amazing resource for studying these interactions are \ac{gwas}. Orginally introduced in 2007
+    - One amazing resource for studying these interactions are \ac{gwas}. Orginally introduced in 2007
+    - GWAS a tool to correlat genetic variants with phenotypes
+    - Experimental setup :
+        - data collection: phenotypic and genotyping
+            - direct studies (refined specific phenotyping) or in most cases from public biobanks
+            - genotyping usually via micro array -> WGX is expected to become the norm
+        - QC: example steps:
+            - removing rare variants, variants not in Hardy Weinberg eqilibirum or with miss matched phenotypes
+        - imputation
+            - inference of genotypes that have not be analyzed directly by a reference
+            - Standardized pipelines
+        - statistical test
+            - be aware of bias due to ancestry
+            - regression model to test for association (linear or log depending on continous or binary phenotype)
+            - inclusion of covariants like age, sex and ancestry.
+
+            Model:
+            $$ Y \~ W\alpha + X_S\beta_S + g + e $$
+            $$ q \~ N(0, \sigma^2_A\Psi) $$
+            $$ e \tilde N(0,\~\sigma^2_eI) $$
+
+            - Correcting for multiple testing
+
+            - discorvery vs. replication cohort
+
+
+        Pitfalls: Bias in all steps, most importantly data collection: source of data, ethnicities.
+
 
     \subsection{Post GWAS}
     \label{subsec:gwas_limit}
     Unfortunately, \ac{gwas} are just the first step in a longer journey of establishing causal loci to gene links, uncovering the molecular basis of disease, and implementing tools for clinical risk prediction. A plethora of follow up analyses (postGWAS) can and need to be performed.
+    - most identified stuff tells a story of a lot of variants with low individual risk
+    - next steo is interpretation
+    - PostGWAS
 
 \section{Muscle Cells in CAD}
 \label{sec:haosms}
