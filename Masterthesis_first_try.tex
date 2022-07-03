@@ -23,12 +23,92 @@
   Abstract              = {
     \input{text_parts/abstract}
   },
-  Alphabetische Bibliographie,
-  %Numerische Bibliographie
+  % Alphabetische Bibliographie,
+  % Numerische Bibliographie,
   Acknowledgements = {
 Daaanke an alle!
   }
 }
+
+\usepackage[
+style=authoryear,
+dashed=false,
+uniquename=init,
+backend=bibtex,
+sorting=none,
+url=false,
+doi=true,
+isbn=false,
+date=year
+]{biblatex}
+
+%
+% Till Tantau's code for reproducing the Cell bibliography style
+% in biblatex:
+%
+\DeclareNameAlias{sortname}{last-first}
+\setlength{\bibhang}{0pt}
+\setlength{\bibitemsep}{1em}
+\renewcommand*{\bibinitdelim}{}
+\renewbibmacro*{in:}{%
+  \iffieldequalstr{entrytype}{inproceedings}{%
+    \printtext{\bibstring{in}\addspace}%
+  }{}%
+}
+\DeclareFieldFormat[book]{title}{##1\isdot}
+\DeclareFieldFormat[inproceedings]{title}{##1\isdot}
+\DeclareFieldFormat{booktitle}{##1\addcomma}
+\renewbibmacro*{byeditor+others}{%
+  \ifnameundef{editor}
+  {}
+  {\printtext[parens]{%
+      \printnames[paren]{editor}%
+      \addcomma\addspace
+      \usebibmacro{editorstrg}%
+    }
+    \setunit{\addspace}
+    \newunit}%
+  \usebibmacro{byeditorx}%
+  \usebibmacro{bytranslator+others}}
+%
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{##1}
+\DeclareFieldFormat[article]{journaltitle}{##1\isdot}
+\DeclareFieldFormat[article]{volume}{\textit{##1}}
+\DeclareFieldFormat[article]{pages}{##1}
+\renewbibmacro*{volume+number+eid}{\printfield{volume}}
+\renewcommand*{\nameyeardelim}{\addcomma\addspace}
+\DeclareCiteCommand{\cite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \usebibmacro{cite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+\DeclareCiteCommand*{\cite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \usebibmacro{citeyear}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+
+% Changes in Article
+\DeclareFieldFormat[article]{title}{#1}
+\DeclareFieldFormat[article]{journaltitle}{#1\isdot}
+\DeclareFieldFormat[article]{volume}{\textit{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\addbibresource{Literatur/literatur.bib}
+
+\AtEveryBibitem{\clearfield{note}}
+\AtEveryCitekey{\clearfield{note}}
+
+\AtEveryBibitem{\clearfield{abstract}}
+\AtEveryCitekey{\clearfield{abstract}}
+
+\AtEveryBibitem{\clearfield{eprint}}
+\AtEveryCitekey{\clearfield{eprint}}
+
+\AtEveryBibitem{\clearfield{eprinttype}}
+\AtEveryCitekey{\clearfield{eprinttype}}
 
 %Packages
 \usepackage{tabularx}
@@ -83,6 +163,14 @@ Daaanke an alle!
 \definecolor{mygreen}{RGB}{0,0,0}
 \definecolor{myred}{RGB}{152,0,0}
 \definecolor{myyellow}{RGB}{255,153,0}
+\definecolor{external_link}{RGB}{51,102,187}
+\definecolor{internal_link}{RGB}{6,69,173}
+
+\hypersetup{
+	colorlinks   = true,
+	urlcolor  = external_link,
+  	citecolor = internal_link
+}
 
 %commands
 \newcommand\TILDE{\char`\~}
@@ -103,15 +191,6 @@ Daaanke an alle!
 \DefTblrTemplate{caption-tag}{default}{}
 \DefTblrTemplate{caption-sep}{default}{}
 \DefTblrTemplate{caption-text}{default}{}
-
-%%%%%%%%%%%%%%%%%
-%               %
-%  Abk. Verz.   %
-%               %
-%%%%%%%%%%%%%%%%%
-
-\chapter*{Abkürzungsverzeichnis}
-\input{text_parts/abbreviations}
 
 %%%%%%%%%%%%%%%%%
 %               %
@@ -167,16 +246,22 @@ Daaanke an alle!
 \chapter{Conclusion \& Outlook}
 \input{text_parts/outlook}
 
+
+%%%%%%%%%%%%%%%%%
+%               %
+%  Abk. Verz.   %
+%               %
+%%%%%%%%%%%%%%%%%
+
+\chapter*{Abkürzungsverzeichnis}
+\input{text_parts/abbreviations}
+
 %%%%%%%%%%%%%%%%%
 %               %
 % Bibliographie %
 %               %
 %%%%%%%%%%%%%%%%%
 
-\begin{bibtex-entries}
-
-\input{Literatur/literatur.bib}
-
-\end{bibtex-entries}
+\printbibliography
 
 \end{document}

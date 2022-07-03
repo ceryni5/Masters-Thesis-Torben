@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: .\Masterthesis_first_try.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 12980 items.
+Database file #1: Masterthesis_first_try-blx.bib
+Database file #2: Literatur/literatur.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+Warning--I didn't find a database entry for "cdcCoronaryArteryDisease2021"
+Warning--I didn't find a database entry for "CoronaryHeartDisease2018"
+Warning--I didn't find a database entry for "lichouFunctionalStudiesGWAS2020a"
+Warning--I didn't find a database entry for "aragamDiscoverySystematicCharacterization2021a"
+Warning--I didn't find a database entry for "HowAgilentSeahorse"
+Warning--I didn't find a database entry for "CellROXGreenReagent"
+Biblatex version: 3.17
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 51 entries,
+            6399 wiz_defined-function locations,
+            1895 strings with 92710 characters,
+and the built_in function-call counts, 1351657 in all, are:
+= -- 113858
+> -- 44254
+< -- 3224
++ -- 70871
+- -- 35857
+* -- 92906
+:= -- 187813
+add.period$ -- 0
+call.type$ -- 51
+change.case$ -- 910
+chr.to.int$ -- 3054
+cite$ -- 100
+duplicate$ -- 119347
+empty$ -- 101275
+format.name$ -- 6701
+if$ -- 234784
+int.to.chr$ -- 0
+int.to.str$ -- 125
+missing$ -- 0
+newline$ -- 4628
+num.names$ -- 2428
+pop$ -- 24331
+preamble$ -- 1
+purify$ -- 1865
+quote$ -- 0
+skip$ -- 13224
+stack$ -- 0
+substring$ -- 243532
+swap$ -- 18052
+text.length$ -- 2822
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1722
+warning$ -- 0
+while$ -- 19343
+width$ -- 0
+write$ -- 4578
+(There were 6 warnings)

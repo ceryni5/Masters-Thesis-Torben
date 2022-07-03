@@ -1,105 +1,124 @@
 \section{Coronary artery disease}
 \label{sec:cad}
-\ac{cad} is among the leading causes of death in the (western) world wide, being prevelant in about 6.7 \% of US-american adults and killing more than 350'000 people in the USA in 2019 \cite{cdcHeartDiseaseFacts2022, fryarPrevalenceUncontrolledRisk2012}. Its most common complication is myocardial infarction (MI), which is characterized by chest pain (angina) and can cause serious damage to the heart muscle. It is triggered by the build up of fatty plaques in the ateries leading to the heart. This process, also called artherosclerosis, can interrupt the blood supply of the heart \cite{HeartAttack2017}. Known risk factors for artherosclerosis and \ac{cad} are of course life style factors such as tobacco use or physical inactivity \cite{taskforcemembers2013ESCGuidelines2013}, but also hereditary components.
+\Ac{cad} is among the leading causes of death in the (western) world wide, being prevelant in about 6.7 \% of US-american adults and killing more than 350'000 people in the USA in 2019 \cite{centersfordiseasecontrolandpreventionHeartDiseaseFacts2022, fryarPrevalenceUncontrolledRisk2012}. Its most common complication is \ac{mi}, which usually manifestes by chest pain (angina) and can cause serious damage to the heart muscle. \Ac{cad} is characterised by the build up of fatty plaques in the ateries leading to the heart. This process, also called artherosclerosis, can interrupt the blood supply of the heart \cite{nationalhealthserviceHeartAttack2017}. Next to common and well known life-style factors like tobacco use or physical inactivity, \ac{cad} risk additionally has an hereditary component \cite{taskforcemembers2013ESCGuidelines2013}.
 
-\section{GWAS}
-\label{sec:gwas}
-These hereditary factors of disease can provide access to the molecular pathology of the disease.
-
-    \subsection{GWAS}
-    \label{subsec:gwas_general}
-    - One amazing resource for studying these interactions are \ac{gwas}. Orginally introduced in 2007
-    - GWAS a tool to correlat genetic variants with phenotypes
-    - Experimental setup :
-        - data collection: phenotypic and genotyping
-            - direct studies (refined specific phenotyping) or in most cases from public biobanks
-            - genotyping usually via micro array -> WGX is expected to become the norm
-        - QC: example steps:
-            - removing rare variants, variants not in Hardy Weinberg eqilibirum or with miss matched phenotypes
-        - imputation
-            - inference of genotypes that have not be analyzed directly by a reference
-            - Standardized pipelines
-        - statistical test
-            - be aware of bias due to ancestry
-            - regression model to test for association (linear or log depending on continous or binary phenotype)
-            - inclusion of covariants like age, sex and ancestry.
-
-            Model:
-            $$ Y \~ W\alpha + X_S\beta_S + g + e $$
-            $$ q \~ N(0, \sigma^2_A\Psi) $$
-            $$ e \tilde N(0,\~\sigma^2_eI) $$
-
-            - Correcting for multiple testing
-
-            - discorvery vs. replication cohort
-
-
-        Pitfalls: Bias in all steps, most importantly data collection: source of data, ethnicities.
-
-
-    \subsection{Post GWAS}
-    \label{subsec:gwas_limit}
-    Unfortunately, \ac{gwas} are just the first step in a longer journey of establishing causal loci to gene links, uncovering the molecular basis of disease, and implementing tools for clinical risk prediction. A plethora of follow up analyses (postGWAS) can and need to be performed.
-    - most identified stuff tells a story of a lot of variants with low individual risk
-    - next steo is interpretation
-    - PostGWAS
 
 \section{Muscle Cells in CAD}
 \label{sec:haosms}
-- We now that smooth muscle cells play a key role
-- It is widely accepted that there is not only one type of smooth muscle cell
-- Go into the contractile phenotype and synthetic phenotype
-    - TGFb or PDGF used to induce them
-    - contractile phenotype is thought to be protective
+The lumen of a typical blood vessel is surrounded by three disinct layers. The outer adventitia is rich in connective tissue, shapes the vessel and wraps the media. The media contains \acp{vsmc}. \Acp{vsmc} of the media are required to mediate vasodilation and vasoconstriction according to signaled requirements. The innerlayer consists of endothelial cells that define the lumen of the vessel \cite{tuckerAnatomyBloodVessels2022a, yapSixShadesVascular2021}.
 
-\section{PDGF Signaling and Oxidative Stress}
-\label{sec:haosms}
-    \subsection{PDGF Signaling}
+For the longest time the role of \acp{vsmc} in the development and progression of atherosclerosis has been underestimated and over simplified. They have simply either been considered to be either promoting of artherogenesis or beneficial for plaque stability. Only with the emergence of novel and exciting technologies like single cell transcriptomics and lineage tracking, this view is changing to a more differentiated one \cite{grootaertVascularSmoothMuscle2021, yapSixShadesVascular2021}. The study of \acp{vsmc} in artheriosclerosis is rapidly evolving and the underlying model adjusted accordingly. The black and white model of \acp{vsmc} in artheriosclerosis existing either as a differentiated (contractile) phenotype or as a dedifferentiated (synthetic) phenotype, is making place for a model that considers a diverse set of dedifferentiated phenotypes \cite{grootaertVascularSmoothMuscle2021, yapSixShadesVascular2021}. During the phenotypic switch describes the down regulation of contractile markers and the rising of boquet of different phenotypes which can be found in the fibrous cap and plaque core \cite{grootaertVascularSmoothMuscle2021}. The number as well as their their impact on disease progression are still subject of intensive research.
+
+Two external stimuli that seem to play central roles as cytokines determining the fate of \acp{vsmc} in artherogenesis are \ac{tgf} \& \ac{pdgf}.
+
+
+\section{\ac{tgf} Signaling}
+\label{sec:tgf}
+
+    \subsection{\ac{tgf} Signaling in General}
+    \label{subsec:tgf_the_cytokine}
+    \ac{tgf} is a summarizing term for a superfamily of cytokines, the most prominent of which is \ac{tgf}1. After secretion and activation, the active \ac{tgf} dimer binds to a heteromeric receptor complex, that mainly implements its signaling via Smad transcription factors. The effects of \ac{tgf} is highly dependant on the cell type and can even be pleitropic for cells of the same type. The most prominent function of \ac{tgf} is its role in antiinflammatory regulation of immune cells \cite{goumansTGFvSignalingControl2018, batlleTransformingGrowthFactorv2019}.
+
+    \subsection{\ac{tgf} Signaling VSMCs \& atherosclerotis}
     \label{subsec:pdf_signaling}
+    In the context of \acp{vsmc}, \ac{tgf} promotes proliferation and hypertrophy. Further it promotes \ac{vsmc} differentiation, via elevation of contractile gene expression as well as the down regulation of \ac{klf4} \cite{davis-dusenberyDownregulationKruppellikeFactor42011}, a \ac{tf} prominent for its application in inducing pluripotency \cite{takahashiInductionPluripotentStem2007} that is also required for phenotype switching. This way hindering \cite{davis-dusenberyDownregulationKruppellikeFactor42011} or potentially reversing phenotype switching \cite{panSingleCellGenomicsReveals2020}.
 
-    \subsection{ROS}
-    \label{subsec:ROS}
-    - ROS in general and the role of ROS in disease
+\section{PDGF Signaling}
+\label{sec:pdgf}
+    \subsection{PDGF Signaling in General}
+    \label{subsec:pdgf_the_cytokine}
+    Five different PDGF isoforms have been identied that form as dimeric combination of four distinct polypeptide chains (PDGF-AA, PDGF-AB, PDGF-BB, PDGF-CC \& PDGF-DD). All five bind to tyrosine kinase recptors (\ac{pdgfr}\alpha \& \ac{pdgfr}\beta). Upon activation, the receptor dimerize, allowing autophosphorylation which activates the kinase domain and creates binding sites for signaling molecules. The active receptor is involved in a plethora of prominent messanging pathways like the \ac{map}-kinase pathway, \ac{PI3K}-signaling or \ac{stat}-signaling. All these pathways are ultimately involved in the promotion of cellular proliferation, surival and migration \cite{chenPlateletderivedGrowthFactors2013, heldinTargetingPDGFSignaling2013, huTargetingPlateletderivedGrowth2015}.
+
+    PDGF-B seems to be the majorily expressed isoform of PDGF in endothelial cells \cite{andraeRolePlateletderivedGrowth2008, heldinTargetingPDGFSignaling2013} and acts as a paracrine activator for \acp{vsmc} and other mesenchymal cells \cite{heldinTargetingPDGFSignaling2013}. Signaling via \ac{pdgf} and the \ac{pdgfr}\beta plays an important role in development of multiple tissues, e.g. in the development of the cardio vascular system \cite{leveenMiceDeficientPDGF1994}. After completed development, \ac{pdgf} picks up and important role in wound healing \cite{robsonPlateletderivedGrowthFactor1992}. The role of \ac{pdgfr}\beta signaling in pathologic processes like cancer or cardio vascular disease has been a subject of extensive study for decades \cite{heldinTargetingPDGFSignaling2013, rainesPDGFCardiovascularDisease2004}.
+
+    \subsection{PDGF Signaling in VSMCs \& atherosclerotis}
+    In the context of \acp{vsmc}, \ac{pdgf} was shown to increase \ac{klf4} levels, which results in upregulatrion of mesenchymal markers as well as the loss of contractle markers. Ultimately serving as an external stimulus for proliferation and phenotype switching \cite{yapSixShadesVascular2021}.
+
+    Similarly to the overall role of \acp{vsmc} in artherioslerosis, the role of \ac{pdgf} is still subject of extensive study. All PDGF isoforms are aboundently found in artheriosclerotic cell walls and \ac{pdgfr} expression is elevated in affected vessels \cite{huTargetingPlateletderivedGrowth2015}. For a long time PDGF signaling and inflammation has been assumed to be disease promoting \cite{andraeRolePlateletderivedGrowth2008, chenPlateletderivedGrowthFactors2013, hePDGFRvSignallingRegulates2015, huTargetingPlateletderivedGrowth2015} and in 2015 \textcite{hePDGFRvSignallingRegulates2015} showed that \ac{pdgfr}\beta signaling in mouse model leads to inflammation and increased plaque formation. In contrast to this consense, \textcite{newmanMultipleCellTypes2021} were recently able to demonstrate, that sustained signaling via \ac{pdgfr}\beta is required for \ac{vsmc} involvement. They Further observed, in mouse model, that lack of \ac{vsmc} involvement can be temporarily compensated by non-\ac{vsmc}-derived cells, but long term leads to instability of artheriosclerotic lesions.
 
     \subsection{ROS in PDGF Signaling}
     \label{subsec:ROS_signaling}
-    - ROS as a second messenger in PDGF signaling
+    \ac{ros} is a broad term for a class highly reactive molecules derived from \ac{o2}. They are traditionally infamous for the damage they can do to proteins and nucleix acids when not kept in check, potentially causing irreperable damage leading to cell death. Recently this perception has been shifting, and speciclly \ac{h2o2} and \ac{o2-}, are being recognized for their role in cellular signaling \cite{siesReactiveOxygenSpecies2020}.
+
+    Human cells contain dozens of enzymes, which are capable of generating \ac{ros} and enzymatically maintain a steady redox state \cite{siesReactiveOxygenSpecies2020}. \ac{h2o2} and \ac{o2-} serve as important second messangers in the central nervous system \cite{nayerniaNewInsightsNOX2014} or also in the reparation of vascular lesions \cite{andraeRolePlateletderivedGrowth2008}. Interestingly, the generation of \ac{ros} as a second messanger also gets triggered by stimulation with\ac{pdgf} \cite{sundaresanRequirementGenerationH2O21995, bouziguesRegulationROSResponse2014a}.
+
+
+\section{GWAS}
+\label{sec:gwas}
+The hereditary components of disease onset and progression can provide access to the molecular pathology of the disease.
+
+    \subsection{GWAS}
+    \label{subsec:gwas_general}
+    An amazing resource for getting a first glance into these interactions are \ac{gwas}, a method that allows for the identification of genetic variants associated with a phenotype.
+
+    While \ac{gwas} were intially an extraordanary endevour, requiring the evaluation of hundreds or thousands of participants, they have gotten a lot more accessible with the availablity of genetic data from public biobanks. After profiling profiling the cohort on a genomic level (usually via micro arrays but WGS is probably the future) and phenotypically, the collected data needs to go through several steps of qualitiy control, e.g. for the removal of rare variants, miss matched phenotypes, etc. Afterwards variants which were not dirctly analyzed can be infered from a reference. The final step of the intial analysis is the statisical mode, where a regression model is used to test for association of all variants with the phenotype in question. It is crucial to be completely aware of potenital biases, that might be introdcued in this process (mainly in the data collection part), some of which, like  age, sex and ancestry can and need to be included as covariants in the used model \cite{uffelmannGenomewideAssociationStudies2021, flintGWAS2013}.
+
+    The model will output a list of p-values, effect sizes (and their direction) for all tested variants. A \ac{gwas} is the first importnt step in determining causal variants for disease and therefore a first glimps into the molecular biology of the observed phenotype \cite{uffelmannGenomewideAssociationStudies2021}.
+
+    \subsection{Post GWAS}
+    \label{subsec:gwas_limit}
+    Unfortunately, \ac{gwas} are just the first step in a longer journey of establishing causal loci to gene links, uncovering the molecular basis of disease, and implementing tools for clinical risk prediction. A plethora of follow up analyses (postGWAS) can and need to be performed to determine a set of credible variants and to assess their molecular mechanism.
+
+    The first important follw-up, that is usually done immediatly, is so called fine-ampping. Due to the complex linkage structure of variants in the human genome (which is also utized for the inference of not studied variants), identified loci in \ac{gwas} ususually do not contain a single significant variant, but are made up of a potenitally large set of linked variants. Fine-mapping describes the process of identifying the actually causal variant in this mess. Multiple very sophisticated statistical methods have been developed, the most popular of which is baysian modelling which yields variant specific PIPs that form a credible set of potenitaly causal variants. It is important to remeber, that mine-mapping is not a solved problem, available mathods are continously improving and will most likely keep gettign complexer with increasing complexity of the studied phenotypes. Further fine-mapping is a soley statistic approach which will never be able to determine causality \cite{schaidGenomewideAssociationsCandidate2018, uffelmannGenomewideAssociationStudies2021}!
+
+    While fine-mapping is an additionally essential step, the identification of likely causal variants, still grants only limited direct information on their effect and into the molecular basics of the analzed phenotype. Variants still require mapping to impacted genes, associated pathways and relevant tissues to get a glance of the complete image. For these steps Unfortunately no standard protocols exists and the procedure highly depends on the genomic context of the variant. Coding variants are and offer themselves to be immediatly studied on a protein level, while non-coding variants are greatly benefit form the consultation of more high through put data in the form of e.g. \ac{eqtl} \cite{uffelmannGenomewideAssociationStudies2021}.
+
+    Finally, all the previous resulsts can and need to be taken back to the wet lab, to verfiy and extend the models derived from statistical models. Ulizing all the recent great advances of molecular and cellular biology, such as the development of increasingly comprehensive \textit{in vitro} models as well and their evaluation via mthods like \ac{crispr}-Cas gene-editing \cite{lichouFunctionalStudiesGWAS2020}.
+
 
 \section{Complementary High Through Put Methods}
 \label{sec:bioinformatics}
 The development of high trough put methods as well as the great increase in computing power over the last few years have spawned a plethora of incredible datasets that all ready have been and can be further utilzed for post\ac{gwas} analyses. A short overview of some definitions and methods mentioned in this thesis can be found in the follwing paragraphs:
 
     \subsection{Linkage Disequilibrium}
-    Linkage disequilibrium is a parameter from populations genetics that describes the non-random association of two or more allels. The LD is often quantified using the correlation coefficient $r^2$ \cite{slatkinLinkageDisequilibriumUnderstanding2008}.
+    \Ac{ld} is a parameter from populations genetics that describes the non-random association of two or more allels. The \ac{ld} is often quantified using the correlation coefficient $r^2$ \cite{slatkinLinkageDisequilibriumUnderstanding2008}.
 
     $$ D_{AB} = p_{AB} − p_A p_B $$
     $$ r^2 = \frac{D_{AB}^2}{p_A (1-p_A) \times p_B (1-p_B)} $$
 
     Where $p_A$ and $p_B$ is the frequency of the alleles A and B respectively. $p_{AB}$ is the frequency of the AB haplotype.
 
-    The \ac{ld} becomes important in the context of \ac{gwas} because identified SNPs often do no occur in isolation, but can span large haplotype blocks in the genome \cite{slatkinLinkageDisequilibriumUnderstanding2008}.
+    The \ac{ld} becomes important in the context of \ac{gwas} because identified SNPs often do no occur in isolation, but a network of linked and signigicant variants can span large haplotype blocks in the genome \cite{slatkinLinkageDisequilibriumUnderstanding2008}.
 
     \subsection{Locus To Gene Scores}
     Problems of interpretation of \ac{gwas} data are already described in section \ref{sec:gwas}. \ac{l2g} scores are an attempt at overcoming the challenges of establishing causal realtionships between variants and genes. The authors employed a machine learning-model to integrate fine-mapping with functional genomics data and \textit{in silico} predictions to link \ac{gwas} loci to their target genes \cite{mountjoyOpenApproachSystematically2021}. The output \ac{l2g} scores are calibrated to represent the probability (0, 1) that the
 
     \subsection{Regulatory Build}
-    The ensembl regulatory build compiles a summary of regulatory regions found in the human genome. It is build on the basis publically available epigenetic marks and transcription factor binding and contains Promotors, Proximal enhancers, distal enhancers and CTCF binding sites \cite{zerbinoEnsemblRegulatoryBuild2015}.
+    The ensembl regulatory build compiles a summary of putative regulatory regions found in the human genome. It is build on the basis publically available epigenetic marks and transcription factor binding and contains promotors, proximal enhancers, distal enhancers and \ac{ctcf} binding sites \cite{zerbinoEnsemblRegulatoryBuild2015}.
 
-    \subsection{ENCODE cCREs}
+    \subsection{ENCODE \acp{cCRE}}
+    Very similarly the \ac{encode} project summarizes DNA accessibility and chromatin modification data into \acp{cCRE}. Regions showing high DNase signal are further annotated to be be proximal enhancer-like elements (pELS) or distal enhancer-like elements (dELS), promoter-like elements (PLS), other high-H3K4me3 (which might represent poised or non-canonical promotors), or \ac{ctcf}-only elements based on the existsence of H3K4me3, H3K27ac and \ac{ctcf} signals.
     \cite{SCREENSearchCandidate, mooreExpandedEncyclopaediasDNA2020}
 
-    \subsection{scATAC Seq}
-    \cite{buenrostroTranspositionNativeChromatin2013} % Nature methods paper
-    \cite{turnerCellspecificChromatinLandscape2021a} % application
-    \cite{zhangSinglecellAtlasChromatin2021} % CATlas
+    \subsection{\ac{atac}}
+    \ac{atac} is a method to access chromatin accessibility in the genome. \Ac{atac} utilizes the hyperactive Tn5 transponase to insert sequencing adapters into accessible regions of chromosome. \ac{dna} is purified and amplificated via \ac{pcr} and can be sequenced. Mapping these insertions to the genome allows for the identification of highly accessible genomic regions \cite{buenrostroTranspositionNativeChromatin2013, buenrostroATACseqMethodAssaying2015}.
 
-    \subsection{ABC Model}
+    \ac{pcr} amplification of the \ac{dna} makes this method extremely sensitive. Pushing the requirement of biomaterial to the minimum, \ac{atac} is applicable on a single cell level. For sc\ac{atac}, a individual cells are isolated and the their \ac{dna} tagged with barcoded primers during the \ac{pcr}. These barcodes allow mapping of \ac{atac} single to the isolated celltype in data processing \cite{buenrostroSinglecellChromatinAccessibility2015}.
+
+    \subsection{\acs{abc}  Model}
     \cite{fulcoActivitybycontactModelEnhancer2019a, nasserGenomewideEnhancerMaps2021a}
+    The \acf{abc} model grants isghts into potential cell specific enhancer-gene interactions based on chromatin state, outperforming previuosly used methods.
 
-    \subsection{TADs}
-    \cite{wang3DGenomeBrowser2018}
+    $$ ABC\,score_{E, G} = \frac{A_E \times C_{E,G}}{\sum\limits_{all\,elements\,e\,within\,5\,Mb\,of\,G} A_e \times C_{e, G}} $$
+
+    Generally speaking model incorporates the activity of an enhancer $A_E$ as well as contacts with the gene of interest $C_{E,G}$, normlized by the total effect of all elements in the area.
+
+    \subsection{Hi-C \& \acps{tad}}
+    Hi-C is a methods for mapping chromosomal conformation. For achieve this, genome associated proteins are cross-linked with formaldhyd, \ac{dna} is digested with restriction enzymes and generated overhangs are filled in with biotinylated nucleotides. The resulting fragments are ligated to covalently link \ac{dna} fragments which were originally in close spatial proximity. The \ac{dna} is purified and fragmented, allowing the pulldown of fragments containing junctions sites via the filled in biotin tags. After sequencing of the enriched fragments, their sequences and mapped to the genome, identifying interacting DNA regions \cite{lieberman-aidenComprehensiveMappingLongRange2009, witDecade3CTechnologies2012}.
+
+    Looking at Hi-C data, \acp{tad} were identified to be a basic featuer of genome orgniszation with an average size of 880 kb \cite{dixonTopologicalDomainsMammalian2012, wang3DGenomeBrowser2018}. What makes \acp{tad} of such high interest ist the circumstance, that interactions of \ac{dna} sequences are usually confined within theses \acp{tad}. Tissue spcific genes and thier enahncers are usually found in the middle of \acp{tad}, while the edges enrich for housekeeping genes and \ac{ctcf} binding sides which might serves as insulators betweent different domains \cite{pomboThreedimensionalGenomeArchitecture2015}.
+
 
 \section{Aim of the thesis}
 \label{sec:Aim}
-- Build tool for visual exploration of the CAD GWAS data.
-- Establish a system to test the role of ROS in CAD.
+The aims of this thesis are split into two quite distinct projects:
+
+\begin{itemize}
+    \item The split role of PDGF-BB during progression of artheriosclerosis (see section [LINK TO SECTION]), indicates that PDGF-BB signaling is neither completely benefitial nor disadvantageous to th diseases but requires a sweet spot. Combined with the observation that ROS are a secondary messenger in PDGF signaling, we wish to evaluate the hypothesis, that the essessive PDGF signaling can cause oxidative stress. s
+
+
+    Further there is already a review on ROS in artheriosclerosis which I should read \cite{burtenshawReactiveOxygenSpecies2019}.
+    \item Further we would like to do some \textit{in silico} stuff and build the GWAS Navigator.
+\end{itemize}
+
+Have fun with my thesis, this still is a mess...

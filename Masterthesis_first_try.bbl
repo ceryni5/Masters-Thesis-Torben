@@ -1,0 +1,5367 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{centersfordiseasecontrolandpreventionHeartDiseaseFacts2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=fDCaPC}{%
+         prefix={for},
+         prefixi={f\bibinitperiod},
+         family={Disease Control {and}\bibnamedelima Prevention},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  a\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Centers},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{Centers for Disease Control and Prevention}}%
+    }
+    \strng{namehash}{DCaPCf1}
+    \strng{fullhash}{DCaPCf1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Learn facts about how race, ethnicity, age, and other risk factors can
+  contribute to heart disease risk.%
+    }
+    \field{title}{Heart {{Disease Facts}} | Cdc.Gov}
+    \verb{url}
+    \verb https://www.cdc.gov/heartdisease/facts.htm
+    \endverb
+    \field{langid}{american}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\7AW6JIBV\\facts.html
+    \endverb
+    \field{day}{07}
+    \field{month}{02}
+    \field{year}{2022}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{fryarPrevalenceUncontrolledRisk2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FCD}{%
+         family={Fryar},
+         familyi={F\bibinitperiod},
+         given={Cheryl\bibnamedelima D},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FCD1}
+    \strng{fullhash}{FCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In 2009–2010, approximately 46.5\% of U.S. adults aged 20 and over had at
+  least one of three risk factors for CVD and stroke. More than one-quarter
+  were current smokers, more than 23\% had uncontrolled high levels of LDL-C,
+  and almost 12\% had uncontrolled high blood pressure. Adults who were male,
+  or female aged 60 and over, or non-Hispanic black, or of lower income were
+  more likely to have one of the risk factors for CVD compared with their
+  counterparts.%
+    }
+    \field{number}{103}
+    \field{pages}{8}
+    \field{title}{Prevalence of {{Uncontrolled Risk Factors}} for
+  {{Cardiovascular Disease}}: {{United States}}, 1999–2010}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\AL7889VJ\\Fryar - 2012 - Prevalen
+    \verb ce of Uncontrolled Risk Factors for Cardio.pdf
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{nationalhealthserviceHeartAttack2017}{online}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{National Health Service}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{24 Oct 2017, 4:45 p.m.}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Find out about heart attacks, a serious medical emergency in which the
+  supply of blood to the heart is suddenly blocked, usually by a blood clot%
+    }
+    \field{title}{Heart Attack}
+    \verb{url}
+    \verb https://www.nhs.uk/conditions/heart-attack/
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\S72D8L36\\heart-attack.html
+    \endverb
+    \field{year}{24 Oct 2017, 4:45 p.m.}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{taskforcemembers2013ESCGuidelines2013}{article}{useprefix}
+    \name{author}{84}{}{%
+      {{hash=T}{%
+         family={{Task Force Members}},
+         familyi={T\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Montalescot},
+         familyi={M\bibinitperiod},
+         given={Gilles},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SU}{%
+         family={Sechtem},
+         familyi={S\bibinitperiod},
+         given={Udo},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Achenbach},
+         familyi={A\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Andreotti},
+         familyi={A\bibinitperiod},
+         given={Felicita},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Arden},
+         familyi={A\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Budaj},
+         familyi={B\bibinitperiod},
+         given={Andrzej},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bugiardini},
+         familyi={B\bibinitperiod},
+         given={Raffaele},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Crea},
+         familyi={C\bibinitperiod},
+         given={Filippo},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cuisset},
+         familyi={C\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DMC}{%
+         family={Di\bibnamedelima Mario},
+         familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FJR}{%
+         family={Ferreira},
+         familyi={F\bibinitperiod},
+         given={J.\bibnamedelima Rafael},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GBJ}{%
+         family={Gersh},
+         familyi={G\bibinitperiod},
+         given={Bernard\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GAK}{%
+         family={Gitt},
+         familyi={G\bibinitperiod},
+         given={Anselm\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HJS}{%
+         family={Hulot},
+         familyi={H\bibinitperiod},
+         given={Jean-Sebastien},
+         giveni={J\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Marx},
+         familyi={M\bibinitperiod},
+         given={Nikolaus},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=OLH}{%
+         family={Opie},
+         familyi={O\bibinitperiod},
+         given={Lionel\bibnamedelima H.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pfisterer},
+         familyi={P\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Prescott},
+         familyi={P\bibinitperiod},
+         given={Eva},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Ruschitzka},
+         familyi={R\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sabaté},
+         familyi={S\bibinitperiod},
+         given={Manel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Roxy},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TDP}{%
+         family={Taggart},
+         familyi={T\bibinitperiod},
+         given={David\bibnamedelima Paul},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=vdWEE}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Wall},
+         familyi={W\bibinitperiod},
+         given={Ernst\bibnamedelima E.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=VCJ}{%
+         family={Vrints},
+         familyi={V\bibinitperiod},
+         given={Christiaan\bibnamedelima J.M.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=E}{%
+         family={{ESC Committee for Practice Guidelines (CPG)}},
+         familyi={E\bibinitperiod},
+      }}%
+      {{hash=ZJL}{%
+         family={Zamorano},
+         familyi={Z\bibinitperiod},
+         given={Jose\bibnamedelima Luis},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Achenbach},
+         familyi={A\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Baumgartner},
+         familyi={B\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BJJ}{%
+         family={Bax},
+         familyi={B\bibinitperiod},
+         given={Jeroen\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bueno},
+         familyi={B\bibinitperiod},
+         given={Héctor},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DV}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Veronica},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Deaton},
+         familyi={D\bibinitperiod},
+         given={Christi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Erol},
+         familyi={E\bibinitperiod},
+         given={Cetin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Fagard},
+         familyi={F\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Ferrari},
+         familyi={F\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hasdai},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HAW}{%
+         family={Hoes},
+         familyi={H\bibinitperiod},
+         given={Arno\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kirchhof},
+         familyi={K\bibinitperiod},
+         given={Paulus},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Knuuti},
+         familyi={K\bibinitperiod},
+         given={Juhani},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kolh},
+         familyi={K\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lancellotti},
+         familyi={L\bibinitperiod},
+         given={Patrizio},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Linhart},
+         familyi={L\bibinitperiod},
+         given={Ales},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nihoyannopoulos},
+         familyi={N\bibinitperiod},
+         given={Petros},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PMF}{%
+         family={Piepoli},
+         familyi={P\bibinitperiod},
+         given={Massimo\bibnamedelima F.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Ponikowski},
+         familyi={P\bibinitperiod},
+         given={Piotr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SPA}{%
+         family={Sirnes},
+         familyi={S\bibinitperiod},
+         given={Per\bibnamedelima Anton},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TJL}{%
+         family={Tamargo},
+         familyi={T\bibinitperiod},
+         given={Juan\bibnamedelima Luis},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tendera},
+         familyi={T\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Torbicki},
+         familyi={T\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wijns},
+         familyi={W\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Windecker},
+         familyi={W\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=D}{%
+         family={{Document Reviewers}},
+         familyi={D\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Knuuti},
+         familyi={K\bibinitperiod},
+         given={Juhani},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Valgimigli},
+         familyi={V\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bueno},
+         familyi={B\bibinitperiod},
+         given={Héctor},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CMJ}{%
+         family={Claeys},
+         familyi={C\bibinitperiod},
+         given={Marc\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DBN}{%
+         family={Donner-Banzhoff},
+         familyi={D\bibinithyphendelim B\bibinitperiod},
+         given={Norbert},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Erol},
+         familyi={E\bibinitperiod},
+         given={Cetin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FBC}{%
+         family={Funck-Brentano},
+         familyi={F\bibinithyphendelim B\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Gaemperli},
+         familyi={G\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GJJR}{%
+         family={Gonzalez-Juanatey},
+         familyi={G\bibinithyphendelim J\bibinitperiod},
+         given={José\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hamilos},
+         familyi={H\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hasdai},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Husted},
+         familyi={H\bibinitperiod},
+         given={Steen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JSK}{%
+         family={James},
+         familyi={J\bibinitperiod},
+         given={Stefan\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kervinen},
+         familyi={K\bibinitperiod},
+         given={Kari},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kolh},
+         familyi={K\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KSD}{%
+         family={Kristensen},
+         familyi={K\bibinitperiod},
+         given={Steen\bibnamedelima Dalby},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lancellotti},
+         familyi={L\bibinitperiod},
+         given={Patrizio},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MAP}{%
+         family={Maggioni},
+         familyi={M\bibinitperiod},
+         given={Aldo\bibnamedelima Pietro},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PMF}{%
+         family={Piepoli},
+         familyi={P\bibinitperiod},
+         given={Massimo\bibnamedelima F.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=PAR}{%
+         family={Pries},
+         familyi={P\bibinitperiod},
+         given={Axel\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Romeo},
+         familyi={R\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Rydén},
+         familyi={R\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SML}{%
+         family={Simoons},
+         familyi={S\bibinitperiod},
+         given={Maarten\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SPA}{%
+         family={Sirnes},
+         familyi={S\bibinitperiod},
+         given={Per\bibnamedelima Anton},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SPG}{%
+         family={Steg},
+         familyi={S\bibinitperiod},
+         given={Ph.\bibnamedelima Gabriel},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Timmis},
+         familyi={T\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wijns},
+         familyi={W\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Windecker},
+         familyi={W\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YA}{%
+         family={Yildirir},
+         familyi={Y\bibinitperiod},
+         given={Aylin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZJL}{%
+         family={Zamorano},
+         familyi={Z\bibinitperiod},
+         given={Jose\bibnamedelima Luis},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T+1}
+  \strng{fullhash}{TMGSUASAFACBABRCFCTDMCFJRGBJGAKHJSMNOLHPMPERFSMSRTDPvdWEEVCJEZJLASBHBJJBHDVDCECFRFRHDHAWKPKJKPLPLANPPMFPPSPATJLTMTAWWWSDKJVMBHCMJDBNECFHFBCGOGJJRHMHDHSJSKKKKPKSDLPMAPPMFPARRFRLSMLSPASPGTAWWWSYAZJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1093/eurheartj/eht296
+    \endverb
+    \field{issn}{0195-668X}
+    \field{number}{38}
+    \field{pages}{2949\bibrangedash 3003}
+    \field{shortjournal}{European Heart Journal}
+    \field{shorttitle}{2013 {{ESC}} Guidelines on the Management of Stable
+  Coronary Artery Disease}
+    \field{title}{2013 {{ESC}} Guidelines on the Management of Stable Coronary
+  Artery Disease: {{The Task Force}} on the Management of Stable Coronary
+  Artery Disease of the {{European Society}} of {{Cardiology}}}
+    \verb{url}
+    \verb https://doi.org/10.1093/eurheartj/eht296
+    \endverb
+    \field{volume}{34}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\YTTELT65\\Task Force Members et a
+    \verb l. - 2013 - 2013 ESC guidelines on the management of stable co.pdf;C\
+    \verb :\\Users\\torbe\\Zotero\\storage\\QW48C67R\\442952.html
+    \endverb
+    \field{journaltitle}{European Heart Journal}
+    \field{day}{07}
+    \field{month}{10}
+    \field{year}{2013}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{tuckerAnatomyBloodVessels2022a}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=TWD}{%
+         family={Tucker},
+         familyi={T\bibinitperiod},
+         given={William\bibnamedelima D.},
+         giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={Arora},
+         familyi={A\bibinitperiod},
+         given={Yingyot},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Mahajan},
+         familyi={M\bibinitperiod},
+         given={Kunal},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{StatPearls Publishing}}%
+    }
+    \strng{namehash}{TWDAYMK1}
+    \strng{fullhash}{TWDAYMK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The peripheral vascular system (PVS) includes all the blood vessels that
+  exist outside the heart.~The peripheral vascular system is classified~as
+  follows: The aorta and its branches: The arterioles. The capillaries. The
+  venules and veins returning blood to the heart. The function and structure of
+  each segment of the peripheral vascular system vary depending on the organ it
+  supplies. Aside from capillaries, blood vessels are all made of three
+  layers:~ The adventitia or outer layer which provides structural support and
+  shape to the vessel. The tunica media or a middle layer composed of elastic
+  and muscular tissue which regulates the internal diameter of the vessel. The
+  tunic intima or an inner layer consisting of an endothelial lining which
+  provides a frictionless pathway for the movement of blood. Within each layer,
+  the amount of muscle and collagen fibrils varies,~depending on the size and
+  location of the vessel.~ Arteries~ Arteries play a major role in nourishing
+  organs with blood and nutrients. Arteries are always under high pressure. To
+  accommodate this stress, they have an abundance of elastic tissue and less
+  smooth muscle. The presence of elastin in the large blood vessels enables
+  these vessels to increase in size and alter their diameter. When an artery
+  reaches a particular organ, it undergoes a further division into smaller
+  vessels that have more smooth muscle and less elastic tissue. As the diameter
+  of the blood vessels decreases, the velocity of blood flow also diminishes.
+  Estimates are that about 10\% to 15\% of the total blood volume is contained
+  in the arterial system. This feature of high systemic pressure and low volume
+  is typical of the arterial system.~~ ~There are two main types of arteries
+  found in the body: (1) the elastic~arteries, and (2) the muscular arteries.
+  Muscular arteries include the anatomically named arteries like the brachial
+  artery, the radial artery, and the femoral artery, for example. Muscular
+  arteries contain more smooth muscle cells in the tunica media layer than the
+  elastic arteries.~Elastic arteries are those nearest the heart (aorta
+  and~pulmonary arteries) that contain much more elastic tissue in the tunica
+  media than muscular arteries. This feature of the elastic arteries allows
+  them to maintain a relatively constant pressure gradient despite the constant
+  pumping action of the heart.~~ Arterioles~ Arterioles provide blood to the
+  organs and are chiefly composed of smooth muscle. The autonomic nervous
+  system influences the diameter and shape of arterioles. They respond to the
+  tissue's need for more nutrients/oxygen. Arterioles play a significant role
+  in the systemic vascular resistance because of the lack of significant
+  elastic tissue in the walls.~ The arterioles vary from~8~to 60 micrometers.
+  The arterioles further subdivide into meta-arterioles.~ Capillaries~
+  Capillaries are thin-walled vessels composed of a single endothelial layer.
+  Because of the thin walls of the capillary, the exchange of nutrients and
+  metabolites occurs primarily via diffusion. The arteriolar lumen regulates
+  the flow of blood through the capillaries.~ Venules~ Venules are the smallest
+  veins and receive blood from capillaries. They also play a role in the
+  exchange of oxygen and nutrients for water products. There are post-capillary
+  sphincters located~between the capillaries and venules. The venule is very
+  thin-walled and easily prone to rupture with excessive volume.~ Veins~ Blood
+  flows from venules into larger veins. Just like the arterial system, three
+  layers make up the vein walls. But unlike the arteries, the venous pressure
+  is low. Veins are thin-walled and are less elastic.~This feature permits the
+  veins to~hold a very~high percentage of the blood in circulation.~The venous
+  system can accommodate a large volume of blood at relatively low pressures, a
+  feature termed~high capacitance. At any point in time, nearly three-fourths
+  of the circulating blood volume is contained in the venous system. One can
+  also find one-way valves inside veins that allow for blood flow, toward the
+  heart,~in a forward direction.~Muscle contractions aid the blood flow in the
+  leg veins. The forward blood flow from the lower extremities to the heart is
+  also influenced by respiratory changes that affect pressure gradients in the
+  abdomen and chest cavity. This pressure differential is highest during deep
+  inspiration, but a small pressure differential is observable during the
+  entire respiratory cycle.%
+    }
+    \field{booktitle}{{{StatPearls}}}
+    \verb{eprint}
+    \verb 29262226
+    \endverb
+    \field{title}{Anatomy, {{Blood Vessels}}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/books/NBK470401/
+    \endverb
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Treasure Island (FL)}}%
+    }
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\8UEUXC9F\\NBK470401.html
+    \endverb
+    \field{eprinttype}{pmid}
+    \field{year}{2022}
+    \field{urlday}{03}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{yapSixShadesVascular2021}{article}{useprefix}
+    \name{author}{5}{}{%
+      {{hash=YC}{%
+         family={Yap},
+         familyi={Y\bibinitperiod},
+         given={Carmen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mieremet},
+         familyi={M\bibinitperiod},
+         given={Arnout},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=dVCJM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Vries},
+         familyi={V\bibinitperiod},
+         given={Carlie J.\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Micha},
+         familyi={M\bibinitperiod},
+         given={Dimitra},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=dWV}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Waard},
+         familyi={W\bibinitperiod},
+         given={Vivian},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{atherosclerosis,cardiovascular disease,myocytes,phenotype,smooth
+  muscle}
+    \strng{namehash}{YC+1}
+    \strng{fullhash}{YCMAdVCJMMDdWV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Multiple layers of vascular smooth muscle cells (vSMCs) are present in
+  blood vessels forming the media of the vessel wall. vSMCs provide a vessel
+  wall structure, enabling it to contract and relax, thus modulating blood
+  flow. They also play a crucial role in the development of vascular diseases,
+  such as atherosclerosis and aortic aneurysm formation. vSMCs display a
+  remarkable high degree of plasticity. At present, the number of different
+  vSMC phenotypes has only partially been characterized. By mapping vSMC
+  phenotypes in detail and identifying triggers for phenotype switching, the
+  relevance of the different phenotypes in vascular disease may be identified.
+  Up until recently, vSMCs were classified as either contractile or
+  dedifferentiated (ie, synthetic). However, single-cell RNA sequencing studies
+  revealed such dedifferentiated arterial vSMCs to be highly diverse.
+  Currently, no consensus exist about the number of vSMC phenotypes. Therefore,
+  we reviewed the data from relevant single-cell RNA sequencing studies, and
+  classified a total of 6 vSMC phenotypes. The central dedifferentiated vSMC
+  type that we classified is the mesenchymal-like phenotype. Mesenchymal-like
+  vSMCs subsequently seem to differentiate into fibroblast-like,
+  macrophage-like, osteogenic-like, and adipocyte-like vSMCs, which contribute
+  differentially to vascular disease. This phenotype switching between vSMCs
+  requires the transcription factor KLF4 (Krüppel-like factor 4). Here, we
+  performed an integrated analysis of the data about the recently identified
+  vSMC phenotypes, their associated gene expression profiles, and previous vSMC
+  knowledge to better understand the role of vSMC phenotype transitions in
+  vascular pathology.%
+    }
+    \verb{doi}
+    \verb 10.1161/ATVBAHA.121.316600
+    \endverb
+    \verb{eprint}
+    \verb 34470477
+    \endverb
+    \field{issn}{1524-4636}
+    \field{pages}{ATVBAHA121316600}
+    \field{shortjournal}{Arterioscler Thromb Vasc Biol}
+    \field{title}{Six {{Shades}} of {{Vascular Smooth Muscle Cells
+  Illuminated}} by {{KLF4}} ({{Krüppel-Like Factor}} 4)}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\QQ6U5EQ8\\Yap et al. - 2021 - Six
+    \verb  Shades of Vascular Smooth Muscle Cells Illumin.pdf
+    \endverb
+    \field{journaltitle}{Arteriosclerosis, Thrombosis, and Vascular Biology}
+    \field{eprinttype}{pmid}
+    \field{day}{02}
+    \field{month}{09}
+    \field{year}{2021}
+  \endentry
+
+  \entry{grootaertVascularSmoothMuscle2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GMOJ}{%
+         family={Grootaert},
+         familyi={G\bibinitperiod},
+         given={Mandy O\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=BMR}{%
+         family={Bennett},
+         familyi={B\bibinitperiod},
+         given={Martin\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMOJBMR1}
+    \strng{fullhash}{GMOJBMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Vascular smooth muscle cells (VSMCs) are key participants in both early and
+  late-stage atherosclerosis. VSMCs invade the early atherosclerotic lesion
+  from the media, expanding lesions, but also forming a protective fibrous cap
+  rich in extracellular matrix to cover the ‘necrotic’ core. Hence, VSMCs
+  have been viewed as plaque-stabilizing, and decreased VSMC plaque
+  content—often measured by expression of contractile markers—associated
+  with increased plaque vulnerability. However, the emergence of
+  lineage-tracing and transcriptomic studies has demonstrated that VSMCs
+  comprise a much larger proportion of atherosclerotic plaques than originally
+  thought, demonstrate multiple different phenotypes in vivo, and have roles
+  that might be detrimental. VSMCs down-regulate contractile markers during
+  atherosclerosis whilst adopting alternative phenotypes, including
+  macrophage-like, foam cell-like, osteochondrogenic-like, myofibroblast-like,
+  and mesenchymal stem cell-like. VSMC phenotypic switching can be studied in
+  tissue culture, but also now in the media, fibrous cap and deep-core region,
+  and markedly affects plaque formation and markers of stability. In this
+  review, we describe the different VSMC plaque phenotypes and their presumed
+  cellular and paracrine functions, the regulatory mechanisms that control VSMC
+  plasticity, and their impact on atherogenesis and plaque stability.%
+    }
+    \verb{doi}
+    \verb 10.1093/cvr/cvab046
+    \endverb
+    \field{issn}{0008-6363}
+    \field{number}{11}
+    \field{pages}{2326\bibrangedash 2339}
+    \field{shortjournal}{Cardiovascular Research}
+    \field{shorttitle}{Vascular Smooth Muscle Cells in Atherosclerosis}
+    \field{title}{Vascular Smooth Muscle Cells in Atherosclerosis: Time for a
+  Re-Assessment}
+    \verb{url}
+    \verb https://doi.org/10.1093/cvr/cvab046
+    \endverb
+    \field{volume}{117}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\OneDrive\\Dokumente\\Uni\\Masterarbeit\\Paper\\oup
+    \verb -accepted-manuscript-2021.pdf;C\:\\Users\\torbe\\Zotero\\storage\\MQ5
+    \verb CDNR6\\6130794.html
+    \endverb
+    \field{journaltitle}{Cardiovascular Research}
+    \field{day}{01}
+    \field{month}{10}
+    \field{year}{2021}
+    \field{urlday}{13}
+    \field{urlmonth}{10}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{goumansTGFvSignalingControl2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GMJ}{%
+         family={Goumans},
+         familyi={G\bibinitperiod},
+         given={Marie-José},
+         giveni={M\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=tDP}{%
+         prefix={ten},
+         prefixi={t\bibinitperiod},
+         family={Dijke},
+         familyi={D\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cold Spring Harbor Lab}}%
+    }
+    \strng{namehash}{GMJDPt1}
+    \strng{fullhash}{GMJDPt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Genetic studies in animals and humans indicate that gene mutations that
+  functionally perturb transforming growth factor β (TGF-β) signaling are
+  linked to specific hereditary vascular syndromes, including
+  Osler–Rendu–Weber disease or hereditary hemorrhagic telangiectasia and
+  Marfan syndrome. Disturbed TGF-β signaling can also cause nonhereditary
+  disorders like atherosclerosis and cardiac fibrosis. Accordingly, cell
+  culture studies using endothelial cells or smooth muscle cells (SMCs),
+  cultured alone or together in two- or three-dimensional cell culture assays,
+  on plastic or embedded in matrix, have shown that TGF-β has a pivotal effect
+  on endothelial and SMC proliferation, differentiation, migration, tube
+  formation, and sprouting. Moreover, TGF-β can stimulate
+  endothelial-to-mesenchymal transition, a process shown to be of key
+  importance in heart valve cushion formation and in various pathological
+  vascular processes. Here, we discuss the roles of TGF-β in vasculogenesis,
+  angiogenesis, and lymphangiogenesis and the deregulation of TGF-β signaling
+  in cardiovascular diseases.%
+    }
+    \verb{doi}
+    \verb 10.1101/cshperspect.a022210
+    \endverb
+    \verb{eprint}
+    \verb 28348036
+    \endverb
+    \field{issn}{, 1943-0264}
+    \field{number}{2}
+    \field{pages}{a022210}
+    \field{shortjournal}{Cold Spring Harb Perspect Biol}
+    \field{title}{{{TGF-β Signaling}} in {{Control}} of {{Cardiovascular
+  Function}}}
+    \verb{url}
+    \verb http://cshperspectives.cshlp.org/content/10/2/a022210
+    \endverb
+    \field{volume}{10}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\HA5KI4YF\\Goumans und Dijke - 201
+    \verb 8 - TGF-β Signaling in Control of Cardiovascular Funct.pdf;C\:\\User
+    \verb s\\torbe\\Zotero\\storage\\5HICYZIN\\a022210.html
+    \endverb
+    \field{journaltitle}{Cold Spring Harbor Perspectives in Biology}
+    \field{eprinttype}{pmid}
+    \field{day}{02}
+    \field{month}{01}
+    \field{year}{2018}
+    \field{urlday}{02}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{batlleTransformingGrowthFactorv2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BE}{%
+         family={Batlle},
+         familyi={B\bibinitperiod},
+         given={Eduard},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Massagué},
+         familyi={M\bibinitperiod},
+         given={Joan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \strng{namehash}{BEMJ1}
+    \strng{fullhash}{BEMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1016/j.immuni.2019.03.024
+    \endverb
+    \verb{eprint}
+    \verb 30995507
+    \endverb
+    \field{issn}{1074-7613}
+    \field{number}{4}
+    \field{pages}{924\bibrangedash 940}
+    \field{shortjournal}{Immunity}
+    \field{title}{Transforming {{Growth Factor-β Signaling}} in {{Immunity}}
+  and {{Cancer}}}
+    \verb{url}
+    \verb https://www.cell.com/immunity/abstract/S1074-7613(19)30141-4
+    \endverb
+    \field{volume}{50}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\XILQHY64\\Batlle und Massagué -
+    \verb 2019 - Transforming Growth Factor-β Signaling in Immunity.pdf;C\:\\U
+    \verb sers\\torbe\\Zotero\\storage\\IDVZDKYA\\S1074-7613(19)30141-4.html
+    \endverb
+    \field{journaltitle}{Immunity}
+    \field{eprinttype}{pmid}
+    \field{day}{16}
+    \field{month}{04}
+    \field{year}{2019}
+    \field{urlday}{02}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{davis-dusenberyDownregulationKruppellikeFactor42011}{article}{}
+    \name{author}{7}{}{%
+      {{hash=DDBN}{%
+         family={Davis-Dusenbery},
+         familyi={D\bibinithyphendelim D\bibinitperiod},
+         given={Brandi\bibnamedelima N.},
+         giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=CMC}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Mun\bibnamedelima Chun},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RKE}{%
+         family={Reno},
+         familyi={R\bibinitperiod},
+         given={Kelsey\bibnamedelima E.},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WAS}{%
+         family={Weisman},
+         familyi={W\bibinitperiod},
+         given={Alexandra\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LMD}{%
+         family={Layne},
+         familyi={L\bibinitperiod},
+         given={Matthew\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lagna},
+         familyi={L\bibinitperiod},
+         given={Giorgio},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hata},
+         familyi={H\bibinitperiod},
+         given={Akiko},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DDBN+1}
+    \strng{fullhash}{DDBNCMCRKEWASLMDLGHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In the postnatal vasculature, fully differentiated and quiescent vascular
+  smooth muscle cells (VSMCs) in a “contractile” phenotype are required for
+  the normal regulation of vascular tone. The transforming growth factor-β
+  (TGF-β) superfamily of growth factors (TGF-βs and bone morphogenetic
+  proteins (BMPs)) are potent inducers of contractile phenotype and mediate (i)
+  induction of contractile genes, and (ii) inhibition of VSMC growth and
+  migration. Transcription of contractile genes is positively regulated by a
+  regulatory DNA element called a CArG box. The CArG box is activated by the
+  binding of serum response factor and its coactivators, myocardin (Myocd) or
+  Myocd-related transcription factors (MRTFs). Krüppel-like factor-4 (KLF4) is
+  known to inhibit activation of the CArG box. However, the potential role of
+  KLF4 in the contractile activities of TGF-β or BMP has not been explored.
+  Here, we demonstrate that TGF-β and BMP4 rapidly down-regulate KLF4 through
+  induction of microRNA-143 (miR-143) and miR-145, which leads to a reduction
+  of KLF4 transcripts and decreased KLF4 protein expression. Inhibition of
+  miR-145 prevents down-regulation of KLF4 and activation of contractile genes
+  by TGF-β or BMP4, suggesting that modulation of KLF4 is a prerequisite for
+  induction of contractile genes by TGF-β and BMP4. Interestingly, both TGF-β
+  and BMP4 activate transcription of the miR-143/145 gene cluster through the
+  CArG box, however, TGF-β mediates this effect through induction of Myocd
+  expression, whereas BMP4 utilizes nuclear translocation of MRTF-A. Thus, this
+  study sheds light on both the similarities and the differences of TGF-β and
+  BMP4 signaling in the regulation of KLF4 and contractile genes.%
+    }
+    \verb{doi}
+    \verb 10.1074/jbc.M111.236950
+    \endverb
+    \verb{eprint}
+    \verb 21673106
+    \endverb
+    \field{issn}{0021-9258}
+    \field{number}{32}
+    \field{pages}{28097\bibrangedash 28110}
+    \field{shortjournal}{J Biol Chem}
+    \field{title}{Down-Regulation of {{Krüppel-like Factor-4}} ({{KLF4}}) by
+  {{MicroRNA-143}}/145 {{Is Critical}} for {{Modulation}} of {{Vascular Smooth
+  Muscle Cell Phenotype}} by {{Transforming Growth Factor-β}} and {{Bone
+  Morphogenetic Protein}} 4}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3151055/
+    \endverb
+    \field{volume}{286}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TUHVWKW5\\Davis-Dusenbery et al.
+    \verb - 2011 - Down-regulation of Krüppel-like Factor-4 (KLF4) by.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Biological Chemistry}
+    \field{eprinttype}{pmid}
+    \field{day}{12}
+    \field{month}{08}
+    \field{year}{2011}
+    \field{urlday}{03}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{takahashiInductionPluripotentStem2007}{article}{}
+    \name{author}{7}{}{%
+      {{hash=TK}{%
+         family={Takahashi},
+         familyi={T\bibinitperiod},
+         given={Kazutoshi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tanabe},
+         familyi={T\bibinitperiod},
+         given={Koji},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Ohnuki},
+         familyi={O\bibinitperiod},
+         given={Mari},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Narita},
+         familyi={N\bibinitperiod},
+         given={Megumi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IT}{%
+         family={Ichisaka},
+         familyi={I\bibinitperiod},
+         given={Tomoko},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tomoda},
+         familyi={T\bibinitperiod},
+         given={Kiichiro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yamanaka},
+         familyi={Y\bibinitperiod},
+         given={Shinya},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \strng{namehash}{TK+1}
+    \strng{fullhash}{TKTKOMNMITTKYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1016/j.cell.2007.11.019
+    \endverb
+    \verb{eprint}
+    \verb 18035408
+    \endverb
+    \field{issn}{0092-8674, 1097-4172}
+    \field{number}{5}
+    \field{pages}{861\bibrangedash 872}
+    \field{shortjournal}{Cell}
+    \field{title}{Induction of {{Pluripotent Stem Cells}} from {{Adult Human
+  Fibroblasts}} by {{Defined Factors}}}
+    \verb{url}
+    \verb https://www.cell.com/cell/abstract/S0092-8674(07)01471-7
+    \endverb
+    \field{volume}{131}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\UE8NJ8Z8\\Takahashi et al. - 2007
+    \verb  - Induction of Pluripotent Stem Cells from Adult Hum.pdf;C\:\\Users\
+    \verb \torbe\\Zotero\\storage\\3GSM4URS\\S0092-8674(07)01471-7.html
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{eprinttype}{pmid}
+    \field{day}{30}
+    \field{month}{11}
+    \field{year}{2007}
+    \field{urlday}{03}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{panSingleCellGenomicsReveals2020}{article}{}
+    \name{author}{22}{}{%
+      {{hash=PH}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Huize},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=XC}{%
+         family={Xue},
+         familyi={X\bibinitperiod},
+         given={Chenyi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ABJ}{%
+         family={Auerbach},
+         familyi={A\bibinitperiod},
+         given={Benjamin\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Jiaxin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BAC}{%
+         family={Bashore},
+         familyi={B\bibinitperiod},
+         given={Alexander\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YDY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Dina\bibnamedelima Y.},
+         giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=TSB}{%
+         family={Trignano},
+         familyi={T\bibinitperiod},
+         given={Sarah\bibnamedelima B.},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Wen},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Jianting},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ICO}{%
+         family={Ihuegbu},
+         familyi={I\bibinitperiod},
+         given={Chinyere\bibnamedelima O.},
+         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=BEC}{%
+         family={Bush},
+         familyi={B\bibinitperiod},
+         given={Erin\bibnamedelima C.},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Worley},
+         familyi={W\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Vlahos},
+         familyi={V\bibinitperiod},
+         given={Lukas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Laise},
+         familyi={L\bibinitperiod},
+         given={Pasquale},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SRA}{%
+         family={Solomon},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CES}{%
+         family={Connolly},
+         familyi={C\bibinitperiod},
+         given={Edward\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Califano},
+         familyi={C\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SPA}{%
+         family={Sims},
+         familyi={S\bibinitperiod},
+         given={Peter\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Hanrui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Mingyao},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RMP}{%
+         family={Reilly},
+         familyi={R\bibinitperiod},
+         given={Muredach\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Heart Association}}%
+    }
+    \keyw{atherosclerosis,cardiovascular disease,retinoic acid
+  signaling,single-cell RNA sequencing,smooth muscle cell}
+    \strng{namehash}{PH+1}
+    \strng{fullhash}{PHXCABJFJBACCJYDYTSBLWSJICOBECWJVLLPSRACESCASPAZHLMRMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Background: Smooth muscle cells (SMCs) play significant roles in
+  atherosclerosis via phenotypic switching, a pathological process in which SMC
+  dedifferentiation, migration, and transdifferentiation into other cell types.
+  Yet how SMCs contribute to the pathophysiology of atherosclerosis remains
+  elusive. Methods: To reveal the trajectories of SMC transdifferentiation
+  during atherosclerosis and to identify molecular targets for disease therapy,
+  we combined SMC fate mapping and single-cell RNA sequencing of both mouse and
+  human atherosclerotic plaques. We also performed cell biology experiments on
+  isolated SMC-derived cells, conducted integrative human genomics, and used
+  pharmacological studies targeting SMC-derived cells both in vivo and in
+  vitro. Results: We found that SMCs transitioned to an intermediate cell state
+  during atherosclerosis, which was also found in human atherosclerotic plaques
+  of carotid and coronary arteries. SMC-derived intermediate cells, termed
+  “SEM” cells (stem cell, endothelial cell, monocyte), were multipotent and
+  could differentiate into macrophage-like and fibrochondrocyte-like cells, as
+  well as return toward the SMC phenotype. Retinoic acid (RA) signaling was
+  identified as a regulator of SMC to SEM cell transition, and RA signaling was
+  dysregulated in symptomatic human atherosclerosis. Human genomics revealed
+  enrichment of genome-wide association study signals for coronary artery
+  disease in RA signaling target gene loci and correlation between coronary
+  artery disease risk alleles and repressed expression of these genes.
+  Activation of RA signaling by all-trans RA, an anticancer drug for acute
+  promyelocytic leukemia, blocked SMC transition to SEM cells, reduced
+  atherosclerotic burden, and promoted fibrous cap stability. Conclusions:
+  Integration of cell-specific fate mapping, single-cell genomics, and human
+  genetics adds novel insights into the complexity of SMC biology and reveals
+  regulatory pathways for therapeutic targeting of SMC transitions in
+  atherosclerotic cardiovascular disease.%
+    }
+    \verb{doi}
+    \verb 10.1161/CIRCULATIONAHA.120.048378
+    \endverb
+    \field{number}{21}
+    \field{pages}{2060\bibrangedash 2075}
+    \field{title}{Single-{{Cell Genomics Reveals}} a {{Novel Cell State During
+  Smooth Muscle Cell Phenotypic Switching}} and {{Potential Therapeutic
+  Targets}} for {{Atherosclerosis}} in {{Mouse}} and {{Human}}}
+    \verb{url}
+    \verb https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.120.048378
+    \endverb
+    \field{volume}{142}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TE6BRI76\\Pan et al. - 2020 - Sin
+    \verb gle-Cell Genomics Reveals a Novel Cell State Du.pdf
+    \endverb
+    \field{journaltitle}{Circulation}
+    \field{day}{24}
+    \field{month}{11}
+    \field{year}{2020}
+    \field{urlday}{03}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{chenPlateletderivedGrowthFactors2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CPH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Po-Han},
+         giveni={P\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xiaoyan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Xiaolin},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CPHCXHX1}
+    \strng{fullhash}{CPHCXHX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The four types of platelet-derived growth factors (PDGFs) and the two types
+  of PDGF receptors (PDGFRs, which belong to class III receptor tyrosine
+  kinases) have important functions in the development of connective tissue
+  cells. Recent structural studies have revealed novel mechanisms of PDGFs in
+  propeptide loading and receptor recognition/activation. The detailed
+  structural understanding of PDGF-PDGFR signaling has provided a template that
+  can aid therapeutic intervention to counteract the aberrant signaling of this
+  normally silent pathway, especially in proliferative diseases such as cancer.
+  This review summarizes the advances in the PDGF system with a focus on
+  relating the structural and functional understandings, and discusses the
+  basic aspects of PDGFs and PDGFRs, the mechanisms of activation, and the
+  insights into the therapeutic antagonism of PDGFRs.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bbapap.2012.10.015
+    \endverb
+    \verb{eprint}
+    \verb 23137658
+    \endverb
+    \field{issn}{0006-3002}
+    \field{number}{10}
+    \field{pages}{2176\bibrangedash 2186}
+    \field{shortjournal}{Biochim Biophys Acta}
+    \field{shorttitle}{Platelet-Derived Growth Factors and Their Receptors}
+    \field{title}{Platelet-Derived Growth Factors and Their Receptors:
+  Structural and Functional Perspectives}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612563/
+    \endverb
+    \field{volume}{1834}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\DCLKLNYI\\Chen et al. - 2013 - Pl
+    \verb atelet-derived growth factors and their receptor.pdf
+    \endverb
+    \field{journaltitle}{Biochimica et biophysica acta}
+    \field{eprinttype}{pmid}
+    \field{month}{10}
+    \field{year}{2013}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{heldinTargetingPDGFSignaling2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HCH}{%
+         family={Heldin},
+         familyi={H\bibinitperiod},
+         given={Carl-Henrik},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Imatinib,Nilotinib,Pazopanib,Sorafenib,Sunitinib}
+    \strng{namehash}{HCH1}
+    \strng{fullhash}{HCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Platelet-derived growth factor (PDGF) isoforms and PDGF receptors have
+  important functions in the regulation of growth and survival of certain cell
+  types during embryonal development and e.g. tissue repair in the adult.
+  Overactivity of PDGF receptor signaling, by overexpression or mutational
+  events, may drive tumor cell growth. In addition, pericytes of the
+  vasculature and fibroblasts and myofibroblasts of the stroma of solid tumors
+  express PDGF receptors, and PDGF stimulation of such cells promotes
+  tumorigenesis. Inhibition of PDGF receptor signaling has proven to useful for
+  the treatment of patients with certain rare tumors. Whether treatment with
+  PDGF/PDGF receptor antagonists will be beneficial for more common
+  malignancies is the subject for ongoing studies.%
+    }
+    \verb{doi}
+    \verb 10.1186/1478-811X-11-97
+    \endverb
+    \field{issn}{1478-811X}
+    \field{number}{1}
+    \field{pages}{97}
+    \field{shortjournal}{Cell Communication and Signaling}
+    \field{title}{Targeting the {{PDGF}} Signaling Pathway in Tumor Treatment}
+    \verb{url}
+    \verb https://doi.org/10.1186/1478-811X-11-97
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TK6UBG4T\\Heldin - 2013 - Targeti
+    \verb ng the PDGF signaling pathway in tumor trea.pdf;C\:\\Users\\torbe\\Zo
+    \verb tero\\storage\\XCGS8C2U\\1478-811X-11-97.html
+    \endverb
+    \field{journaltitle}{Cell Communication and Signaling}
+    \field{day}{20}
+    \field{month}{12}
+    \field{year}{2013}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{huTargetingPlateletderivedGrowth2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HW}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Weining},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{cardiovascular disease,platelet-derived growth factor}
+    \strng{namehash}{HWHY1}
+    \strng{fullhash}{HWHY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Over 40 years of studies on platelet-derived growth factors (PDGFs) and
+  their receptors, the molecular mechanisms and functional roles of PDGFs in
+  the development of embryos and human diseases, especially in cancer, are
+  gradually being unravelled. PDGF-BB was approved by the United States Food
+  and Drug Administration for promoting wound healing, while imatinib, which
+  selectively inhibits tyrosine kinase activity of PDGF receptors (PDGFR), has
+  been prescribed to treat patients with gastrointestinal stromal tumor and
+  chronic eosinophilic leukaemia. However, much less often have these drugs
+  been studied in relation to cardiovascular diseases. This brief review mainly
+  describes the role of PDGF signalling in cardiovascular pathogenesis such as
+  atherosclerosis, pulmonary arterial hypertension, diabetes, angiogenesis and
+  inflammation with an emphasis on how PDGFs function in these situations and
+  what components might serve as potential therapeutic targets against
+  cardio-metabolic dysfunction.%
+    }
+    \verb{doi}
+    \verb 10.1111/1440-1681.12478
+    \endverb
+    \field{issn}{1440-1681}
+    \field{number}{12}
+    \field{pages}{1221\bibrangedash 1224}
+    \field{title}{Targeting the Platelet-Derived Growth Factor Signalling in
+  Cardiovascular Disease}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1440-1681.12478
+    \endverb
+    \field{volume}{42}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Downloads\\hu2015.pdf;C\:\\Users\\torbe\\Zotero\\s
+    \verb torage\\J8JSZRLI\\1440-1681.html
+    \endverb
+    \field{journaltitle}{Clinical and Experimental Pharmacology and Physiology}
+    \field{annotation}{%
+    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1440-1681.12478%
+    }
+    \field{year}{2015}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{andraeRolePlateletderivedGrowth2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AJ}{%
+         family={Andrae},
+         familyi={A\bibinitperiod},
+         given={Johanna},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gallini},
+         familyi={G\bibinitperiod},
+         given={Radiosa},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Betsholtz},
+         familyi={B\bibinitperiod},
+         given={Christer},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJGRBC1}
+    \strng{fullhash}{AJGRBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Platelet-derived growth factors (PDGFs) and their receptors (PDGFRs) have
+  served as prototypes for growth factor and receptor tyrosine kinase function
+  for more than 25 years. Studies of PDGFs and PDGFRs in animal development
+  have revealed roles for PDGFR-α signaling in gastrulation and in the
+  development of the cranial and cardiac neural crest, gonads, lung, intestine,
+  skin, CNS, and skeleton. Similarly, roles for PDGFR-β signaling have been
+  established in blood vessel formation and early hematopoiesis. PDGF signaling
+  is implicated in a range of diseases. Autocrine activation of PDGF signaling
+  pathways is involved in certain gliomas, sarcomas, and leukemias. Paracrine
+  PDGF signaling is commonly observed in epithelial cancers, where it triggers
+  stromal recruitment and may be involved in epithelial–mesenchymal
+  transition, thereby affecting tumor growth, angiogenesis, invasion, and
+  metastasis. PDGFs drive pathological mesenchymal responses in vascular
+  disorders such as atherosclerosis, restenosis, pulmonary hypertension, and
+  retinal diseases, as well as in fibrotic diseases, including pulmonary
+  fibrosis, liver cirrhosis, scleroderma, glomerulosclerosis, and cardiac
+  fibrosis. We review basic aspects of the PDGF ligands and receptors, their
+  developmental and pathological functions, principles of their pharmacological
+  inhibition, and results using PDGF pathway-inhibitory or stimulatory drugs in
+  preclinical and clinical contexts.%
+    }
+    \verb{doi}
+    \verb 10.1101/gad.1653708
+    \endverb
+    \verb{eprint}
+    \verb 18483217
+    \endverb
+    \field{issn}{0890-9369}
+    \field{number}{10}
+    \field{pages}{1276\bibrangedash 1312}
+    \field{shortjournal}{Genes Dev}
+    \field{title}{Role of Platelet-Derived Growth Factors in Physiology and
+  Medicine}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2732412/
+    \endverb
+    \field{volume}{22}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\SZFER79B\\Andrae et al. - 2008 -
+    \verb Role of platelet-derived growth factors in physiol.pdf
+    \endverb
+    \field{journaltitle}{Genes \& Development}
+    \field{eprinttype}{pmid}
+    \field{day}{15}
+    \field{month}{05}
+    \field{year}{2008}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{leveenMiceDeficientPDGF1994}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LP}{%
+         family={Levéen},
+         familyi={L\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pekny},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GMS}{%
+         family={Gebre-Medhin},
+         familyi={G\bibinithyphendelim M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Swolin},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Larsson},
+         familyi={L\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Betsholtz},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Anemia,Animals,Arteries,Base Sequence,DNA Probes,Erythroblastosis;
+  Fetal,Female,Fetal Death,Heart Defects; Congenital,Hematologic
+  Diseases,Humans,Infant; Newborn,Kidney,Male,Mice,Mice; Inbred C57BL,Mice;
+  Inbred CBA,Mice; Knockout,Molecular Sequence Data,Phenotype,Platelet-Derived
+  Growth Factor,Pregnancy,Sequence Deletion,Thrombocytopenia}
+    \strng{namehash}{LP+1}
+    \strng{fullhash}{LPPMGMSSBLEBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Platelet-derived growth factor (PDGF) affects the growth, migration, and
+  function in vitro of mesenchymal cells, but little is known about its normal
+  physiological functions in vivo. We show here that mice deficient for PDGF B
+  die perinatally and display several anatomical and histological
+  abnormalities. Kidney glomerular tufts do not form, apparently because of
+  absence of mesangial cells. Instead, a single or a few distended capillary
+  loops fill the glomerular space. The heart and some large arteries dilate in
+  late-stage embryos. Most PDGF B mutant embryos develop fatal hemorrhages just
+  prior to birth. Their hematological status includes erythroblastosis,
+  macrocytic anemia, and thrombocytopenia. On the basis of these findings, we
+  conclude that PDGF B has crucial roles in vivo in establishing certain renal
+  and circulatory functions.%
+    }
+    \verb{doi}
+    \verb 10.1101/gad.8.16.1875
+    \endverb
+    \verb{eprint}
+    \verb 7958863
+    \endverb
+    \field{issn}{0890-9369}
+    \field{number}{16}
+    \field{pages}{1875\bibrangedash 1887}
+    \field{shortjournal}{Genes Dev}
+    \field{title}{Mice Deficient for {{PDGF B}} Show Renal, Cardiovascular, and
+  Hematological Abnormalities}
+    \field{volume}{8}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\X99Z8BZL\\Levéen et al. - 1994 -
+    \verb  Mice deficient for PDGF B show renal, cardiovascul.pdf
+    \endverb
+    \field{journaltitle}{Genes \& Development}
+    \field{eprinttype}{pmid}
+    \field{day}{15}
+    \field{month}{08}
+    \field{year}{1994}
+  \endentry
+
+  \entry{robsonPlateletderivedGrowthFactor1992}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RMC}{%
+         family={Robson},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PLG}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={L.\bibnamedelima G.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Thomason},
+         familyi={T\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RLE}{%
+         family={Robson},
+         familyi={R\bibinitperiod},
+         given={L.\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PGF}{%
+         family={Pierce},
+         familyi={P\bibinitperiod},
+         given={G.\bibnamedelima F.},
+         giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \keyw{Administration; Topical,Adult,Becaplermin,Combined Modality
+  Therapy,Double-Blind Method,Drug Administration Schedule,Follow-Up
+  Studies,Humans,Middle Aged,Platelet-Derived Growth Factor,Pressure
+  Ulcer,Proto-Oncogene Proteins c-sis,Recombinant Proteins,Wound Healing}
+    \strng{namehash}{RMC+1}
+    \strng{fullhash}{RMCPLGTARLEPGF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1992}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    A randomised, phase I/II, double-blind, placebo-controlled study was
+  designed to assess the effect of topically applied recombinant human BB
+  homodimeric platelet-derived growth factor (rPDGF-BB) on healing of chronic
+  pressure ulcers. Twenty patients were randomly allocated daily treatment for
+  28 days with 1, 10, or 100 micrograms/ml rPDGF-BB (0.01, 0.1, or 1.0
+  micrograms per cm2 ulcer area) or placebo. Patients treated with 100
+  micrograms/ml rPDGF-BB showed a greater healing response than the placebo
+  group, but the lower doses had little effect. After 28 days, ulcers treated
+  with 100 micrograms/ml rPDGF-BB were smaller than those treated with placebo
+  (mean [SE] volume 6.4 [4.0] vs 21.8 [5.6]\% of day 0 volume). There were no
+  toxic effects. These preliminary findings suggest that rPDGF-BB is a potent
+  wound-healing agent in soft tissue.%
+    }
+    \verb{doi}
+    \verb 10.1016/0140-6736(92)90143-q
+    \endverb
+    \verb{eprint}
+    \verb 1345953
+    \endverb
+    \field{issn}{0140-6736}
+    \field{number}{8784}
+    \field{pages}{23\bibrangedash 25}
+    \field{shortjournal}{Lancet}
+    \field{title}{Platelet-Derived Growth Factor {{BB}} for the Treatment of
+  Chronic Pressure Ulcers}
+    \field{volume}{339}
+    \field{langid}{english}
+    \field{journaltitle}{Lancet (London, England)}
+    \field{eprinttype}{pmid}
+    \field{day}{04}
+    \field{month}{01}
+    \field{year}{1992}
+  \endentry
+
+  \entry{rainesPDGFCardiovascularDisease2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=REW}{%
+         family={Raines},
+         familyi={R\bibinitperiod},
+         given={Elaine\bibnamedelima W},
+         giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{REW1}
+    \strng{fullhash}{REW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Platelet-derived growth factor (PDGF) was identified in a search for serum
+  factors that stimulate smooth muscle cell (SMC) proliferation. During the
+  development of lesions of atherosclerosis that can ultimately lead to vessel
+  occlusion, SMC are stimulated by inflammatory factors to migrate from their
+  normal location in the media. They accumulate within the forming lesion where
+  they contribute to lesion expansion by proliferation and deposition of
+  extracellular matrix. Different genetic manipulations in vascular cells
+  combined with various inhibitory strategies have provided strong evidence for
+  PDGF playing a prominent role in the migration of SMC into the neointima
+  following acute injury and in atherosclerosis. Other activities of PDGF
+  identified in vivo suggest additional functions for PDGF in the pathogenesis
+  of cardiovascular disease.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cytogfr.2004.03.004
+    \endverb
+    \verb{eprint}
+    \verb 15207815
+    \endverb
+    \field{issn}{1879-0305}
+    \field{number}{4}
+    \field{pages}{237\bibrangedash 254}
+    \field{shortjournal}{Cytokine Growth Factor Rev}
+    \field{title}{{{PDGF}} and Cardiovascular Disease}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.cytogfr.2004.03.004
+    \endverb
+    \field{volume}{15}
+    \field{langid}{english}
+    \field{journaltitle}{Cytokine \& growth factor reviews}
+    \field{eprinttype}{pmid}
+    \field{day}{01}
+    \field{month}{08}
+    \field{year}{2004}
+    \field{urlday}{02}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{hePDGFRvSignallingRegulates2015}{article}{}
+    \name{author}{7}{}{%
+      {{hash=HC}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Chaoyong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MSC}{%
+         family={Medley},
+         familyi={M\bibinitperiod},
+         given={Shayna\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Taishan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HME}{%
+         family={Hinsdale},
+         familyi={H\bibinitperiod},
+         given={Myron\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lupu},
+         familyi={L\bibinitperiod},
+         given={Florea},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Virmani},
+         familyi={V\bibinitperiod},
+         given={Renu},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OLE}{%
+         family={Olson},
+         familyi={O\bibinitperiod},
+         given={Lorin\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Atherosclerosis,Genetics research,Inflammation,Metabolic diseases}
+    \strng{namehash}{HC+1}
+    \strng{fullhash}{HCMSCHTHMELFVROLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Platelet-derived growth factor (PDGF) is a mitogen and chemoattractant for
+  vascular smooth muscle cells (VSMCs). However, the direct effects of PDGF
+  receptor β (PDGFRβ) activation on VSMCs have not been studied in the
+  context of atherosclerosis. Here we present a new mouse model of
+  atherosclerosis with an activating mutation in PDGFRβ. Increased PDGFRβ
+  signalling induces chemokine secretion and leads to leukocyte accumulation in
+  the adventitia and media of the aorta. Furthermore, PDGFRβD849V amplifies
+  and accelerates atherosclerosis in hypercholesterolemic ApoE−/− or
+  Ldlr−/− mice. Intriguingly, increased PDGFRβ signalling promotes
+  advanced plaque formation at novel sites in the thoracic aorta and coronary
+  arteries. However, deletion of the PDGFRβ-activated transcription factor
+  STAT1 in VSMCs alleviates inflammation of the arterial wall and reduces
+  plaque burden. These results demonstrate that PDGFRβ pathway activation has
+  a profound effect on vascular disease and support the conclusion that
+  inflammation in the outer arterial layers is a driving process for
+  atherosclerosis.%
+    }
+    \verb{doi}
+    \verb 10.1038/ncomms8770
+    \endverb
+    \field{issn}{2041-1723}
+    \field{issue}{1}
+    \field{number}{1}
+    \field{pages}{7770}
+    \field{shortjournal}{Nat Commun}
+    \field{title}{{{PDGFRβ}} Signalling Regulates Local Inflammation and
+  Synergizes with Hypercholesterolaemia to Promote Atherosclerosis}
+    \verb{url}
+    \verb https://www.nature.com/articles/ncomms8770
+    \endverb
+    \field{volume}{6}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\DMWA256L\\He et al. - 2015 - PDGF
+    \verb Rβ signalling regulates local inflammation and.pdf;C\:\\Users\\torbe
+    \verb \\Zotero\\storage\\E8TY9XIX\\ncomms8770.html
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{day}{17}
+    \field{month}{07}
+    \field{year}{2015}
+    \field{urlday}{06}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{newmanMultipleCellTypes2021}{article}{}
+    \name{author}{17}{}{%
+      {{hash=NAAC}{%
+         family={Newman},
+         familyi={N\bibinitperiod},
+         given={Alexandra A.\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Serbulea},
+         familyi={S\bibinitperiod},
+         given={Vlad},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BRA}{%
+         family={Baylis},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SLS}{%
+         family={Shankman},
+         familyi={S\bibinitperiod},
+         given={Laura\bibnamedelima S.},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BX}{%
+         family={Bradley},
+         familyi={B\bibinitperiod},
+         given={Xenia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=AGF}{%
+         family={Alencar},
+         familyi={A\bibinitperiod},
+         given={Gabriel\bibnamedelima F.},
+         giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Owsiany},
+         familyi={O\bibinitperiod},
+         given={Katherine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DRA}{%
+         family={Deaton},
+         familyi={D\bibinitperiod},
+         given={Rebecca\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Karnewar},
+         familyi={K\bibinitperiod},
+         given={Santosh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shamsuzzaman},
+         familyi={S\bibinitperiod},
+         given={Sohel},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Salamon},
+         familyi={S\bibinitperiod},
+         given={Anita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RMS}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={Mahima\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Liang},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Finn},
+         familyi={F\bibinitperiod},
+         given={Aloke},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Virmani},
+         familyi={V\bibinitperiod},
+         given={Renu},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=COA}{%
+         family={Cherepanova},
+         familyi={C\bibinitperiod},
+         given={Olga\bibnamedelima A.},
+         giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \strng{namehash}{NAAC+1}
+    \strng{fullhash}{NAACSVBRASLSBXAGFOKDRAKSSSSARMSGLFAVRCOAOGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Stable atherosclerotic plaques are characterized by a thick, extracellular
+  matrix-rich fibrous cap populated by protective ACTA2+ myofibroblast
+  (MF)-like cells, assumed to be almost exclusively derived from smooth muscle
+  cells (SMCs). Herein, we show that in murine and human lesions, 20\% to 40\%
+  of ACTA2+ fibrous cap cells, respectively, are derived from non-SMC sources,
+  including endothelial cells (ECs) or macrophages that have undergone an
+  endothelial-to-mesenchymal transition (EndoMT) or a macrophage-to-mesenchymal
+  transition (MMT). In addition, we show that SMC-specific knockout of the
+  Pdgfrb gene, which encodes platelet-derived growth factor receptor beta
+  (PDGFRβ), in Apoe−/− mice fed a Western diet for 18 weeks resulted in
+  brachiocephalic artery lesions nearly devoid of SMCs but with no changes in
+  lesion size, remodelling or indices of stability, including the percentage of
+  ACTA2+ fibrous cap cells. However, prolonged Western diet feeding of SMC
+  Pdgfrb-knockout mice resulted in reduced indices of stability, indicating
+  that EndoMT- and MMT-derived MFs cannot compensate indefinitely for loss of
+  SMC-derived MFs. Using single-cell and bulk RNA-sequencing analyses of the
+  brachiocephalic artery region and in vitro models, we provide evidence that
+  SMC-to-MF transitions are induced by PDGF and transforming growth factor-β
+  and dependent on aerobic glycolysis, while EndoMT is induced by
+  interleukin-1β and transforming growth factor-β. Together, we provide
+  evidence that the ACTA2+ fibrous cap originates from a tapestry of cell
+  types, which transition to an MF-like state through distinct signalling
+  pathways that are either dependent on or associated with extensive metabolic
+  reprogramming.%
+    }
+    \verb{doi}
+    \verb 10.1038/s42255-020-00338-8
+    \endverb
+    \field{issn}{2522-5812}
+    \field{issue}{2}
+    \field{number}{2}
+    \field{pages}{166\bibrangedash 181}
+    \field{shortjournal}{Nat Metab}
+    \field{title}{Multiple Cell Types Contribute to the Atherosclerotic Lesion
+  Fibrous Cap by {{PDGFRβ}} and Bioenergetic Mechanisms}
+    \verb{url}
+    \verb https://www.nature.com/articles/s42255-020-00338-8
+    \endverb
+    \field{volume}{3}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\4XDBHZ6T\\Newman et al. - 2021 -
+    \verb Multiple cell types contribute to the atherosclero.pdf;C\:\\Users\\to
+    \verb rbe\\Zotero\\storage\\QLSBUL79\\s42255-020-00338-8.pdf;C\:\\Users\\to
+    \verb rbe\\Zotero\\storage\\DQ6454LC\\s42255-020-00338-8.html
+    \endverb
+    \field{journaltitle}{Nature Metabolism}
+    \field{annotation}{%
+    Bandiera\_abtest: a Cg\_type: Nature Research Journals Primary\_atype:
+  Research Subject\_term: Atherosclerosis;Obesity Subject\_term\_id:
+  atherosclerosis;obesity%
+    }
+    \field{month}{02}
+    \field{year}{2021}
+    \field{urlday}{07}
+    \field{urlmonth}{10}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{siesReactiveOxygenSpecies2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SH}{%
+         family={Sies},
+         familyi={S\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=JDP}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Dean\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cell signalling,Mechanisms of disease}
+    \strng{namehash}{SHJDP1}
+    \strng{fullhash}{SHJDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    ‘Reactive oxygen species’ (ROS) is an umbrella term for an array of
+  derivatives of molecular oxygen that occur as a normal attribute of aerobic
+  life. Elevated formation of the different ROS leads to molecular damage,
+  denoted as ‘oxidative distress’. Here we focus on ROS at physiological
+  levels and their central role in redox signalling via different
+  post-translational modifications, denoted as ‘oxidative eustress’. Two
+  species, hydrogen peroxide (H2O2) and the superoxide anion radical (O2·−),
+  are key redox signalling agents generated under the control of growth factors
+  and cytokines by more than 40 enzymes, prominently including NADPH oxidases
+  and the mitochondrial electron transport chain. At the low physiological
+  levels in the nanomolar range, H2O2 is the major agent signalling through
+  specific protein targets, which engage in metabolic regulation and stress
+  responses to support cellular adaptation to a changing environment and
+  stress. In addition, several other reactive species are involved in redox
+  signalling, for instance nitric oxide, hydrogen sulfide and oxidized lipids.
+  Recent methodological advances permit the assessment of molecular
+  interactions of specific ROS molecules with specific targets in redox
+  signalling pathways. Accordingly, major advances have occurred in
+  understanding the role of these oxidants in physiology and disease, including
+  the nervous, cardiovascular and immune systems, skeletal muscle and metabolic
+  regulation as well as ageing and cancer. In the past, unspecific elimination
+  of ROS by use of low molecular mass antioxidant compounds was not successful
+  in counteracting disease initiation and progression in clinical trials.
+  However, controlling specific ROS-mediated signalling pathways by selective
+  targeting offers a perspective for a future of more refined redox medicine.
+  This includes enzymatic defence systems such as those controlled by the
+  stress-response transcription factors NRF2 and nuclear factor-κB, the role
+  of trace elements such as selenium, the use of redox drugs and the modulation
+  of environmental factors collectively known as the exposome (for example,
+  nutrition, lifestyle and irradiation).%
+    }
+    \verb{doi}
+    \verb 10.1038/s41580-020-0230-3
+    \endverb
+    \field{issn}{1471-0080}
+    \field{issue}{7}
+    \field{number}{7}
+    \field{pages}{363\bibrangedash 383}
+    \field{shortjournal}{Nat Rev Mol Cell Biol}
+    \field{title}{Reactive Oxygen Species ({{ROS}}) as Pleiotropic
+  Physiological Signalling Agents}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41580-020-0230-3
+    \endverb
+    \field{volume}{21}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TVLW6MVW\\Sies und Jones - 2020 -
+    \verb  Reactive oxygen species (ROS) as pleiotropic physi.pdf;C\:\\Users\\t
+    \verb orbe\\Zotero\\storage\\EDLQJQDE\\s41580-020-0230-3.html
+    \endverb
+    \field{journaltitle}{Nature Reviews Molecular Cell Biology}
+    \field{month}{07}
+    \field{year}{2020}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{sundaresanRequirementGenerationH2O21995}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SM}{%
+         family={Sundaresan},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YZX}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Z.\bibnamedelima X.},
+         giveni={Z\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=FVJ}{%
+         family={Ferrans},
+         familyi={F\bibinitperiod},
+         given={V.\bibnamedelima J.},
+         giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=IK}{%
+         family={Irani},
+         familyi={I\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Finkel},
+         familyi={F\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Acetylcysteine,Adenoviridae,Animals,Calcium-Calmodulin-Dependent
+  Protein Kinases,Catalase,Cell Line,Cells; Cultured,Chemotaxis,Endopeptidase
+  K,Free Radical Scavengers,Humans,Hydrogen Peroxide,Mitogen-Activated Protein
+  Kinase 1,Mitogen-Activated Protein Kinase 3,Mitogen-Activated Protein
+  Kinases,Muscle; Smooth;
+  Vascular,Phosphorylation,Phosphotyrosine,Platelet-Derived Growth
+  Factor,Protein-Tyrosine Kinases,Rats,Serine Endopeptidases,Signal
+  Transduction}
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMYZXFVJIKFT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Stimulation of rat vascular smooth muscle cells (VSMCs) by platelet-derived
+  growth factor (PDGF) transiently increased the intracellular concentration of
+  hydrogen peroxide (H2O2). This increase could be blunted by increasing the
+  intracellular concentration of the scavenging enzyme catalase or by the
+  chemical antioxidant N-acetylcysteine. The response of VSMCs to PDGF, which
+  includes tyrosine phosphorylation, mitogen-activated protein kinase
+  stimulation, DNA synthesis, and chemotaxis, was inhibited when the growth
+  factor-stimulated rise in H2O2 concentration was blocked. These results
+  suggest that H2O2 may act as a signal-transducing molecule, and they suggest
+  a potential mechanism for the cardioprotective effects of antioxidants.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.270.5234.296
+    \endverb
+    \verb{eprint}
+    \verb 7569979
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{5234}
+    \field{pages}{296\bibrangedash 299}
+    \field{shortjournal}{Science}
+    \field{title}{Requirement for Generation of {{H2O2}} for Platelet-Derived
+  Growth Factor Signal Transduction}
+    \field{volume}{270}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\GCTAC4LN\\Sundaresan et al. - 199
+    \verb 5 - Requirement for generation of H2O2 for platelet-de.pdf
+    \endverb
+    \field{journaltitle}{Science (New York, N.Y.)}
+    \field{eprinttype}{pmid}
+    \field{day}{13}
+    \field{month}{10}
+    \field{year}{1995}
+  \endentry
+
+  \entry{bouziguesRegulationROSResponse2014a}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BCI}{%
+         family={Bouzigues},
+         familyi={B\bibinitperiod},
+         given={Cedric\bibnamedelima I.},
+         giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=NTL}{%
+         family={Nguyên},
+         familyi={N\bibinitperiod},
+         given={Thanh-Liêm},
+         giveni={T\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Ramodiharilafy},
+         familyi={R\bibinitperiod},
+         given={Rivo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Claeson},
+         familyi={C\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TPL}{%
+         family={Tharaux},
+         familyi={T\bibinitperiod},
+         given={Pierre-Louis},
+         giveni={P\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Alexandrou},
+         familyi={A\bibinitperiod},
+         given={Antigoni},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BCI+1}
+    \strng{fullhash}{BCINTLRRCATPLAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Although reactive oxygen species (ROS) are better known for their harmful
+  effects, more recently, H2O2, one of the ROS, was also found to act as a
+  secondary messenger. However, details of spatiotemporal organization of
+  specific signaling pathways that H2O2 is involved in are currently missing.
+  Here, we use single nanoparticle imaging to measure the local H2O2
+  concentration and reveal regulation of the ROS response dynamics and
+  organization to platelet-derived growth factor (PDGF) signaling. We
+  demonstrate that H2O2 production is controlled by PDGFR kinase activity and
+  EGFR transactivation, requires a persistent stimulation, and is regulated by
+  membrane receptor diffusion. This temporal filtering is impaired in cancer
+  cells, which may determine their pathological migration. H2O2 subcellular
+  mapping reveals that an external PDGF gradient induces an amplification-free
+  asymmetric H2O2 concentration profile. These results support a general model
+  for the control of signal transduction based only on membrane receptor
+  diffusion and second messenger degradation.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.chembiol.2014.02.020
+    \endverb
+    \field{issn}{1074-5521}
+    \field{number}{5}
+    \field{pages}{647\bibrangedash 656}
+    \field{shortjournal}{Chemistry \& Biology}
+    \field{title}{Regulation of the {{ROS Response Dynamics}} and
+  {{Organization}} to {{PDGF Motile Stimuli Revealed}} by {{Single Nanoparticle
+  Imaging}}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1074552114001070
+    \endverb
+    \field{volume}{21}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\MTYUPBYX\\Bouzigues et al. - 2014
+    \verb  - Regulation of the ROS Response Dynamics and Organi.pdf;C\:\\Users\
+    \verb \torbe\\Zotero\\storage\\CEE2S5M3\\S1074552114001070.html
+    \endverb
+    \field{journaltitle}{Chemistry \& Biology}
+    \field{day}{22}
+    \field{month}{05}
+    \field{year}{2014}
+    \field{urlday}{07}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{uffelmannGenomewideAssociationStudies2021}{article}{useprefix}
+    \name{author}{9}{}{%
+      {{hash=UE}{%
+         family={Uffelmann},
+         familyi={U\bibinitperiod},
+         given={Emil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HQQ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Qin\bibnamedelima Qin},
+         giveni={Q\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=MNS}{%
+         family={Munung},
+         familyi={M\bibinitperiod},
+         given={Nchangwi\bibnamedelima Syntia},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=dVJ}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Vries},
+         familyi={V\bibinitperiod},
+         given={Jantina},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OY}{%
+         family={Okada},
+         familyi={O\bibinitperiod},
+         given={Yukinori},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MAR}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Alicia\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MHC}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Hilary\bibnamedelima C.},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lappalainen},
+         familyi={L\bibinitperiod},
+         given={Tuuli},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Posthuma},
+         familyi={P\bibinitperiod},
+         given={Danielle},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Genetic predisposition to disease,Genome-wide association studies}
+    \strng{namehash}{UE+1}
+    \strng{fullhash}{UEHQQMNSdVJOYMARMHCLTPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Genome-wide association studies (GWAS) test hundreds of thousands of
+  genetic variants across many genomes to find those statistically associated
+  with a specific trait or disease. This methodology has generated a myriad of
+  robust associations for a range of traits and diseases, and the number of
+  associated variants is expected to grow steadily as GWAS sample sizes
+  increase. GWAS results have a range of applications, such as gaining insight
+  into a phenotype’s underlying biology, estimating its heritability,
+  calculating genetic correlations, making clinical risk predictions, informing
+  drug development programmes and inferring potential causal relationships
+  between risk factors and health outcomes. In this Primer, we provide the
+  reader with an introduction to GWAS, explaining their statistical basis and
+  how they are conducted, describe state-of-the art approaches and discuss
+  limitations and challenges, concluding with an overview of the current and
+  future applications for GWAS results.%
+    }
+    \verb{doi}
+    \verb 10.1038/s43586-021-00056-9
+    \endverb
+    \field{issn}{2662-8449}
+    \field{issue}{1}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 21}
+    \field{shortjournal}{Nat Rev Methods Primers}
+    \field{title}{Genome-Wide Association Studies}
+    \verb{url}
+    \verb https://www.nature.com/articles/s43586-021-00056-9
+    \endverb
+    \field{volume}{1}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\SUJBYYV5\\Uffelmann et al. - 2021
+    \verb  - Genome-wide association studies.pdf;C\:\\Users\\torbe\\Zotero\\sto
+    \verb rage\\7J5XNTA4\\s43586-021-00056-9.html
+    \endverb
+    \field{journaltitle}{Nature Reviews Methods Primers}
+    \field{day}{26}
+    \field{month}{08}
+    \field{year}{2021}
+    \field{urlday}{17}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{flintGWAS2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FJ}{%
+         family={Flint},
+         familyi={F\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FJ1}
+    \strng{fullhash}{FJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1016/j.cub.2013.01.040
+    \endverb
+    \field{issn}{09609822}
+    \field{number}{7}
+    \field{pages}{R265\bibrangedash R266}
+    \field{shortjournal}{Current Biology}
+    \field{title}{{{GWAS}}}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S0960982213000754
+    \endverb
+    \field{volume}{23}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\WPLMQ426\\Flint - 2013 - GWAS.pdf
+    \endverb
+    \field{journaltitle}{Current Biology}
+    \field{month}{04}
+    \field{year}{2013}
+    \field{urlday}{17}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{schaidGenomewideAssociationsCandidate2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SDJ}{%
+         family={Schaid},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Wenan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LNB}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={Nicholas\bibnamedelima B.},
+         giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDJCWLNB1}
+    \strng{fullhash}{SDJCWLNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Advancing from statistical associations of complex traits with genetic
+  markers to understanding the functional genetic variants that influence
+  traits is often a complex process. Fine-mapping can select and prioritize
+  genetic variants for further study, yet the multitude of analytical
+  strategies and study designs makes it challenging to choose an optimal
+  approach. We review the strengths and weakness of different fine-mapping
+  approaches, emphasizing the main factors that affect performance. Topics
+  include interpreting results from genome-wide association studies (GWAS), the
+  role of linkage disequilibrium, statistical fine-mapping approaches,
+  trans-ethnic studies, genomic annotation and data integration, and other
+  analysis and design issues., Fine-mapping is the process by which a
+  trait-associated region from a genome-wide association study (GWAS) is
+  analysed to identify the particular genetic variants that are likely to
+  causally influence the examined trait. This Review discusses the diverse
+  statistical approaches to fine mapping, their foundations, strengths and
+  limitations, including integration of trans-ethnic human population data and
+  functional annotations.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41576-018-0016-z
+    \endverb
+    \verb{eprint}
+    \verb 29844615
+    \endverb
+    \field{issn}{1471-0056}
+    \field{number}{8}
+    \field{pages}{491\bibrangedash 504}
+    \field{shortjournal}{Nat Rev Genet}
+    \field{title}{From Genome-Wide Associations to Candidate Causal Variants by
+  Statistical Fine-Mapping}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050137/
+    \endverb
+    \field{volume}{19}
+    \field{journaltitle}{Nature reviews. Genetics}
+    \field{eprinttype}{pmid}
+    \field{month}{08}
+    \field{year}{2018}
+    \field{urlday}{23}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{lichouFunctionalStudiesGWAS2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LF}{%
+         family={Lichou},
+         familyi={L\bibinitperiod},
+         given={Florence},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Trynka},
+         familyi={T\bibinitperiod},
+         given={Gosia},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LFTG1}
+    \strng{fullhash}{LFTG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1038/s41467-020-20188-y
+    \endverb
+    \field{issn}{2041-1723}
+    \field{number}{1}
+    \field{pages}{6283}
+    \field{shortjournal}{Nat Commun}
+    \field{title}{Functional Studies of {{GWAS}} Variants Are Gaining Momentum}
+    \verb{url}
+    \verb http://www.nature.com/articles/s41467-020-20188-y
+    \endverb
+    \field{volume}{11}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TA9WSFJS\\Lichou und Trynka - 202
+    \verb 0 - Functional studies of GWAS variants are gaining mo.pdf
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{month}{12}
+    \field{year}{2020}
+    \field{urlday}{08}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{slatkinLinkageDisequilibriumUnderstanding2008}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Slatkin},
+         familyi={S\bibinitperiod},
+         given={Montgomery},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Linkage disequilibrium — the nonrandom association of alleles at
+  different loci — is a sensitive indicator of the population genetic forces
+  that structure a genome. Because of the explosive growth of methods for
+  assessing genetic variation at a fine scale, evolutionary biologists and
+  human geneticists are increasingly exploiting linkage disequilibrium in order
+  to understand past evolutionary and demographic events, to map genes that are
+  associated with quantitative characters and inherited diseases, and to
+  understand the joint evolution of linked sets of genes. This article
+  introduces linkage disequilibrium, reviews the population genetic processes
+  that affect it and describes some of its uses. At present, linkage
+  disequilibrium is used much more extensively in the study of humans than in
+  non-humans, but that is changing as technological advances make extensive
+  genomic studies feasible in other species.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrg2361
+    \endverb
+    \verb{eprint}
+    \verb 18427557
+    \endverb
+    \field{issn}{1471-0056}
+    \field{number}{6}
+    \field{pages}{477\bibrangedash 485}
+    \field{shortjournal}{Nat Rev Genet}
+    \field{title}{Linkage Disequilibrium — Understanding the Evolutionary
+  Past and Mapping the Medical Future}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124487/
+    \endverb
+    \field{volume}{9}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\WC9XQHPS\\Slatkin - 2008 - Linkag
+    \verb e disequilibrium — understanding the evoluti.pdf
+    \endverb
+    \field{journaltitle}{Nature reviews. Genetics}
+    \field{eprinttype}{pmid}
+    \field{month}{06}
+    \field{year}{2008}
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{mountjoyOpenApproachSystematically2021}{article}{}
+    \name{author}{19}{}{%
+      {{hash=ME}{%
+         family={Mountjoy},
+         familyi={M\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SEM}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Ellen\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Carmona},
+         familyi={C\bibinitperiod},
+         given={Miguel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schwartzentruber},
+         familyi={S\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Peat},
+         familyi={P\bibinitperiod},
+         given={Gareth},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Miranda},
+         familyi={M\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fumis},
+         familyi={F\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hayhurst},
+         familyi={H\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Buniello},
+         familyi={B\bibinitperiod},
+         given={Annalisa},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Karim},
+         familyi={K\bibinitperiod},
+         given={Mohd\bibnamedelima Anisul},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hercules},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Papa},
+         familyi={P\bibinitperiod},
+         given={Eliseo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FEB}{%
+         family={Fauman},
+         familyi={F\bibinitperiod},
+         given={Eric\bibnamedelima B.},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BJC}{%
+         family={Barrett},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TJA}{%
+         family={Todd},
+         familyi={T\bibinitperiod},
+         given={John\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OD}{%
+         family={Ochoa},
+         familyi={O\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Dunham},
+         familyi={D\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Ghoussaini},
+         familyi={G\bibinitperiod},
+         given={Maya},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Data processing,Genome-wide association studies}
+    \strng{namehash}{ME+1}
+    \strng{fullhash}{MESEMCMSJPGMAFLHJBAKMAWDHAPEFEBBJCTJAODDIGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Genome-wide association studies (GWASs) have identified many variants
+  associated with complex traits, but identifying the causal gene(s) is a major
+  challenge. In the present study, we present an open resource that provides
+  systematic fine mapping and gene prioritization across 133,441 published
+  human GWAS loci. We integrate genetics (GWAS Catalog and UK Biobank) with
+  transcriptomic, proteomic and epigenomic data, including systematic
+  disease–disease and disease–molecular trait colocalization results across
+  92 cell types and tissues. We identify 729 loci fine mapped to a
+  single-coding causal variant and colocalized with a single gene. We trained a
+  machine-learning model using the fine-mapped genetics and functional genomics
+  data and 445 gold-standard curated GWAS loci to distinguish causal genes from
+  neighboring genes, outperforming a naive distance-based model. Our
+  prioritized genes were enriched for known approved drug targets (odds
+  ratio\,=\,8.1, 95\% confidence interval\,=\,5.7, 11.5). These results are
+  publicly available through a web portal ( http://genetics.opentargets.org ),
+  enabling users to easily prioritize genes at disease-associated loci and
+  assess their potential as drug targets. Open Targets Genetics is a community
+  resource that provides systematic fine mapping at human GWAS loci, enabling
+  users to prioritize genes at disease-associated regions and assess their
+  potential as drug targets.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41588-021-00945-5
+    \endverb
+    \field{issn}{1546-1718}
+    \field{issue}{11}
+    \field{number}{11}
+    \field{pages}{1527\bibrangedash 1533}
+    \field{shortjournal}{Nat Genet}
+    \field{title}{An Open Approach to Systematically Prioritize Causal Variants
+  and Genes at All Published Human {{GWAS}} Trait-Associated Loci}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41588-021-00945-5
+    \endverb
+    \field{volume}{53}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\ZQ4JKC9Q\\Mountjoy et al. - 2021
+    \verb - An open approach to systematically prioritize caus.pdf;C\:\\Users\\
+    \verb torbe\\Zotero\\storage\\G8C3PI7Z\\s41588-021-00945-5.html
+    \endverb
+    \field{journaltitle}{Nature Genetics}
+    \field{month}{11}
+    \field{year}{2021}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{zerbinoEnsemblRegulatoryBuild2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZDR}{%
+         family={Zerbino},
+         familyi={Z\bibinitperiod},
+         given={Daniel\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WSP}{%
+         family={Wilder},
+         familyi={W\bibinitperiod},
+         given={Steven\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JN}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Nathan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Juettemann},
+         familyi={J\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FPR}{%
+         family={Flicek},
+         familyi={F\bibinitperiod},
+         given={Paul\bibnamedelima R.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Computational Biology,Databases; Genetic,Epigenesis;
+  Genetic,Genomics,Humans,Internet,Software,Transcription Factors,User-Computer
+  Interface}
+    \strng{namehash}{ZDR+1}
+    \strng{fullhash}{ZDRWSPJNJTFPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Most genomic variants associated with phenotypic traits or disease do not
+  fall within gene coding regions, but in regulatory regions, rendering their
+  interpretation difficult. We collected public data on epigenetic marks and
+  transcription factor binding in human cell types and used it to construct an
+  intuitive summary of regulatory regions in the human genome. We verified it
+  against independent assays for sensitivity. The Ensembl Regulatory Build will
+  be progressively enriched when more data is made available. It is freely
+  available on the Ensembl browser, from the Ensembl Regulation MySQL database
+  server and in a dedicated track hub.%
+    }
+    \verb{doi}
+    \verb 10.1186/s13059-015-0621-5
+    \endverb
+    \verb{eprint}
+    \verb 25887522
+    \endverb
+    \field{issn}{1474-760X}
+    \field{pages}{56}
+    \field{shortjournal}{Genome Biol}
+    \field{title}{The Ensembl Regulatory Build}
+    \field{volume}{16}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\PGP9DIQW\\Zerbino et al. - 2015 -
+    \verb  The ensembl regulatory build.pdf
+    \endverb
+    \field{journaltitle}{Genome Biology}
+    \field{eprinttype}{pmid}
+    \field{day}{24}
+    \field{month}{03}
+    \field{year}{2015}
+  \endentry
+
+  \entry{SCREENSearchCandidate}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{title}{{{SCREEN}}: {{Search Candidate Regulatory Elements}} by
+  {{ENCODE}}}
+    \verb{url}
+    \verb https://screen.encodeproject.org/
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\KS2Y2BD6\\screen.encodeproject.or
+    \verb g.html
+    \endverb
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{mooreExpandedEncyclopaediasDNA2020}{article}{}
+    \name{author}{63}{}{%
+      {{hash=MJE}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Jill\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PMJ}{%
+         family={Purcaro},
+         familyi={P\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PHE}{%
+         family={Pratt},
+         familyi={P\bibinitperiod},
+         given={Henry\bibnamedelima E.},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=ECB}{%
+         family={Epstein},
+         familyi={E\bibinitperiod},
+         given={Charles\bibnamedelima B.},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shoresh},
+         familyi={S\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Adrian},
+         familyi={A\bibinitperiod},
+         given={Jessika},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kawli},
+         familyi={K\bibinitperiod},
+         given={Trupti},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DCA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Carrie\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dobin},
+         familyi={D\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kaul},
+         familyi={K\bibinitperiod},
+         given={Rajinder},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Halow},
+         familyi={H\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VNEL}{%
+         family={Van\bibnamedelima Nostrand},
+         familyi={V\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Eric\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Freese},
+         familyi={F\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GDU}{%
+         family={Gorkin},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima U.},
+         giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Yin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Yupeng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mackiewicz},
+         familyi={M\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PBF}{%
+         family={Pauli-Behn},
+         familyi={P\bibinithyphendelim B\bibinitperiod},
+         given={Florencia},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WBA}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Brian\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mortazavi},
+         familyi={M\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KCA}{%
+         family={Keller},
+         familyi={K\bibinitperiod},
+         given={Cheryl\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZXO}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiao-Ou},
+         giveni={X\bibinithyphendelim O\bibinitperiod},
+      }}%
+      {{hash=ESI}{%
+         family={Elhajjajy},
+         familyi={E\bibinitperiod},
+         given={Shaimae\bibnamedelima I.},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huey},
+         familyi={H\bibinitperiod},
+         given={Jack},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DDE}{%
+         family={Dickel},
+         familyi={D\bibinitperiod},
+         given={Diane\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Snetkova},
+         familyi={S\bibinitperiod},
+         given={Valentina},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Xintao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiaofeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RMJC}{%
+         family={Rivera-Mulia},
+         familyi={R\bibinithyphendelim M\bibinitperiod},
+         given={Juan\bibnamedelima Carlos},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rozowsky},
+         familyi={R\bibinitperiod},
+         given={Joel},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CSB}{%
+         family={Chhetri},
+         familyi={C\bibinitperiod},
+         given={Surya\bibnamedelima B.},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jialing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Victorsen},
+         familyi={V\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WKP}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={Kevin\bibnamedelima P.},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Visel},
+         familyi={V\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YGW}{%
+         family={Yeo},
+         familyi={Y\bibinitperiod},
+         given={Gene\bibnamedelima W.},
+         giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BCB}{%
+         family={Burge},
+         familyi={B\bibinitperiod},
+         given={Christopher\bibnamedelima B.},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lécuyer},
+         familyi={L\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GDM}{%
+         family={Gilbert},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dekker},
+         familyi={D\bibinitperiod},
+         given={Job},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rinn},
+         familyi={R\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MEM}{%
+         family={Mendenhall},
+         familyi={M\bibinitperiod},
+         given={Eric\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=EJR}{%
+         family={Ecker},
+         familyi={E\bibinitperiod},
+         given={Joseph\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kellis},
+         familyi={K\bibinitperiod},
+         given={Manolis},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KRJ}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NWS}{%
+         family={Noble},
+         familyi={N\bibinitperiod},
+         given={William\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kundaje},
+         familyi={K\bibinitperiod},
+         given={Anshul},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Guigó},
+         familyi={G\bibinitperiod},
+         given={Roderic},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FPJ}{%
+         family={Farnham},
+         familyi={F\bibinitperiod},
+         given={Peggy\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CJM}{%
+         family={Cherry},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima Michael},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MRM}{%
+         family={Myers},
+         familyi={M\bibinitperiod},
+         given={Richard\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GBR}{%
+         family={Graveley},
+         familyi={G\bibinitperiod},
+         given={Brenton\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GMB}{%
+         family={Gerstein},
+         familyi={G\bibinitperiod},
+         given={Mark\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PLA}{%
+         family={Pennacchio},
+         familyi={P\bibinitperiod},
+         given={Len\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SMP}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BBE}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Bradley\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wold},
+         familyi={W\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HRC}{%
+         family={Hardison},
+         familyi={H\bibinitperiod},
+         given={Ross\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=GTR}{%
+         family={Gingeras},
+         familyi={G\bibinitperiod},
+         given={Thomas\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SJA}{%
+         family={Stamatoyannopoulos},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Weng},
+         familyi={W\bibinitperiod},
+         given={Zhiping},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Data integration,Epigenomics,Functional genomics}
+    \strng{namehash}{MJE+1}
+  \strng{fullhash}{MJEPMJPHEECBSNAJKTDCADAKRHJVNELFPGDUSYHYMMPBFWBAMAKCAZXOESIHJDDESVWXWXRMJCRJZJCSBZJVAWKPVAYGWBCBLEGDMDJRJMEMEJRKMKRJNWSKAGRFPJCJMMRMRBGBRGMBPLASMPBBEWBHRCGTRSJAWZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The human and mouse genomes contain instructions that specify RNAs and
+  proteins and govern the timing, magnitude, and cellular context of their
+  production. To better delineate these elements, phase III of the Encyclopedia
+  of DNA Elements (ENCODE) Project has expanded analysis of the cell and tissue
+  repertoires of RNA transcription, chromatin structure and modification, DNA
+  methylation, chromatin looping, and occupancy by transcription factors and
+  RNA-binding proteins. Here we summarize these efforts, which have produced
+  5,992 new experimental datasets, including systematic determinations across
+  mouse fetal development. All data are available through the ENCODE data
+  portal (https://www.encodeproject.org), including phase II ENCODE1 and
+  Roadmap Epigenomics2 data. We have developed a registry of 926,535 human and
+  339,815 mouse candidate cis-regulatory elements, covering 7.9 and 3.4\% of
+  their respective genomes, by integrating selected datatypes associated with
+  gene regulation, and constructed a web-based server (SCREEN;
+  http://screen.encodeproject.org) to provide flexible, user-defined access to
+  this resource. Collectively, the ENCODE data and registry provide an
+  expansive resource for the scientific community to build a better
+  understanding of the organization and function of the human and mouse
+  genomes.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41586-020-2493-4
+    \endverb
+    \field{issn}{1476-4687}
+    \field{issue}{7818}
+    \field{number}{7818}
+    \field{pages}{699\bibrangedash 710}
+    \field{title}{Expanded Encyclopaedias of {{DNA}} Elements in the Human and
+  Mouse Genomes}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41586-020-2493-4
+    \endverb
+    \field{volume}{583}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\YQX84K4X\\Moore et al. - 2020 - E
+    \verb xpanded encyclopaedias of DNA elements in the hum.pdf;C\:\\Users\\tor
+    \verb be\\Zotero\\storage\\4PZZNC76\\s41586-020-2493-4.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{07}
+    \field{year}{2020}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{buenrostroTranspositionNativeChromatin2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BJD}{%
+         family={Buenrostro},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GPG}{%
+         family={Giresi},
+         familyi={G\bibinitperiod},
+         given={Paul\bibnamedelima G.},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=ZLC}{%
+         family={Zaba},
+         familyi={Z\bibinitperiod},
+         given={Lisa\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CHY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Howard\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GWJ}{%
+         family={Greenleaf},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Biotechnology,Chromatin analysis,Epigenetics,Epigenomics}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDGPGZLCCHYGWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    ATAC-seq queries the location of open chromatin, the binding of
+  DNA-associated proteins and chromatin compaction at nucleotide resolution.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.2688
+    \endverb
+    \field{issn}{1548-7105}
+    \field{issue}{12}
+    \field{number}{12}
+    \field{pages}{1213\bibrangedash 1218}
+    \field{shortjournal}{Nat Methods}
+    \field{title}{Transposition of Native Chromatin for Fast and Sensitive
+  Epigenomic Profiling of Open Chromatin, {{DNA-binding}} Proteins and
+  Nucleosome Position}
+    \verb{url}
+    \verb https://www.nature.com/articles/nmeth.2688
+    \endverb
+    \field{volume}{10}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\3JYMJ3PW\\Buenrostro et al. - 201
+    \verb 3 - Transposition of native chromatin for fast and sen.pdf;C\:\\Users
+    \verb \\torbe\\Zotero\\storage\\TG6LU2F7\\nmeth.html
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{month}{12}
+    \field{year}{2013}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{buenrostroATACseqMethodAssaying2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BJD}{%
+         family={Buenrostro},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Beijing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CHY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Howard\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GWJ}{%
+         family={Greenleaf},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{ATAC-seq,chromatin accessibility,transposase}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDWBCHYGWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2015}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    This unit describes Assay for Transposase-Accessible Chromatin with
+  high-throughput sequencing (ATAC-seq), a method for mapping chromatin
+  accessibility genome-wide. This method probes DNA accessibility with
+  hyperactive Tn5 transposase, which inserts sequencing adapters into
+  accessible regions of chromatin. Sequencing reads can then be used to infer
+  regions of increased accessibility, as well as to map regions of
+  transcription-factor binding and nucleosome position. The method is a fast
+  and sensitive alternative to DNase-seq for assaying chromatin accessibility
+  genome-wide, or to MNase-seq for assaying nucleosome positions in accessible
+  regions of the genome. © 2015 by John Wiley \& Sons, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/0471142727.mb2129s109
+    \endverb
+    \field{issn}{1934-3647}
+    \field{number}{1}
+    \field{pages}{21.29.1\bibrangedash 21.29.9}
+    \field{shorttitle}{{{ATAC-seq}}}
+    \field{title}{{{ATAC-seq}}: {{A Method}} for {{Assaying Chromatin
+  Accessibility Genome-Wide}}}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/0471142727.mb2129s109
+    \endverb
+    \field{volume}{109}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\RKVYJG8G\\Buenrostro et al. - 201
+    \verb 5 - ATAC-seq A Method for Assaying Chromatin Accessib.pdf;C\:\\Users\
+    \verb \torbe\\Zotero\\storage\\8WLZLE3U\\0471142727.html
+    \endverb
+    \field{journaltitle}{Current Protocols in Molecular Biology}
+    \field{annotation}{%
+    \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1002/0471142727.mb2129s109%
+    }
+    \field{year}{2015}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{buenrostroSinglecellChromatinAccessibility2015}{article}{}
+    \name{author}{8}{}{%
+      {{hash=BJD}{%
+         family={Buenrostro},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Beijing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LUM}{%
+         family={Litzenburger},
+         familyi={L\bibinitperiod},
+         given={Ulrike\bibnamedelima M.},
+         giveni={U\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Ruff},
+         familyi={R\bibinitperiod},
+         given={Dave},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GML}{%
+         family={Gonzales},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SMP}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CHY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Howard\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GWJ}{%
+         family={Greenleaf},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cellular noise,Chromatin,Epigenomics,Genomic analysis}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDWBLUMRDGMLSMPCHYGWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    A single-cell method for probing genome-wide chromatin accessibility has
+  been developed; the results provide insight into the relationship between
+  cell-to-cell variation associated with specific trans-factors and
+  cis-elements, as well insights into the relationship between chromatin
+  accessibility and three-dimensional genome organization.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature14590
+    \endverb
+    \field{issn}{1476-4687}
+    \field{issue}{7561}
+    \field{number}{7561}
+    \field{pages}{486\bibrangedash 490}
+    \field{title}{Single-Cell Chromatin Accessibility Reveals Principles of
+  Regulatory Variation}
+    \verb{url}
+    \verb https://www.nature.com/articles/nature14590
+    \endverb
+    \field{volume}{523}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TXNQWXSF\\Buenrostro et al. - 201
+    \verb 5 - Single-cell chromatin accessibility reveals princi.pdf;C\:\\Users
+    \verb \\torbe\\Zotero\\storage\\R9NFTEBY\\nature14590.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{07}
+    \field{year}{2015}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{fulcoActivitybycontactModelEnhancer2019a}{article}{}
+    \name{author}{19}{}{%
+      {{hash=FCP}{%
+         family={Fulco},
+         familyi={F\bibinitperiod},
+         given={Charles\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Nasser},
+         familyi={N\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JTR}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Thouis\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Munson},
+         familyi={M\bibinitperiod},
+         given={Glen},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BDT}{%
+         family={Bergman},
+         familyi={B\bibinitperiod},
+         given={Drew\bibnamedelima T.},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Subramanian},
+         familyi={S\bibinitperiod},
+         given={Vidya},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GSR}{%
+         family={Grossman},
+         familyi={G\bibinitperiod},
+         given={Sharon\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Anyoha},
+         familyi={A\bibinitperiod},
+         given={Rockwell},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DBR}{%
+         family={Doughty},
+         familyi={D\bibinitperiod},
+         given={Benjamin\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PTA}{%
+         family={Patwardhan},
+         familyi={P\bibinitperiod},
+         given={Tejal\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NTH}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Tung\bibnamedelima H.},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kane},
+         familyi={K\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PEM}{%
+         family={Perez},
+         familyi={P\bibinitperiod},
+         given={Elizabeth\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DNC}{%
+         family={Durand},
+         familyi={D\bibinitperiod},
+         given={Neva\bibnamedelima C.},
+         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LCA}{%
+         family={Lareau},
+         familyi={L\bibinitperiod},
+         given={Caleb\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SEK}{%
+         family={Stamenova},
+         familyi={S\bibinitperiod},
+         given={Elena\bibnamedelima K.},
+         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=AEL}{%
+         family={Aiden},
+         familyi={A\bibinitperiod},
+         given={Erez\bibnamedelima Lieberman},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LES}{%
+         family={Lander},
+         familyi={L\bibinitperiod},
+         given={Eric\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EJM}{%
+         family={Engreitz},
+         familyi={E\bibinitperiod},
+         given={Jesse\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Epigenetics,Epigenomics,Functional genomics,Gene expression,Gene
+  regulation}
+    \strng{namehash}{FCP+1}
+    \strng{fullhash}{FCPNJJTRMGBDTSVGSRARDBRPTANTHKMPEMDNCLCASEKAELLESEJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Enhancer elements in the human genome control how genes are expressed in
+  specific cell types and harbor thousands of genetic variants that influence
+  risk for common diseases1–4. Yet, we still do not know how enhancers
+  regulate specific genes, and we lack general rules to predict enhancer–gene
+  connections across cell types5,6. We developed an experimental approach,
+  CRISPRi-FlowFISH, to perturb enhancers in the genome, and we applied it to
+  test\,{$>$}3,500\,potential enhancer–gene connections for 30\,genes. We
+  found that a simple activity-by-contact model substantially outperformed
+  previous methods at predicting the complex connections in our CRISPR dataset.
+  This activity-by-contact model allows us to construct genome-wide maps of
+  enhancer–gene connections in a given cell type, on the basis of chromatin
+  state measurements. Together, CRISPRi-FlowFISH and the activity-by-contact
+  model provide a systematic approach to map and predict which enhancers
+  regulate which genes, and will help to interpret the functions of the
+  thousands of disease risk variants in the noncoding genome.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41588-019-0538-0
+    \endverb
+    \field{issn}{1546-1718}
+    \field{issue}{12}
+    \field{number}{12}
+    \field{pages}{1664\bibrangedash 1669}
+    \field{shortjournal}{Nat Genet}
+    \field{title}{Activity-by-Contact Model of Enhancer–Promoter Regulation
+  from Thousands of {{CRISPR}} Perturbations}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41588-019-0538-0
+    \endverb
+    \field{volume}{51}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\4K39YZKC\\Fulco et al. - 2019 - A
+    \verb ctivity-by-contact model of enhancer–promoter reg.pdf;C\:\\Users\\t
+    \verb orbe\\Zotero\\storage\\E824PLUB\\s41588-019-0538-0.html
+    \endverb
+    \field{journaltitle}{Nature Genetics}
+    \field{month}{12}
+    \field{year}{2019}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{nasserGenomewideEnhancerMaps2021a}{article}{}
+    \name{author}{32}{}{%
+      {{hash=NJ}{%
+         family={Nasser},
+         familyi={N\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BDT}{%
+         family={Bergman},
+         familyi={B\bibinitperiod},
+         given={Drew\bibnamedelima T.},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=FCP}{%
+         family={Fulco},
+         familyi={F\bibinitperiod},
+         given={Charles\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Guckelberger},
+         familyi={G\bibinitperiod},
+         given={Philine},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DBR}{%
+         family={Doughty},
+         familyi={D\bibinitperiod},
+         given={Benjamin\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PTA}{%
+         family={Patwardhan},
+         familyi={P\bibinitperiod},
+         given={Tejal\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JTR}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Thouis\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=NTH}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Tung\bibnamedelima H.},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=UJC}{%
+         family={Ulirsch},
+         familyi={U\bibinitperiod},
+         given={Jacob\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lekschas},
+         familyi={L\bibinitperiod},
+         given={Fritz},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Mualim},
+         familyi={M\bibinitperiod},
+         given={Kristy},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NHM}{%
+         family={Natri},
+         familyi={N\bibinitperiod},
+         given={Heini\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WEM}{%
+         family={Weeks},
+         familyi={W\bibinitperiod},
+         given={Elle\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Munson},
+         familyi={M\bibinitperiod},
+         given={Glen},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kane},
+         familyi={K\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KHY}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Helen\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Ang},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RJP}{%
+         family={Ray},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=ETM}{%
+         family={Eisenhaure},
+         familyi={E\bibinitperiod},
+         given={Thomas\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CRL}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Ryan\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Dey},
+         familyi={D\bibinitperiod},
+         given={Kushal},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pfister},
+         familyi={P\bibinitperiod},
+         given={Hanspeter},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PAL}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={Alkes\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ECB}{%
+         family={Epstein},
+         familyi={E\bibinitperiod},
+         given={Charles\bibnamedelima B.},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kundaje},
+         familyi={K\bibinitperiod},
+         given={Anshul},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=XRJ}{%
+         family={Xavier},
+         familyi={X\bibinitperiod},
+         given={Ramnik\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DMJ}{%
+         family={Daly},
+         familyi={D\bibinitperiod},
+         given={Mark\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Hailiang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FHK}{%
+         family={Finucane},
+         familyi={F\bibinitperiod},
+         given={Hilary\bibnamedelima K.},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Hacohen},
+         familyi={H\bibinitperiod},
+         given={Nir},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LES}{%
+         family={Lander},
+         familyi={L\bibinitperiod},
+         given={Eric\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EJM}{%
+         family={Engreitz},
+         familyi={E\bibinitperiod},
+         given={Jesse\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Gene expression,Gene regulation,Genome-wide association
+  studies,Immunogenetics,Inflammatory bowel disease}
+    \strng{namehash}{NJ+1}
+  \strng{fullhash}{NJBDTFCPGPDBRPTAJTRNTHUJCLFMKNHMWEMMGKMKHYCARJPETMCRLDKPHPALECBKAXRJDMJHHFHKHNLESEJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Genome-wide association studies (GWAS) have identified thousands of
+  noncoding loci that are associated with human diseases and complex traits,
+  each of which could reveal insights into the mechanisms of disease1. Many of
+  the underlying causal variants may affect enhancers2,3, but we lack accurate
+  maps of enhancers and their target genes to interpret such variants. We
+  recently developed the activity-by-contact (ABC) model to predict which
+  enhancers regulate which genes and validated the model using CRISPR
+  perturbations in several cell types4. Here we apply this ABC model to create
+  enhancer–gene~maps in 131 human cell types and tissues, and use these maps
+  to interpret the functions of GWAS variants. Across 72 diseases and complex
+  traits, ABC links 5,036 GWAS signals to 2,249 unique genes, including a class
+  of 577 genes that appear to influence multiple phenotypes through variants in
+  enhancers that act in different cell types. In inflammatory bowel disease
+  (IBD), causal variants are enriched in predicted enhancers by more than
+  20-fold in particular cell types such as dendritic cells, and ABC achieves
+  higher precision than other regulatory methods at connecting noncoding
+  variants to target genes. These variant-to-function maps reveal an enhancer
+  that contains an IBD risk variant and that regulates the expression of PPIF
+  to alter the membrane potential of mitochondria in macrophages. Our study
+  reveals principles of genome regulation, identifies genes that affect IBD and
+  provides a resource and generalizable strategy to connect risk variants of
+  common diseases to their molecular and cellular functions.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41586-021-03446-x
+    \endverb
+    \field{issn}{1476-4687}
+    \field{issue}{7858}
+    \field{number}{7858}
+    \field{pages}{238\bibrangedash 243}
+    \field{title}{Genome-Wide Enhancer Maps Link Risk Variants to Disease
+  Genes}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41586-021-03446-x
+    \endverb
+    \field{volume}{593}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\YHKVLZQU\\Nasser et al. - 2021 -
+    \verb Genome-wide enhancer maps link risk variants to di.pdf;C\:\\Users\\to
+    \verb rbe\\Zotero\\storage\\G89C36YN\\s41586-021-03446-x.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{05}
+    \field{year}{2021}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{lieberman-aidenComprehensiveMappingLongRange2009}{article}{useprefix}
+    \name{author}{19}{}{%
+      {{hash=LAE}{%
+         family={Lieberman-Aiden},
+         familyi={L\bibinithyphendelim A\bibinitperiod},
+         given={Erez},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=vBNL}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Berkum},
+         familyi={B\bibinitperiod},
+         given={Nynke\bibnamedelima L.},
+         giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Louise},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imakaev},
+         familyi={I\bibinitperiod},
+         given={Maxim},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Ragoczy},
+         familyi={R\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Telling},
+         familyi={T\bibinitperiod},
+         given={Agnes},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Amit},
+         familyi={A\bibinitperiod},
+         given={Ido},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LBR}{%
+         family={Lajoie},
+         familyi={L\bibinitperiod},
+         given={Bryan\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SPJ}{%
+         family={Sabo},
+         familyi={S\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DMO}{%
+         family={Dorschner},
+         familyi={D\bibinitperiod},
+         given={Michael\bibnamedelima O.},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sandstrom},
+         familyi={S\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Bradley},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Bender},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Groudine},
+         familyi={G\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gnirke},
+         familyi={G\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Stamatoyannopoulos},
+         familyi={S\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MLA}{%
+         family={Mirny},
+         familyi={M\bibinitperiod},
+         given={Leonid\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LES}{%
+         family={Lander},
+         familyi={L\bibinitperiod},
+         given={Eric\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dekker},
+         familyi={D\bibinitperiod},
+         given={Job},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Association for the Advancement of Science}}%
+    }
+    \strng{namehash}{LAE+1}
+    \strng{fullhash}{LAEvBNLWLIMRTTAAILBRSPJDMOSRBBBMAGMGASJMLALESDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1126/science.1181369
+    \endverb
+    \field{number}{5950}
+    \field{pages}{289\bibrangedash 293}
+    \field{title}{Comprehensive {{Mapping}} of {{Long-Range Interactions
+  Reveals Folding Principles}} of the {{Human Genome}}}
+    \verb{url}
+    \verb https://www.science.org/doi/10.1126/science.1181369
+    \endverb
+    \field{volume}{326}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\GYIE3BDF\\Lieberman-Aiden et al.
+    \verb - 2009 - Comprehensive Mapping of Long-Range Interactions R.pdf
+    \endverb
+    \field{journaltitle}{Science}
+    \field{day}{09}
+    \field{month}{10}
+    \field{year}{2009}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{witDecade3CTechnologies2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=dWE}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Wit},
+         familyi={W\bibinitperiod},
+         given={Elzo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=dLW}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Laat},
+         familyi={L\bibinitperiod},
+         given={Wouter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cold Spring Harbor Lab}}%
+    }
+    \keyw{chromosome conformation capture,functional genomics,genome
+  structure,nuclear organization}
+    \strng{namehash}{WEdLWd1}
+    \strng{fullhash}{WEdLWd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Over the past 10 years, the development of chromosome conformation capture
+  (3C) technology and the subsequent genomic variants thereof have enabled the
+  analysis of nuclear organization at an unprecedented resolution and
+  throughput. The technology relies on the original and, in hindsight,
+  remarkably simple idea that digestion and religation of fixed chromatin in
+  cells, followed by the quantification of ligation junctions, allows for the
+  determination of DNA contact frequencies and insight into chromosome
+  topology. Here we evaluate and compare the current 3C-based methods
+  (including 4C [chromosome conformation capture-on-chip], 5C [chromosome
+  conformation capture carbon copy], HiC, and ChIA-PET), summarize their
+  contribution to our current understanding of genome structure, and discuss
+  how shape influences genome function.%
+    }
+    \verb{doi}
+    \verb 10.1101/gad.179804.111
+    \endverb
+    \verb{eprint}
+    \verb 22215806
+    \endverb
+    \field{issn}{0890-9369, 1549-5477}
+    \field{number}{1}
+    \field{pages}{11\bibrangedash 24}
+    \field{shortjournal}{Genes Dev.}
+    \field{shorttitle}{A Decade of {{3C}} Technologies}
+    \field{title}{A Decade of {{3C}} Technologies: Insights into Nuclear
+  Organization}
+    \verb{url}
+    \verb http://genesdev.cshlp.org/content/26/1/11
+    \endverb
+    \field{volume}{26}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\2RXTZL7T\\Wit und Laat - 2012 - A
+    \verb  decade of 3C technologies insights into nuclear.pdf;C\:\\Users\\torb
+    \verb e\\Zotero\\storage\\LATD4ZSX\\11.html
+    \endverb
+    \field{journaltitle}{Genes \& Development}
+    \field{eprinttype}{pmid}
+    \field{day}{01}
+    \field{month}{01}
+    \field{year}{2012}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{dixonTopologicalDomainsMammalian2012}{article}{}
+    \name{author}{9}{}{%
+      {{hash=DJR}{%
+         family={Dixon},
+         familyi={D\bibinitperiod},
+         given={Jesse\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Selvaraj},
+         familyi={S\bibinitperiod},
+         given={Siddarth},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YF}{%
+         family={Yue},
+         familyi={Y\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Audrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Yin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Ming},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jun\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Chromatin analysis,Chromosomes,Genomics}
+    \strng{namehash}{DJR+1}
+    \strng{fullhash}{DJRSSYFKALYSYHMLJSRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The three-dimensional organization of the human and mouse genomes in
+  embryonic stem cells and terminally differentiated cell types is
+  investigated, revealing that large, megabase-sized chromatin interaction
+  domains are a pervasive and conserved structural feature of genome
+  organization.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature11082
+    \endverb
+    \field{issn}{1476-4687}
+    \field{issue}{7398}
+    \field{number}{7398}
+    \field{pages}{376\bibrangedash 380}
+    \field{title}{Topological Domains in Mammalian Genomes Identified by
+  Analysis of Chromatin Interactions}
+    \verb{url}
+    \verb https://www.nature.com/articles/nature11082
+    \endverb
+    \field{volume}{485}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\4MR956R4\\Dixon et al. - 2012 - T
+    \verb opological domains in mammalian genomes identifie.pdf;C\:\\Users\\tor
+    \verb be\\Zotero\\storage\\BGQJK3DZ\\nature11082.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{05}
+    \field{year}{2012}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{wang3DGenomeBrowser2018}{article}{}
+    \name{author}{13}{}{%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yanli},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Fan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Lijun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=XJ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kuang},
+         familyi={K\bibinitperiod},
+         given={Da},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Daofeng},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CMNK}{%
+         family={Choudhary},
+         familyi={C\bibinitperiod},
+         given={Mayank N.\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Ming},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hardison},
+         familyi={H\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=YF}{%
+         family={Yue},
+         familyi={Y\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Chromatin Interaction Data,Enhancer-promoter Interactions,Roadmap
+  Epigenomics Project,Topologically Associating Domains (TADs),WashU Epigenome
+  Browser}
+    \strng{namehash}{WY+2}
+    \strng{fullhash}{WYSFZBZLXJKDLDCMNKLYHMHRWTYF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2018}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Here, we introduce the 3D Genome Browser, http://3dgenome.org, which allows
+  users to conveniently explore both their own and over 300 publicly available
+  chromatin interaction data of different types. We design a new binary data
+  format for Hi-C data that reduces the file size by at least a magnitude and
+  allows users to visualize chromatin interactions over millions of base pairs
+  within seconds. Our browser provides multiple methods linking distal
+  cis-regulatory elements with their potential target genes. Users can
+  seamlessly integrate thousands of other omics data to gain a comprehensive
+  view of both regulatory landscape and 3D genome structure.%
+    }
+    \verb{doi}
+    \verb 10.1186/s13059-018-1519-9
+    \endverb
+    \field{issn}{1474-760X}
+    \field{number}{1}
+    \field{pages}{151}
+    \field{shortjournal}{Genome Biology}
+    \field{shorttitle}{The {{3D Genome Browser}}}
+    \field{title}{The {{3D Genome Browser}}: A Web-Based Browser for
+  Visualizing {{3D}} Genome Organization and Long-Range Chromatin Interactions}
+    \verb{url}
+    \verb https://doi.org/10.1186/s13059-018-1519-9
+    \endverb
+    \field{volume}{19}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\YNVPV74T\\Wang et al. - 2018 - Th
+    \verb e 3D Genome Browser a web-based browser for vis.pdf;C\:\\Users\\torbe
+    \verb \\Zotero\\storage\\ER58Y24K\\s13059-018-1519-9.html
+    \endverb
+    \field{journaltitle}{Genome Biology}
+    \field{day}{04}
+    \field{month}{10}
+    \field{year}{2018}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{pomboThreedimensionalGenomeArchitecture2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PA}{%
+         family={Pombo},
+         familyi={P\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Dillon},
+         familyi={D\bibinitperiod},
+         given={Niall},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Chromatin structure,Nuclear organization}
+    \strng{namehash}{PADN1}
+    \strng{fullhash}{PADN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Contacts between distant genomic regions in the same or in different
+  chromosomes are important in the regulation of gene expression, as
+  highlighted by the activation of genes by chromatin contacts between
+  promoters and enhancers that can lie hundreds of kb away.Chromatin contacts
+  are currently measured by two main approaches: chromosome conformation
+  capture (3C)-based techniques and nuclear imaging methods such as
+  fluorescence in situ hybridization (FISH). Both approaches have caveats, and
+  the field is ripe for further technical development.The formation of
+  chromatin contacts is promoted by chromatin-binding proteins that can bind
+  two or more genomic regions simultaneously. Such proteins include
+  transcription factors, RNA and DNA polymerases, Polycomb repressive complexes
+  and chromosomal scaffold proteins such as cohesin.Topologically associating
+  domains (TADs) are genomic regions enriched with contacts within them. TADs
+  have specific sizes and positions in the genome and are found in a wide range
+  of metazoans. The factors and mechanisms that promote TAD formation are a
+  matter of considerable debate.The three-dimensional organization of the
+  genome also depends on the formation of chromatin contacts with nuclear
+  domains and compartments such as the nuclear lamina and the nucleolus.
+  Specific sets of chromatin contacts are formed within each chromosome, and
+  between them and nuclear domains. The mechanisms that govern chromosome
+  localization, volume and shape remain poorly understood.Many cellular
+  processes such as division, differentiation and senescence, present
+  challenges to the maintenance of nuclear organization, gene expression
+  programs and cell identity. At the same time, they can also offer
+  opportunities for chromatin remodelling and the reinforcement of gene
+  expression patterns.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrm3965
+    \endverb
+    \field{issn}{1471-0080}
+    \field{issue}{4}
+    \field{number}{4}
+    \field{pages}{245\bibrangedash 257}
+    \field{shortjournal}{Nat Rev Mol Cell Biol}
+    \field{shorttitle}{Three-Dimensional Genome Architecture}
+    \field{title}{Three-Dimensional Genome Architecture: Players and
+  Mechanisms}
+    \verb{url}
+    \verb https://www.nature.com/articles/nrm3965
+    \endverb
+    \field{volume}{16}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\I589ZII7\\Pombo und Dillon - 2015
+    \verb  - Three-dimensional genome architecture players and.pdf;C\:\\Users\\
+    \verb torbe\\Zotero\\storage\\N84G4FH4\\nrm3965.html
+    \endverb
+    \field{journaltitle}{Nature Reviews Molecular Cell Biology}
+    \field{month}{04}
+    \field{year}{2015}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{burtenshawReactiveOxygenSpecies2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BD}{%
+         family={Burtenshaw},
+         familyi={B\bibinitperiod},
+         given={Denise},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kitching},
+         familyi={K\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=REM}{%
+         family={Redmond},
+         familyi={R\bibinitperiod},
+         given={Eileen\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MIL}{%
+         family={Megson},
+         familyi={M\bibinitperiod},
+         given={Ian\bibnamedelima L.},
+         giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CPA}{%
+         family={Cahill},
+         familyi={C\bibinitperiod},
+         given={Paul\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BD+1}
+    \strng{fullhash}{BDKMREMMILCPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Arteriosclerosis causes significant morbidity and mortality worldwide.
+  Central to this process is the development of subclinical non-atherosclerotic
+  intimal lesions before the appearance of pathologic intimal thickening and
+  advanced atherosclerotic plaques. Intimal thickening is associated with
+  several risk factors, including oxidative stress due to reactive oxygen
+  species (ROS), inflammatory cytokines and lipid. The main ROS producing
+  systems in-vivo are reduced nicotinamide dinucleotide phosphate (NADPH)
+  oxidase (NOX). ROS effects are context specific. Exogenous ROS induces
+  apoptosis and senescence, whereas intracellular ROS promotes stem cell
+  differentiation, proliferation, and migration. Lineage tracing studies using
+  murine models of subclinical atherosclerosis have revealed the contributory
+  role of medial smooth muscle cells (SMCs), resident vascular stem cells,
+  circulating bone-marrow progenitors and endothelial cells that undergo
+  endothelial-mesenchymal-transition (EndMT). This review will address the
+  putative physiological and patho-physiological roles of ROS in controlling
+  vascular cell fate and ROS contribution to vascular regeneration and disease
+  progression.%
+    }
+    \verb{doi}
+    \verb 10.3389/fcvm.2019.00089
+    \endverb
+    \verb{eprint}
+    \verb 31428618
+    \endverb
+    \field{issn}{2297-055X}
+    \field{pages}{89}
+    \field{shortjournal}{Front Cardiovasc Med}
+    \field{title}{Reactive {{Oxygen Species}} ({{ROS}}), {{Intimal
+  Thickening}}, and {{Subclinical Atherosclerotic Disease}}}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6688526/
+    \endverb
+    \field{volume}{6}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\KAPQAR8I\\Burtenshaw et al. - 201
+    \verb 9 - Reactive Oxygen Species (ROS), Intimal Thickening,.pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Cardiovascular Medicine}
+    \field{eprinttype}{pmid}
+    \field{day}{02}
+    \field{month}{08}
+    \field{year}{2019}
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{huggettStandardisationReportingNucleic2011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJ}{%
+         family={Huggett},
+         familyi={H\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BSA}{%
+         family={Bustin},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{DNA,FRET,Pathogen,Quantification,Real-time polymerase chain
+  reaction,RNA}
+    \strng{namehash}{HJBSA1}
+    \strng{fullhash}{HJBSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The real-time quantitative polymerase chain reaction (qPCR) is probably the
+  most common molecular technique in use today, having become the method of
+  choice for nucleic acid detection and quantification and underpinning
+  applications ranging from basic research through biotechnology and forensic
+  applications to clinical diagnostics. This key technology relies on
+  fluorescence to detect and quantify nucleic acid amplification products, and
+  its homogeneous assay format has transformed legacy polymerase chain reaction
+  (PCR) from a low-throughput qualitative gel-based technique to a frequently
+  automated, rapid, high-throughput quantitative technology. However, the
+  enormous range of protocols together with frequently inappropriate pre-assay
+  conditions, poor assay design and unsuitable data analysis methodologies are
+  impeding its status as a mature, ‘gold standard’ technology. This,
+  combined with inconsistent and insufficient reporting procedures, has
+  resulted in the widespread publication of data that can be misleading, in
+  particular when this technology is used to quantify cellular mRNA or miRNA
+  levels by RT-qPCR. This affects the integrity of the scientific literature,
+  with consequences for not only basic research, but with potentially major
+  implications for the potential development of molecular diagnostic and
+  prognostic monitoring tools. These issues have been addressed by a set of
+  guidelines that propose a minimum standard for the provision of information
+  for qPCR experiments (‘MIQE’). MIQE aims to systematise current variable
+  qPCR methods into a more consistent format that will encourage detailed
+  auditing of experimental detail, data analysis and reporting principles.
+  General implementation of these guidelines is an important requisite for the
+  maturing of qPCR into a robust, accurate and reliable nucleic acid
+  quantification technology.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00769-011-0769-y
+    \endverb
+    \field{issn}{1432-0517}
+    \field{number}{8}
+    \field{pages}{399}
+    \field{shortjournal}{Accred Qual Assur}
+    \field{title}{Standardisation and Reporting for Nucleic Acid
+  Quantification}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00769-011-0769-y
+    \endverb
+    \field{volume}{16}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\2N4G7LL8\\Huggett und Bustin - 20
+    \verb 11 - Standardisation and reporting for nucleic acid qua.pdf
+    \endverb
+    \field{journaltitle}{Accreditation and Quality Assurance}
+    \field{day}{19}
+    \field{month}{03}
+    \field{year}{2011}
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{tipneyIntroductionEffectiveUse2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TH}{%
+         family={Tipney},
+         familyi={T\bibinitperiod},
+         given={Hannah},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Hunter},
+         familyi={H\bibinitperiod},
+         given={Lawrence},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{enrichment,gene enrichment analysis,gene list,gene
+  ontology,GSEA,pathway analysis,software}
+    \strng{namehash}{THHL1}
+    \strng{fullhash}{THHL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In recent years, there has been an explosion in the range of software
+  available for annotation enrichment analysis. Three classes of enrichment
+  algorithms and their associated software implementations are introduced
+  here.%
+    }
+    \verb{doi}
+    \verb 10.1186/1479-7364-4-3-202
+    \endverb
+    \field{issn}{1479-7364}
+    \field{number}{3}
+    \field{pages}{202}
+    \field{shortjournal}{Human Genomics}
+    \field{title}{An Introduction to Effective Use of Enrichment Analysis
+  Software}
+    \verb{url}
+    \verb https://doi.org/10.1186/1479-7364-4-3-202
+    \endverb
+    \field{volume}{4}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\PIPA4IPU\\Tipney und Hunter - 201
+    \verb 0 - An introduction to effective use of enrichment ana.pdf;C\:\\Users
+    \verb \\torbe\\Zotero\\storage\\CELJAI75\\1479-7364-4-3-202.html
+    \endverb
+    \field{journaltitle}{Human Genomics}
+    \field{day}{01}
+    \field{month}{02}
+    \field{year}{2010}
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{leeRoleSTAT1IRF12007}{article}{}
+    \name{author}{12}{}{%
+      {{hash=LHJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Hyun\bibnamedelima Jung},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=OYK}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Yeo\bibnamedelima Kyoung},
+         giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rhee},
+         familyi={R\bibinitperiod},
+         given={Marie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJY}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Joong-Yeon},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=HJY}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Ji-Young},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=PYS}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Yoon\bibnamedelima Shin},
+         giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kwon},
+         familyi={K\bibinitperiod},
+         given={Yongil},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CKH}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Kyung-Hee},
+         giveni={K\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=JI}{%
+         family={Jo},
+         familyi={J\bibinitperiod},
+         given={Inho},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PSI}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Sang\bibnamedelima Ick},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KWH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Won-Ho},
+         giveni={W\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{hepatitis,iNOS,liver injury,ROS,STAT1}
+    \strng{namehash}{LHJ+1}
+    \strng{fullhash}{LHJOYKRMLJYHJYPYSKYCKHJIPSIGBKWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Previously, we demonstrated that signal transducer and activator of
+  transcription factor 1 (STAT1) plays an essential role in liver injury
+  induced by lipopolysaccharide (LPS)/d-galactosamine (d-GalN); however, the
+  underlying mechanism involved remains unclear. Here, we showed that
+  LPS/d-GalN administration induced secretion of tumor necrosis factor α
+  (TNF-α) and interferon γ (IFN-γ), which mediated apoptosis
+  synergistically. Moreover, LPS/d-GalN-induced apoptosis was associated with
+  increased inducible nitric oxide synthase (iNOS) and nitric oxide (NO)
+  production, as well as elevated reactive oxygen species (ROS) production,
+  which were all strongly inhibited by treatment with the antioxidant
+  N-acetyl-l-cysteine (NAC) and an iNOS/NO inhibitor, l-NMMA. Although STAT1
+  activation and expression did not change significantly in
+  TNF-α/IFN-γ-cotreated cells compared with cells treated with IFN-γ alone,
+  the absence of STAT1 or interferon regulatory factor 1 (IRF-1) in genetic
+  knockout mice strongly abrogated the observed effects of TNF-α/IFN-γ on
+  iNOS/NO induction, ROS production, loss of mitochondrial transmembrane
+  potential (ΔΨm), and apoptosis compared with STAT1(+/+) and IRF-1(+/+)
+  mice. Additionally, the synergistic effects of TNF-α/IFN-γ on iNOS/NO
+  induction, ROS production, and apoptosis were significantly inhibited by
+  overexpression of dominant negative STAT1 in contrast to overexpression of
+  wild-type STAT1. In STAT1-deficient mice, nuclear factor κB (NF-κB)
+  activation by TNF-α/IFN-γ was attenuated and strongly inhibited by both NAC
+  and l-NMMA. Moreover, the proteasome inhibitor, MG132, inhibited NF-κB
+  activation and strongly inhibited iNOS/NO induction, ROS production, and loss
+  of ΔΨm induced by TNF-α/IFN-γ, thereby inhibiting apoptosis.
+  Interestingly, it appears peroxynitrite, which is produced by TNF-α/IFN-γ,
+  may interfere with STAT1 phosphorylation by inducing STAT1 nitration.
+  Collectively, these findings demonstrate that TNF-α/IFN-γ synergistically
+  potentiates iNOS/NO induction, ROS production, and loss of ΔΨm via STAT1
+  overexpression, playing an important role in promoting apoptosis and liver
+  injury induced by LPS/d-GalN.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jmb.2007.03.072
+    \endverb
+    \field{issn}{0022-2836}
+    \field{number}{4}
+    \field{pages}{967\bibrangedash 984}
+    \field{shortjournal}{Journal of Molecular Biology}
+    \field{title}{The {{Role}} of {{STAT1}}/{{IRF-1}} on {{Synergistic ROS
+  Production}} and {{Loss}} of {{Mitochondrial Transmembrane Potential}} during
+  {{Hepatic Cell Death Induced}} by {{LPS}}/d-{{GalN}}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S002228360700438X
+    \endverb
+    \field{volume}{369}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\L8XHFJXG\\Lee et al. - 2007 - The
+    \verb  Role of STAT1IRF-1 on Synergistic ROS Product.pdf;C\:\\Users\\torbe\
+    \verb \Zotero\\storage\\NS5XN8LG\\S002228360700438X.html
+    \endverb
+    \field{journaltitle}{Journal of Molecular Biology}
+    \field{day}{15}
+    \field{month}{06}
+    \field{year}{2007}
+    \field{urlday}{29}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{wangSTATROSCycleExtends2018}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Xiaoyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Hongtao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Di},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Shuang},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Geng},
+         familyi={G\bibinitperiod},
+         given={Jingshu},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Apoptosis,Breast Neoplasms,Female,HeLa Cells,Humans,Interferons,MCF-7
+  Cells,Reactive Oxygen Species,STAT Transcription Factors,Uterine Cervical
+  Neoplasms}
+    \strng{namehash}{WY+1}
+    \strng{fullhash}{WYYXSHFDJYWSGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In mammals, the signal transducer and activator of transcription (STAT)
+  protein processes mitochondria importation targets and mitochondria
+  respiratory complexes, and triggers reactive oxygen species (ROS) generation,
+  which conversely rapidly initiates the activation of STAT. Interferon (IFN)
+  administration increases cancer cell apoptosis via STAT activation and ROS
+  accumulation. However, the existence of a STAT-ROS cycle and how it affects
+  IFN‑induced cancer cellular apoptosis are unclear. In the present study, we
+  used MCF7 breast cancer cells and confirmed that a combination of
+  IFN‑α/β/γ incubation induced STAT1/3 phosphorylation and mitochondria
+  importation, which increased mitochondria respiratory complexes, the cellular
+  oxygen consumption rate (OCR), and ROS production, followed by cellular
+  apoptosis. We also found that STAT1/3 overexpression induced mitochondria
+  respiratory complexes and ROS production. Additionally, ROS induced by H2O2
+  induced phosphorylation of STAT1/3 and promoted mitochondria importation.
+  STAT1/3 deletion suppressed H2O2-induced acute cellular OCR, increasing the
+  ROS level and indicating that STAT1/3 is necessary for ROS-induced
+  mitochondria OCR and further ROS production, suggesting the existence of a
+  STAT-ROS cycle. We next found that IFN induced mitochondria respiratory
+  complexes followed by induction of OCR, ROS, and apoptosis, which were
+  partially blocked by STAT1/3 deletion. Additionally, the suppression of ROS
+  inhibited IFN‑induced STAT1/3 activation. Finally, we discovered that this
+  cycle exists also in A431 and HeLa cancer cells. These results indicate that
+  a STAT-ROS cycle extends IFN‑induced cellular apoptosis.%
+    }
+    \verb{doi}
+    \verb 10.3892/ijo.2017.4196
+    \endverb
+    \verb{eprint}
+    \verb 29115415
+    \endverb
+    \field{issn}{1791-2423}
+    \field{number}{1}
+    \field{pages}{305\bibrangedash 313}
+    \field{shortjournal}{Int J Oncol}
+    \field{title}{The {{STAT-ROS}} Cycle Extends {{IFN}}‑induced Cancer Cell
+  Apoptosis}
+    \field{volume}{52}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\4695VMWZ\\Wang et al. - 2018 - Th
+    \verb e STAT-ROS cycle extends IFN‑induced cancer cell.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Oncology}
+    \field{eprinttype}{pmid}
+    \field{month}{01}
+    \field{year}{2018}
+  \endentry
+
+  \entry{harmanRoleSmoothMuscle2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJL}{%
+         family={Harman},
+         familyi={H\bibinitperiod},
+         given={Jennifer\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=JHF}{%
+         family={Jørgensen},
+         familyi={J\bibinitperiod},
+         given={Helle\bibnamedelima F.},
+         giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJLJHF1}
+    \strng{fullhash}{HJLJHF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Events responsible for cardiovascular mortality and morbidity are
+  predominantly caused by rupture of “vulnerable” atherosclerotic lesions.
+  Vascular smooth muscle cells (VSMCs) play a key role in atherogenesis and
+  have historically been considered beneficial for plaque stability. VSMCs
+  constitute the main cellular component of the protective fibrous cap within
+  lesions and are responsible for synthesising strength‐giving extracellular
+  matrix components. However, lineage‐tracing experiments in mouse models of
+  atherosclerosis have shown that, in addition to the fibrous cap, VSMCs also
+  give rise to many of the cell types found within the plaque core. In
+  particular, VSMCs generate a substantial fraction of lipid‐laden foam
+  cells, and VSMC‐derived cells expressing markers of macrophages,
+  osteochondrocyte, and mesenchymal stem cells have been observed within
+  lesions. Here, we review recent studies that have changed our perspective on
+  VSMC function in atherosclerosis and discuss how VSMCs could be targeted to
+  increase plaque stability.%
+    }
+    \verb{doi}
+    \verb 10.1111/bph.14779
+    \endverb
+    \verb{eprint}
+    \verb 31254285
+    \endverb
+    \field{issn}{0007-1188}
+    \field{number}{19}
+    \field{pages}{3741\bibrangedash 3753}
+    \field{shortjournal}{Br J Pharmacol}
+    \field{shorttitle}{The Role of Smooth Muscle Cells in Plaque Stability}
+    \field{title}{The Role of Smooth Muscle Cells in Plaque Stability:
+  {{Therapeutic}} Targeting Potential}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6780045/
+    \endverb
+    \field{volume}{176}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\ESQD7T9X\\Harman und Jørgensen -
+    \verb  2019 - The role of smooth muscle cells in plaque stabilit.pdf
+    \endverb
+    \field{journaltitle}{British Journal of Pharmacology}
+    \field{eprinttype}{pmid}
+    \field{month}{10}
+    \field{year}{2019}
+    \field{urlday}{13}
+    \field{urlmonth}{10}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{alexanderEpigeneticControlSmooth2012a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AMR}{%
+         family={Alexander},
+         familyi={A\bibinitperiod},
+         given={Matthew\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{arteriogenesis,atherosclerosis,mesenchymal stem cells,pluripotency
+  genes,vascular injury and repair}
+    \strng{namehash}{AMROGK1}
+    \strng{fullhash}{AMROGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The vascular smooth muscle cell (SMC) in adult animals is a highly
+  specialized cell whose principal function is contraction. However, this cell
+  displays remarkable plasticity and can undergo profound changes in phenotype
+  during repair of vascular injury, during remodeling in response to altered
+  blood flow, or in various disease states. There has been extensive progress
+  in recent years in our understanding of the complex mechanisms that control
+  SMC differentiation and phenotypic plasticity, including the demonstration
+  that epigenetic mechanisms play a critical role. In addition, recent evidence
+  indicates that SMC phenotypic switching in adult animals involves the
+  reactivation of embryonic stem cell pluripotency genes and that mesenchymal
+  stem cells may be derived from SMC and/or pericytes. This review summarizes
+  the current state of our knowledge in this field and identifies some of the
+  key unresolved challenges and questions that we feel require further study.%
+    }
+    \verb{doi}
+    \verb 10.1146/annurev-physiol-012110-142315
+    \endverb
+    \verb{eprint}
+    \verb 22017177
+    \endverb
+    \field{number}{1}
+    \field{pages}{13\bibrangedash 40}
+    \field{title}{Epigenetic {{Control}} of {{Smooth Muscle Cell
+  Differentiation}} and {{Phenotypic Switching}} in {{Vascular Development}}
+  and {{Disease}}}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev-physiol-012110-142315
+    \endverb
+    \field{volume}{74}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\CGZZHPN2\\Alexander und Owens - 2
+    \verb 012 - Epigenetic Control of Smooth Muscle Cell Different.pdf
+    \endverb
+    \field{journaltitle}{Annual Review of Physiology}
+    \field{annotation}{%
+    \_eprint: https://doi.org/10.1146/annurev-physiol-012110-142315%
+    }
+    \field{eprinttype}{pmid}
+    \field{year}{2012}
+    \field{urlday}{29}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+\enddatalist
+\endinput
