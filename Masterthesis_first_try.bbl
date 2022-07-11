@@ -105,7 +105,7 @@
     \strng{fullhash}{N1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{24 Oct 2017, 4:45 p.m.}
+    \field{labelyear}{2017}
     \field{labeldatesource}{}
     \field{abstract}{%
     Find out about heart attacks, a serious medical emergency in which the
@@ -119,18 +119,16 @@
     \verb{file}
     \verb C\:\\Users\\torbe\\Zotero\\storage\\S72D8L36\\heart-attack.html
     \endverb
-    \field{year}{24 Oct 2017, 4:45 p.m.}
+    \field{day}{24}
+    \field{month}{10}
+    \field{year}{2017}
     \field{urlday}{07}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
   \endentry
 
-  \entry{taskforcemembers2013ESCGuidelines2013}{article}{useprefix}
-    \name{author}{84}{}{%
-      {{hash=T}{%
-         family={{Task Force Members}},
-         familyi={T\bibinitperiod},
-      }}%
+  \entry{montalescot2013ESCGuidelines2013}{article}{useprefix}
+    \name{author}{83}{}{%
       {{hash=MG}{%
          family={Montalescot},
          familyi={M\bibinitperiod},
@@ -628,8 +626,8 @@
          giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T+1}
-  \strng{fullhash}{TMGSUASAFACBABRCFCTDMCFJRGBJGAKHJSMNOLHPMPERFSMSRTDPvdWEEVCJEZJLASBHBJJBHDVDCECFRFRHDHAWKPKJKPLPLANPPMFPPSPATJLTMTAWWWSDKJVMBHCMJDBNECFHFBCGOGJJRHMHDHSJSKKKKPKSDLPMAPPMFPARRFRLSMLSPASPGTAWWWSYAZJL1}
+    \strng{namehash}{MG+1}
+  \strng{fullhash}{MGSUASAFACBABRCFCTDMCFJRGBJGAKHJSMNOLHPMPERFSMSRTDPvdWEEVCJEZJLASBHBJJBHDVDCECFRFRHDHAWKPKJKPLPLANPPMFPPSPATJLTMTAWWWSDKJVMBHCMJDBNECFHFBCGOGJJRHMHDHSJSKKKKPKSDLPMAPPMFPARRFRLSMLSPASPGTAWWWSYAZJL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
     \field{labelyear}{2013}
@@ -688,7 +686,7 @@
     \list{publisher}{1}{%
       {{StatPearls Publishing}}%
     }
-    \strng{namehash}{TWDAYMK1}
+    \strng{namehash}{TWD+1}
     \strng{fullhash}{TWDAYMK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -1492,7 +1490,7 @@
          giveni={X\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CPHCXHX1}
+    \strng{namehash}{CPH+1}
     \strng{fullhash}{CPHCXHX1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
@@ -1683,7 +1681,7 @@
          giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AJGRBC1}
+    \strng{namehash}{AJ+1}
     \strng{fullhash}{AJGRBC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -2179,6 +2177,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
+    \field{extradate}{1}
     \field{labeldatesource}{}
     \field{abstract}{%
     Stable atherosclerotic plaques are characterized by a thick, extracellular
@@ -2323,6 +2322,88 @@
     \field{urlday}{28}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
+  \endentry
+
+  \entry{nayerniaNewInsightsNOX2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NZ}{%
+         family={Nayernia},
+         familyi={N\bibinitperiod},
+         given={Zeynab},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=JV}{%
+         family={Jaquet},
+         familyi={J\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KKH}{%
+         family={Krause},
+         familyi={K\bibinitperiod},
+         given={Karl-Heinz},
+         giveni={K\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Central Nervous System,Enzyme Inhibitors,Humans,Mice,NADPH
+  Oxidases,Neurodegenerative Diseases,Oxidative Stress,Reactive Oxygen
+  Species,Signal Transduction}
+    \strng{namehash}{NZ+1}
+    \strng{fullhash}{NZJVKKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    SIGNIFICANCE: There is increasing evidence that the generation of reactive
+  oxygen species (ROS) in the central nervous system (CNS) involves the NOX
+  family of nicotinamide adenine dinucleotide phosphate oxidases. Controlled
+  ROS generation appears necessary for optimal functioning of the CNS through
+  fine-tuning of redox-sensitive signaling pathways, while overshooting ROS
+  generation will lead to oxidative stress and CNS disease. RECENT ADVANCES:
+  NOX enzymes are not only restricted to microglia (i.e. brain phagocytes) but
+  also expressed in neurons, astrocytes, and the neurovascular system. NOX
+  enzymes are involved in CNS development, neural stem cell biology, and the
+  function of mature neurons. While NOX2 appears to be a major source of
+  pathological oxidative stress in the CNS, other NOX isoforms might also be of
+  importance, for example, NOX4 in stroke. Globally speaking, there is now
+  convincing evidence for a role of NOX enzymes in various neurodegenerative
+  diseases, cerebrovascular diseases, and psychosis-related disorders. CRITICAL
+  ISSUES: The relative importance of specific ROS sources (e.g., NOX enzymes
+  vs. mitochondria; NOX2 vs. NOX4) in different pathological processes needs
+  further investigation. The absence of specific inhibitors limits the
+  possibility to investigate specific therapeutic strategies. The uncritical
+  use of non-specific inhibitors (e.g., apocynin, diphenylene iodonium) and
+  poorly validated antibodies may lead to misleading conclusions. FUTURE
+  DIRECTIONS: Physiological and pathophysiological studies with
+  cell-type-specific knock-out mice will be necessary to delineate the precise
+  functions of NOX enzymes and their implications in pathomechanisms. The
+  development of CNS-permeant, specific NOX inhibitors will be necessary to
+  advance toward therapeutic applications.%
+    }
+    \verb{doi}
+    \verb 10.1089/ars.2013.5703
+    \endverb
+    \verb{eprint}
+    \verb 24206089
+    \endverb
+    \field{issn}{1557-7716}
+    \field{number}{17}
+    \field{pages}{2815\bibrangedash 2837}
+    \field{shortjournal}{Antioxid Redox Signal}
+    \field{title}{New Insights on {{NOX}} Enzymes in the Central Nervous
+  System}
+    \field{volume}{20}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\3KHE72EK\\Nayernia et al. - 2014
+    \verb - New insights on NOX enzymes in the central nervous.pdf
+    \endverb
+    \field{journaltitle}{Antioxidants \& Redox Signaling}
+    \field{eprinttype}{pmid}
+    \field{day}{10}
+    \field{month}{06}
+    \field{year}{2014}
   \endentry
 
   \entry{sundaresanRequirementGenerationH2O21995}{article}{}
@@ -2673,7 +2754,7 @@
          giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SDJCWLNB1}
+    \strng{namehash}{SDJ+1}
     \strng{fullhash}{SDJCWLNB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -3079,23 +3160,6 @@
     \field{day}{24}
     \field{month}{03}
     \field{year}{2015}
-  \endentry
-
-  \entry{SCREENSearchCandidate}{online}{}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{title}{{{SCREEN}}: {{Search Candidate Regulatory Elements}} by
-  {{ENCODE}}}
-    \verb{url}
-    \verb https://screen.encodeproject.org/
-    \endverb
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\KS2Y2BD6\\screen.encodeproject.or
-    \verb g.html
-    \endverb
-    \field{urlday}{07}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
   \endentry
 
   \entry{mooreExpandedEncyclopaediasDNA2020}{article}{}
@@ -4846,6 +4910,631 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{aragamDiscoverySystematicCharacterization2021}{article}{}
+    \name{author}{94}{}{%
+      {{hash=AKG}{%
+         family={Aragam},
+         familyi={A\bibinitperiod},
+         given={Krishna\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Goel},
+         familyi={G\bibinitperiod},
+         given={Anuj},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kanoni},
+         familyi={K\bibinitperiod},
+         given={Stavroula},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WBN}{%
+         family={Wolford},
+         familyi={W\bibinitperiod},
+         given={Brooke\bibnamedelima N.},
+         giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=WEM}{%
+         family={Weeks},
+         familyi={W\bibinitperiod},
+         given={Elle\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Minxian},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hindy},
+         familyi={H\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Grace},
+         familyi={G\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roselli},
+         familyi={R\bibinitperiod},
+         given={Carolina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MNA}{%
+         family={Marston},
+         familyi={M\bibinitperiod},
+         given={Nicholas\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KFK}{%
+         family={Kamanu},
+         familyi={K\bibinitperiod},
+         given={Frederick\bibnamedelima K.},
+         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Surakka},
+         familyi={S\bibinitperiod},
+         given={Ida},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=VLM}{%
+         family={Venegas},
+         familyi={V\bibinitperiod},
+         given={Loreto\bibnamedelima Muñoz},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sherliker},
+         familyi={S\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Koyama},
+         familyi={K\bibinitperiod},
+         given={Satoshi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=IK}{%
+         family={Ishigaki},
+         familyi={I\bibinitperiod},
+         given={Kazuyoshi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=�BO}{%
+         family={Åsvold},
+         familyi={�\bibinitperiod},
+         given={Bjørn\bibnamedelima O.},
+         giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=BMR}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Brumpton},
+         familyi={B\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=dVPS}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Vries},
+         familyi={V\bibinitperiod},
+         given={Paul\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Giannakopoulou},
+         familyi={G\bibinitperiod},
+         given={Olga},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Giardoglou},
+         familyi={G\bibinitperiod},
+         given={Panagiota},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GDF}{%
+         family={Gudbjartsson},
+         familyi={G\bibinitperiod},
+         given={Daniel\bibnamedelima F.},
+         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GU}{%
+         family={Güldener},
+         familyi={G\bibinitperiod},
+         given={Ulrich},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=HSMI}{%
+         family={Haider},
+         familyi={H\bibinitperiod},
+         given={Syed M.\bibnamedelima Ijlal},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Helgadottir},
+         familyi={H\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Ibrahim},
+         familyi={I\bibinitperiod},
+         given={Maysson},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kastrati},
+         familyi={K\bibinitperiod},
+         given={Adnan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kessler},
+         familyi={K\bibinitperiod},
+         given={Thorsten},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ling},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Lijiang},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Meitinger},
+         familyi={M\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mucha},
+         familyi={M\bibinitperiod},
+         given={Sören},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Munz},
+         familyi={M\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Murgia},
+         familyi={M\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=NJB}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Jonas\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=NMM}{%
+         family={Nöthen},
+         familyi={N\bibinitperiod},
+         given={Markus\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pang},
+         familyi={P\bibinitperiod},
+         given={Shichao},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Reinberger},
+         familyi={R\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Thorleifsson},
+         familyi={T\bibinitperiod},
+         given={Gudmar},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=vSM}{%
+         prefix={von},
+         prefixi={v\bibinitperiod},
+         family={Scheidt},
+         familyi={S\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=UJK}{%
+         family={Ulirsch},
+         familyi={U\bibinitperiod},
+         given={Jacob\bibnamedelima K.},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=CEC}{%
+         family={Consortium},
+         familyi={C\bibinitperiod},
+         given={Epic-Cvd},
+         giveni={E\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=JB}{%
+         family={Japan},
+         familyi={J\bibinitperiod},
+         given={Biobank},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ADO}{%
+         family={Arnar},
+         familyi={A\bibinitperiod},
+         given={David\bibnamedelima O.},
+         giveni={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=ADS}{%
+         family={Atri},
+         familyi={A\bibinitperiod},
+         given={Deepak\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BNP}{%
+         family={Burtt},
+         familyi={B\bibinitperiod},
+         given={Noël\bibnamedelima P.},
+         giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CMC}{%
+         family={Costanzo},
+         familyi={C\bibinitperiod},
+         given={Maria\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Flannick},
+         familyi={F\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GRM}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Rajat\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=IK}{%
+         family={Ito},
+         familyi={I\bibinitperiod},
+         given={Kaoru},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=JDK}{%
+         family={Jang},
+         familyi={J\bibinitperiod},
+         given={Dong-Keun},
+         giveni={D\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kamatani},
+         familyi={K\bibinitperiod},
+         given={Yoichiro},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KAV}{%
+         family={Khera},
+         familyi={K\bibinitperiod},
+         given={Amit\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={Komuro},
+         familyi={K\bibinitperiod},
+         given={Issei},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KIJ}{%
+         family={Kullo},
+         familyi={K\bibinitperiod},
+         given={Iftikhar\bibnamedelima J.},
+         giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LLA}{%
+         family={Lotta},
+         familyi={L\bibinitperiod},
+         given={Luca\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NCP}{%
+         family={Nelson},
+         familyi={N\bibinitperiod},
+         given={Christopher\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Thorgeirsson},
+         familyi={T\bibinitperiod},
+         given={Gudmundur},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TU}{%
+         family={Thorsteinsdottir},
+         familyi={T\bibinitperiod},
+         given={Unnur},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=WTR}{%
+         family={Webb},
+         familyi={W\bibinitperiod},
+         given={Thomas\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Baras},
+         familyi={B\bibinitperiod},
+         given={Aris},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJL}{%
+         family={Björkegren},
+         familyi={B\bibinitperiod},
+         given={Johan\bibnamedelima LM},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Boerwinkle},
+         familyi={B\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Dedoussis},
+         familyi={D\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Holm},
+         familyi={H\bibinitperiod},
+         given={Hilma},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hveem},
+         familyi={H\bibinitperiod},
+         given={Kristian},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MO}{%
+         family={Melander},
+         familyi={M\bibinitperiod},
+         given={Olle},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MAC}{%
+         family={Morrison},
+         familyi={M\bibinitperiod},
+         given={Alanna\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=OMM}{%
+         family={Orho-Melander},
+         familyi={O\bibinithyphendelim M\bibinitperiod},
+         given={Marju},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RLS}{%
+         family={Rallidis},
+         familyi={R\bibinitperiod},
+         given={Loukianos\bibnamedelima S.},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ruusalepp},
+         familyi={R\bibinitperiod},
+         given={Arno},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SMS}{%
+         family={Sabatine},
+         familyi={S\bibinitperiod},
+         given={Marc\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Stefansson},
+         familyi={S\bibinitperiod},
+         given={Kari},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zalloua},
+         familyi={Z\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EPT}{%
+         family={Ellinor},
+         familyi={E\bibinitperiod},
+         given={Patrick\bibnamedelima T.},
+         giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Farrall},
+         familyi={F\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Danesh},
+         familyi={D\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RCT}{%
+         family={Ruff},
+         familyi={R\bibinitperiod},
+         given={Christian\bibnamedelima T.},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=FHK}{%
+         family={Finucane},
+         familyi={F\bibinitperiod},
+         given={Hilary\bibnamedelima K.},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HJC}{%
+         family={Hopewell},
+         familyi={H\bibinitperiod},
+         given={Jemma\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Clarke},
+         familyi={C\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Erdmann},
+         familyi={E\bibinitperiod},
+         given={Jeanette},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SNJ}{%
+         family={Samani},
+         familyi={S\bibinitperiod},
+         given={Nilesh\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Schunkert},
+         familyi={S\bibinitperiod},
+         given={Heribert},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Watkins},
+         familyi={W\bibinitperiod},
+         given={Hugh},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WCJ}{%
+         family={Willer},
+         familyi={W\bibinitperiod},
+         given={Cristen\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Deloukas},
+         familyi={D\bibinitperiod},
+         given={Panos},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kathiresan},
+         familyi={K\bibinitperiod},
+         given={Sekar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BAS}{%
+         family={Butterworth},
+         familyi={B\bibinitperiod},
+         given={Adam\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CobotC}{%
+         family={Consortium},
+         familyi={C\bibinitperiod},
+         given={on\bibnamedelima behalf of the\bibnamedelima
+  CARDIoGRAMplusC4D},
+         giveni={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim
+  o\bibinitperiod\bibinitdelim t\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{medRxiv}}%
+    }
+    \strng{namehash}{AKG+1}
+  \strng{fullhash}{AKGJTGAKSWBNWEMWMHGZWGCRCMNAKFKSIVLMSPKSIK�BOBMRBBVPSdGOGPGDFGUHSMIHAIMKAKTLLMLMTMSMMMFNJBNMMPSRTTGSMvUJKCECJBADOADSBNPCMCFJGRMIKJDKKYKAVKIKIJLLANCPRRTGTUWTRBABJLBEDGHHHKMOMACOMMRLSRASMSSKZPEPTFMDJRCTFHKHJCCREJSNJSHWHWCJDPKSBASCobotC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Rapid progress of the discovery of genetic loci associated with common,
+  complex diseases has outpaced the elucidation of mechanisms pertinent to
+  disease pathogenesis. To address relevant barriers for coronary artery
+  disease (CAD), we combined genetic discovery analyses with downstream
+  characterization of likely causal variants, genes, and biological pathways.
+  Specifically, we conducted a genome-wide association study (GWAS) comprising
+  181,522 cases of CAD among 1,165,690 participants. We detected 241
+  associations, including 54 associations and 30 loci not previously linked to
+  CAD. Next, we prioritized likely causal variants using functionally-informed
+  fine-mapping, yielding 42 associations with fewer than five variants in the
+  95\% credible set. Combining eight complementary predictors, we prioritized
+  185 candidate causal genes, including 94 genes supported by three or more
+  predictors. Similarity-based clustering underscored a role for early
+  developmental processes, cell cycle signaling, and vascular proliferation in
+  the pathogenesis of CAD. Our analysis identifies and systematically
+  characterizes risk loci for CAD to inform experimental interrogation of
+  putative causal mechanisms for CAD.%
+    }
+    \verb{doi}
+    \verb 10.1101/2021.05.24.21257377
+    \endverb
+    \field{pages}{2021.05.24.21257377}
+    \field{title}{Discovery and Systematic Characterization of Risk Variants
+  and Genes for Coronary Artery Disease in over a Million Participants}
+    \verb{url}
+    \verb https://www.medrxiv.org/content/10.1101/2021.05.24.21257377v1
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\HW5PYJTJ\\Aragam et al. - 2021 -
+    \verb Discovery and systematic characterization of risk .pdf;C\:\\Users\\to
+    \verb rbe\\Zotero\\storage\\DFUSPBU8\\2021.05.24.html
+    \endverb
+    \field{day}{02}
+    \field{month}{06}
+    \field{year}{2021}
+    \field{urlday}{31}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{huggettStandardisationReportingNucleic2011}{article}{}
     \name{author}{2}{}{%
       {{hash=HJ}{%
@@ -4921,6 +5610,236 @@
     \field{year}{2011}
     \field{urlday}{05}
     \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{agilenttechnologiesHowAgilentSeahorse}{online}{}
+    \name{author}{1}{}{%
+      {{hash=TA}{%
+         family={Technologies},
+         familyi={T\bibinitperiod},
+         given={Agilent},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TA1}
+    \strng{fullhash}{TA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{title}{How {{Agilent Seahorse XF Analyzers Work}} | {{Agilent}}}
+    \verb{url}
+    \verb https://www.agilent.com/en/products/cell-analysis/how-seahorse-xf-ana
+    \verb lyzers-work
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\XRMRGTUL\\how-seahorse-xf-analyze
+    \verb rs-work.html
+    \endverb
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{thermofisherscientificinc.CellROXGreenReagent}{online}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{Thermo Fisher Scientific Inc.}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{abstract}{%
+    CellROX Green Reagent is a novel fluorogenic probe for measuring oxidative
+  stress in live cells. The cell-permeant dye is weakly fluorescent while in a
+  reduced state and exhibits bright green photostable fluorescence upon
+  oxidation by reactive%
+    }
+    \field{title}{{{CellROX Green Reagent}}, for Oxidative Stress Detection}
+    \verb{url}
+    \verb https://www.thermofisher.com/order/catalog/product/C10444
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\ZHMVQ3S3\\C10444.html
+    \endverb
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{newmanMultipleCellTypes2021a}{article}{}
+    \name{author}{17}{}{%
+      {{hash=NAAC}{%
+         family={Newman},
+         familyi={N\bibinitperiod},
+         given={Alexandra A.\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Serbulea},
+         familyi={S\bibinitperiod},
+         given={Vlad},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BRA}{%
+         family={Baylis},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SLS}{%
+         family={Shankman},
+         familyi={S\bibinitperiod},
+         given={Laura\bibnamedelima S.},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BX}{%
+         family={Bradley},
+         familyi={B\bibinitperiod},
+         given={Xenia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=AGF}{%
+         family={Alencar},
+         familyi={A\bibinitperiod},
+         given={Gabriel\bibnamedelima F.},
+         giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Owsiany},
+         familyi={O\bibinitperiod},
+         given={Katherine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DRA}{%
+         family={Deaton},
+         familyi={D\bibinitperiod},
+         given={Rebecca\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Karnewar},
+         familyi={K\bibinitperiod},
+         given={Santosh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shamsuzzaman},
+         familyi={S\bibinitperiod},
+         given={Sohel},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Salamon},
+         familyi={S\bibinitperiod},
+         given={Anita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RMS}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={Mahima\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Liang},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Finn},
+         familyi={F\bibinitperiod},
+         given={Aloke},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Virmani},
+         familyi={V\bibinitperiod},
+         given={Renu},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=COA}{%
+         family={Cherepanova},
+         familyi={C\bibinitperiod},
+         given={Olga\bibnamedelima A.},
+         giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Atherosclerosis,Obesity}
+    \strng{namehash}{NAAC+1}
+    \strng{fullhash}{NAACSVBRASLSBXAGFOKDRAKSSSSARMSGLFAVRCOAOGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Stable atherosclerotic plaques are characterized by a thick, extracellular
+  matrix-rich fibrous cap populated by protective ACTA2+ myofibroblast
+  (MF)-like cells, assumed to be almost exclusively derived from smooth muscle
+  cells (SMCs). Herein, we show that in murine and human lesions, 20\% to 40\%
+  of ACTA2+ fibrous cap cells, respectively, are derived from non-SMC sources,
+  including endothelial cells (ECs) or macrophages that have undergone an
+  endothelial-to-mesenchymal transition (EndoMT) or a macrophage-to-mesenchymal
+  transition (MMT). In addition, we show that SMC-specific knockout of the
+  Pdgfrb gene, which encodes platelet-derived growth factor receptor beta
+  (PDGFRβ), in Apoe−/− mice fed a Western diet for 18 weeks resulted in
+  brachiocephalic artery lesions nearly devoid of SMCs but with no changes in
+  lesion size, remodelling or indices of stability, including the percentage of
+  ACTA2+ fibrous cap cells. However, prolonged Western diet feeding of SMC
+  Pdgfrb-knockout mice resulted in reduced indices of stability, indicating
+  that EndoMT- and MMT-derived MFs cannot compensate indefinitely for loss of
+  SMC-derived MFs. Using single-cell and bulk RNA-sequencing analyses of the
+  brachiocephalic artery region and in vitro models, we provide evidence that
+  SMC-to-MF transitions are induced by PDGF and transforming growth factor-β
+  and dependent on aerobic glycolysis, while EndoMT is induced by
+  interleukin-1β and transforming growth factor-β. Together, we provide
+  evidence that the ACTA2+ fibrous cap originates from a tapestry of cell
+  types, which transition to an MF-like state through distinct signalling
+  pathways that are either dependent on or associated with extensive metabolic
+  reprogramming.%
+    }
+    \verb{doi}
+    \verb 10.1038/s42255-020-00338-8
+    \endverb
+    \field{issn}{2522-5812}
+    \field{issue}{2}
+    \field{number}{2}
+    \field{pages}{166\bibrangedash 181}
+    \field{shortjournal}{Nat Metab}
+    \field{title}{Multiple Cell Types Contribute to the Atherosclerotic Lesion
+  Fibrous Cap by {{PDGFRβ}} and Bioenergetic Mechanisms}
+    \verb{url}
+    \verb https://www.nature.com/articles/s42255-020-00338-8
+    \endverb
+    \field{volume}{3}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\6Q2M72Z4\\Newman et al. - 2021 -
+    \verb Multiple cell types contribute to the atherosclero.pdf;C\:\\Users\\to
+    \verb rbe\\Zotero\\storage\\D8GXP2NV\\s42255-020-00338-8.html
+    \endverb
+    \field{journaltitle}{Nature Metabolism}
+    \field{month}{02}
+    \field{year}{2021}
+    \field{urlday}{03}
+    \field{urlmonth}{05}
     \field{urlyear}{2022}
   \endentry
 
