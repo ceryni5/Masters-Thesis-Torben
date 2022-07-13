@@ -24,52 +24,52 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 12700 items.
+Reallocating 'field_info' (item size: 4) to 12140 items.
 Database file #1: Masterthesis_first_try-blx.bib
 Database file #2: Literatur/literatur.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 55 entries,
+You've used 51 entries,
             6399 wiz_defined-function locations,
-            1923 strings with 99402 characters,
-and the built_in function-call counts, 1640499 in all, are:
-= -- 142063
-> -- 48416
-< -- 3479
-+ -- 83060
-- -- 39083
-* -- 114540
-:= -- 228674
+            1863 strings with 90897 characters,
+and the built_in function-call counts, 1567710 in all, are:
+= -- 136186
+> -- 46065
+< -- 3302
++ -- 79404
+- -- 37217
+* -- 109427
+:= -- 218818
 add.period$ -- 0
-call.type$ -- 55
-change.case$ -- 977
-chr.to.int$ -- 3306
-cite$ -- 108
-duplicate$ -- 145552
-empty$ -- 123399
-format.name$ -- 8123
-if$ -- 287269
+call.type$ -- 51
+change.case$ -- 947
+chr.to.int$ -- 3138
+cite$ -- 100
+duplicate$ -- 138881
+empty$ -- 117769
+format.name$ -- 7718
+if$ -- 274504
 int.to.chr$ -- 0
-int.to.str$ -- 139
+int.to.str$ -- 129
 missing$ -- 0
-newline$ -- 5473
-num.names$ -- 2660
-pop$ -- 27888
+newline$ -- 5177
+num.names$ -- 2505
+pop$ -- 26246
 preamble$ -- 1
-purify$ -- 2159
+purify$ -- 2077
 quote$ -- 0
-skip$ -- 14676
+skip$ -- 13830
 stack$ -- 0
-substring$ -- 304629
-swap$ -- 20581
-text.length$ -- 3113
+substring$ -- 292252
+swap$ -- 19421
+text.length$ -- 2948
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1858
+type$ -- 1722
 warning$ -- 0
-while$ -- 23798
+while$ -- 22747
 width$ -- 0
-write$ -- 5419
+write$ -- 5127
 (There was 1 error message)

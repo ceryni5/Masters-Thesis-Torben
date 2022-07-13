@@ -4695,12 +4695,11 @@
     \keyw{Chromatin Interaction Data,Enhancer-promoter Interactions,Roadmap
   Epigenomics Project,Topologically Associating Domains (TADs),WashU Epigenome
   Browser}
-    \strng{namehash}{WY+2}
+    \strng{namehash}{WY+1}
     \strng{fullhash}{WYSFZBZLXJKDLDCMNKLYHMHRWTYF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
     \field{labelyear}{2018}
-    \field{extradate}{2}
     \field{labeldatesource}{}
     \field{abstract}{%
     Here, we introduce the 3D Genome Browser, http://3dgenome.org, which allows
@@ -5020,9 +5019,9 @@
          given={Kazuyoshi},
          giveni={K\bibinitperiod},
       }}%
-      {{hash=�BO}{%
-         family={Åsvold},
-         familyi={�\bibinitperiod},
+      {{hash=ABO}{%
+         family={Aasvold},
+         familyi={A\bibinitperiod},
          given={Bjørn\bibnamedelima O.},
          giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod},
       }}%
@@ -5488,7 +5487,7 @@
       {{medRxiv}}%
     }
     \strng{namehash}{AKG+1}
-  \strng{fullhash}{AKGJTGAKSWBNWEMWMHGZWGCRCMNAKFKSIVLMSPKSIK�BOBMRBBVPSdGOGPGDFGUHSMIHAIMKAKTLLMLMTMSMMMFNJBNMMPSRTTGSMvUJKCECJBADOADSBNPCMCFJGRMIKJDKKYKAVKIKIJLLANCPRRTGTUWTRBABJLBEDGHHHKMOMACOMMRLSRASMSSKZPEPTFMDJRCTFHKHJCCREJSNJSHWHWCJDPKSBASCobotC1}
+  \strng{fullhash}{AKGJTGAKSWBNWEMWMHGZWGCRCMNAKFKSIVLMSPKSIKABOBMRBBVPSdGOGPGDFGUHSMIHAIMKAKTLLMLMTMSMMMFNJBNMMPSRTTGSMvUJKCECJBADOADSBNPCMCFJGRMIKJDKKYKAVKIKIJLLANCPRRTGTUWTRBABJLBEDGHHHKMOMACOMMRLSRASMSSKZPEPTFMDJRCTFHKHJCCREJSNJSHWHWCJDPKSBASCobotC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
@@ -5613,20 +5612,19 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{agilenttechnologiesHowAgilentSeahorse}{online}{}
+  \entry{agilenttechnologiesHowAgilentSeahorse2022}{online}{}
     \name{author}{1}{}{%
-      {{hash=TA}{%
-         family={Technologies},
-         familyi={T\bibinitperiod},
-         given={Agilent},
-         giveni={A\bibinitperiod},
+      {{hash=A}{%
+         family={{AgilentTechnologies}},
+         familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TA1}
-    \strng{fullhash}{TA1}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
     \field{title}{How {{Agilent Seahorse XF Analyzers Work}} | {{Agilent}}}
     \verb{url}
     \verb https://www.agilent.com/en/products/cell-analysis/how-seahorse-xf-ana
@@ -5636,12 +5634,13 @@
     \verb C\:\\Users\\torbe\\Zotero\\storage\\XRMRGTUL\\how-seahorse-xf-analyze
     \verb rs-work.html
     \endverb
+    \field{year}{2022}
     \field{urlday}{05}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
   \endentry
 
-  \entry{thermofisherscientificinc.CellROXGreenReagent}{online}{}
+  \entry{thermofisherscientificinc.CellROXGreenReagent2022}{online}{}
     \name{author}{1}{}{%
       {{hash=T}{%
          family={{Thermo Fisher Scientific Inc.}},
@@ -5652,7 +5651,8 @@
     \strng{fullhash}{T1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
     \field{abstract}{%
     CellROX Green Reagent is a novel fluorogenic probe for measuring oxidative
   stress in live cells. The cell-permeant dye is weakly fluorescent while in a
@@ -5667,6 +5667,7 @@
     \verb{file}
     \verb C\:\\Users\\torbe\\Zotero\\storage\\ZHMVQ3S3\\C10444.html
     \endverb
+    \field{year}{2022}
     \field{urlday}{05}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
@@ -5895,390 +5896,6 @@
     \field{month}{02}
     \field{year}{2010}
     \field{urlday}{05}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
-  \endentry
-
-  \entry{leeRoleSTAT1IRF12007}{article}{}
-    \name{author}{12}{}{%
-      {{hash=LHJ}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Hyun\bibnamedelima Jung},
-         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=OYK}{%
-         family={Oh},
-         familyi={O\bibinitperiod},
-         given={Yeo\bibnamedelima Kyoung},
-         giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=RM}{%
-         family={Rhee},
-         familyi={R\bibinitperiod},
-         given={Marie},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=LJY}{%
-         family={Lim},
-         familyi={L\bibinitperiod},
-         given={Joong-Yeon},
-         giveni={J\bibinithyphendelim Y\bibinitperiod},
-      }}%
-      {{hash=HJY}{%
-         family={Hwang},
-         familyi={H\bibinitperiod},
-         given={Ji-Young},
-         giveni={J\bibinithyphendelim Y\bibinitperiod},
-      }}%
-      {{hash=PYS}{%
-         family={Park},
-         familyi={P\bibinitperiod},
-         given={Yoon\bibnamedelima Shin},
-         giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=KY}{%
-         family={Kwon},
-         familyi={K\bibinitperiod},
-         given={Yongil},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=CKH}{%
-         family={Choi},
-         familyi={C\bibinitperiod},
-         given={Kyung-Hee},
-         giveni={K\bibinithyphendelim H\bibinitperiod},
-      }}%
-      {{hash=JI}{%
-         family={Jo},
-         familyi={J\bibinitperiod},
-         given={Inho},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=PSI}{%
-         family={Park},
-         familyi={P\bibinitperiod},
-         given={Sang\bibnamedelima Ick},
-         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=GB}{%
-         family={Gao},
-         familyi={G\bibinitperiod},
-         given={Bin},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=KWH}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Won-Ho},
-         giveni={W\bibinithyphendelim H\bibinitperiod},
-      }}%
-    }
-    \keyw{hepatitis,iNOS,liver injury,ROS,STAT1}
-    \strng{namehash}{LHJ+1}
-    \strng{fullhash}{LHJOYKRMLJYHJYPYSKYCKHJIPSIGBKWH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2007}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    Previously, we demonstrated that signal transducer and activator of
-  transcription factor 1 (STAT1) plays an essential role in liver injury
-  induced by lipopolysaccharide (LPS)/d-galactosamine (d-GalN); however, the
-  underlying mechanism involved remains unclear. Here, we showed that
-  LPS/d-GalN administration induced secretion of tumor necrosis factor α
-  (TNF-α) and interferon γ (IFN-γ), which mediated apoptosis
-  synergistically. Moreover, LPS/d-GalN-induced apoptosis was associated with
-  increased inducible nitric oxide synthase (iNOS) and nitric oxide (NO)
-  production, as well as elevated reactive oxygen species (ROS) production,
-  which were all strongly inhibited by treatment with the antioxidant
-  N-acetyl-l-cysteine (NAC) and an iNOS/NO inhibitor, l-NMMA. Although STAT1
-  activation and expression did not change significantly in
-  TNF-α/IFN-γ-cotreated cells compared with cells treated with IFN-γ alone,
-  the absence of STAT1 or interferon regulatory factor 1 (IRF-1) in genetic
-  knockout mice strongly abrogated the observed effects of TNF-α/IFN-γ on
-  iNOS/NO induction, ROS production, loss of mitochondrial transmembrane
-  potential (ΔΨm), and apoptosis compared with STAT1(+/+) and IRF-1(+/+)
-  mice. Additionally, the synergistic effects of TNF-α/IFN-γ on iNOS/NO
-  induction, ROS production, and apoptosis were significantly inhibited by
-  overexpression of dominant negative STAT1 in contrast to overexpression of
-  wild-type STAT1. In STAT1-deficient mice, nuclear factor κB (NF-κB)
-  activation by TNF-α/IFN-γ was attenuated and strongly inhibited by both NAC
-  and l-NMMA. Moreover, the proteasome inhibitor, MG132, inhibited NF-κB
-  activation and strongly inhibited iNOS/NO induction, ROS production, and loss
-  of ΔΨm induced by TNF-α/IFN-γ, thereby inhibiting apoptosis.
-  Interestingly, it appears peroxynitrite, which is produced by TNF-α/IFN-γ,
-  may interfere with STAT1 phosphorylation by inducing STAT1 nitration.
-  Collectively, these findings demonstrate that TNF-α/IFN-γ synergistically
-  potentiates iNOS/NO induction, ROS production, and loss of ΔΨm via STAT1
-  overexpression, playing an important role in promoting apoptosis and liver
-  injury induced by LPS/d-GalN.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.jmb.2007.03.072
-    \endverb
-    \field{issn}{0022-2836}
-    \field{number}{4}
-    \field{pages}{967\bibrangedash 984}
-    \field{shortjournal}{Journal of Molecular Biology}
-    \field{title}{The {{Role}} of {{STAT1}}/{{IRF-1}} on {{Synergistic ROS
-  Production}} and {{Loss}} of {{Mitochondrial Transmembrane Potential}} during
-  {{Hepatic Cell Death Induced}} by {{LPS}}/d-{{GalN}}}
-    \verb{url}
-    \verb https://www.sciencedirect.com/science/article/pii/S002228360700438X
-    \endverb
-    \field{volume}{369}
-    \field{langid}{english}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\L8XHFJXG\\Lee et al. - 2007 - The
-    \verb  Role of STAT1IRF-1 on Synergistic ROS Product.pdf;C\:\\Users\\torbe\
-    \verb \Zotero\\storage\\NS5XN8LG\\S002228360700438X.html
-    \endverb
-    \field{journaltitle}{Journal of Molecular Biology}
-    \field{day}{15}
-    \field{month}{06}
-    \field{year}{2007}
-    \field{urlday}{29}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
-  \endentry
-
-  \entry{wangSTATROSCycleExtends2018}{article}{}
-    \name{author}{7}{}{%
-      {{hash=WY}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Yan},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=YX}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Xiaoyu},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=SH}{%
-         family={Song},
-         familyi={S\bibinitperiod},
-         given={Hongtao},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=FD}{%
-         family={Feng},
-         familyi={F\bibinitperiod},
-         given={Di},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=JY}{%
-         family={Jiang},
-         familyi={J\bibinitperiod},
-         given={Yang},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=WS}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Shuang},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Geng},
-         familyi={G\bibinitperiod},
-         given={Jingshu},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \keyw{Apoptosis,Breast Neoplasms,Female,HeLa Cells,Humans,Interferons,MCF-7
-  Cells,Reactive Oxygen Species,STAT Transcription Factors,Uterine Cervical
-  Neoplasms}
-    \strng{namehash}{WY+1}
-    \strng{fullhash}{WYYXSHFDJYWSGJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{extradate}{1}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    In mammals, the signal transducer and activator of transcription (STAT)
-  protein processes mitochondria importation targets and mitochondria
-  respiratory complexes, and triggers reactive oxygen species (ROS) generation,
-  which conversely rapidly initiates the activation of STAT. Interferon (IFN)
-  administration increases cancer cell apoptosis via STAT activation and ROS
-  accumulation. However, the existence of a STAT-ROS cycle and how it affects
-  IFN‑induced cancer cellular apoptosis are unclear. In the present study, we
-  used MCF7 breast cancer cells and confirmed that a combination of
-  IFN‑α/β/γ incubation induced STAT1/3 phosphorylation and mitochondria
-  importation, which increased mitochondria respiratory complexes, the cellular
-  oxygen consumption rate (OCR), and ROS production, followed by cellular
-  apoptosis. We also found that STAT1/3 overexpression induced mitochondria
-  respiratory complexes and ROS production. Additionally, ROS induced by H2O2
-  induced phosphorylation of STAT1/3 and promoted mitochondria importation.
-  STAT1/3 deletion suppressed H2O2-induced acute cellular OCR, increasing the
-  ROS level and indicating that STAT1/3 is necessary for ROS-induced
-  mitochondria OCR and further ROS production, suggesting the existence of a
-  STAT-ROS cycle. We next found that IFN induced mitochondria respiratory
-  complexes followed by induction of OCR, ROS, and apoptosis, which were
-  partially blocked by STAT1/3 deletion. Additionally, the suppression of ROS
-  inhibited IFN‑induced STAT1/3 activation. Finally, we discovered that this
-  cycle exists also in A431 and HeLa cancer cells. These results indicate that
-  a STAT-ROS cycle extends IFN‑induced cellular apoptosis.%
-    }
-    \verb{doi}
-    \verb 10.3892/ijo.2017.4196
-    \endverb
-    \verb{eprint}
-    \verb 29115415
-    \endverb
-    \field{issn}{1791-2423}
-    \field{number}{1}
-    \field{pages}{305\bibrangedash 313}
-    \field{shortjournal}{Int J Oncol}
-    \field{title}{The {{STAT-ROS}} Cycle Extends {{IFN}}‑induced Cancer Cell
-  Apoptosis}
-    \field{volume}{52}
-    \field{langid}{english}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\4695VMWZ\\Wang et al. - 2018 - Th
-    \verb e STAT-ROS cycle extends IFN‑induced cancer cell.pdf
-    \endverb
-    \field{journaltitle}{International Journal of Oncology}
-    \field{eprinttype}{pmid}
-    \field{month}{01}
-    \field{year}{2018}
-  \endentry
-
-  \entry{harmanRoleSmoothMuscle2019}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HJL}{%
-         family={Harman},
-         familyi={H\bibinitperiod},
-         given={Jennifer\bibnamedelima L.},
-         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=JHF}{%
-         family={Jørgensen},
-         familyi={J\bibinitperiod},
-         given={Helle\bibnamedelima F.},
-         giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HJLJHF1}
-    \strng{fullhash}{HJLJHF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    Events responsible for cardiovascular mortality and morbidity are
-  predominantly caused by rupture of “vulnerable” atherosclerotic lesions.
-  Vascular smooth muscle cells (VSMCs) play a key role in atherogenesis and
-  have historically been considered beneficial for plaque stability. VSMCs
-  constitute the main cellular component of the protective fibrous cap within
-  lesions and are responsible for synthesising strength‐giving extracellular
-  matrix components. However, lineage‐tracing experiments in mouse models of
-  atherosclerosis have shown that, in addition to the fibrous cap, VSMCs also
-  give rise to many of the cell types found within the plaque core. In
-  particular, VSMCs generate a substantial fraction of lipid‐laden foam
-  cells, and VSMC‐derived cells expressing markers of macrophages,
-  osteochondrocyte, and mesenchymal stem cells have been observed within
-  lesions. Here, we review recent studies that have changed our perspective on
-  VSMC function in atherosclerosis and discuss how VSMCs could be targeted to
-  increase plaque stability.%
-    }
-    \verb{doi}
-    \verb 10.1111/bph.14779
-    \endverb
-    \verb{eprint}
-    \verb 31254285
-    \endverb
-    \field{issn}{0007-1188}
-    \field{number}{19}
-    \field{pages}{3741\bibrangedash 3753}
-    \field{shortjournal}{Br J Pharmacol}
-    \field{shorttitle}{The Role of Smooth Muscle Cells in Plaque Stability}
-    \field{title}{The Role of Smooth Muscle Cells in Plaque Stability:
-  {{Therapeutic}} Targeting Potential}
-    \verb{url}
-    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6780045/
-    \endverb
-    \field{volume}{176}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\ESQD7T9X\\Harman und Jørgensen -
-    \verb  2019 - The role of smooth muscle cells in plaque stabilit.pdf
-    \endverb
-    \field{journaltitle}{British Journal of Pharmacology}
-    \field{eprinttype}{pmid}
-    \field{month}{10}
-    \field{year}{2019}
-    \field{urlday}{13}
-    \field{urlmonth}{10}
-    \field{urlyear}{2021}
-  \endentry
-
-  \entry{alexanderEpigeneticControlSmooth2012a}{article}{}
-    \name{author}{2}{}{%
-      {{hash=AMR}{%
-         family={Alexander},
-         familyi={A\bibinitperiod},
-         given={Matthew\bibnamedelima R.},
-         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=OGK}{%
-         family={Owens},
-         familyi={O\bibinitperiod},
-         given={Gary\bibnamedelima K.},
-         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \keyw{arteriogenesis,atherosclerosis,mesenchymal stem cells,pluripotency
-  genes,vascular injury and repair}
-    \strng{namehash}{AMROGK1}
-    \strng{fullhash}{AMROGK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    The vascular smooth muscle cell (SMC) in adult animals is a highly
-  specialized cell whose principal function is contraction. However, this cell
-  displays remarkable plasticity and can undergo profound changes in phenotype
-  during repair of vascular injury, during remodeling in response to altered
-  blood flow, or in various disease states. There has been extensive progress
-  in recent years in our understanding of the complex mechanisms that control
-  SMC differentiation and phenotypic plasticity, including the demonstration
-  that epigenetic mechanisms play a critical role. In addition, recent evidence
-  indicates that SMC phenotypic switching in adult animals involves the
-  reactivation of embryonic stem cell pluripotency genes and that mesenchymal
-  stem cells may be derived from SMC and/or pericytes. This review summarizes
-  the current state of our knowledge in this field and identifies some of the
-  key unresolved challenges and questions that we feel require further study.%
-    }
-    \verb{doi}
-    \verb 10.1146/annurev-physiol-012110-142315
-    \endverb
-    \verb{eprint}
-    \verb 22017177
-    \endverb
-    \field{number}{1}
-    \field{pages}{13\bibrangedash 40}
-    \field{title}{Epigenetic {{Control}} of {{Smooth Muscle Cell
-  Differentiation}} and {{Phenotypic Switching}} in {{Vascular Development}}
-  and {{Disease}}}
-    \verb{url}
-    \verb https://doi.org/10.1146/annurev-physiol-012110-142315
-    \endverb
-    \field{volume}{74}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\CGZZHPN2\\Alexander und Owens - 2
-    \verb 012 - Epigenetic Control of Smooth Muscle Cell Different.pdf
-    \endverb
-    \field{journaltitle}{Annual Review of Physiology}
-    \field{annotation}{%
-    \_eprint: https://doi.org/10.1146/annurev-physiol-012110-142315%
-    }
-    \field{eprinttype}{pmid}
-    \field{year}{2012}
-    \field{urlday}{29}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
   \endentry
