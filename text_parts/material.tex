@@ -49,11 +49,11 @@
 \section{Celllines}
 \label{sec:cells}
 \begin{longtblr}[]{
-    colspec = {X|X|X},
+    colspec = {X[2]|X|X},
     rowhead = 1
 }
     \textbf{Name}                            & \textbf{Celltype}    & \textbf{Manufacturer} \\ \hline
-    Human Aortic Smooth Muscle Cell (HAoSMC) & prim. human cell     & \textbf{\color{red} ?!?}             \\
+    Human Aortic Smooth Muscle Cell\newline (HAoSMC) & prim. human cell     & \textbf{\color{red} ?!?}             \\
 \end{longtblr}
 
 \section{Primer}
@@ -130,7 +130,7 @@
 \SetCell[r=3]{m}\ac{il1}                                        & 10 µg/mL \acs{il1}   \\
                                                                 & 0.1 \% BSA   \\
                                                                 & in PBS   \\ \hline
-\SetCell[r=2]{m}N-Acetylcystein \newline (NAC)                  & 0.25 M NAC    \\
+\SetCell[r=2]{m}\acs{nac}                 & 0.25 M NAC    \\
                                                                 & in water, \TILDE pH 7  \\ \hline
 \SetCell[r=3]{m}\ac{pdgf}                                       & 100 µg/mL \acs{pdgf}   \\
                                                                 & 0.1 \% BSA   \\
@@ -163,7 +163,7 @@
     SafeSeal Gefäß 1,5\,mL & \Sarstedt \\
     SafeSeal Gefäß 5\,mL & \Sarstedt \\
     Nunc Cell-Culture Treated Multidish 24 & \Thermo\\
-    Agilent Seahorse XF24 Cell Culture Microplate & \Agilent \\
+    Agilent Seahorse XF24 Cell Culture\newline Microplate & \Agilent \\
     Agilent Seahorse XF24 Extracellular Flux Assy Kit & \Agilent \\
     384 Well Multiply PCR plates & \textbf{\color{red} ?!?} \\
     Pasteurpipetten ISO 7712 & \Assistent \\
@@ -174,7 +174,7 @@
     Filter tip 200\,µL & \Sarstedt \\
     Filter tip 1000\,µL & \Sarstedt \\
     BD Discardit\texttrademark~II & \textbf{\color{red} ?!?} \\
-    Spritzenfilter CHROMAFIL® PTFE, 0,20\,µm & \Roth \\
+    Spritzenfilter CHROMAFIL\textregistered\newline PTFE, 0,20\,µm & \Roth \\
     Via1-Casette\texttrademark & \chemometec \\
     Tube 15\,ml & \Sarstedt\\
     Tube 50\,ml & \Sarstedt\\
@@ -197,7 +197,7 @@
     % Cell culture
     \textbf{\color{red} Bench I Heraus} & \Heraeus\\
     \textbf{\color{red} Bench II Heraus} & \Heraeus\\
-    Research pipettes (2.5\,µL, 10\,µL, 100\,µL, 1000\,µL) & \Eppendorf \\
+    Research pipettes\newline (2.5\,µL, 10\,µL, 100\,µL, 1000\,µL) & \Eppendorf \\
     Hera Cell & \Heraeus \\
     Hera Cell 150 & \Heraeus \\
     NucleoCounter NC-200 & \chemometec\\
@@ -214,13 +214,13 @@
     LA 120 S & \Sartorius \\
     Reax Top & \Heidolph \\
     MR 3001 & \Heidolph \\
-    BZ-X810 All-in-One Flourescence Microscope & \Keyence\\
-    BZ-X800 All-in-One Flourescence Microscope POWER & \Keyence\\
+    BZ-X810 All-in-One Flourescence\newline Microscope & \Keyence\\
+    BZ-X800 All-in-One Flourescence\newline Microscope POWER & \Keyence\\
     SensoQuest labcycler & \SensoQuest \\
     pH 221 Mircoprocessor pH Meter & HANNA Instruments \\
 
     % other
-    NanoDrop\texttrademark 2000/2000c Spektralphotometer & \Thermo \\
+    NanoDrop\texttrademark 2000/2000c\newline Spektralphotometer & \Thermo \\
     Eismaschine & ZIEGRA Eismaschinen GmbH \\
 \end{longtblr}
 
@@ -239,7 +239,7 @@
     keyence software?!          &                       & \Keyence \\
     MiKTeX                      & 2.9                   & Christian Schenk\\
     python                      & 3.9                   & Python Software Foundation \\
-    PyCharm (Community edition) & 2021.2.2              & JetBrains s.r.o.\\
+    PyCharm\newline (Community edition) & 2021.2.2              & JetBrains s.r.o.\\
     SchemaSpy                   & 5.0.0                 & John Currier\\
     SDS                         & 2.2.2                 & Thermo Fisher Scientific GmbH  \\
     sqlite3\_analyzer           & 3.38.5.               & The SQLite Consortium \\
@@ -270,5 +270,5 @@
 \subsection{Frameworks}
 \begin{itemize}
     \item This thesis was generated with the \MYhref{https://moodle.uni-luebeck.de/course/view.php?id=4439}{uzl-thesis class} kindly provided by Prof. Till Tantau.
-    \item Styling of the GWAS Visualizer was done with the \MYhref{https://getbootstrap.com/}{CSS Framework Bootstrap}.
+    \item Styling of the GWAS Visualizer was done with the \MYhref{https://getbootstrap.com/}{\ac{css} Framework Bootstrap}.
 \end{itemize}

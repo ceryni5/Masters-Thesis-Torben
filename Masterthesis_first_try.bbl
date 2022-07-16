@@ -855,7 +855,7 @@
     \verb 34470477
     \endverb
     \field{issn}{1524-4636}
-    \field{pages}{ATVBAHA121316600}
+    \field{pages}{41:2693\bibrangedash 2707}
     \field{shortjournal}{Arterioscler Thromb Vasc Biol}
     \field{title}{Six {{Shades}} of {{Vascular Smooth Muscle Cells
   Illuminated}} by {{KLF4}} ({{Krüppel-Like Factor}} 4)}
@@ -869,6 +869,79 @@
     \field{day}{02}
     \field{month}{09}
     \field{year}{2021}
+  \endentry
+
+  \entry{liuSmoothMuscleCell2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Mingjun},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gomez},
+         familyi={G\bibinitperiod},
+         given={Delphine},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,atherosclerosis,blood pressure,Cardiovascular Diseases,cell
+  division,Cell Lineage,cell plasticity,Gene Expression
+  Profiling,Humans,Muscle; Smooth; Vascular,Myocytes; Smooth
+  Muscle,Phenotype,Sequence Analysis; RNA,Single-Cell Analysis,vascular
+  remodeling,Vascular Remodeling}
+    \strng{namehash}{LMGD1}
+    \strng{fullhash}{LMGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Vascular smooth muscle cells (SMC) play a critical role in controlling
+  blood pressure and blood distribution, as well as maintaining the structural
+  integrity of the blood vessel. SMC also participate in physiological and
+  pathological vascular remodeling due to their remarkable ability to
+  dynamically modulate their phenotype. During the past decade, the development
+  of in vivo fate mapping systems for unbiased identification and tracking of
+  SMC and their progeny has led to major discoveries as well as the
+  reevaluation of well-established concepts about the contribution of vascular
+  SMC in major vascular diseases including atherosclerosis. Lineage tracing
+  studies revealed that SMC undergoes multiple phenotypic transitions
+  characterized by the expression of markers of alternative cell types (eg,
+  macrophage-like and mesenchymal-stem cell-like) and populate injured or
+  diseased vessels by oligoclonal expansion of a limited number of medial SMC.
+  With the development of high-throughput transcriptomics and single-cell RNA
+  sequencing (scRNAseq), the field is moving forward towards in-depth SMC
+  phenotypic characterization. Herein, we review the major observations put
+  forth by lineage and clonality tracing studies and the evidence in support
+  for SMC phenotypic diversity in healthy and diseased vascular tissue. We will
+  also discuss the opportunities and remaining challenges of combining lineage
+  tracing and single-cell transcriptomics technologies, as well as studying the
+  functional relevance of SMC phenotypic transitions and identifying the
+  mechanisms controlling them.%
+    }
+    \verb{doi}
+    \verb 10.1161/ATVBAHA.119.312131
+    \endverb
+    \verb{eprint}
+    \verb 31340668
+    \endverb
+    \field{issn}{1524-4636}
+    \field{number}{9}
+    \field{pages}{1715\bibrangedash 1723}
+    \field{shortjournal}{Arterioscler Thromb Vasc Biol}
+    \field{title}{Smooth {{Muscle Cell Phenotypic Diversity}}}
+    \field{volume}{39}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\UK9WTNVX\\Liu und Gomez - 2019 -
+    \verb Smooth Muscle Cell Phenotypic Diversity.pdf
+    \endverb
+    \field{journaltitle}{Arteriosclerosis, Thrombosis, and Vascular Biology}
+    \field{eprinttype}{pmid}
+    \field{month}{09}
+    \field{year}{2019}
   \endentry
 
   \entry{grootaertVascularSmoothMuscle2021}{article}{}
@@ -4695,11 +4768,12 @@
     \keyw{Chromatin Interaction Data,Enhancer-promoter Interactions,Roadmap
   Epigenomics Project,Topologically Associating Domains (TADs),WashU Epigenome
   Browser}
-    \strng{namehash}{WY+1}
+    \strng{namehash}{WY+2}
     \strng{fullhash}{WYSFZBZLXJKDLDCMNKLYHMHRWTYF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
     \field{labelyear}{2018}
+    \field{extradate}{2}
     \field{labeldatesource}{}
     \field{abstract}{%
     Here, we introduce the 3D Genome Browser, http://3dgenome.org, which allows
@@ -5647,8 +5721,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
@@ -5844,6 +5918,72 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{bokehdevelopmentteamBokehPythonLibrary2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{Bokeh Development Team}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Purpose: Bokeh server makes it easy to create interactive web applications
+  that connect front-end UI events to running Python code. Bokeh creates
+  high-level Python models, such as plots, ranges, ax...%
+    }
+    \field{title}{Bokeh: {{Python}} Library for Interactive Visualization}
+    \verb{url}
+    \verb https://bokeh.org/
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\AQFW7CAX\\server.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{langtangenUsingWebFrameworks2015}{online}{}
+    \name{author}{2}{}{%
+      {{hash=LHP}{%
+         family={Langtangen},
+         familyi={L\bibinitperiod},
+         given={Hans\bibnamedelima Peter},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JAE}{%
+         family={Johansen},
+         familyi={J\bibinitperiod},
+         given={Anders\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LHPJAE1}
+    \strng{fullhash}{LHPJAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{title}{Using {{Web Frameworks}} for {{Scientific Applications}}}
+    \verb{url}
+    \verb http://hplgit.github.io/web4sciapps/doc/pub/web4sa_plain_all.html#wf:
+    \verb bokeh:flask
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\2GMXUITN\\web4sa_plain_all.html
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{tipneyIntroductionEffectiveUse2010}{article}{}
     \name{author}{2}{}{%
       {{hash=TH}{%
@@ -5897,6 +6037,2166 @@
     \field{year}{2010}
     \field{urlday}{05}
     \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{liuKruppellikeFactorAbrogates2005}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sinha},
+         familyi={S\bibinitperiod},
+         given={Sanjay},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MOG}{%
+         family={McDonald},
+         familyi={M\bibinitperiod},
+         given={Oliver\bibnamedelima G.},
+         giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shang},
+         familyi={S\bibinitperiod},
+         given={Yueting},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HMH}{%
+         family={Hoofnagle},
+         familyi={H\bibinitperiod},
+         given={Mark\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYSSMOGSYHMHOGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    {$<$}p{$>$}Platelet-derived growth factor BB (PDGF-BB) has been shown to be
+  an extremely potent negative regulator of smooth muscle cell (SMC)
+  differentiation. Moreover, previous studies have demonstrated that the
+  Kruppel-like transcription factor (KLF) 4 potently represses the expression
+  of multiple SMC genes. However, the mechanisms whereby KLF4 suppresses SMC
+  gene expression are not known, nor is it clear whether KLF4 contributes to
+  PDGF-BB-induced down-regulation of SMC genes. The goals of the present
+  studies were to determine the molecular mechanisms by which KLF4 represses
+  expression of SMC genes and whether it contributes to PDGF-BB-induced
+  suppression of these genes. Results demonstrated that KLF4 markedly repressed
+  both myocardin-induced activation of SMC genes and expression of myocardin.
+  KLF4 was rapidly up-regulated in PDGF-BB-treated, cultured SMC, and a small
+  interfering RNA to KLF4 partially blocked PDGF-BB-induced SMC gene
+  repression. Both PDGF-BB and KLF4 markedly reduced serum response factor
+  binding to CArG containing regions within intact chromatin. Finally, KLF4,
+  which is normally not expressed in differentiated SMC in \emph{vivo}, was
+  rapidly up-regulated \emph{in vivo} in response to vascular injury. Taken
+  together, results indicate that KLF4 represses SMC genes by both
+  down-regulating myocardin expression and preventing serum response
+  factor/myocardin from associating with SMC gene promoters, and suggest that
+  KLF4 may be a key effector of PDGF-BB and injury-induced phenotypic switching
+  of SMC.{$<$}/p{$>$}%
+    }
+    \verb{doi}
+    \verb 10.1074/jbc.M412862200
+    \endverb
+    \field{issn}{0021-9258, 1083-351X}
+    \field{number}{10}
+    \field{pages}{9719\bibrangedash 9727}
+    \field{shortjournal}{Journal of Biological Chemistry}
+    \field{title}{Kruppel-like {{Factor}} 4 {{Abrogates Myocardin-induced
+  Activation}} of {{Smooth Muscle Gene Expression}} *}
+    \verb{url}
+    \verb https://www.jbc.org/article/S0021-9258(19)62994-7/abstract
+    \endverb
+    \field{volume}{280}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\3E6GXCK6\\Liu et al. - 2005 - Kru
+    \verb ppel-like Factor 4 Abrogates Myocardin-induced .pdf;C\:\\Users\\torbe
+    \verb \\Zotero\\storage\\3AD67Z89\\fulltext.html
+    \endverb
+    \field{journaltitle}{Journal of Biological Chemistry}
+    \field{day}{11}
+    \field{month}{03}
+    \field{year}{2005}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{deatonSp1dependentActivationKLF42009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DRA}{%
+         family={Deaton},
+         familyi={D\bibinitperiod},
+         given={Rebecca\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GQ}{%
+         family={Gan},
+         familyi={G\bibinitperiod},
+         given={Qiong},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Angiogenesis Inducing Agents,Animals,Base Sequence,Becaplermin,Cells;
+  Cultured,Disease Models; Animal,Kruppel-Like Factor 4,Kruppel-Like
+  Transcription Factors,Male,Molecular Sequence Data,Muscle; Smooth;
+  Vascular,Phenotype,Platelet-Derived Growth Factor,Protein
+  Binding,Proto-Oncogene Proteins c-sis,Rats,Rats; Sprague-Dawley,RNA; Small
+  Interfering,Sp1 Transcription Factor,Transfection,Up-Regulation,Vascular
+  Diseases}
+    \strng{namehash}{DRA+1}
+    \strng{fullhash}{DRAGQOGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    There is clear evidence that the phenotypic modulation of smooth muscle
+  cells (SMCs) contributes to the pathophysiology of vascular disease.
+  Phenotypic modulation refers to the unique ability of SMCs to alter their
+  phenotype in response to extracellular stimuli and is hallmarked by the loss
+  of SMC marker gene expression. The transcription factor Krüppel-like factor
+  4 (KLF4) is a known powerful negative regulator of SMC marker gene expression
+  that works, in part, by decreasing the expression of the serum response
+  factor (SRF) myocardin. KLF4 is not expressed in healthy adult SMCs but is
+  increased in SMCs in response to vascular injury in vivo or PDGF-BB treatment
+  in vitro. The aim of the present study was to determine the molecular
+  mechanisms that regulate the expression of KLF4 in phenotypically modulated
+  SMCs. The results demonstrated that the transcription factor stimulating
+  protein-1 (Sp1) regulated the expression of KLF4 in SMCs. The KLF4 promoter
+  contains three consensus Sp1 binding sites. Using a series of truncated KLF4
+  promoters, we showed that only fragments containing these Sp1 sites could be
+  activated by PDGF-BB. In addition, overexpression of Sp1 alone was sufficient
+  to increase the activity of the KLF4 promoter. Moreover, inhibiting Sp1
+  expression with small-interfering RNA attenuated the effects of PDGF-BB on
+  KLF4 expression. Mutation of the three Sp1 sites within the KLF4 promoter
+  abolished both baseline and PDGF-BB-induced activity. Finally, the results
+  demonstrated enhanced Sp1 binding to the KLF4 promoter in SMCs treated with
+  PDGF-BB in vitro and following vascular injury in vivo. Taken together, the
+  results suggest a novel role for Sp1 in increasing the expression of KLF4 in
+  phenotypically modulated SMCs.%
+    }
+    \verb{doi}
+    \verb 10.1152/ajpheart.01230.2008
+    \endverb
+    \verb{eprint}
+    \verb 19168719
+    \endverb
+    \field{issn}{0363-6135}
+    \field{number}{4}
+    \field{pages}{H1027\bibrangedash 1037}
+    \field{shortjournal}{Am J Physiol Heart Circ Physiol}
+    \field{title}{Sp1-Dependent Activation of {{KLF4}} Is Required for
+  {{PDGF-BB-induced}} Phenotypic Modulation of Smooth Muscle}
+    \field{volume}{296}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\IASRVPWZ\\Deaton et al. - 2009 -
+    \verb Sp1-dependent activation of KLF4 is required for P.pdf
+    \endverb
+    \field{journaltitle}{American Journal of Physiology. Heart and Circulatory
+  Physiology}
+    \field{eprinttype}{pmid}
+    \field{month}{04}
+    \field{year}{2009}
+  \endentry
+
+  \entry{wangMyocardinTernaryComplex2004}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhigao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=WDZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Da-Zhi},
+         giveni={D\bibinithyphendelim Z\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hockemeyer},
+         familyi={H\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McAnally},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nordheim},
+         familyi={N\bibinitperiod},
+         given={Alfred},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OEN}{%
+         family={Olson},
+         familyi={O\bibinitperiod},
+         given={Eric\bibnamedelima N.},
+         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Humanities and Social Sciences,multidisciplinary,Science}
+    \strng{namehash}{WZ+1}
+    \strng{fullhash}{WZWDZHDMJNAOEN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Smooth muscle cells switch between differentiated and proliferative
+  phenotypes in response to extracellular cues1, but the transcriptional
+  mechanisms that confer such phenotypic plasticity remain unclear. Serum
+  response factor (SRF) activates genes involved in smooth muscle
+  differentiation and proliferation by recruiting muscle-restricted cofactors,
+  such as the transcriptional coactivator myocardin, and ternary complex
+  factors (TCFs) of the ETS-domain family, respectively2,3,4,5,6,7,8,9. Here we
+  show that growth signals repress smooth muscle genes by triggering the
+  displacement of myocardin from SRF by Elk-1, a TCF that acts as a myogenic
+  repressor. The opposing influences of myocardin and Elk-1 on smooth muscle
+  gene expression are mediated by structurally related SRF-binding motifs that
+  compete for a common docking site on SRF. A mutant smooth muscle promoter,
+  retaining responsiveness to myocardin and SRF but defective in TCF binding,
+  directs ectopic transcription in the embryonic heart, demonstrating a role
+  for TCFs in suppression of smooth muscle gene expression in vivo. We conclude
+  that growth and developmental signals modulate smooth muscle gene expression
+  by regulating the association of SRF with antagonistic cofactors.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature02382
+    \endverb
+    \field{issn}{1476-4687}
+    \field{issue}{6979}
+    \field{number}{6979}
+    \field{pages}{185\bibrangedash 189}
+    \field{title}{Myocardin and Ternary Complex Factors Compete for {{SRF}} to
+  Control Smooth Muscle Gene Expression}
+    \verb{url}
+    \verb https://www.nature.com/articles/nature02382
+    \endverb
+    \field{volume}{428}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\36HDSJH8\\Wang et al. - 2004 - My
+    \verb ocardin and ternary complex factors compete for .pdf;C\:\\Users\\torb
+    \verb e\\Zotero\\storage\\R29MLV2I\\nature02382.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{03}
+    \field{year}{2004}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{guoDedicatorCytokinesisNovel2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GX}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Xia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Ning},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CXB}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Xiao-Bing},
+         giveni={X\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=WJN}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jia-Ning},
+         giveni={J\bibinithyphendelim N\bibinitperiod},
+      }}%
+      {{hash=FY}{%
+         family={Fukui},
+         familyi={F\bibinitperiod},
+         given={Yoshinori},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CSY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Shi-You},
+         giveni={S\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Heart Association}}%
+    }
+    \keyw{cell proliferation,dedicator of cytokinesis 2,vascular remodeling}
+    \strng{namehash}{GX+1}
+    \strng{fullhash}{GXSNCXBWJNFYCSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Rationale: Vascular smooth muscle cell (SMC) phenotypic modulation and
+  vascular remodeling contribute to the development of several vascular
+  disorders such as restenosis after angioplasty, transplant vasculopathy, and
+  atherosclerosis. The mechanisms underlying these processes, however, remain
+  largely unknown. Objective: The objective of this study is to determine the
+  role of dedicator of cytokinesis 2 (DOCK2) in SMC phenotypic modulation and
+  vascular remodeling. Methods and Results: Platelet-derived growth factor-BB
+  induced DOCK2 expression while modulating SMC phenotype. DOCK2 deficiency
+  diminishes platelet-derived growth factor-BB or serum-induced downregulation
+  of SMC markers. Conversely, DOCK2 overexpression inhibits SMC marker
+  expression in primary cultured SMC. Mechanistically, DOCK2 inhibits myocardin
+  expression, blocks serum response factor nuclear location, attenuates
+  myocardin binding to serum response factor, and thus attenuates
+  myocardin-induced smooth muscle marker promoter activity. Moreover, DOCK2 and
+  Kruppel-like factor 4 cooperatively inhibit myocardin–serum response factor
+  interaction. In a rat carotid artery balloon-injury model, DOCK2 is induced
+  in media layer SMC initially and neointima SMC subsequently after vascular
+  injury. Knockdown of DOCK2 dramatically inhibits the neointima formation by
+  60\%. Most importantly, knockout of DOCK2 in mice markedly blocks
+  ligation-induced intimal hyperplasia while restoring SMC contractile protein
+  expression. Conclusions: Our studies identified DOCK2 as a novel regulator
+  for SMC phenotypic modulation and vascular lesion formation after vascular
+  injury. Therefore, targeting DOCK2 may be a potential therapeutic strategy
+  for the prevention of vascular remodeling in proliferative vascular
+  diseases.%
+    }
+    \verb{doi}
+    \verb 10.1161/CIRCRESAHA.116.305863
+    \endverb
+    \field{number}{10}
+    \field{pages}{e71\bibrangedash e80}
+    \field{title}{Dedicator of {{Cytokinesis}} 2, {{A Novel Regulator}} for
+  {{Smooth Muscle Phenotypic Modulation}} and {{Vascular Remodeling}}}
+    \verb{url}
+    \verb https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.116.305863
+    \endverb
+    \field{volume}{116}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TDLMDSKC\\Guo et al. - 2015 - Ded
+    \verb icator of Cytokinesis 2, A Novel Regulator for .pdf
+    \endverb
+    \field{journaltitle}{Circulation Research}
+    \field{day}{08}
+    \field{month}{05}
+    \field{year}{2015}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{longMyocardinSufficientSmooth2008}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LX}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Xiaochun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=BRD}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={Robert\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GWT}{%
+         family={Gerthoffer},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima T.},
+         giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=ZBV}{%
+         family={Zlokovic},
+         familyi={Z\bibinitperiod},
+         given={Berislav\bibnamedelima V.},
+         giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=MJM}{%
+         family={Miano},
+         familyi={M\bibinitperiod},
+         given={Joseph\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Heart Association}}%
+    }
+    \keyw{contraction,knockdown,myocardin,serum response factor,smooth muscle}
+    \strng{namehash}{LX+1}
+    \strng{fullhash}{LXBRDGWTZBVMJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Background— Myocardin (Myocd) is a strong coactivator that binds the
+  serum response factor (SRF) transcription factor over CArG elements embedded
+  within smooth muscle cell (SMC) and cardiac muscle cyto-contractile genes.
+  Here, we sought to ascertain whether Myocd-mediated gene expression confers a
+  structural and physiological cardiac or SMC phenotype. Methods and Results—
+  Adenoviral-mediated expression of Myocd in the BC3H1 cell line induces
+  cardiac and SMC genes while suppressing both skeletal muscle markers and cell
+  growth. Immunofluorescence microscopy shows that SRF and a SMC-like
+  cyto-contractile apparatus are elevated with Myocd overexpression. A short
+  hairpin RNA to Srf impairs BC3H1 cyto-architecture; however, cotransduction
+  with Myocd results in complete restoration of the cyto-architecture. Electron
+  microscopic studies demonstrate a SMC ultrastructural phenotype with no
+  evidence for cardiac sarcomerogenesis. Biochemical and time-lapsed
+  videomicroscopy assays reveal clear evidence for Myocd-induced SMC-like
+  contraction. Conclusion— Myocd is sufficient for the establishment of a
+  SMC-like contractile phenotype.%
+    }
+    \verb{doi}
+    \verb 10.1161/ATVBAHA.108.166066
+    \endverb
+    \field{number}{8}
+    \field{pages}{1505\bibrangedash 1510}
+    \field{title}{Myocardin {{Is Sufficient}} for a {{Smooth Muscle-Like
+  Contractile Phenotype}}}
+    \verb{url}
+    \verb https://www.ahajournals.org/doi/10.1161/atvbaha.108.166066
+    \endverb
+    \field{volume}{28}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\MAZHL66A\\Long et al. - 2008 - My
+    \verb ocardin Is Sufficient for a Smooth Muscle-Like C.pdf
+    \endverb
+    \field{journaltitle}{Arteriosclerosis, Thrombosis, and Vascular Biology}
+    \field{month}{08}
+    \field{year}{2008}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{owensMolecularRegulationVascular2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KMS}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Meena\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WBR}{%
+         family={Wamhoff},
+         familyi={W\bibinitperiod},
+         given={Brian\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Physiological Society}}%
+    }
+    \strng{namehash}{OGK+1}
+    \strng{fullhash}{OGKKMSWBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The focus of this review is to provide an overview of the current state of
+  knowledge of molecular mechanisms/processes that control differentiation of
+  vascular smooth muscle cells (SMC) during normal development and maturation
+  of the vasculature, as well as how these mechanisms/processes are altered in
+  vascular injury or disease. A major challenge in understanding
+  differentiation of the vascular SMC is that this cell can exhibit a wide
+  range of different phenotypes at different stages of development, and even in
+  adult organisms the cell is not terminally differentiated. Indeed, the SMC is
+  capable of major changes in its phenotype in response to changes in local
+  environmental cues including growth factors/inhibitors, mechanical
+  influences, cell-cell and cell-matrix interactions, and various inflammatory
+  mediators. There has been much progress in recent years to identify
+  mechanisms that control expression of the repertoire of genes that are
+  specific or selective for the vascular SMC and required for its
+  differentiated function. One of the most exciting recent discoveries was the
+  identification of the serum response factor (SRF) coactivator gene myocardin
+  that appears to be required for expression of many SMC differentiation marker
+  genes, and for initial differentiation of SMC during development. However, it
+  is critical to recognize that overall control of SMC
+  differentiation/maturation, and regulation of its responses to changing
+  environmental cues, is extremely complex and involves the cooperative
+  interaction of many factors and signaling pathways that are just beginning to
+  be understood. There is also relatively recent evidence that circulating stem
+  cell populations can give rise to smooth muscle-like cells in association
+  with vascular injury and atherosclerotic lesion development, although the
+  exact role and properties of these cells remain to be clearly elucidated. The
+  goal of this review is to summarize the current state of our knowledge in
+  this area and to attempt to identify some of the key unresolved challenges
+  and questions that require further study.%
+    }
+    \verb{doi}
+    \verb 10.1152/physrev.00041.2003
+    \endverb
+    \field{issn}{0031-9333}
+    \field{number}{3}
+    \field{pages}{767\bibrangedash 801}
+    \field{title}{Molecular {{Regulation}} of {{Vascular Smooth Muscle Cell
+  Differentiation}} in {{Development}} and {{Disease}}}
+    \verb{url}
+    \verb https://journals.physiology.org/doi/full/10.1152/physrev.00041.2003
+    \endverb
+    \field{volume}{84}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\56BJ9S9G\\Owens et al. - 2004 - M
+    \verb olecular Regulation of Vascular Smooth Muscle Cel.pdf
+    \endverb
+    \field{journaltitle}{Physiological Reviews}
+    \field{month}{07}
+    \field{year}{2004}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{dobnikarDiseaserelevantTranscriptionalSignatures2018}{article}{}
+    \name{author}{10}{}{%
+      {{hash=DL}{%
+         family={Dobnikar},
+         familyi={D\bibinitperiod},
+         given={Lina},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TAL}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Annabel\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chappell},
+         familyi={C\bibinitperiod},
+         given={Joel},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OP}{%
+         family={Oldach},
+         familyi={O\bibinitperiod},
+         given={Phoebe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HJL}{%
+         family={Harman},
+         familyi={H\bibinitperiod},
+         given={Jennifer\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=OE}{%
+         family={Oerton},
+         familyi={O\bibinitperiod},
+         given={Erin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Dzierzak},
+         familyi={D\bibinitperiod},
+         given={Elaine},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BMR}{%
+         family={Bennett},
+         familyi={B\bibinitperiod},
+         given={Martin\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Spivakov},
+         familyi={S\bibinitperiod},
+         given={Mikhail},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JHF}{%
+         family={Jørgensen},
+         familyi={J\bibinitperiod},
+         given={Helle\bibnamedelima F.},
+         giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Atherosclerosis,Muscle,Transcriptomics}
+    \strng{namehash}{DL+1}
+    \strng{fullhash}{DLTALCJOPHJLOEDEBMRSMJHF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Vascular smooth muscle cells (VSMCs) show pronounced heterogeneity across
+  and within vascular beds, with direct implications for their function in
+  injury response and atherosclerosis. Here we combine single-cell
+  transcriptomics with lineage tracing to examine VSMC heterogeneity in healthy
+  mouse vessels. The transcriptional profiles of single VSMCs consistently
+  reflect their region-specific developmental history and show heterogeneous
+  expression of vascular disease-associated genes involved in inflammation,
+  adhesion and migration. We detect a rare population of VSMC-lineage cells
+  that express the multipotent progenitor marker Sca1, progressively
+  downregulate contractile VSMC genes and upregulate genes associated with VSMC
+  response to inflammation and growth factors. We find that Sca1 upregulation
+  is a hallmark of VSMCs undergoing phenotypic switching in vitro and in vivo,
+  and reveal an equivalent population of Sca1-positive VSMC-lineage cells in
+  atherosclerotic plaques. Together, our analyses identify disease-relevant
+  transcriptional signatures in VSMC-lineage cells in healthy blood vessels,
+  with implications for disease susceptibility, diagnosis and prevention.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41467-018-06891-x
+    \endverb
+    \field{issn}{2041-1723}
+    \field{issue}{1}
+    \field{number}{1}
+    \field{pages}{4567}
+    \field{shortjournal}{Nat Commun}
+    \field{title}{Disease-Relevant Transcriptional Signatures Identified in
+  Individual Smooth Muscle Cells from Healthy Mouse Vessels}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41467-018-06891-x
+    \endverb
+    \field{volume}{9}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\XMAZZN3Y\\Dobnikar et al. - 2018
+    \verb - Disease-relevant transcriptional signatures identi.pdf;C\:\\Users\\
+    \verb torbe\\Zotero\\storage\\Y3XAYVUC\\s41467-018-06891-x.html
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{day}{01}
+    \field{month}{11}
+    \field{year}{2018}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{johnsonMetalloproteinasesAtherosclerosis2017}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JJL}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Jason\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{ADAM,ADAMTS
+  cell,Animals,Atherosclerosis,Humans,Metalloproteases,Metalloproteinase,MMP,Proteases,TIMP}
+    \strng{namehash}{JJL1}
+    \strng{fullhash}{JJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Atherosclerosis underlies most cardiovascular diseases, and is accepted as
+  a primary cause of mortality worldwide. Proteases have been implicated in the
+  development and progression of atherosclerosis, due to their ability to
+  provoke focal destruction of the vascular extracellular matrix. Members of
+  the metalloproteinase family, especially matrix metalloproteinases (MMPs),
+  and their endogenous tissue inhibitors (TIMPs) have been suggested to perform
+  complex dual roles during late-stage progression and rupture of
+  atherosclerotic plaques. Proposed favourable actions of metalloproteinases
+  include the promotion of vascular smooth muscle growth and survival which
+  stabilises plaques, while conversely extracellular matrix destruction
+  alongside interminable monocyte/macrophage accumulation can encourage plaque
+  rupture. This review provides a summary of the cogent evidence connecting the
+  contribution of individual metalloproteinases to atherosclerotic plaque
+  development, progression, and instability. Topics discussed include
+  structural, functional and cell-specific diversity of MMP members; evidence
+  from animal models of atherosclerosis and comparisons with findings in
+  humans; the dual role of MMPs and the requirement to selectively target
+  individual MMPs; and the need for efficient surrogate markers of MMP
+  inhibition. Accordingly, as our knowledge of the complex roles individual
+  MMPs play especially during the progression and rupture of atherosclerotic
+  plaques expands, new impetus is required for clinical trials evaluating the
+  therapeutic potential of selective MMP inhibition, which could limit
+  cardiovascular morbidity and mortality worldwide.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ejphar.2017.09.007
+    \endverb
+    \verb{eprint}
+    \verb 28893577
+    \endverb
+    \field{issn}{1879-0712}
+    \field{pages}{93\bibrangedash 106}
+    \field{shortjournal}{Eur J Pharmacol}
+    \field{title}{Metalloproteinases in Atherosclerosis}
+    \field{volume}{816}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\5DKTYS8E\\Johnson - 2017 - Metall
+    \verb oproteinases in atherosclerosis.pdf
+    \endverb
+    \field{journaltitle}{European Journal of Pharmacology}
+    \field{eprinttype}{pmid}
+    \field{day}{05}
+    \field{month}{12}
+    \field{year}{2017}
+  \endentry
+
+  \entry{galisIncreasedExpressionMatrix1994}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GZS}{%
+         family={Galis},
+         familyi={G\bibinitperiod},
+         given={Z.\bibnamedelima S.},
+         giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SGK}{%
+         family={Sukhova},
+         familyi={S\bibinitperiod},
+         given={G.\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LMW}{%
+         family={Lark},
+         familyi={L\bibinitperiod},
+         given={M.\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Libby},
+         familyi={L\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Arteries,Arteriosclerosis,Carotid
+  Arteries,Collagenases,Elastin,Extracellular Matrix,Frozen
+  Sections,Glycoproteins,Humans,Immunohistochemistry,Leukocyte Common
+  Antigens,Matrix Metalloproteinase 1,Matrix Metalloproteinase 3,Matrix
+  Metalloproteinase 9,Metalloendopeptidases,Proteins,Tissue Distribution,Tissue
+  Inhibitor of Metalloproteinase-2,Tissue Inhibitor of Metalloproteinases}
+    \strng{namehash}{GZS+1}
+    \strng{fullhash}{GZSSGKLMWLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Dysregulated extracellular matrix (ECM) metabolism may contribute to
+  vascular remodeling during the development and complication of human
+  atherosclerotic lesions. We investigated the expression of matrix
+  metalloproteinases (MMPs), a family of enzymes that degrade ECM components in
+  human atherosclerotic plaques (n = 30) and in uninvolved arterial specimens
+  (n = 11). We studied members of all three MMP classes (interstitial
+  collagenase, MMP-1; gelatinases, MMP-2 and MMP-9; and stromelysin, MMP-3) and
+  their endogenous inhibitors (TIMPs 1 and 2) by immunocytochemistry,
+  zymography, and immunoprecipitation. Normal arteries stained uniformly for
+  72-kD gelatinase and TIMPs. In contrast, plaques' shoulders and regions of
+  foam cell accumulation displayed locally increased expression of 92-kD
+  gelatinase, stromelysin, and interstitial collagenase. However, the mere
+  presence of MMP does not establish their catalytic capacity, as the zymogens
+  lack activity, and TIMPs may block activated MMPs. All plaque extracts
+  contained activated forms of gelatinases determined zymographically and by
+  degradation of 3H-collagen type IV. To test directly whether atheromata
+  actually contain active matrix-degrading enzymes in situ, we devised a method
+  which allows the detection and microscopic localization of MMP enzymatic
+  activity directly in tissue sections. In situ zymography revealed
+  gelatinolytic and caseinolytic activity in frozen sections of atherosclerotic
+  but not of uninvolved arterial tissues. The MMP inhibitors, EDTA and
+  1,10-phenanthroline, as well as recombinant TIMP-1, reduced these activities
+  which colocalized with regions of increased immunoreactive MMP expression,
+  i.e., the shoulders, core, and microvasculature of the plaques. Focal
+  overexpression of activated MMP may promote destabilization and complication
+  of atherosclerotic plaques and provide novel targets for therapeutic
+  intervention.%
+    }
+    \verb{doi}
+    \verb 10.1172/JCI117619
+    \endverb
+    \verb{eprint}
+    \verb 7989608
+    \endverb
+    \field{issn}{0021-9738}
+    \field{number}{6}
+    \field{pages}{2493\bibrangedash 2503}
+    \field{shortjournal}{J Clin Invest}
+    \field{title}{Increased Expression of Matrix Metalloproteinases and Matrix
+  Degrading Activity in Vulnerable Regions of Human Atherosclerotic Plaques}
+    \field{volume}{94}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\A3RFR4FE\\Galis et al. - 1994 - I
+    \verb ncreased expression of matrix metalloproteinases .pdf
+    \endverb
+    \field{journaltitle}{The Journal of Clinical Investigation}
+    \field{eprinttype}{pmid}
+    \field{month}{12}
+    \field{year}{1994}
+  \endentry
+
+  \entry{langleyExtracellularMatrixProteomics2017}{article}{}
+    \name{author}{27}{}{%
+      {{hash=LSR}{%
+         family={Langley},
+         familyi={L\bibinitperiod},
+         given={Sarah\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Willeit},
+         familyi={W\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Didangelos},
+         familyi={D\bibinitperiod},
+         given={Athanasios},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MLP}{%
+         family={Matic},
+         familyi={M\bibinitperiod},
+         given={Ljubica\bibnamedelima Perisic},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Skroblin},
+         familyi={S\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BBJ}{%
+         family={Barallobre-Barreiro},
+         familyi={B\bibinithyphendelim B\bibinitperiod},
+         given={Javier},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lengquist},
+         familyi={L\bibinitperiod},
+         given={Mariette},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rungger},
+         familyi={R\bibinitperiod},
+         given={Gregor},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kapustin},
+         familyi={K\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kedenko},
+         familyi={K\bibinitperiod},
+         given={Ludmilla},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Molenaar},
+         familyi={M\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Ruifang},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Barwari},
+         familyi={B\bibinitperiod},
+         given={Temo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Suna},
+         familyi={S\bibinitperiod},
+         given={Gonca},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yin},
+         familyi={Y\bibinitperiod},
+         given={Xiaoke},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=IB}{%
+         family={Iglseder},
+         familyi={I\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Paulweber},
+         familyi={P\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Willeit},
+         familyi={W\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shalhoub},
+         familyi={S\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pasterkamp},
+         familyi={P\bibinitperiod},
+         given={Gerard},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DAH}{%
+         family={Davies},
+         familyi={D\bibinitperiod},
+         given={Alun\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Monaco},
+         familyi={M\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HU}{%
+         family={Hedin},
+         familyi={H\bibinitperiod},
+         given={Ulf},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=SCM}{%
+         family={Shanahan},
+         familyi={S\bibinitperiod},
+         given={Catherine\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Willeit},
+         familyi={W\bibinitperiod},
+         given={Johann},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kiechl},
+         familyi={K\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mayr},
+         familyi={M\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LSR+1}
+  \strng{fullhash}{LSRWKDAMLPSPBBJLMRGKAKLMCLRBTSGYXIBPBWPSJPGDAHMCHUSCMWJKSMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND. The identification of patients with high-risk atherosclerotic
+  plaques prior to the manifestation of clinical events remains challenging.
+  Recent findings question histology- and imaging-based definitions of the
+  “vulnerable plaque,” necessitating an improved approach for predicting
+  onset of symptoms., METHODS. We performed a proteomics comparison of the
+  vascular extracellular matrix and associated molecules in human carotid
+  endarterectomy specimens from 6 symptomatic versus 6 asymptomatic patients to
+  identify a protein signature for high-risk atherosclerotic plaques.
+  Proteomics data were integrated with gene expression profiling of 121 carotid
+  endarterectomies and an analysis of protein secretion by lipid-loaded human
+  vascular smooth muscle cells. Finally, epidemiological validation of
+  candidate biomarkers was performed in two community-based studies., RESULTS.
+  Proteomics and at least one of the other two approaches identified a
+  molecular signature of plaques from symptomatic patients that comprised
+  matrix metalloproteinase 9, chitinase 3-like-1, S100 calcium binding protein
+  A8 (S100A8), S100A9, cathepsin B, fibronectin, and galectin-3-binding
+  protein. Biomarker candidates measured in 685 subjects in the Bruneck study
+  were associated with progression to advanced atherosclerosis and incidence of
+  cardiovascular disease over a 10-year follow-up period. A 4-biomarker
+  signature (matrix metalloproteinase 9, S100A8/S100A9, cathepsin D, and
+  galectin-3-binding protein) improved risk prediction and was successfully
+  replicated in an independent cohort, the SAPHIR study., CONCLUSION. The
+  identified 4-biomarker signature may improve risk prediction and diagnostics
+  for the management of cardiovascular disease. Further, our study highlights
+  the strength of tissue-based proteomics for biomarker discovery., FUNDING.
+  UK: British Heart Foundation (BHF); King’s BHF Center; and the National
+  Institute for Health Research Biomedical Research Center based at Guy’s and
+  St Thomas’ NHS Foundation Trust and King’s College London in partnership
+  with King’s College Hospital. Austria: Federal Ministry for Transport,
+  Innovation and Technology (BMVIT); Federal Ministry of Science, Research and
+  Economy (BMWFW); Wirtschaftsagentur Wien; and Standortagentur Tirol.%
+    }
+    \verb{doi}
+    \verb 10.1172/JCI86924
+    \endverb
+    \verb{eprint}
+    \verb 28319050
+    \endverb
+    \field{issn}{0021-9738}
+    \field{number}{4}
+    \field{pages}{1546\bibrangedash 1560}
+    \field{shortjournal}{J Clin Invest}
+    \field{title}{Extracellular Matrix Proteomics Identifies Molecular
+  Signature of Symptomatic Carotid Plaques}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373893/
+    \endverb
+    \field{volume}{127}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\A55XT9S4\\Langley et al. - Extrac
+    \verb ellular matrix proteomics identifies molecul.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Clinical Investigation}
+    \field{eprinttype}{pmid}
+    \field{year}{2017}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{peprotecheclimitedRecombinantHumanPDGFBB2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={{PeproTech EC Limited}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{PeproTech}}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    PDGFs are disulfide-linked dimers consisting of two 12.0-13.5 kDa
+  polypeptide chains, designated PDGF-A and PDGF-B chains. The three naturally%
+    }
+    \field{title}{Recombinant {{Human PDGF-BB}}}
+    \verb{url}
+    \verb https://www.peprotech.com/recombinant-human-pdgf-bb
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\LWDEA6JR\\recombinant-human-pdgf-
+    \verb bb.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{gravesPlateletderivedGrowthFactor1996a}{article}{}
+    \name{author}{8}{}{%
+      {{hash=GLM}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={L.\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BKE}{%
+         family={Bornfeldt},
+         familyi={B\bibinitperiod},
+         given={K.\bibnamedelima E.},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJS}{%
+         family={Sidhu},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AGM}{%
+         family={Argast},
+         familyi={A\bibinitperiod},
+         given={G.\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=REW}{%
+         family={Raines},
+         familyi={R\bibinitperiod},
+         given={E.\bibnamedelima W.},
+         giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LCC}{%
+         family={Leslie},
+         familyi={L\bibinitperiod},
+         given={C.\bibnamedelima C.},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KEG}{%
+         family={Krebs},
+         familyi={K\bibinitperiod},
+         given={E.\bibnamedelima G.},
+         giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \keyw{1-Methyl-3-isobutylxanthine,Amino Acid Sequence,Cells;
+  Cultured,Cyclic AMP,Cyclic AMP-Dependent Protein Kinases,Enzyme
+  Activation,Humans,Molecular Sequence Data,Muscle; Smooth;
+  Vascular,Phosphodiesterase Inhibitors,Phospholipases A,Phospholipases
+  A2,Phosphorylation,Platelet-Derived Growth Factor}
+    \strng{namehash}{GLM+1}
+    \strng{fullhash}{GLMBKESJSAGMREWRRLCCKEG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The abilities of platelet-derived growth factor (PDGF) and insulin-like
+  growth factor (IGF-I) to regulate cAMP metabolism and mitogen-activated
+  protein kinase (MAP kinase) activity were compared in human arterial smooth
+  muscle cells (hSMC). PDGF-BB stimulated cAMP accumulation up to 150-fold in a
+  concentration-dependent manner (EC50 approximately 0.7 nM). The peak of cAMP
+  formation and cAMP-dependent protein kinase (PKA) activity occurred
+  approximately 5 min after the addition of PDGF and rapidly declined
+  thereafter. Incubating cells with PDGF and 3-isobutyl-1-methylxanthine (IBMX,
+  a phosphodiesterase inhibitor) enhanced the accumulation of cAMP and PKA
+  activity by an additional 2.5-3-fold, whereas IBMX alone was essentially
+  without effect. The PDGF-stimulated increase in cAMP was prevented by
+  addition of the cyclooxygenase inhibitor indomethacin, consistent with
+  release of prostaglandins stimulating cAMP. PDGF, but not IGF-I, stimulated
+  MAPK activity, cytosolic phospholipase A2 (cPLA2) phosphorylation, and cAMP
+  synthesis which indicated a key role for MAP kinase in the activation of
+  cPLA2. Further, PDGF stimulated the rapid release of arachidonic acid and
+  synthesis of prostaglandin E2 (PGE2) which could be inhibited by a cPLA2
+  inhibitor (AACOCF3). Calcium mobilization was required for PDGF-induced
+  arachidonic acid release and PGE2 synthesis but not for MAPK activation,
+  whereas PKC was required for PGE2-mediated activation of PKA. In summary,
+  these results demonstrated that PDGF increases cAMP formation and PKA
+  activity through a MAP kinase-mediated activation of cPLA2, arachidonic acid
+  release, and PGE2 synthesis in human arterial smooth muscle cells.%
+    }
+    \verb{doi}
+    \verb 10.1074/jbc.271.1.505
+    \endverb
+    \verb{eprint}
+    \verb 8550611
+    \endverb
+    \field{issn}{0021-9258}
+    \field{number}{1}
+    \field{pages}{505\bibrangedash 511}
+    \field{shortjournal}{J Biol Chem}
+    \field{title}{Platelet-Derived Growth Factor Stimulates Protein Kinase
+  {{A}} through a Mitogen-Activated Protein Kinase-Dependent Pathway in Human
+  Arterial Smooth Muscle Cells}
+    \field{volume}{271}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\P5IHVC5Y\\Graves et al. - 1996 -
+    \verb Platelet-derived growth factor stimulates protein .pdf
+    \endverb
+    \field{journaltitle}{The Journal of Biological Chemistry}
+    \field{eprinttype}{pmid}
+    \field{day}{05}
+    \field{month}{01}
+    \field{year}{1996}
+  \endentry
+
+  \entry{wangSTATROSCycleExtends2018}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Xiaoyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Hongtao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Di},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Shuang},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Geng},
+         familyi={G\bibinitperiod},
+         given={Jingshu},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Apoptosis,Breast Neoplasms,Female,HeLa Cells,Humans,Interferons,MCF-7
+  Cells,Reactive Oxygen Species,STAT Transcription Factors,Uterine Cervical
+  Neoplasms}
+    \strng{namehash}{WY+1}
+    \strng{fullhash}{WYYXSHFDJYWSGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In mammals, the signal transducer and activator of transcription (STAT)
+  protein processes mitochondria importation targets and mitochondria
+  respiratory complexes, and triggers reactive oxygen species (ROS) generation,
+  which conversely rapidly initiates the activation of STAT. Interferon (IFN)
+  administration increases cancer cell apoptosis via STAT activation and ROS
+  accumulation. However, the existence of a STAT-ROS cycle and how it affects
+  IFN‑induced cancer cellular apoptosis are unclear. In the present study, we
+  used MCF7 breast cancer cells and confirmed that a combination of
+  IFN‑α/β/γ incubation induced STAT1/3 phosphorylation and mitochondria
+  importation, which increased mitochondria respiratory complexes, the cellular
+  oxygen consumption rate (OCR), and ROS production, followed by cellular
+  apoptosis. We also found that STAT1/3 overexpression induced mitochondria
+  respiratory complexes and ROS production. Additionally, ROS induced by H2O2
+  induced phosphorylation of STAT1/3 and promoted mitochondria importation.
+  STAT1/3 deletion suppressed H2O2-induced acute cellular OCR, increasing the
+  ROS level and indicating that STAT1/3 is necessary for ROS-induced
+  mitochondria OCR and further ROS production, suggesting the existence of a
+  STAT-ROS cycle. We next found that IFN induced mitochondria respiratory
+  complexes followed by induction of OCR, ROS, and apoptosis, which were
+  partially blocked by STAT1/3 deletion. Additionally, the suppression of ROS
+  inhibited IFN‑induced STAT1/3 activation. Finally, we discovered that this
+  cycle exists also in A431 and HeLa cancer cells. These results indicate that
+  a STAT-ROS cycle extends IFN‑induced cellular apoptosis.%
+    }
+    \verb{doi}
+    \verb 10.3892/ijo.2017.4196
+    \endverb
+    \verb{eprint}
+    \verb 29115415
+    \endverb
+    \field{issn}{1791-2423}
+    \field{number}{1}
+    \field{pages}{305\bibrangedash 313}
+    \field{shortjournal}{Int J Oncol}
+    \field{title}{The {{STAT-ROS}} Cycle Extends {{IFN}}‑induced Cancer Cell
+  Apoptosis}
+    \field{volume}{52}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\4695VMWZ\\Wang et al. - 2018 - Th
+    \verb e STAT-ROS cycle extends IFN‑induced cancer cell.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Oncology}
+    \field{eprinttype}{pmid}
+    \field{month}{01}
+    \field{year}{2018}
+  \endentry
+
+  \entry{leeRoleSTAT1IRF12007}{article}{}
+    \name{author}{12}{}{%
+      {{hash=LHJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Hyun\bibnamedelima Jung},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=OYK}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Yeo\bibnamedelima Kyoung},
+         giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rhee},
+         familyi={R\bibinitperiod},
+         given={Marie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJY}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Joong-Yeon},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=HJY}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Ji-Young},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=PYS}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Yoon\bibnamedelima Shin},
+         giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kwon},
+         familyi={K\bibinitperiod},
+         given={Yongil},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CKH}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Kyung-Hee},
+         giveni={K\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=JI}{%
+         family={Jo},
+         familyi={J\bibinitperiod},
+         given={Inho},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PSI}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Sang\bibnamedelima Ick},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KWH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Won-Ho},
+         giveni={W\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{hepatitis,iNOS,liver injury,ROS,STAT1}
+    \strng{namehash}{LHJ+1}
+    \strng{fullhash}{LHJOYKRMLJYHJYPYSKYCKHJIPSIGBKWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Previously, we demonstrated that signal transducer and activator of
+  transcription factor 1 (STAT1) plays an essential role in liver injury
+  induced by lipopolysaccharide (LPS)/d-galactosamine (d-GalN); however, the
+  underlying mechanism involved remains unclear. Here, we showed that
+  LPS/d-GalN administration induced secretion of tumor necrosis factor α
+  (TNF-α) and interferon γ (IFN-γ), which mediated apoptosis
+  synergistically. Moreover, LPS/d-GalN-induced apoptosis was associated with
+  increased inducible nitric oxide synthase (iNOS) and nitric oxide (NO)
+  production, as well as elevated reactive oxygen species (ROS) production,
+  which were all strongly inhibited by treatment with the antioxidant
+  N-acetyl-l-cysteine (NAC) and an iNOS/NO inhibitor, l-NMMA. Although STAT1
+  activation and expression did not change significantly in
+  TNF-α/IFN-γ-cotreated cells compared with cells treated with IFN-γ alone,
+  the absence of STAT1 or interferon regulatory factor 1 (IRF-1) in genetic
+  knockout mice strongly abrogated the observed effects of TNF-α/IFN-γ on
+  iNOS/NO induction, ROS production, loss of mitochondrial transmembrane
+  potential (ΔΨm), and apoptosis compared with STAT1(+/+) and IRF-1(+/+)
+  mice. Additionally, the synergistic effects of TNF-α/IFN-γ on iNOS/NO
+  induction, ROS production, and apoptosis were significantly inhibited by
+  overexpression of dominant negative STAT1 in contrast to overexpression of
+  wild-type STAT1. In STAT1-deficient mice, nuclear factor κB (NF-κB)
+  activation by TNF-α/IFN-γ was attenuated and strongly inhibited by both NAC
+  and l-NMMA. Moreover, the proteasome inhibitor, MG132, inhibited NF-κB
+  activation and strongly inhibited iNOS/NO induction, ROS production, and loss
+  of ΔΨm induced by TNF-α/IFN-γ, thereby inhibiting apoptosis.
+  Interestingly, it appears peroxynitrite, which is produced by TNF-α/IFN-γ,
+  may interfere with STAT1 phosphorylation by inducing STAT1 nitration.
+  Collectively, these findings demonstrate that TNF-α/IFN-γ synergistically
+  potentiates iNOS/NO induction, ROS production, and loss of ΔΨm via STAT1
+  overexpression, playing an important role in promoting apoptosis and liver
+  injury induced by LPS/d-GalN.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jmb.2007.03.072
+    \endverb
+    \field{issn}{0022-2836}
+    \field{number}{4}
+    \field{pages}{967\bibrangedash 984}
+    \field{shortjournal}{Journal of Molecular Biology}
+    \field{title}{The {{Role}} of {{STAT1}}/{{IRF-1}} on {{Synergistic ROS
+  Production}} and {{Loss}} of {{Mitochondrial Transmembrane Potential}} during
+  {{Hepatic Cell Death Induced}} by {{LPS}}/d-{{GalN}}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S002228360700438X
+    \endverb
+    \field{volume}{369}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\L8XHFJXG\\Lee et al. - 2007 - The
+    \verb  Role of STAT1IRF-1 on Synergistic ROS Product.pdf;C\:\\Users\\torbe\
+    \verb \Zotero\\storage\\NS5XN8LG\\S002228360700438X.html
+    \endverb
+    \field{journaltitle}{Journal of Molecular Biology}
+    \field{day}{15}
+    \field{month}{06}
+    \field{year}{2007}
+    \field{urlday}{29}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{kaasCurrentResearchOrganization2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KJH}{%
+         family={Kaas},
+         familyi={K\bibinitperiod},
+         given={Jon\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Balaram},
+         familyi={B\bibinitperiod},
+         given={Pooja},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJHBP1}
+    \strng{fullhash}{KJHBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.2147/EB.S64016
+    \endverb
+    \verb{eprint}
+    \verb 26388695
+    \endverb
+    \field{issn}{1179-2744}
+    \field{issue}{Suppl 1}
+    \field{pages}{1\bibrangedash 4}
+    \field{shortjournal}{Eye Brain}
+    \field{title}{Current Research on the Organization and Function of the
+  Visual System in Primates}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4574956/
+    \endverb
+    \field{volume}{6}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\FWZP3NII\\Kaas und Balaram - 2014
+    \verb  - Current research on the organization and function .pdf
+    \endverb
+    \field{journaltitle}{Eye and Brain}
+    \field{eprinttype}{pmid}
+    \field{day}{23}
+    \field{month}{09}
+    \field{year}{2014}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{mattsonSuperiorPatternProcessing2014}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MMP}{%
+         family={Mattson},
+         familyi={M\bibinitperiod},
+         given={Mark\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMP1}
+    \strng{fullhash}{MMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Humans have long pondered the nature of their mind/brain and, particularly
+  why its capacities for reasoning, communication and abstract thought are far
+  superior to other species, including closely related anthropoids. This
+  article considers superior pattern processing (SPP) as the fundamental basis
+  of most, if not all, unique features of the human brain including
+  intelligence, language, imagination, invention, and the belief in imaginary
+  entities such as ghosts and gods. SPP involves the electrochemical, neuronal
+  network-based, encoding, integration, and transfer to other individuals of
+  perceived or mentally-fabricated patterns. During human evolution, pattern
+  processing capabilities became increasingly sophisticated as the result of
+  expansion of the cerebral cortex, particularly the prefrontal cortex and
+  regions involved in processing of images. Specific patterns, real or
+  imagined, are reinforced by emotional experiences, indoctrination and even
+  psychedelic drugs. Impaired or dysregulated SPP is fundamental to cognitive
+  and psychiatric disorders. A broader understanding of SPP mechanisms, and
+  their roles in normal and abnormal function of the human brain, may enable
+  the development of interventions that reduce irrational decisions and
+  destructive behaviors.%
+    }
+    \verb{doi}
+    \verb 10.3389/fnins.2014.00265
+    \endverb
+    \verb{eprint}
+    \verb 25202234
+    \endverb
+    \field{issn}{1662-4548}
+    \field{pages}{265}
+    \field{shortjournal}{Front Neurosci}
+    \field{title}{Superior Pattern Processing Is the Essence of the Evolved
+  Human Brain}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/
+    \endverb
+    \field{volume}{8}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\SYQL2VM5\\Mattson - 2014 - Superi
+    \verb or pattern processing is the essence of the .pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Neuroscience}
+    \field{eprinttype}{pmid}
+    \field{day}{22}
+    \field{month}{08}
+    \field{year}{2014}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{oraclecorporationWhatDatabase2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Oracle Corporation}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Learn everything you need to know about database and how it can help your
+  business.%
+    }
+    \field{title}{What Is a Database?}
+    \verb{url}
+    \verb https://www.oracle.com/database/what-is-database/
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\LSKXTFSM\\what-is-database.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{oraclecorporationWhatRelationalDatabase2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Oracle Corporation}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{title}{What {{Is}} a {{Relational Database}} | {{Oracle}}}
+    \verb{url}
+    \verb https://www.oracle.com/database/what-is-a-relational-database/
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\4W5JRUSC\\what-is-a-relational-da
+    \verb tabase.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{thesqliteconsortiumSQLite2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The SQLite Consortium}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{title}{About {{SQLite}}}
+    \verb{url}
+    \verb https://www.sqlite.org/about.html
+    \endverb
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\JAPYUK5F\\about.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{13}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{carterAssociationCardiovascularDisease2019}{article}{}
+    \name{author}{10}{}{%
+      {{hash=CP}{%
+         family={Carter},
+         familyi={C\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lagan},
+         familyi={L\bibinitperiod},
+         given={Jakub},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fortune},
+         familyi={F\bibinitperiod},
+         given={Christien},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BDL}{%
+         family={Bhatt},
+         familyi={B\bibinitperiod},
+         given={Deepak\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vestbo},
+         familyi={V\bibinitperiod},
+         given={Jørgen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NR}{%
+         family={Niven},
+         familyi={N\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Chaudhuri},
+         familyi={C\bibinitperiod},
+         given={Nazia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SEB}{%
+         family={Schelbert},
+         familyi={S\bibinitperiod},
+         given={Erik\bibnamedelima B.},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Potluri},
+         familyi={P\bibinitperiod},
+         given={Rahul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MCA}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Christopher\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{asthma,chronic obstructive pulmonary disease,heart
+  failure,interstitial lung fibrosis,ischemic heart disease}
+    \strng{namehash}{CP+1}
+    \strng{fullhash}{CPLJFCBDLVJNRCNSEBPRMCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Background The relationship between respiratory diseases and individual
+  cardiovascular diseases, and the impact of cardiovascular diseases on
+  mortality in patients with respiratory disease, are unclear. Objectives This
+  study sought to determine the relationship between chronic obstructive
+  pulmonary disease (COPD), asthma and interstitial lung disease (ILD), and
+  individual cardiovascular diseases, and evaluate the impact of individual
+  cardiovascular diseases on all-cause mortality in respiratory conditions.
+  Methods The authors conducted a cohort study of all patients admitted to 7
+  National Health Service hospitals across the North West of England, between
+  January 1, 2000, and March 31, 2013, with relevant respiratory diagnoses,
+  with age-matched and sex-matched control groups. Results A total of 31,646
+  COPD, 60,424 asthma, and 1,662 ILD patients were included. Control groups
+  comprised 158,230, 302,120, and 8,310 patients, respectively (total follow-up
+  2,968,182 patient-years). COPD was independently associated with ischemic
+  heart disease (IHD), heart failure (HF), atrial fibrillation, and peripheral
+  vascular disease, all of which were associated with all-cause mortality
+  (e.g., odds ratio for the association of COPD with HF: 2.18 [95\% confidence
+  interval (CI): 2.08 to 2.26]; hazard ratio for the contribution of HF to
+  mortality in COPD: 1.65 [95\% CI: 1.61 to 1.68]). Asthma was independently
+  associated with IHD, and multiple cardiovascular diseases contributed to
+  mortality (e.g., HF hazard ratio: 1.81 [95\% CI: 1.75 to 1.87]). ILD was
+  independently associated with IHD and HF, both of which were associated with
+  mortality. Patients with lung disease were less likely to receive coronary
+  revascularization. Conclusions Lung disease is independently associated with
+  cardiovascular diseases, particularly IHD and HF, which contribute
+  significantly to all-cause mortality. However, patients with lung disease are
+  less likely to receive coronary revascularization.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jacc.2018.11.063
+    \endverb
+    \field{issn}{0735-1097}
+    \field{number}{17}
+    \field{pages}{2166\bibrangedash 2177}
+    \field{shortjournal}{Journal of the American College of Cardiology}
+    \field{title}{Association of {{Cardiovascular Disease With Respiratory
+  Disease}}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0735109719304577
+    \endverb
+    \field{volume}{73}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\QYYGWMLT\\Carter et al. - 2019 -
+    \verb Association of Cardiovascular Disease With Respira.pdf;C\:\\Users\\to
+    \verb rbe\\Zotero\\storage\\36269TXW\\S0735109719304577.html
+    \endverb
+    \field{journaltitle}{Journal of the American College of Cardiology}
+    \field{day}{07}
+    \field{month}{05}
+    \field{year}{2019}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{hanPulmonaryDiseasesHeart2007}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HMK}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={MeiLan\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MVV}{%
+         family={McLaughlin},
+         familyi={M\bibinitperiod},
+         given={Vallerie\bibnamedelima V.},
+         giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CGJ}{%
+         family={Criner},
+         familyi={C\bibinitperiod},
+         given={Gerard\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MFJ}{%
+         family={Martinez},
+         familyi={M\bibinitperiod},
+         given={Fernando\bibnamedelima J.},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Heart Association}}%
+    }
+    \keyw{hypertension; pulmonary,inflammation,pulmonary disease; chronic
+  obstructive,pulmonary heart disease}
+    \strng{namehash}{HMK+1}
+    \strng{fullhash}{HMKMVVCGJMFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The complex nature of interactions between the pulmonary and cardiovascular
+  systems is becoming increasingly appreciated. Pulmonary vascular
+  abnormalities are frequently present in patients with respiratory disorders,
+  including chronic obstructive pulmonary disease, idiopathic pulmonary
+  fibrosis, sarcoidosis, neuromuscular or chest wall disorders, and disorders
+  of ventilatory control including sleep apnea syndromes and obesity
+  hypoventilation syndrome. Pulmonary hypertension, classified as group III in
+  the World Health Organization classification scheme for pulmonary
+  hypertension, may result in severe right ventricular dysfunction caused by
+  lung disease, also known as cor pulmonale. The development of cor pulmonale
+  is generally associated with poorer prognosis and increased death. Systemic
+  manifestations of lung disease, particularly obstructive disorders, are also
+  particularly relevant because they are associated with increased cardiac
+  death and impaired health status. This article will discuss the most common
+  pulmonary diseases and disorders of ventilatory control that cause pulmonary
+  vascular abnormalities and cor pulmonale, with particular concentration on
+  how treatment of these diseases may affect the heart. In addition, the
+  complex nature of cardiac and lung disease will also be explored,
+  particularly with respect to the relationship between chronic obstructive
+  pulmonary disease, systemic inflammation, atherosclerosis, and cardiovascular
+  death, which is currently a very active focus of research.%
+    }
+    \verb{doi}
+    \verb 10.1161/CIRCULATIONAHA.106.685206
+    \endverb
+    \field{number}{25}
+    \field{pages}{2992\bibrangedash 3005}
+    \field{title}{Pulmonary {{Diseases}} and the {{Heart}}}
+    \verb{url}
+    \verb https://www.ahajournals.org/doi/10.1161/circulationaha.106.685206
+    \endverb
+    \field{volume}{116}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\EG26CRJK\\Han et al. - 2007 - Pul
+    \verb monary Diseases and the Heart.pdf
+    \endverb
+    \field{journaltitle}{Circulation}
+    \field{day}{18}
+    \field{month}{12}
+    \field{year}{2007}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{auyeungAssociationGeneticInstrumental2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AYSL}{%
+         family={Au\bibnamedelima Yeung},
+         familyi={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+         given={Shiu\bibnamedelima Lun},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Borges},
+         familyi={B\bibinitperiod},
+         given={Maria-Carolina},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=LDA}{%
+         family={Lawlor},
+         familyi={L\bibinitperiod},
+         given={Debbie\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Heart Association}}%
+    }
+    \keyw{coronary artery disease,forced expiratory volume,lung,Mendelian
+  randomization analysis,odds ratio,vital capacity}
+    \strng{namehash}{AYSL+1}
+    \strng{fullhash}{AYSLBMCLDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Background: Lung function, assessed by forced expiratory volume in 1 second
+  (FEV1) and forced vital capacity (FVC), is inversely associated with coronary
+  artery disease (CAD), but these associations could be because of confounding
+  or reversed causality. We conducted a 2-sample Mendelian randomization study,
+  using publicly available data from relevant genome-wide association studies,
+  to examine the role of FEV1 or FVC on CAD. Methods: We used the most recent
+  genome-wide association studies on lung function to extract genetic
+  instruments related to FEV1 and FVC (n=92\,749). Data on the association
+  between genetic instruments and CAD were obtained from Coronary Artery
+  Disease Genome wide Replication and Meta-analysis plus The Coronary Artery
+  Disease Genetics 1000 Genomes-based genome-wide association studies (60\,801
+  CAD cases and 123\,504 controls). We used inverse-variance weighting with a
+  multiplicative random effect to estimate the genetic instrumented association
+  of FEV1 and FVC on CAD. Sensitivity analyses included weighted median and
+  MR-Egger methods. Results: Each SD greater FEV1 was associated with a lower
+  risk of CAD (odds ratio, 0.78 per SD; 95\% confidence interval, 0.62–0.98)
+  with a similar magnitude for FVC on CAD risk (odds ratio, 0.82 per SD; 95\%
+  confidence interval, 0.64–1.06). Estimates for FEV1 were similar when using
+  MR-Egger method (odds ratio, 0.80 per SD; 95\% confidence interval,
+  0.33–1.94) although the magnitude was smaller for weighted median method
+  (odds ratio, 0.93 per SD; 95\% confidence interval, 0.75–1.17). Estimates
+  for FVC in the sensitivity analyses were attenuated (median) or changed
+  direction (MR-Egger). Conclusions: Our study suggested an inverse relation
+  between FEV1 and CAD, but for FVC, evidence is less clear.%
+    }
+    \verb{doi}
+    \verb 10.1161/CIRCGEN.117.001952
+    \endverb
+    \field{number}{4}
+    \field{pages}{e001952}
+    \field{title}{Association of {{Genetic Instrumental Variables}} for {{Lung
+  Function}} on {{Coronary Artery Disease Risk}}}
+    \verb{url}
+    \verb https://www.ahajournals.org/doi/10.1161/CIRCGEN.117.001952
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\37LYSF9Q\\Au Yeung et al. - 2018
+    \verb - Association of Genetic Instrumental Variables for .pdf
+    \endverb
+    \field{journaltitle}{Circulation: Genomic and Precision Medicine}
+    \field{month}{04}
+    \field{year}{2018}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{nowakLungFunctionCoronary2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NC}{%
+         family={Nowak},
+         familyi={N\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Heart Association}}%
+    }
+    \keyw{Editorials,exercise,motivation,public health,smoking}
+    \strng{namehash}{NC1}
+    \strng{fullhash}{NC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1161/CIRCGEN.118.002137
+    \endverb
+    \field{number}{4}
+    \field{pages}{e002137}
+    \field{title}{Lung {{Function}} and {{Coronary Artery Disease Risk}}}
+    \verb{url}
+    \verb https://www.ahajournals.org/doi/10.1161/CIRCGEN.118.002137
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\PVZKAWI2\\Nowak - 2018 - Lung Fun
+    \verb ction and Coronary Artery Disease Risk.pdf
+    \endverb
+    \field{journaltitle}{Circulation: Genomic and Precision Medicine}
+    \field{month}{04}
+    \field{year}{2018}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{kapellosHumanMonocyteSubsets2019}{article}{}
+    \name{author}{7}{}{%
+      {{hash=KTS}{%
+         family={Kapellos},
+         familyi={K\bibinitperiod},
+         given={Theodore\bibnamedelima S.},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bonaguro},
+         familyi={B\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Gemünd},
+         familyi={G\bibinitperiod},
+         given={Ioanna},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Reusch},
+         familyi={R\bibinitperiod},
+         given={Nico},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Saglam},
+         familyi={S\bibinitperiod},
+         given={Adem},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HER}{%
+         family={Hinkley},
+         familyi={H\bibinitperiod},
+         given={Emily\bibnamedelima R.},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SJL}{%
+         family={Schultze},
+         familyi={S\bibinitperiod},
+         given={Joachim\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KTS+1}
+    \strng{fullhash}{KTSBLGIRNSAHERSJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Human monocytes are divided in three major populations; classical
+  (CD14+CD16−), non-classical (CD14dimCD16+), and intermediate (CD14+CD16+).
+  Each of these subsets is distinguished from each other by the expression of
+  distinct surface markers and by their functions in homeostasis and disease.
+  In this review, we discuss the most up-to-date phenotypic classification of
+  human monocytes that has been greatly aided by the application of novel
+  single-cell transcriptomic and mass cytometry technologies. Furthermore, we
+  shed light on the role of these plastic immune cells in already recognized
+  and emerging human chronic diseases, such as obesity, atherosclerosis,
+  chronic obstructive pulmonary disease, lung fibrosis, lung cancer, and
+  Alzheimer's disease. Our aim is to provide an insight into the contribution
+  of human monocytes to the progression of these diseases and highlight their
+  candidacy as potential therapeutic cell targets.%
+    }
+    \field{issn}{1664-3224}
+    \field{title}{Human {{Monocyte Subsets}} and {{Phenotypes}} in {{Major
+  Chronic Inflammatory Diseases}}}
+    \verb{url}
+    \verb https://www.frontiersin.org/articles/10.3389/fimmu.2019.02035
+    \endverb
+    \field{volume}{10}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\NTB24ECJ\\Kapellos et al. - 2019
+    \verb - Human Monocyte Subsets and Phenotypes in Major Chr.pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Immunology}
+    \field{year}{2019}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{wrigleyCD14CD16Monocytes2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WBJ}{%
+         family={Wrigley},
+         familyi={W\bibinitperiod},
+         given={Benjamin\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Shantsila},
+         familyi={S\bibinitperiod},
+         given={Eduard},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TLD}{%
+         family={Tapp},
+         familyi={T\bibinitperiod},
+         given={Luke\bibnamedelima D.},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LGYH}{%
+         family={Lip},
+         familyi={L\bibinitperiod},
+         given={Gregory Y.\bibnamedelima H.},
+         giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+    }
+    \keyw{Ischaemic heart failure,monocyte subsets,monocytes}
+    \strng{namehash}{WBJ+1}
+    \strng{fullhash}{WBJSETLDLGYH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Background Monocytes play important roles in inflammation, angiogenesis and
+  tissue repair and may contribute to the pathophysiology of heart failure
+  (HF). Objectives We examined differences in monocyte subset numbers and
+  expression of cell surface markers of activation (CD14) and chemotaxis (CCR2)
+  in patients with acute HF (AHF), stable HF (SHF), and controls and evaluated
+  their impact on clinical outcomes. Methods Three monocyte subsets
+  [CD14++CD16−CCR2+ (Mon1), CD14++CD16+CCR2+ (Mon2) and CD14+CD16++CCR2−
+  (Mon3)] were analysed by flow cytometry in 51 patients with AHF, 42 patients
+  with SHF, 44 patients with stable coronary artery disease and without HF
+  (CAD) and 40 healthy controls (HC). The prognostic impact of monocyte subsets
+  was examined in AHF. Results Patients with AHF had significantly higher Mon1
+  counts compared to the three control groups (P {$<$} 0·001 for all).
+  Similarly, Mon2 levels were increased in AHF compared to SHF (P = 0·004) and
+  CAD (P {$<$} 0·001) and increased in SHF vs. CAD (P = 0·009). There were no
+  differences in Mon3 counts between the groups. Twenty patients (39·2\%) with
+  AHF reached the primary end-point of death or re-hospitalisation, and after
+  adjustment for confounders, Mon2 count remained negatively associated with a
+  combined end-point of death and re-hospitalisation [hazard ratio (per 10
+  cells/μL): 0·79; confidence interval: 0·66–0·94; P = 0·009].
+  Conclusions Mon2 counts are increased in patients with both acute and stable
+  HF, with enhanced expression of surface markers of activation (CD14) and
+  chemotaxis (CCR2). This subset was also associated with an adverse prognosis
+  in patients with AHF.%
+    }
+    \verb{doi}
+    \verb 10.1111/eci.12023
+    \endverb
+    \field{issn}{1365-2362}
+    \field{number}{2}
+    \field{pages}{121\bibrangedash 130}
+    \field{title}{{{CD14}}++{{CD16}}+ Monocytes in Patients with Acute
+  Ischaemic Heart Failure}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/eci.12023
+    \endverb
+    \field{volume}{43}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\A8NEGXCA\\Wrigley et al. - 2013 -
+    \verb  CD14++CD16+ monocytes in patients with acute ischa.pdf;C\:\\Users\\t
+    \verb orbe\\Zotero\\storage\\CH3RJXSE\\eci.html
+    \endverb
+    \field{journaltitle}{European Journal of Clinical Investigation}
+    \field{annotation}{%
+    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/eci.12023%
+    }
+    \field{year}{2013}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
     \field{urlyear}{2022}
   \endentry
 \enddatalist

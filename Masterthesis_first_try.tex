@@ -118,12 +118,19 @@ date=year
 \usepackage{siunitx}
 \usepackage{multirow}
 \usepackage{enumerate}
-\usepackage[nohyperlinks, withpage]{acronym}
+%\usepackage[printonlyused]{acronym}
 \usepackage[flushleft]{threeparttable}
 \usepackage{layouts}
 \usepackage{hypcap}
 \usepackage[super]{nth}
 \usepackage{float}
+
+\usepackage{acro}
+\usepackage{pdfcomment}
+\acsetup{
+  pdfcomments/use=true
+}
+\input{text_parts/abbreviations_acro.tex}
 
 %Grafiken
 \graphicspath{{C:/Users/torbe/OneDrive/Dokumente/Uni/Masterarbeit/Thesis/Abbildung/}}
@@ -195,13 +202,8 @@ date=year
 \DefTblrTemplate{caption-sep}{default}{}
 \DefTblrTemplate{caption-text}{default}{}
 
+\acuse{rna, dna, h, min, d, s, celsius, mL, µL, pM, nM, µM, mM, M, µg, mg}
 
-\acused{dna}
-\acused{ecoli}
-\acused{rna}
-\acused{d}
-\acused{h}
-\acused{min}
 
 %%%%%%%%%%%%%%%%%
 %               %
@@ -254,8 +256,8 @@ date=year
 %               %
 %%%%%%%%%%%%%%%%%
 
-\chapter{Conclusion \& Outlook}
-\input{text_parts/outlook}
+%\chapter{Conclusion \& Outlook}
+%\input{text_parts/outlook}
 
 
 %%%%%%%%%%%%%%%%%
@@ -263,9 +265,10 @@ date=year
 %  Abk. Verz.   %
 %               %
 %%%%%%%%%%%%%%%%%
-
-\chapter*{Abkürzungsverzeichnis}
-\input{text_parts/abbreviations}
+\addcontentsline{toc}{chapter}{Acronyms}
+\printacronyms[heading=chapter*, include=acronym, template=tabularray]
+\addcontentsline{toc}{chapter}{Units}
+\printacronyms[heading=chapter*, include=unit, name=Units]
 
 %%%%%%%%%%%%%%%%%
 %               %
@@ -274,5 +277,5 @@ date=year
 %%%%%%%%%%%%%%%%%
 
 \printbibliography
-
+\addcontentsline{toc}{chapter}{Bibliography}
 \end{document}
