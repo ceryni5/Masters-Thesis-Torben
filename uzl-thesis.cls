@@ -388,9 +388,9 @@
 \renewcommand\thesection{\thechapter.\@arabic\c@section}
 \newcommand\@chapapp{\chaptername}
 \newcommand\appendix{%
-  \printbibliography
-  \uzl@bibliography@printedtrue
-  \par
+  \chapter*{Bibliography}
+  \printbibliography[heading=none]
+
   \setcounter{chapter}{0}%
   \setcounter{section}{0}%
   \gdef\@chapapp{\appendixname}%

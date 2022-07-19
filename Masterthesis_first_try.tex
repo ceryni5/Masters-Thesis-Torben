@@ -97,6 +97,7 @@ date=year
 \DeclareFieldFormat[article]{journaltitle}{#1\isdot}
 \DeclareFieldFormat[article]{volume}{\textit{#1}}
 \DeclareFieldFormat[article]{pages}{#1}
+
 \addbibresource{Literatur/literatur.bib}
 
 \AtEveryBibitem{\clearfield{note}}
@@ -112,6 +113,7 @@ date=year
 \AtEveryCitekey{\clearfield{eprinttype}}
 
 %Packages
+\usepackage{lscape}
 \usepackage{tabularx}
 \usepackage{tabularray}
 \usepackage{textgreek}
@@ -252,30 +254,37 @@ date=year
 
 %%%%%%%%%%%%%%%%%
 %               %
-%    Ausblick   %
+% Bibliographie %
 %               %
 %%%%%%%%%%%%%%%%%
 
-%\chapter{Conclusion \& Outlook}
-%\input{text_parts/outlook}
-
+\chapter*{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+\markboth{Bibliography}{Bibliography}
+\printbibliography[heading=none]
 
 %%%%%%%%%%%%%%%%%
 %               %
 %  Abk. Verz.   %
 %               %
 %%%%%%%%%%%%%%%%%
-\addcontentsline{toc}{chapter}{Acronyms}
-\printacronyms[heading=chapter*, include=acronym, template=tabularray]
-\addcontentsline{toc}{chapter}{Units}
-\printacronyms[heading=chapter*, include=unit, name=Units]
+
+\chapter*{Abbreviations and units}
+\addcontentsline{toc}{chapter}{Abbreviations and units}
+\markboth{Abbreviations and units}{Abbreviations and units}
+\printacronyms[heading=section*, include=acronym, template=tabularray, name=Abbreviations]
+\printacronyms[heading=section*, include=unit, template=tabularray, name=Units]
 
 %%%%%%%%%%%%%%%%%
 %               %
-% Bibliographie %
+%  Supplement   %
 %               %
 %%%%%%%%%%%%%%%%%
 
-\printbibliography
-\addcontentsline{toc}{chapter}{Bibliography}
+\chapter*{Supplement}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S.\arabic{figure}}
+\addcontentsline{toc}{chapter}{Supplement}
+\markboth{Supplement}{Supplement}
+\input{text_parts/supplement}
 \end{document}

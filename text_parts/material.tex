@@ -13,6 +13,7 @@
     Cell Applications, Inc & San Diego, CA, USA \\
     \chemometec & Allerod, DK \\
     \Eppendorf & Hamburg, DE\\
+    Eurofins Genomics Germany GmbH & Ebersberg, DE\\
     \Heraeus & Hanau, DE \\
     \Merck & Darmstadt, DE \\
     \Keyence & Osaka, JP\\
@@ -46,8 +47,6 @@
     The SQLite Consortium \newline (Contact via Hipp, Wyrick \& Company) & Charlotte, NC, USA\\
 \end{longtblr}
 
-
-
 \section{Celllines}
 \label{sec:cells}
 \begin{longtblr}[]{
@@ -57,21 +56,33 @@
     \textbf{Name}                            & \textbf{Celltype}    & \textbf{Manufacturer} \\ \hline
     Human Aortic Smooth Muscle Cell\newline (HAoSMC) & prim. human cell     & Cell Applications, Inc    \\
 \end{longtblr}
+\pagebreak
+
+\section{Kits}
+\label{sec:kits}
+\begin{longtblr}[]{
+    colspec = {X|X},
+    rowhead = 1
+}
+    \textbf{Kit} &  \textbf{Manufacturer} \\ \hline
+    Total RNA Purification Kit & Jena Bioscience GmbH\\
+\end{longtblr}
 
 \section{Oligonucleotides}
 \label{sec:primer}
 \begin{longtblr}[]{
-    colspec = {X|X|X[3]},
+    colspec = {X|X|X[2]},
     rowhead = 1
 }
-\textbf{Target}                 & \textbf{Name}  & \textbf{Sequence}  \\ \hline
-\SetCell[r=2]{m}CNN1            & Fw   & \textbf{\color{red} 5'-seq-3'} \\
-                                & Rv   & \textbf{\color{red} 5'-seq-3'} \\
-\SetCell[r=2]{m}GAPDH           & Fw   & \textbf{\color{red} 5'-seq-3'} \\
-                                & Rv   & \textbf{\color{red} 5'-seq-3'} \\
-\SetCell[r=2]{m}MMP9            & Fw   & \textbf{\color{red} 5'-seq-3'} \\
-                                & Rv   & \textbf{\color{red} 5'-seq-3'} \\
+\textbf{Target}                 & \textbf{Name}     & \textbf{Sequence}  \\ \hline
+\SetCell[r=2]{m}CNN1            & hCNN1.AS          & 5'-GTTGGCCTCAAAAATGTCGT-3' \\
+                                & hCNN1.S           & 5'-AGGCTCCGTGAAGAAGATCA-3' \\ \hline
+\SetCell[r=2]{m}GAPDH           & hGAPDH\_II\_Fw      & 5'-GGATTTGGTCGTATTGGG-3' \\
+                                & hGAPDH\_II\_Rv      & 5'-GGAAGATGGTGATGGGATT-3' \\ \hline
+\SetCell[r=2]{m}MMP9            & hMMP9\_F           & 5'-CAGAGGTTGAACCCCACAGT-3'\\
+                                & hMMP9\_R           & 5'-CCTCTGGCTTCGTCAGAATC-3' \\
 \end{longtblr}
+Oligonucleotides where synthezised by Eurofins Genomics Germany GmbH.
 
 \section{Chemicals}
 \label{sec:chemicals}
@@ -85,8 +96,8 @@
     BSA & \SigmaA \\
     CellROX\texttrademark Green Reagent & \Thermo \\
     Collagen Type I, rat tail & \Ibidi \\
-    dNTP Mix & \AB \\
-    DTT & \Invitrogen \\
+    dNTP Mix (4\,mM) & \AB \\
+    DTT (0.1\,M) & \Invitrogen \\
     Ethanol (99.9 \%) & \Baker \\
     \acs{fccp} & \SigmaA \\
     D-(+)-Glucose, 45 \% solution & \SigmaA \\
@@ -109,7 +120,7 @@
 \end{longtblr}
 
 
-\section{Media, Supplements}
+\section{Media and Supplements}
 \label{sec:media}
 \begin{longtblr}[]{
     colspec = {X|X},
@@ -142,16 +153,6 @@
                                                                 & in PBS   \\
 \end{longtblr}
 
-\section{Kits}
-\label{sec:kits}
-\begin{longtblr}[]{
-    colspec = {X|X},
-    rowhead = 1
-}
-    \textbf{Kit} &  \textbf{Manufacturer} \\ \hline
-    Total RNA Purification Kit & Jena Bioscience GmbH\\
-\end{longtblr}
-
 \section{Consumables}
 \label{sec:consuables}
 \begin{longtblr}[]{
@@ -159,7 +160,7 @@
     rowhead = 1
 }
     \textbf{Name} & \textbf{Manufacturer} \\ \hline
-    384 Well Multiply PCR plates & \textbf{\color{red} ?!?} \\
+    384 Well Multiply PCR plates & \Sarstedt \\
     Agilent Seahorse XF24 Cell Culture\newline Microplate & \Agilent \\
     Agilent Seahorse XF24 Extracellular Flux Assy Kit & \Agilent \\
     BD Discardit\texttrademark~II & Becton Dickinson GmbH \\
@@ -202,10 +203,12 @@
     BZ-X800 All-in-One Flourescence\newline Microscope POWER & \Keyence\\
     Centrifuge 5415 R & \Eppendorf \\
     Centrifuge 5702 R & \Eppendorf \\
+    Clean Air\textregistered & \Heraeus\\
     Eclipse TS100 & \Nikon \\
     Eismaschine & ZIEGRA Eismaschinen GmbH \\
     Hera Cell & \Heraeus \\
     Hera Cell 150 & \Heraeus \\
+    HERAsafe\textregistered & \Heraeus\\
     Incubation/Inactivation bath 1083 & GFL mbH \\
     LA 120 S & \Sartorius \\
     MR 3001 & \Heidolph \\
@@ -218,12 +221,10 @@
     Rotana 460 R & \Hettich \\
     SensoQuest labcycler & \SensoQuest \\
     XF24 Extracellular Flux Analyzer & \Agilent \\
-    \textbf{\color{red} Bench I Heraus} & \Heraeus\\
-    \textbf{\color{red} Bench II Heraus} & \Heraeus\\
 
 \end{longtblr}
 
-\section{Programs \& Modules}
+\section{Programs and Modules}
 \label{sec:packages}
 
 \subsection{Programs}
@@ -233,9 +234,10 @@
 }
     \textbf{Program}            & \textbf{Version}      & \textbf{Publisher} \\ \hline
     Affinity Designer           & 1.10                  & Serif (Europe) Ltd. \\
+    BZ-800 Analyzer             & -                     & \Keyence \\
+    BZ-800 Viewer               & -                     & \Keyence \\
     Excel                       & Version 2205          & Microsoft Corporation\\
     GitHub                      & -                     & GitHub Inc\\
-    keyence software?!          &                       & \Keyence \\
     MiKTeX                      & 2.9                   & Christian Schenk\\
     python                      & 3.9                   & Python Software Foundation \\
     PyCharm\newline (Community edition) & 2021.2.2              & JetBrains s.r.o.\\
@@ -245,7 +247,7 @@
     Wave Controller             & 2.6.3                 & \Agilent \\
 \end{longtblr}
 
-\subsection{Python Modules}
+\subsection{Python modules}
 \begin{longtblr}[]{
     colspec = {X[3]|X[2]|X[5]},
     rowhead = 1

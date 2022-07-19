@@ -1,14 +1,14 @@
 \section{Cultivation and differentiation of HAoSMCs}
 \label{sec:cultivation}
-\Acp{haosmc} were used for the following experiments.. This cell type is commonly used to study of cardiovascular function and disease \cite{[Reference for this claim]}. Cells were kept at 37\,°C and 5\,\% \ac{co2} whenever possible. For differentiation, cells were first treated with \ac{tgf} to induce a contractile phenotype. Afterward, \acp{haosmc} were stimulated with \acf{il1} and \ac{pdgf} to induce a synthetic or pro-inflammatory phenotype. Please refer to sections \ref{sec:tgf} and \ref{sec:pdgf} and the referenced literature for more information.
+\Acp{haosmc} were used for the following experiments. Cells were kept at 37\,°C and 5\,\% \ac{co2} whenever possible. For differentiation, cells were first treated with \ac{tgf} to induce a contractile phenotype. Afterward, \acp{haosmc} were stimulated with \acf{il1} and \ac{pdgf} to induce a synthetic or pro-inflammatory phenotype. Please refer to sections \ref{sec:tgf} and \ref{sec:pdgf} and the referenced literature for more information.
 
-    \subsection{Thawing and Cultivation}
+    \subsection{Thawing and cultivation}
     For longtime storage, cells were stored in liquid nitrogen. New cells (\nth{6} passage) were thawed at 37\,°C in the water bath and transferred to a 15\,mL tube when required. After centrifugation for two\,min at 300\,xg, the supernatant was discarded. The cell pellet was taken up in 14\,mL of \ac{M231} + \ac{smgs} for cultivation in a TC Flask T75. Every other day, 2/3 of the medium was removed and replaced by fresh. Cells were cultivated to a maximum passage of 10.
 
     \subsection{Passaging}
     \acp{haosmc} were passaged at a maximum of 80\,\% confluency (approximately once a week). The medium was removed, and cells were washed once with 5\,mL of \ac{pbs}. Washed cells were incubated with 3\,mL trypsin for 4\,min at 37\,°C. The trypsin was inactivated by adding 7\,mL \ac{M231}. Subsequently, the cell suspension was transferred to a 15\,mL tube and pelleted for 4\,min at 300xg. Finally, the supernatant was removed and the pellet resuspended in \ac{M231} supplemented with \ac{smgs}. The cells were seeded with a density of ~$\num{500e3}$ \acp{haosmc} per TC Flask T75.
 
-    \subsection{Preparation of Collagen I matrix}
+    \subsection{Preparation of collagen I matrix}
     \label{subsec:matrix}
     The \ac{col1} matrix (1.8\,mg/mL) was prepared by mixing the components according to table \ref{tab:matrix}. All components were stored at 4\,°C, and all pipetting steps were carried out on ice:
 
@@ -19,7 +19,7 @@
 	   	\caption[Col I matrix]{\uzlemph{\ac{col1} Matrix Composition}}
 	   	\label{tab:matrix}
 	\end{minipage}
-    \begin{tabular}{|l|l|r|}
+    \begin{tabular}{|l|r|r|}
         \hline
         component & concentration & volume (µL) \\ \hline
         \ac{water}       & -             & 38.9        \\
@@ -45,16 +45,16 @@
     \end{itemize}
     Controls were run alongside without cytokines.
 
-\section{mRNA Quantification}
+\section{mRNA quantification}
 \label{sec:qpcr}
 SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the monitoring of \ac{dna} amplification. Fluorescence is measured after every amplification cycle of the \ac{pcr}. A lower \ac{Cq} corresponds to a higher initial \ac{dna} concentration. \cite{huggettStandardisationReportingNucleic2011}\\
 \Ac{qpcr} was utilized to assess the \ac{mRNA} concentration of the two reporter genes \ac{cnn1} and \ac{mmp9} in differentiated \acp{haosmc}. The housekeeping gene \ac{gapdh} was used as a reference.
 
 
-    \subsection{\ac{rna} Isolation}
+    \subsection{\ac{rna} isolation}
     \ac{rna} was isolated using the Total \ac{rna} Purification Kit. The extraction was performed according to the manufacturer's protocol, using the optional washing step with 700\,µL 80\,\% ethanol, and \ac{rna} was eluted with 30\,µL of RNase-free water.
 
-    \subsection{Reverse Transcription}
+    \subsection{Reverse transcription}
     For \ac{RT}, \ac{rna} samples were diluted to yield 10\,µL of 10\,ng/µL. The \ac{rna} was heated for 5\,min at 68\,°C. Afterward, 10\,µL of the \ac{RT} reaction mix was added:
 
     \begin{table}[h]
@@ -64,15 +64,15 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
 	   	\caption[RT mastermix]{\uzlemph{Reaction Mix for RT}}
 	   	\label{tab:RT Mastr Mix}
 	\end{minipage}
-    \begin{tabular}{|l|l|r|}
+    \begin{tabular}{|l|r|r|}
         \hline
         component               & concentration & volume (µL) \\ \hline
         First Strand Buffer     & 5x            & 4           \\
-        \acs{DTT}               &\textbf{\color{red} ?!?}               & 2           \\
-        \acs{dNTP}              &\textbf{\color{red} ?!?}               & 1           \\
-        Oligos                  &\textbf{\color{red} ?!?}               & 1           \\
-        RiboLock                &\textbf{\color{red} ?!?}               & 1           \\
-        M-MLVRT                 &\textbf{\color{red} ?!?}               & 1           \\ \hline
+        \acs{DTT}               & 0.1\,M               & 2           \\
+        \acs{dNTP}              & 4\,mM               & 1           \\
+        Hexanukleotid Random-Primer  & 30.6\,nM               & 1           \\
+        RiboLock                & 40\,U/µl                & 1           \\
+        M-MLVRT                 & 200\,U/µl               & 1           \\ \hline
     \end{tabular}
     \end{table}
 
@@ -86,7 +86,7 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
 	   	\caption[qPCR samples]{\uzlemph{Sample Composition for qPCR}}
 	   	\label{tab:qPCR_MM}
 	\end{minipage}
-    \begin{tabular}{|l|l|r|}
+    \begin{tabular}{|l|r|r|}
         \hline
         component                  & concentration & volume (µL) \\ \hline
         SYBR GREEN Master Mix      & 1:2          & 3.75        \\
@@ -116,7 +116,7 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
     \end{tabular}
     \end{table}
 
-    \subsection{Processing of Data}
+    \subsection{Processing of data}
     The \ac{Cq} was automatically calculated by the software SDS2.2.2. The arithmetic mean of three technical replicates was calculated for each sample, disregarding values that are apparent outliers. For normalization, the mean \ac{Cq} of the reference gene \ac{gapdh} was subtracted from the mean \ac{Cq} of the gene of interest:
 
     $$\Delta ct = ct(\mathrm{gene of interest}) - ct(\mathrm{GAPDH})$$
@@ -127,12 +127,12 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
 
     In total, four biological replicates were performed. Data visualization and statistical analysis were carried out in python. A student's t-test was used for statistical testing, and a p-value of 0.05 is considered significant. For detailed information, please refer to the script.
 
-\section{Energy Profiling}
+\section{Energy profiling}
 \label{sec:seahorse}
-The Seahorse XF Analyzer allows real-time measurement of dissolved oxygen and protons in a confined small volume using solid-state sensor probes. The measurements are then used to calculate a cell monolayer's \ac{ocr} and \ac{ecar}. The \ac{ocr} and \ac{ecar} are indicators for mitochondrial respiration and glycolysis. They can be used to assess the metabolic state of cells. \cite{agilenttechnologiesHowAgilentSeahorse2022}\\
+The Seahorse XF Analyzer allows real-time measurement of dissolved oxygen and protons in a confined small volume using solid-state sensor probes. The measurements are then used to calculate a cell monolayer's \ac{ocr} and \ac{ecar}. The \ac{ocr} and \ac{ecar} are indicators for mitochondrial respiration and glycolysis. They can be used to assess the metabolic state of cells. \cite{agilenttechnologiesincHowAgilentSeahorse2022}\\
 Seahorse assay was utilized to assess the energy profile of differentiated \acp{haosmc}. For this assay, cells were not differentiated in a \ac{24 well} but XF24 Cell Culture Microplates. Since the confined volume required for the assay would not fit the matrix, cells were not cultivated on \ac{col1}!
 
-    \subsection{Seahorse Assay}
+    \subsection{Seahorse assay}
     On the day before the assay, the Seahorse XF Analyzer was set up to calibrate. The XF24 Extracellular Flux Assay Kit cartridge was equilibrated in Seahorse XF calibrant overnight at 37\,°C in a non-\ac{co2} environment.\\
     On the day of the assay, \acp{haosmc} were washed with 500\,µL PBS each. Afterward, the XF BASE medium was supplemented with 1\,mM sodium pyruvate, 10\,mM glucose, 2\,mM glutamine, and 90\,µM NaOH. Cells were incubated for 1\,h at 37\,°C in a non-\ac{co2} environment with supplemented 500\,µL XF BASE medium. Toxins for disruption of the respiratory chain were prepared and loaded into the XF24 Extracellular Flux Assay cartridge:
 
@@ -191,7 +191,7 @@ Seahorse assay was utilized to assess the energy profile of differentiated \acp{
 
     After the measurement, the medium was removed, and \acp{haosmc} were stained for 15\,min with 1\,µg/mL Hoechst 33342 in \ac{pbs}. Finally, the cells were imaged to determine cell count for normalization.
 
-    \subsection{Processing of Data}
+    \subsection{Processing of data}
     \begin{figure}[h]
     \capstart
         \centering
@@ -199,14 +199,14 @@ Seahorse assay was utilized to assess the energy profile of differentiated \acp{
 
         \begin{minipage}{\captionwidth}
             \caption[enrichment]{\uzlemph{Basics of Seahorse Assay}\\
-            \textbf{(A)} Schematic of a well used in Seahorse Assay. For the measurement, the piston in the middle lowers to the bottom, defining a restricted space at the bottom. \ac{ocr} and \ac{ecar} in this volume are measured via two probes (red and green). \textbf{(B)} Exemplary curve for \ac{ocr} recorded over time and extractable properties of the respiratory chain \cite{AGILENT WEBSITE; ADD SOURCE}.}
+            \textbf{(A)} Schematic of a well used in Seahorse Assay. For the measurement, the piston in the middle lowers to the bottom, defining a restricted space at the bottom. \ac{ocr} and \ac{ecar} in this volume are measured via two probes (red and green). Figure adapted from \cite{agilenttechnologiesincHowAgilentSeahorse2022}. \textbf{(B)} Exemplary curve for \ac{ocr} recorded over time and extractable properties of the respiratory chain \cite{agilenttechnologiesinc.AGILENTSeahorseXF2020}.}
             \label{fig:seahorse_basics}
         \end{minipage}
     \end{figure}
 
     Cells were quantified using a python script provided by Dr. Tobias Reinberger. \ac{ocr} and \ac{ecar} were calculated with Wave Controller, which were normalized using the cell count and the signal in the control wells. In total, three biological repeats were recorded. One repeat was excluded because no changes in \ac{ocr} and \ac{ecar} could be detected and cells detached from the bottom of the wells. One of the five technical repeats for each condition was manually excluded for the remaining replicates. Further, initial \ac{ocr} and \ac{ecar}, as well as the characteristics of the respiratory chain displayed in figure \ref{fig:seahorse_basics} B, were calculated using a modified python script provided by Dr. Tobias Reinberger. Welch’s t-test was used for statistical analysis, and a p-value of 0.05 is considered significant. For detailed information, please refer to the script.
 
-\section{Oxidative Stress Assay}
+\section{CellROX\texttrademark~assay}
 \label{sec:cellrox}
 CellROX\texttrademark~Green is a fluorescent dye that gets oxidized by elevated levels of \ac{ros}. The oxidized form binds to \ac{dna} and shows bright-green fluorescence \cite{thermofisherscientificinc.CellROXGreenReagent2022}.\\
 CellROX\texttrademark~Green assay was used to assess the generation of \ac{ros} in differentiated \acp{haosmc}. After differentiation, further stimulation (from here on referred to as \textit{boost}) with \ac{pdgf} was carried out. Finally, a recovery experiment was performed using \ac{nac}. \ac{nac} is a potent antioxidant.
@@ -233,16 +233,15 @@ CellROX\texttrademark~Green assay was used to assess the generation of \ac{ros} 
     \end{tabular}
     \end{table}
 
-    During the boost, cells were kept at 37\,°C in a 5\,\% \ac{co2} environment. The boost time (60, 120, 180, or 240\,min) is indicated along the results of the respective experiment. Imaging was done with the BZ-X810 All-in-One Fluorescence Microscope, using standard sensitivity. Images for the \acf{nac} quench were recorded as a z-stack and merged into one image using [KEYENCE SOFTWARE].
+    During the boost, cells were kept at 37\,°C in a 5\,\% \ac{co2} environment. The boost time (60, 120, 180, or 240\,min) is indicated along the results of the respective experiment. Imaging was done with the BZ-X810 All-in-One Fluorescence Microscope, using standard sensitivity. Images for the \acf{nac} quench were recorded as a z-stack and merged into one image using BZ-800 Analyzer.
 
-    \subsection{Processing of Data}
+    \subsection{Processing of data}
     \label{subsec:cellrox_data_processing}
     Seven biological repeats were performed for \ac{pdgf}-boost titration. One repeat was excluded because of a high signal in the negative control. Four biological repeats were performed for the \ac{nac} quench, one of which has been excluded because no signal in the positive control could be detected.
     For quantification of signal intensity, pixels with a green value higher than 90 were counted. Differences in cell count were adjusted by dividing the green pixel by the number of blue pixels with a threshold of 80. To adjust for the large variance in total signal intensity between biological repeats, values were normalized by division through the total signal of all recorded conditions.
     The Mann-Whitney U test was used for statistical testing. A p-value of 0.05 is considered significant. For detailed information, please refer to the scripts.
 
-
-\section{Curation of Data for postGWAS Analyses}
+\section{Curation of data for postGWAS analyses}
 \label{sec:database}
 Data for post\ac{gwas} analyses and co-visualization with the \ac{gwas} summary statistics were downloaded from public resources. Processing of the data and further annotation is briefly listed and described below. The generated tables are summarized in figure \ref{fig:db_er} and table \ref{tab:db_tables}. For a complete view, please refer to the download scripts.
 
@@ -330,13 +329,17 @@ For the analysis, \acp{cCRE} annotated as unclassified were excluded. As a list 
     \item The Number of distinct \acp{cCRE} that overlap with an SNP in the SNP list in the biosample of interest (nt)
 \end{itemize}
 
-The p-value for the number of overlaps greater than or equal to the observation can be calculated as the cumulative distribution function of the hypergeometric distribution \cite{}.
+The p-value for the number of overlaps greater than or equal to the observation can be calculated as the cumulative distribution function of the hypergeometric distribution \cite{virtanenSciPyFundamentalAlgorithms2020}.
 
 $$ P(\sigma_t\geq n_t) = \sum_{k=n_t}^{min(m_t, n)} \frac{\binom{n}{k}\binom{m-n}{m_t-k}}{\binom{m}{m_t}} $$
 
 To account for the multiple comparisons problem, p-values were adjusted with Bonferroni correction, where n is the number of tests ($\equiv$ number of biosamples):
 
 $$ p_{ajd.} = p*n$$
+
+Additionally an \ac{ef} was calculated as the hit rate for the biosample, devided by the backgroud hit rate of the biosample:
+
+$$ ef = \frac{\frac{nt}{n}}{\frac{mt}{m}} = \frac{nt\times m}{n\times mt}$$
 
 The analysis and visualization were done in python. An adjusted p-value of 0.05 is considered significant. Finally, the identified biosamples were annotated via the \MYhref{https://web.expasy.org/cellosaurus/}{cell line database Cellosaurus}. For detailed information, please refer to the analysis scripts.
 

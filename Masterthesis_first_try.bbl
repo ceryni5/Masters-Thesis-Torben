@@ -19,21 +19,16 @@
 \datalist[entry]{none/global//global/global}
   \entry{centersfordiseasecontrolandpreventionHeartDiseaseFacts2022}{online}{}
     \name{author}{1}{}{%
-      {{hash=fDCaPC}{%
-         prefix={for},
-         prefixi={f\bibinitperiod},
-         family={Disease Control {and}\bibnamedelima Prevention},
-         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  a\bibinitperiod\bibinitdelim P\bibinitperiod},
-         given={Centers},
-         giveni={C\bibinitperiod},
+      {{hash=C}{%
+         family={{Centers for Disease Control and Prevention}},
+         familyi={C\bibinitperiod},
       }}%
     }
     \list{organization}{1}{%
       {{Centers for Disease Control and Prevention}}%
     }
-    \strng{namehash}{DCaPCf1}
-    \strng{fullhash}{DCaPCf1}
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
@@ -91,6 +86,7 @@
     \verb C\:\\Users\\torbe\\Zotero\\storage\\AL7889VJ\\Fryar - 2012 - Prevalen
     \verb ce of Uncontrolled Risk Factors for Cardio.pdf
     \endverb
+    \field{journaltitle}{NCHS Data Brief}
     \field{year}{2012}
   \endentry
 
@@ -871,6 +867,75 @@
     \field{year}{2021}
   \endentry
 
+  \entry{tabasRecentInsightsCellular2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TI}{%
+         family={Tabas},
+         familyi={T\bibinitperiod},
+         given={Ira},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=GCG}{%
+         family={García-Cardeña},
+         familyi={G\bibinithyphendelim C\bibinitperiod},
+         given={Guillermo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=OGK}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Gary\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TI+1}
+    \strng{fullhash}{TIGCGOGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Atherosclerosis occurs in the subendothelial space (intima) of medium-sized
+  arteries at regions of disturbed blood flow and is triggered by an interplay
+  between endothelial dysfunction and subendothelial lipoprotein retention.
+  Over time, this process stimulates a nonresolving inflammatory response that
+  can cause intimal destruction, arterial thrombosis, and end-organ ischemia.
+  Recent advances highlight important cell biological atherogenic processes,
+  including mechanotransduction and inflammatory processes in endothelial
+  cells, origins and contributions of lesional macrophages, and origins and
+  phenotypic switching of lesional smooth muscle cells. These advances
+  illustrate how in-depth mechanistic knowledge of the cellular pathobiology of
+  atherosclerosis can lead to new ideas for therapy.%
+    }
+    \verb{doi}
+    \verb 10.1083/jcb.201412052
+    \endverb
+    \verb{eprint}
+    \verb 25869663
+    \endverb
+    \field{issn}{0021-9525}
+    \field{number}{1}
+    \field{pages}{13\bibrangedash 22}
+    \field{shortjournal}{J Cell Biol}
+    \field{title}{Recent Insights into the Cellular Biology of Atherosclerosis}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4395483/
+    \endverb
+    \field{volume}{209}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\JTABQKJ2\\Tabas et al. - 2015 - R
+    \verb ecent insights into the cellular biology of ather.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Cell Biology}
+    \field{eprinttype}{pmid}
+    \field{day}{13}
+    \field{month}{04}
+    \field{year}{2015}
+    \field{urlday}{19}
+    \field{urlmonth}{07}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{liuSmoothMuscleCell2019}{article}{}
     \name{author}{2}{}{%
       {{hash=LM}{%
@@ -1015,7 +1080,7 @@
     \field{urlyear}{2021}
   \endentry
 
-  \entry{goumansTGFvSignalingControl2018}{article}{}
+  \entry{goumansTGFbetaSignalingControl2018}{article}{}
     \name{author}{2}{}{%
       {{hash=GMJ}{%
          family={Goumans},
@@ -1069,7 +1134,7 @@
     \field{number}{2}
     \field{pages}{a022210}
     \field{shortjournal}{Cold Spring Harb Perspect Biol}
-    \field{title}{{{TGF-β Signaling}} in {{Control}} of {{Cardiovascular
+    \field{title}{{{TGF-beta Signaling}} in {{Control}} of {{Cardiovascular
   Function}}}
     \verb{url}
     \verb http://cshperspectives.cshlp.org/content/10/2/a022210
@@ -1091,7 +1156,7 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{batlleTransformingGrowthFactorv2019}{article}{}
+  \entry{batlleTransformingGrowthFactorbeta2019}{article}{}
     \name{author}{2}{}{%
       {{hash=BE}{%
          family={Batlle},
@@ -1125,7 +1190,7 @@
     \field{number}{4}
     \field{pages}{924\bibrangedash 940}
     \field{shortjournal}{Immunity}
-    \field{title}{Transforming {{Growth Factor-β Signaling}} in {{Immunity}}
+    \field{title}{Transforming {{Growth Factor-beta Signaling}} in {{Immunity}}
   and {{Cancer}}}
     \verb{url}
     \verb https://www.cell.com/immunity/abstract/S1074-7613(19)30141-4
@@ -1235,7 +1300,7 @@
     \field{shortjournal}{J Biol Chem}
     \field{title}{Down-Regulation of {{Krüppel-like Factor-4}} ({{KLF4}}) by
   {{MicroRNA-143}}/145 {{Is Critical}} for {{Modulation}} of {{Vascular Smooth
-  Muscle Cell Phenotype}} by {{Transforming Growth Factor-β}} and {{Bone
+  Muscle Cell Phenotype}} by {{Transforming Growth Factor-beta}} and {{Bone
   Morphogenetic Protein}} 4}
     \verb{url}
     \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3151055/
@@ -2034,7 +2099,7 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{hePDGFRvSignallingRegulates2015}{article}{}
+  \entry{hePDGFRbetaSignallingRegulates2015}{article}{}
     \name{author}{7}{}{%
       {{hash=HC}{%
          family={He},
@@ -2115,7 +2180,7 @@
     \field{number}{1}
     \field{pages}{7770}
     \field{shortjournal}{Nat Commun}
-    \field{title}{{{PDGFRβ}} Signalling Regulates Local Inflammation and
+    \field{title}{{{PDGFRbeta}} Signalling Regulates Local Inflammation and
   Synergizes with Hypercholesterolaemia to Promote Atherosclerosis}
     \verb{url}
     \verb https://www.nature.com/articles/ncomms8770
@@ -2287,7 +2352,7 @@
     \field{pages}{166\bibrangedash 181}
     \field{shortjournal}{Nat Metab}
     \field{title}{Multiple Cell Types Contribute to the Atherosclerotic Lesion
-  Fibrous Cap by {{PDGFRβ}} and Bioenergetic Mechanisms}
+  Fibrous Cap by {{PDGFRbeta}} and Bioenergetic Mechanisms}
     \verb{url}
     \verb https://www.nature.com/articles/s42255-020-00338-8
     \endverb
@@ -2395,6 +2460,101 @@
     \field{urlday}{28}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
+  \endentry
+
+  \entry{zeidaCatalysisPeroxideReduction2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZA}{%
+         family={Zeida},
+         familyi={Z\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Trujillo},
+         familyi={T\bibinitperiod},
+         given={Madia},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FSG}{%
+         family={Ferrer-Sueta},
+         familyi={F\bibinithyphendelim S\bibinitperiod},
+         given={Gerardo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Denicola},
+         familyi={D\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EDA}{%
+         family={Estrin},
+         familyi={E\bibinitperiod},
+         given={Darío\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Radi},
+         familyi={R\bibinitperiod},
+         given={Rafael},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Catalysis,Catalytic Domain,Humans,Hydrogen
+  Peroxide,Kinetics,Models;
+  Molecular,Oxidation-Reduction,Peroxides,Peroxiredoxins,Protein Structure;
+  Secondary,Sulfhydryl Compounds}
+    \strng{namehash}{ZA+1}
+    \strng{fullhash}{ZATMFSGDAEDARR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Life on Earth evolved in the presence of hydrogen peroxide, and other
+  peroxides also emerged before and with the rise of aerobic metabolism. They
+  were considered only as toxic byproducts for many years. Nowadays, peroxides
+  are also regarded as metabolic products that play essential physiological
+  cellular roles. Organisms have developed efficient mechanisms to metabolize
+  peroxides, mostly based on two kinds of redox chemistry,
+  catalases/peroxidases that depend on the heme prosthetic group to afford
+  peroxide reduction and thiol-based peroxidases that support their redox
+  activities on specialized fast reacting cysteine/selenocysteine (Cys/Sec)
+  residues. Among the last group, glutathione peroxidases (GPxs) and
+  peroxiredoxins (Prxs) are the most widespread and abundant families, and they
+  are the leitmotif of this review. After presenting the properties and roles
+  of different peroxides in biology, we discuss the chemical mechanisms of
+  peroxide reduction by low molecular weight thiols, Prxs, GPxs, and other
+  thiol-based peroxidases. Special attention is paid to the catalytic
+  properties of Prxs and also to the importance and comparative outlook of the
+  properties of Sec and its role in GPxs. To finish, we describe and discuss
+  the current views on the activities of thiol-based peroxidases in
+  peroxide-mediated redox signaling processes.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.chemrev.9b00371
+    \endverb
+    \verb{eprint}
+    \verb 31498605
+    \endverb
+    \field{issn}{1520-6890}
+    \field{number}{19}
+    \field{pages}{10829\bibrangedash 10855}
+    \field{shortjournal}{Chem Rev}
+    \field{title}{Catalysis of {{Peroxide Reduction}} by {{Fast Reacting
+  Protein Thiols}}}
+    \field{volume}{119}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\SUPJJY9U\\Zeida et al. - 2019 - C
+    \verb atalysis of Peroxide Reduction by Fast Reacting P.pdf
+    \endverb
+    \field{journaltitle}{Chemical Reviews}
+    \field{eprinttype}{pmid}
+    \field{day}{09}
+    \field{month}{10}
+    \field{year}{2019}
   \endentry
 
   \entry{nayerniaNewInsightsNOX2014}{article}{}
@@ -3674,255 +3834,6 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{buenrostroTranspositionNativeChromatin2013}{article}{}
-    \name{author}{5}{}{%
-      {{hash=BJD}{%
-         family={Buenrostro},
-         familyi={B\bibinitperiod},
-         given={Jason\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=GPG}{%
-         family={Giresi},
-         familyi={G\bibinitperiod},
-         given={Paul\bibnamedelima G.},
-         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=ZLC}{%
-         family={Zaba},
-         familyi={Z\bibinitperiod},
-         given={Lisa\bibnamedelima C.},
-         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=CHY}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Howard\bibnamedelima Y.},
-         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=GWJ}{%
-         family={Greenleaf},
-         familyi={G\bibinitperiod},
-         given={William\bibnamedelima J.},
-         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Nature Publishing Group}}%
-    }
-    \keyw{Biotechnology,Chromatin analysis,Epigenetics,Epigenomics}
-    \strng{namehash}{BJD+1}
-    \strng{fullhash}{BJDGPGZLCCHYGWJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2013}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    ATAC-seq queries the location of open chromatin, the binding of
-  DNA-associated proteins and chromatin compaction at nucleotide resolution.%
-    }
-    \verb{doi}
-    \verb 10.1038/nmeth.2688
-    \endverb
-    \field{issn}{1548-7105}
-    \field{issue}{12}
-    \field{number}{12}
-    \field{pages}{1213\bibrangedash 1218}
-    \field{shortjournal}{Nat Methods}
-    \field{title}{Transposition of Native Chromatin for Fast and Sensitive
-  Epigenomic Profiling of Open Chromatin, {{DNA-binding}} Proteins and
-  Nucleosome Position}
-    \verb{url}
-    \verb https://www.nature.com/articles/nmeth.2688
-    \endverb
-    \field{volume}{10}
-    \field{langid}{english}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\3JYMJ3PW\\Buenrostro et al. - 201
-    \verb 3 - Transposition of native chromatin for fast and sen.pdf;C\:\\Users
-    \verb \\torbe\\Zotero\\storage\\TG6LU2F7\\nmeth.html
-    \endverb
-    \field{journaltitle}{Nature Methods}
-    \field{month}{12}
-    \field{year}{2013}
-    \field{urlday}{07}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
-  \endentry
-
-  \entry{buenrostroATACseqMethodAssaying2015}{article}{}
-    \name{author}{4}{}{%
-      {{hash=BJD}{%
-         family={Buenrostro},
-         familyi={B\bibinitperiod},
-         given={Jason\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=WB}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Beijing},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CHY}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Howard\bibnamedelima Y.},
-         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=GWJ}{%
-         family={Greenleaf},
-         familyi={G\bibinitperiod},
-         given={William\bibnamedelima J.},
-         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \keyw{ATAC-seq,chromatin accessibility,transposase}
-    \strng{namehash}{BJD+1}
-    \strng{fullhash}{BJDWBCHYGWJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2015}
-    \field{extradate}{1}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    This unit describes Assay for Transposase-Accessible Chromatin with
-  high-throughput sequencing (ATAC-seq), a method for mapping chromatin
-  accessibility genome-wide. This method probes DNA accessibility with
-  hyperactive Tn5 transposase, which inserts sequencing adapters into
-  accessible regions of chromatin. Sequencing reads can then be used to infer
-  regions of increased accessibility, as well as to map regions of
-  transcription-factor binding and nucleosome position. The method is a fast
-  and sensitive alternative to DNase-seq for assaying chromatin accessibility
-  genome-wide, or to MNase-seq for assaying nucleosome positions in accessible
-  regions of the genome. © 2015 by John Wiley \& Sons, Inc.%
-    }
-    \verb{doi}
-    \verb 10.1002/0471142727.mb2129s109
-    \endverb
-    \field{issn}{1934-3647}
-    \field{number}{1}
-    \field{pages}{21.29.1\bibrangedash 21.29.9}
-    \field{shorttitle}{{{ATAC-seq}}}
-    \field{title}{{{ATAC-seq}}: {{A Method}} for {{Assaying Chromatin
-  Accessibility Genome-Wide}}}
-    \verb{url}
-    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/0471142727.mb2129s109
-    \endverb
-    \field{volume}{109}
-    \field{langid}{english}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\RKVYJG8G\\Buenrostro et al. - 201
-    \verb 5 - ATAC-seq A Method for Assaying Chromatin Accessib.pdf;C\:\\Users\
-    \verb \torbe\\Zotero\\storage\\8WLZLE3U\\0471142727.html
-    \endverb
-    \field{journaltitle}{Current Protocols in Molecular Biology}
-    \field{annotation}{%
-    \_eprint:
-  https://onlinelibrary.wiley.com/doi/pdf/10.1002/0471142727.mb2129s109%
-    }
-    \field{year}{2015}
-    \field{urlday}{28}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
-  \endentry
-
-  \entry{buenrostroSinglecellChromatinAccessibility2015}{article}{}
-    \name{author}{8}{}{%
-      {{hash=BJD}{%
-         family={Buenrostro},
-         familyi={B\bibinitperiod},
-         given={Jason\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=WB}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Beijing},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=LUM}{%
-         family={Litzenburger},
-         familyi={L\bibinitperiod},
-         given={Ulrike\bibnamedelima M.},
-         giveni={U\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=RD}{%
-         family={Ruff},
-         familyi={R\bibinitperiod},
-         given={Dave},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=GML}{%
-         family={Gonzales},
-         familyi={G\bibinitperiod},
-         given={Michael\bibnamedelima L.},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=SMP}{%
-         family={Snyder},
-         familyi={S\bibinitperiod},
-         given={Michael\bibnamedelima P.},
-         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=CHY}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Howard\bibnamedelima Y.},
-         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=GWJ}{%
-         family={Greenleaf},
-         familyi={G\bibinitperiod},
-         given={William\bibnamedelima J.},
-         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Nature Publishing Group}}%
-    }
-    \keyw{Cellular noise,Chromatin,Epigenomics,Genomic analysis}
-    \strng{namehash}{BJD+1}
-    \strng{fullhash}{BJDWBLUMRDGMLSMPCHYGWJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2015}
-    \field{extradate}{2}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    A single-cell method for probing genome-wide chromatin accessibility has
-  been developed; the results provide insight into the relationship between
-  cell-to-cell variation associated with specific trans-factors and
-  cis-elements, as well insights into the relationship between chromatin
-  accessibility and three-dimensional genome organization.%
-    }
-    \verb{doi}
-    \verb 10.1038/nature14590
-    \endverb
-    \field{issn}{1476-4687}
-    \field{issue}{7561}
-    \field{number}{7561}
-    \field{pages}{486\bibrangedash 490}
-    \field{title}{Single-Cell Chromatin Accessibility Reveals Principles of
-  Regulatory Variation}
-    \verb{url}
-    \verb https://www.nature.com/articles/nature14590
-    \endverb
-    \field{volume}{523}
-    \field{langid}{english}
-    \verb{file}
-    \verb C\:\\Users\\torbe\\Zotero\\storage\\TXNQWXSF\\Buenrostro et al. - 201
-    \verb 5 - Single-cell chromatin accessibility reveals princi.pdf;C\:\\Users
-    \verb \\torbe\\Zotero\\storage\\R9NFTEBY\\nature14590.html
-    \endverb
-    \field{journaltitle}{Nature}
-    \field{month}{07}
-    \field{year}{2015}
-    \field{urlday}{28}
-    \field{urlmonth}{06}
-    \field{urlyear}{2022}
-  \endentry
-
   \entry{fulcoActivitybycontactModelEnhancer2019a}{article}{}
     \name{author}{19}{}{%
       {{hash=FCP}{%
@@ -4349,6 +4260,255 @@
     \field{month}{05}
     \field{year}{2021}
     \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{buenrostroTranspositionNativeChromatin2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BJD}{%
+         family={Buenrostro},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GPG}{%
+         family={Giresi},
+         familyi={G\bibinitperiod},
+         given={Paul\bibnamedelima G.},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=ZLC}{%
+         family={Zaba},
+         familyi={Z\bibinitperiod},
+         given={Lisa\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CHY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Howard\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GWJ}{%
+         family={Greenleaf},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Biotechnology,Chromatin analysis,Epigenetics,Epigenomics}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDGPGZLCCHYGWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    ATAC-seq queries the location of open chromatin, the binding of
+  DNA-associated proteins and chromatin compaction at nucleotide resolution.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.2688
+    \endverb
+    \field{issn}{1548-7105}
+    \field{issue}{12}
+    \field{number}{12}
+    \field{pages}{1213\bibrangedash 1218}
+    \field{shortjournal}{Nat Methods}
+    \field{title}{Transposition of Native Chromatin for Fast and Sensitive
+  Epigenomic Profiling of Open Chromatin, {{DNA-binding}} Proteins and
+  Nucleosome Position}
+    \verb{url}
+    \verb https://www.nature.com/articles/nmeth.2688
+    \endverb
+    \field{volume}{10}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\3JYMJ3PW\\Buenrostro et al. - 201
+    \verb 3 - Transposition of native chromatin for fast and sen.pdf;C\:\\Users
+    \verb \\torbe\\Zotero\\storage\\TG6LU2F7\\nmeth.html
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{month}{12}
+    \field{year}{2013}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{buenrostroATACseqMethodAssaying2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BJD}{%
+         family={Buenrostro},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Beijing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CHY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Howard\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GWJ}{%
+         family={Greenleaf},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{ATAC-seq,chromatin accessibility,transposase}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDWBCHYGWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2015}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    This unit describes Assay for Transposase-Accessible Chromatin with
+  high-throughput sequencing (ATAC-seq), a method for mapping chromatin
+  accessibility genome-wide. This method probes DNA accessibility with
+  hyperactive Tn5 transposase, which inserts sequencing adapters into
+  accessible regions of chromatin. Sequencing reads can then be used to infer
+  regions of increased accessibility, as well as to map regions of
+  transcription-factor binding and nucleosome position. The method is a fast
+  and sensitive alternative to DNase-seq for assaying chromatin accessibility
+  genome-wide, or to MNase-seq for assaying nucleosome positions in accessible
+  regions of the genome. © 2015 by John Wiley \& Sons, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/0471142727.mb2129s109
+    \endverb
+    \field{issn}{1934-3647}
+    \field{number}{1}
+    \field{pages}{21.29.1\bibrangedash 21.29.9}
+    \field{shorttitle}{{{ATAC-seq}}}
+    \field{title}{{{ATAC-seq}}: {{A Method}} for {{Assaying Chromatin
+  Accessibility Genome-Wide}}}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/0471142727.mb2129s109
+    \endverb
+    \field{volume}{109}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\RKVYJG8G\\Buenrostro et al. - 201
+    \verb 5 - ATAC-seq A Method for Assaying Chromatin Accessib.pdf;C\:\\Users\
+    \verb \torbe\\Zotero\\storage\\8WLZLE3U\\0471142727.html
+    \endverb
+    \field{journaltitle}{Current Protocols in Molecular Biology}
+    \field{annotation}{%
+    \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1002/0471142727.mb2129s109%
+    }
+    \field{year}{2015}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{buenrostroSinglecellChromatinAccessibility2015}{article}{}
+    \name{author}{8}{}{%
+      {{hash=BJD}{%
+         family={Buenrostro},
+         familyi={B\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Beijing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LUM}{%
+         family={Litzenburger},
+         familyi={L\bibinitperiod},
+         given={Ulrike\bibnamedelima M.},
+         giveni={U\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Ruff},
+         familyi={R\bibinitperiod},
+         given={Dave},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GML}{%
+         family={Gonzales},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SMP}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CHY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Howard\bibnamedelima Y.},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GWJ}{%
+         family={Greenleaf},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cellular noise,Chromatin,Epigenomics,Genomic analysis}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDWBLUMRDGMLSMPCHYGWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    A single-cell method for probing genome-wide chromatin accessibility has
+  been developed; the results provide insight into the relationship between
+  cell-to-cell variation associated with specific trans-factors and
+  cis-elements, as well insights into the relationship between chromatin
+  accessibility and three-dimensional genome organization.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature14590
+    \endverb
+    \field{issn}{1476-4687}
+    \field{issue}{7561}
+    \field{number}{7561}
+    \field{pages}{486\bibrangedash 490}
+    \field{title}{Single-Cell Chromatin Accessibility Reveals Principles of
+  Regulatory Variation}
+    \verb{url}
+    \verb https://www.nature.com/articles/nature14590
+    \endverb
+    \field{volume}{523}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\TXNQWXSF\\Buenrostro et al. - 201
+    \verb 5 - Single-cell chromatin accessibility reveals princi.pdf;C\:\\Users
+    \verb \\torbe\\Zotero\\storage\\R9NFTEBY\\nature14590.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{07}
+    \field{year}{2015}
+    \field{urlday}{28}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
   \endentry
@@ -5686,10 +5846,10 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{agilenttechnologiesHowAgilentSeahorse2022}{online}{}
+  \entry{agilenttechnologiesincHowAgilentSeahorse2022}{online}{}
     \name{author}{1}{}{%
       {{hash=A}{%
-         family={{AgilentTechnologies}},
+         family={{AgilentTechnologies, Inc}},
          familyi={A\bibinitperiod},
       }}%
     }
@@ -5712,6 +5872,33 @@
     \field{urlday}{05}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
+  \endentry
+
+  \entry{agilenttechnologiesinc.AGILENTSeahorseXF2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{AgilentTechnologies, Inc.}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{title}{{{AGILENT Seahorse XF Cell Mito Stress Test Kit}}}
+    \verb{url}
+    \verb https://www.agilent.com/cs/library/flyers/public/5991-7118EN.pdf
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\8ZCELLD8\\Seahorse XF Cell Mito S
+    \verb tress Test Kit.pdf
+    \endverb
+    \field{day}{01}
+    \field{month}{10}
+    \field{year}{2020}
   \endentry
 
   \entry{thermofisherscientificinc.CellROXGreenReagent2022}{online}{}
@@ -5899,7 +6086,7 @@
     \field{pages}{166\bibrangedash 181}
     \field{shortjournal}{Nat Metab}
     \field{title}{Multiple Cell Types Contribute to the Atherosclerotic Lesion
-  Fibrous Cap by {{PDGFRβ}} and Bioenergetic Mechanisms}
+  Fibrous Cap by {{PDGFRbeta}} and Bioenergetic Mechanisms}
     \verb{url}
     \verb https://www.nature.com/articles/s42255-020-00338-8
     \endverb
@@ -6038,6 +6225,265 @@
     \field{urlday}{05}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
+  \endentry
+
+  \entry{virtanenSciPyFundamentalAlgorithms2020}{article}{useprefix}
+    \name{author}{35}{}{%
+      {{hash=VP}{%
+         family={Virtanen},
+         familyi={V\bibinitperiod},
+         given={Pauli},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gommers},
+         familyi={G\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OTE}{%
+         family={Oliphant},
+         familyi={O\bibinitperiod},
+         given={Travis\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Haberland},
+         familyi={H\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={Tyler},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cournapeau},
+         familyi={C\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Burovski},
+         familyi={B\bibinitperiod},
+         given={Evgeni},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Peterson},
+         familyi={P\bibinitperiod},
+         given={Pearu},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Weckesser},
+         familyi={W\bibinitperiod},
+         given={Warren},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bright},
+         familyi={B\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=vdWSJ}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Walt},
+         familyi={W\bibinitperiod},
+         given={Stéfan\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brett},
+         familyi={B\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Joshua},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MKJ}{%
+         family={Millman},
+         familyi={M\bibinitperiod},
+         given={K.\bibnamedelima Jarrod},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mayorov},
+         familyi={M\bibinitperiod},
+         given={Nikolay},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=NARJ}{%
+         family={Nelson},
+         familyi={N\bibinitperiod},
+         given={Andrew R.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=JE}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kern},
+         familyi={K\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CCJ}{%
+         family={Carey},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Polat},
+         familyi={P\bibinitperiod},
+         given={Ilhan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=FY}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MEW}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Eric\bibnamedelima W.},
+         giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={VanderPlas},
+         familyi={V\bibinitperiod},
+         given={Jake},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Laxalde},
+         familyi={L\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Perktold},
+         familyi={P\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Cimrman},
+         familyi={C\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HI}{%
+         family={Henriksen},
+         familyi={H\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=QEA}{%
+         family={Quintero},
+         familyi={Q\bibinitperiod},
+         given={E.\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HCR}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Charles\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=AAM}{%
+         family={Archibald},
+         familyi={A\bibinitperiod},
+         given={Anne\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RAH}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Antônio\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Pedregosa},
+         familyi={P\bibinitperiod},
+         given={Fabian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=vMP}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Mulbregt},
+         familyi={M\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=S}{%
+         family={{SciPy 1.0 Contributors}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Algorithms,Computational Biology,Computer Simulation,History; 20th
+  Century,History; 21st Century,Linear Models,Models; Biological,Nonlinear
+  Dynamics,Programming Languages,Signal Processing; Computer-Assisted,Software}
+    \strng{namehash}{VP+1}
+  \strng{fullhash}{VPGROTEHMRTCDBEPPWWBJvdWSJBMWJMKJMNNARJJEKRLECCJPIFYMEWVJLDPJCRHIQEAHCRAAMRAHPFvMPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    SciPy is an open-source scientific computing library for the Python
+  programming language. Since its initial release in 2001, SciPy has become a
+  de facto standard for leveraging scientific algorithms in Python, with over
+  600 unique code contributors, thousands of dependent packages, over 100,000
+  dependent repositories and millions of downloads per year. In this work, we
+  provide an overview of the capabilities and development practices of SciPy
+  1.0 and highlight some recent technical developments.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41592-019-0686-2
+    \endverb
+    \verb{eprint}
+    \verb 32015543
+    \endverb
+    \field{issn}{1548-7105}
+    \field{number}{3}
+    \field{pages}{261\bibrangedash 272}
+    \field{shortjournal}{Nat Methods}
+    \field{shorttitle}{{{SciPy}} 1.0}
+    \field{title}{{{SciPy}} 1.0: Fundamental Algorithms for Scientific
+  Computing in {{Python}}}
+    \field{volume}{17}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\PEQ9KLDL\\Virtanen et al. - 2020
+    \verb - SciPy 1.0 fundamental algorithms for scientific c.pdf
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{eprinttype}{pmid}
+    \field{month}{03}
+    \field{year}{2020}
   \endentry
 
   \entry{liuKruppellikeFactorAbrogates2005}{article}{}
@@ -7098,6 +7544,85 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{ezerinaNAcetylCysteineFunctions2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ED}{%
+         family={Ezeriņa},
+         familyi={E\bibinitperiod},
+         given={Daria},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Takano},
+         familyi={T\bibinitperiod},
+         given={Yoko},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hanaoka},
+         familyi={H\bibinitperiod},
+         given={Kenjiro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=UY}{%
+         family={Urano},
+         familyi={U\bibinitperiod},
+         given={Yasuteru},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DTP}{%
+         family={Dick},
+         familyi={D\bibinitperiod},
+         given={Tobias\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ED+1}
+    \strng{fullhash}{EDTYHKUYDTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The cysteine prodrug N-acetyl cysteine (NAC) is widely used as a
+  pharmacological antioxidant and cytoprotectant. It has been reported to lower
+  endogenous oxidant levels and to protect cells against a wide range of
+  pro-oxidative insults. As NAC itself is a poor scavenger of oxidants, the
+  molecular mechanisms behind the antioxidative effects of NAC have remained
+  uncertain. Here we show that NAC-derived cysteine is desulfurated to generate
+  hydrogen sulfide, which in turn is oxidized to sulfane sulfur species,
+  predominantly within mitochondria. We provide evidence suggesting the
+  possibility that sulfane sulfur species produced by 3-mercaptopyruvate
+  sulfurtransferase and sulfide:quinone oxidoreductase are the actual mediators
+  of the immediate antioxidative and cytoprotective effects provided by NAC.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.chembiol.2018.01.011
+    \endverb
+    \field{issn}{24519456}
+    \field{number}{4}
+    \field{pages}{447\bibrangedash 459.e4}
+    \field{shortjournal}{Cell Chemical Biology}
+    \field{title}{N-{{Acetyl Cysteine Functions}} as a {{Fast-Acting
+  Antioxidant}} by {{Triggering Intracellular H2S}} and {{Sulfane Sulfur
+  Production}}}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S2451945618300333
+    \endverb
+    \field{volume}{25}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\QCJS6K2L\\Ezeriņa et al. - 2018
+    \verb - N-Acetyl Cysteine Functions as a Fast-Acting Antio.pdf
+    \endverb
+    \field{journaltitle}{Cell Chemical Biology}
+    \field{month}{04}
+    \field{year}{2018}
+    \field{urlday}{07}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{peprotecheclimitedRecombinantHumanPDGFBB2022}{online}{}
     \name{author}{1}{}{%
       {{hash=P}{%
@@ -7490,6 +8015,108 @@
     \field{year}{2007}
     \field{urlday}{29}
     \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{leon8OxoguanineAccumulationMitochondrial2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LJ}{%
+         family={Leon},
+         familyi={L\bibinitperiod},
+         given={Julio},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sakumi},
+         familyi={S\bibinitperiod},
+         given={Kunihiko},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Castillo},
+         familyi={C\bibinitperiod},
+         given={Erika},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SZ}{%
+         family={Sheng},
+         familyi={S\bibinitperiod},
+         given={Zijing},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Oka},
+         familyi={O\bibinitperiod},
+         given={Sugako},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NY}{%
+         family={Nakabeppu},
+         familyi={N\bibinitperiod},
+         given={Yusaku},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cellular neuroscience,Regeneration and repair in the nervous system}
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJSKCESZOSNY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Oxidative stress and mitochondrial dysfunction are implicated in
+  aging-related neurodegenerative disorders. 8-Oxoguanine (8-oxoG), a common
+  oxidised base lesion, is often highly accumulated in brains from patients
+  with neurodegenerative disorders. MTH1 hydrolyses 8-oxo-2′-deoxyguanosine
+  triphosphate (8-oxo-dGTP) to 8-oxo-dGMP and pyrophosphate in nucleotide
+  pools, while OGG1 excises 8-oxoG paired with cytosine in DNA, thereby
+  minimising the accumulation of 8-oxoG in DNA. Mth1/Ogg1-double knockout
+  (TO-DKO) mice are highly susceptible to neurodegeneration under oxidative
+  conditions and show increased accumulation of 8-oxoG in mitochondrial DNA
+  (mtDNA) in neurons, suggesting that 8-oxoG accumulation in mtDNA causes
+  mitochondrial dysfunction. Here, we evaluated the contribution of MTH1 and
+  OGG1 to the prevention of mitochondrial dysfunction during neuritogenesis in
+  vitro. We isolated cortical neurons from adult wild-type and TO-DKO mice and
+  maintained them with or without antioxidants for 2 to 5 days and then
+  examined neuritogenesis. In the presence of antioxidants, both TO-DKO and
+  wild-type neurons exhibited efficient neurite extension and arborisation.
+  However, in the absence of antioxidants, the accumulation of 8-oxoG in mtDNA
+  of TO-DKO neurons was increased resulting in mitochondrial dysfunction. Cells
+  also exhibited poor neurite outgrowth with decreased complexity of neuritic
+  arborisation, indicating that MTH1 and OGG1 are essential for neuritogenesis
+  under oxidative conditions.%
+    }
+    \verb{doi}
+    \verb 10.1038/srep22086
+    \endverb
+    \field{issn}{2045-2322}
+    \field{issue}{1}
+    \field{number}{1}
+    \field{pages}{22086}
+    \field{shortjournal}{Sci Rep}
+    \field{title}{8-{{Oxoguanine}} Accumulation in Mitochondrial {{DNA}} Causes
+  Mitochondrial Dysfunction and Impairs Neuritogenesis in Cultured Adult Mouse
+  Cortical Neurons under Oxidative Conditions}
+    \verb{url}
+    \verb https://www.nature.com/articles/srep22086
+    \endverb
+    \field{volume}{6}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\torbe\\Zotero\\storage\\FI99DQZ6\\Leon et al. - 2016 - 8-
+    \verb Oxoguanine accumulation in mitochondrial DNA cau.pdf;C\:\\Users\\torb
+    \verb e\\Zotero\\storage\\KIKQK7C7\\srep22086.html
+    \endverb
+    \field{journaltitle}{Scientific Reports}
+    \field{day}{25}
+    \field{month}{02}
+    \field{year}{2016}
+    \field{urlday}{19}
+    \field{urlmonth}{07}
     \field{urlyear}{2022}
   \endentry
 
