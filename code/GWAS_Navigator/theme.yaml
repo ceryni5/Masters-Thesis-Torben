@@ -1,0 +1,21 @@
+attrs:
+  Figure:
+    outline_line_color: 'gray'
+    sizing_mode: "stretch_width"
+    min_border: 3
+    title_location: 'left'
+
+  Toolbar:
+    logo: null
+
+  Yaxis:
+    axis_line_color: null
+
+  Xaxis:
+    axis_line_color: null
+
+  Title:
+      align: 'center'
+      text_line_height: 0.5
+      text_font_style: 'normal'
+      text_font_size: '11px'
