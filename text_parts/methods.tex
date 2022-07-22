@@ -3,7 +3,7 @@
 \Acp{haosmc} were used for the following experiments. Cells were kept at 37\,°C and 5\,\% \ac{co2} whenever possible. For differentiation, cells were first treated with \ac{tgf} to induce a contractile phenotype. Afterward, \acp{haosmc} were stimulated with \acf{il1} and \ac{pdgf} to induce a synthetic or pro-inflammatory phenotype. Please refer to sections \ref{sec:tgf} and \ref{sec:pdgf} and the referenced literature for more information.
 
     \subsection{Thawing and cultivation}
-    For longtime storage, cells were stored in liquid nitrogen. New cells (\nth{6} passage) were thawed at 37\,°C in the water bath and transferred to a 15\,mL tube when required. After centrifugation for two\,min at 300\,xg, the supernatant was discarded. The cell pellet was taken up in 14\,mL of \ac{M231} + \ac{smgs} for cultivation in a TC Flask T75. Every other day, 2/3 of the medium was removed and replaced by fresh. Cells were cultivated to a maximum passage of 10.
+    For longtime storage, cells were stored in liquid nitrogen. New cells (\nth{6} passage) were thawed at 37\,°C in the water bath and transferred to a 15\,mL tube when required. After centrifugation for two\,min at 300\,xg, the supernatant was discarded. The cell pellet was taken up in 14\,mL of \acf{M231} + \ac{smgs} for cultivation in a TC Flask T75. Every other day, 2/3 of the medium was removed and replaced by fresh. Cells were cultivated to a maximum passage of 10.
 
     \subsection{Passaging}
     \acp{haosmc} were passaged at a maximum of 80\,\% confluency (approximately once a week). The medium was removed, and cells were washed once with 5\,mL of \ac{pbs}. Washed cells were incubated with 3\,mL trypsin for 4\,min at 37\,°C. The trypsin was inactivated by adding 7\,mL \ac{M231}. Subsequently, the cell suspension was transferred to a 15\,mL tube and pelleted for 4\,min at 300xg. Finally, the supernatant was removed and the pellet resuspended in \ac{M231} supplemented with \ac{smgs}. The cells were seeded with a density of ~$\num{500e3}$ \acp{haosmc} per TC Flask T75.
@@ -47,7 +47,7 @@
 
 \section{mRNA quantification}
 \label{sec:qpcr}
-SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the monitoring of \ac{dna} amplification. Fluorescence is measured after every amplification cycle of the \ac{pcr}. A lower \ac{Cq} corresponds to a higher initial \ac{dna} concentration. \cite{huggettStandardisationReportingNucleic2011}\\
+SYBR\texttrademark~Green is an intercalating \ac{dna} dye that allows for the monitoring of \ac{dna} amplification. Fluorescence is measured after every amplification cycle of the \ac{pcr}. A lower \ac{Cq} corresponds to a higher initial \ac{dna} concentration. \cite{huggettStandardisationReportingNucleic2011}\\
 \Ac{qpcr} was utilized to assess the \ac{mRNA} concentration of the two reporter genes \ac{cnn1} and \ac{mmp9} in differentiated \acp{haosmc}. The housekeeping gene \ac{gapdh} was used as a reference.
 
 
@@ -70,9 +70,9 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
         First Strand Buffer     & 5x            & 4           \\
         \acs{DTT}               & 0.1\,M               & 2           \\
         \acs{dNTP}              & 4\,mM               & 1           \\
-        Hexanukleotid Random-Primer  & 30.6\,nM               & 1           \\
-        RiboLock                & 40\,U/µl                & 1           \\
-        M-MLVRT                 & 200\,U/µl               & 1           \\ \hline
+        Hexanukleotid Random-Primer-Mix  & 30.6\,nM               & 1           \\
+        RiboLock RNase Inhibitor                & 40\,U/µl                & 1           \\
+        M-MLV \acs{RT}                & 200\,U/µl               & 1           \\ \hline
     \end{tabular}
     \end{table}
 
@@ -89,7 +89,7 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
     \begin{tabular}{|l|r|r|}
         \hline
         component                  & concentration & volume (µL) \\ \hline
-        SYBR GREEN Master Mix      & 1:2          & 3.75        \\
+        PowerUp\texttrademark SYBR\texttrademark GREEN Master Mix      & 1:2          & 3.75        \\
         Primer (forward + reverse) & 5 pM (each)  & 1.125       \\
         \ac{water}                        & -            & 1.125       \\
         \ac{cDNA}                       & -            & 1.5           \\ \hline
@@ -121,20 +121,20 @@ SYBR\textregistered~Green is an intercalating \ac{dna} dye that allows for the m
 
     $$\Delta ct = ct(\mathrm{gene of interest}) - ct(\mathrm{GAPDH})$$
 
-    Taking into account the exponential amplification of \ac{dna} in \ac{pcr}, the $\Delta ct$ can then be transformed into a relative expression level. Where $\num{10e6}$ is a constant to yield readable values:
+    Taking into account the exponential amplification of \ac{dna} in \ac{pcr}, the $\Delta ct$ can then be transformed into a relative expression level. Where $\num{e6}$ is a constant to yield readable values:
 
-    $$\mathrm{rel. expr.} = 2^{-\Delta ct\num{10e6}}$$
+    $$\mathrm{rel. expr.} = 2^{-\Delta ct\times\num{e6}}$$
 
-    In total, four biological replicates were performed. Data visualization and statistical analysis were carried out in python. A student's t-test was used for statistical testing, and a p-value of 0.05 is considered significant. For detailed information, please refer to the script.
+    In total, four biological replicates were performed. Data visualization and statistical analysis were carried out in python. A student's t-test was used for statistical testing, and a p-value of 0.05 is considered significant. For detailed information, please refer to the \MYhref{https://github.com/ceryni5/Thesis/tree/master/code/qPCR}{analysis script}.
 
 \section{Energy profiling}
 \label{sec:seahorse}
 The Seahorse XF Analyzer allows real-time measurement of dissolved oxygen and protons in a confined small volume using solid-state sensor probes. The measurements are then used to calculate a cell monolayer's \ac{ocr} and \ac{ecar}. The \ac{ocr} and \ac{ecar} are indicators for mitochondrial respiration and glycolysis. They can be used to assess the metabolic state of cells. \cite{agilenttechnologiesincHowAgilentSeahorse2022}\\
-Seahorse assay was utilized to assess the energy profile of differentiated \acp{haosmc}. For this assay, cells were not differentiated in a \ac{24 well} but XF24 Cell Culture Microplates. Since the confined volume required for the assay would not fit the matrix, cells were not cultivated on \ac{col1}!
+Seahorse assay was utilized to assess the energy profile of differentiated \acp{haosmc}. For this assay, cells were not differentiated in a \ac{24 well} but XF24 Cell Culture Microplates. Since the confined volume required for the assay would not fit the matrix, cells were not cultivated on a \ac{col1} matrix!
 
     \subsection{Seahorse assay}
     On the day before the assay, the Seahorse XF Analyzer was set up to calibrate. The XF24 Extracellular Flux Assay Kit cartridge was equilibrated in Seahorse XF calibrant overnight at 37\,°C in a non-\ac{co2} environment.\\
-    On the day of the assay, \acp{haosmc} were washed with 500\,µL PBS each. Afterward, the XF BASE medium was supplemented with 1\,mM sodium pyruvate, 10\,mM glucose, 2\,mM glutamine, and 90\,µM NaOH. Cells were incubated for 1\,h at 37\,°C in a non-\ac{co2} environment with supplemented 500\,µL XF BASE medium. Toxins for disruption of the respiratory chain were prepared and loaded into the XF24 Extracellular Flux Assay cartridge:
+    On the day of the assay, \acp{haosmc} were washed with 500\,µL PBS each. Afterward, the XF BASE medium was supplemented with 1\,mM sodium pyruvate, 10\,mM D-(+)-glucose, 2\,mM GlutaMAX\texttrademark, and 90\,µM NaOH. Cells were incubated for 1\,h at 37\,°C in a non-\ac{co2} environment with supplemented 500\,µL XF BASE medium. Toxins for disrupting the respiratory chain were prepared and loaded into the XF24 Extracellular Flux Assay cartridge:
 
     \begin{table}[h]
     \capstart
@@ -204,7 +204,7 @@ Seahorse assay was utilized to assess the energy profile of differentiated \acp{
         \end{minipage}
     \end{figure}
 
-    Cells were quantified using a python script provided by Dr. Tobias Reinberger. \ac{ocr} and \ac{ecar} were calculated with Wave Controller, which were normalized using the cell count and the signal in the control wells. In total, three biological repeats were recorded. One repeat was excluded because no changes in \ac{ocr} and \ac{ecar} could be detected and cells detached from the bottom of the wells. One of the five technical repeats for each condition was manually excluded for the remaining replicates. Further, initial \ac{ocr} and \ac{ecar}, as well as the characteristics of the respiratory chain displayed in figure \ref{fig:seahorse_basics} B, were calculated using a modified python script provided by Dr. Tobias Reinberger. Welch’s t-test was used for statistical analysis, and a p-value of 0.05 is considered significant. For detailed information, please refer to the script.
+    Cells were quantified using a python script provided by Dr. Tobias Reinberger. \ac{ocr} and \ac{ecar} were calculated with Wave Controller, which were normalized using the cell count and the signal in the control wells. In total, three biological repeats were recorded. One repeat was excluded because no changes in \ac{ocr} and \ac{ecar} could be detected and cells detached from the bottom of the wells. One of the five technical repeats for each condition was manually excluded for the remaining replicates. Further, initial \ac{ocr} and \ac{ecar}, as well as the characteristics of the respiratory chain displayed in figure \ref{fig:seahorse_basics} B, were calculated using a modified python script provided by Dr. Tobias Reinberger. Welch’s t-test was used for statistical analysis, and a p-value of 0.05 is considered significant. For detailed information, please refer to the \MYhref{https://github.com/ceryni5/Thesis/tree/master/code/seahorse_assay}{analysis script}.
 
 \section{CellROX\texttrademark~assay}
 \label{sec:cellrox}
@@ -239,16 +239,16 @@ CellROX\texttrademark~Green assay was used to assess the generation of \ac{ros} 
     \label{subsec:cellrox_data_processing}
     Seven biological repeats were performed for \ac{pdgf}-boost titration. One repeat was excluded because of a high signal in the negative control. Four biological repeats were performed for the \ac{nac} quench, one of which has been excluded because no signal in the positive control could be detected.
     For quantification of signal intensity, pixels with a green value higher than 90 were counted. Differences in cell count were adjusted by dividing the green pixel by the number of blue pixels with a threshold of 80. To adjust for the large variance in total signal intensity between biological repeats, values were normalized by division through the total signal of all recorded conditions.
-    The Mann-Whitney U test was used for statistical testing. A p-value of 0.05 is considered significant. For detailed information, please refer to the scripts.
+    The Mann-Whitney U test was used for statistical testing. A p-value of 0.05 is considered significant. For detailed information, please refer to \MYhref{https://github.com/ceryni5/Thesis/tree/master/code/cellrox_assay}{analysis scripts}.
 
 \section{Curation of data for postGWAS analyses}
 \label{sec:database}
-Data for post\ac{gwas} analyses and co-visualization with the \ac{gwas} summary statistics were downloaded from public resources. Processing of the data and further annotation is briefly listed and described below. The generated tables are summarized in figure \ref{fig:db_er} and table \ref{tab:db_tables}. For a complete view, please refer to the download scripts.
+Data for post\ac{gwas} analyses and co-visualization with the \ac{gwas} summary statistics were downloaded from public resources. Processing of the data and further annotation is briefly listed and described below. The generated tables are summarized in figure \ref{fig:db_er} and table \ref{tab:db_tables}. For a complete view, please refer to the \MYhref{https://github.com/ToReinberger/postGWAS_db}{download scripts}.
 
 \begin{itemize}
     \item \uzlemph{GWAS Summary Statistics:} The \ac{cad} \ac{gwas} summary statistics from \textcite{aragamDiscoverySystematicCharacterization2021} and a list of identified proxy \acp{snp} were annotated via the Ensembl \ac{rest} \ac{api} by Dr. Tobias Reinberger.
 
-    \item \uzlemph{HGNC Gene List} The newest quarterly update to the complete \ac{hgnc} dataset was downloaded via the \MYhref{http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/}{\ac{hgnc} \ac{ftp} server}. The dataset was generated a list of all 43,135 approved symbols, mapping to their \ac{hgnc} ID. Further, a list of all 98,723 symbols (approved, alias, and previous) mapping to their \ac{hgnc} ID was generated.
+    \item \uzlemph{HGNC Gene List} The newest quarterly update to the complete \ac{hgnc} dataset was downloaded via the \MYhref{http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/}{\ac{hgnc} \ac{ftp} server}. The dataset was used to generate a list of all 43,135 approved symbols, mapping to their \ac{hgnc} ID. Further, a list of all 98,723 symbols (approved, alias, and previous) mapping to their \ac{hgnc} ID was generated.
 
     \item \uzlemph{Linked SNPs} \ac{ld} $r^2$ values in a 500 kb window were calculated for the list of \ac{cad} \ac{gwas} proxy variants via the \MYhref{https://rest.ensembl.org/documentation/info/ld_id_get}{Ensembl \ac{rest} \ac{api}}. For humans, Ensembl calculates the \ac{ld} with data from the 1000 Genomes project (see table \ref{tab:populations}). In the same process, linked \acp{snp} were annotated with their most severe consequence from the Ensembl \ac{vep}. In total, information for 449,770 relationships were downloaded.
 
@@ -302,7 +302,7 @@ Data for post\ac{gwas} analyses and co-visualization with the \ac{gwas} summary 
 \section{Visualization of GWAS data}
 \label{sec:gwas_vis}
 For visualization of the data, a bokeh application was built. The application fetches the data from the database and renders it to a web browser \cite{bokehdevelopmentteamBokehPythonLibrary2022}.\\
-Bokeh is a python module that allows easy and interactive visualization of data. It combines the powerful data processing tools of python with the interactivity of \ac{js} running in the browser. The python side of bokeh creates python objects that are serialized into \ac{json} data and handed over to bokehJS. bokehJS deserializes these into \ac{js} objects that are rendered to the browser. The integrated bokeh server additionally allows synchronization of data between the underlying python environment and browser-side \ac{js} library. All in all, allowing real-time updates to the displayed data.
+Bokeh is a python module that allows easy and interactive visualization of data. It combines the powerful data processing tools of python with the interactivity of \ac{js} running in the browser. The python side of bokeh creates python objects that are serialized into \ac{json} data and handed over to bokehJS. bokehJS deserializes these into \ac{js} objects that are rendered to the browser. The integrated bokeh server additionally allows data synchronization data between the underlying python environment and browser-side \ac{js} library. All in all, allowing real-time updates to the displayed data.
 
     \begin{figure}[h]
     \capstart
@@ -315,7 +315,8 @@ Bokeh is a python module that allows easy and interactive visualization of data.
     	\end{minipage}
     \end{figure}
 
-According to good design principles, the concerns of the application are split into two sections, as shown in fig. \ref{fig:plot_architecture}. Reading the data from the database and further processing steps are managed by a data provider and enclosed in one class. In contrast to the model-controller-view architecture, a popular architectural pattern for the design of user interfaces, there is no partition between a view and a controller \cite{langtangenUsingWebFrameworks2015}. Since data visualization and the control widgets are created by bokeh, it is convenient to use the built-in event listeners of the library to handle the required callbacks. Therefore, the main file is responsible for creating all plots and widgets and handling user inputs.
+According to good design principles, the concerns of the application are split into two sections, as shown in fig. \ref{fig:plot_architecture}. Reading the data from the database and further processing steps are managed by a data provider and enclosed in one class. In contrast to the model-controller-view architecture, a popular architectural pattern for the design of user interfaces, there is no partition between a view and a controller \cite{langtangenUsingWebFrameworks2015}. Since data visualization and the control widgets are created by bokeh, it is convenient to use the built-in event listeners of the library to handle the required callbacks. Therefore, the main file is responsible for creating all plots and widgets and handling user inputs.\\
+For details please refer to the \MYhref{https://github.com/ceryni5/Thesis/tree/master/code/GWAS_Navigator}{source code of the \aca{gwas} Naviagtor}.
 
 \section{Enrichment analysis}
 \label{sec:enrichment}
@@ -337,11 +338,11 @@ To account for the multiple comparisons problem, p-values were adjusted with Bon
 
 $$ p_{ajd.} = p*n$$
 
-Additionally an \ac{ef} was calculated as the hit rate for the biosample, devided by the backgroud hit rate of the biosample:
+Additionally an \ac{ef} was calculated as the hit rate for the biosample, devided by the backgroud hit rate:
 
 $$ ef = \frac{\frac{nt}{n}}{\frac{mt}{m}} = \frac{nt\times m}{n\times mt}$$
 
-The analysis and visualization were done in python. An adjusted p-value of 0.05 is considered significant. Finally, the identified biosamples were annotated via the \MYhref{https://web.expasy.org/cellosaurus/}{cell line database Cellosaurus}. For detailed information, please refer to the analysis scripts.
+The analysis and visualization were done in python. An adjusted p-value of 0.05 is considered significant. Finally, the identified biosamples were annotated via the \MYhref{https://web.expasy.org/cellosaurus/}{cell line database Cellosaurus}. For detailed information, please refer to the \MYhref{https://github.com/ceryni5/Thesis/tree/master/code/enrichment_analysis}{analysis scripts}.
 
 \begin{figure}[h]
 \capstart

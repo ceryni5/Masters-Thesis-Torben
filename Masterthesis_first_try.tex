@@ -26,9 +26,9 @@
   % Alphabetische Bibliographie,
   % Numerische Bibliographie,
   Acknowledgements = {
-  First and foremost, I'd like to thank Dr. Tobias Reinberger for his outstanding supervision. Thank you for always making time for my questions, great advice, motivating words, and genuine interest in my project. Further, I'd like to thank Prof. Dr. Jeanette Erdmann for giving me the chance to be a part of her lab and for her excellent feedback - I truly learned a lot! I'd like to thank Lisa Paurat for taking care of my cells when I wasn't available and answering all my frequent questions. And of course, I'd like to thank all the other group members. Thank you for the welcoming atmosphere, delicious cake, necessary breaks, and excellent scientific advice!\\
-  In addition, this thesis marks the end of my studies at the University of Lübeck. I'd like to thank all the friends I made on my way. Those who are becoming incredible scientists and who may very well be reviewing this thesis. And those who could not care less about my studies but can get me to also take my mind off them for some time. I appreciate every single one of you; you made Lübeck feel at home.\\
-  Finally, I'd like to thank my parents for their immense support. I love you. 
+  First and foremost, I'd like to thank Dr. Tobias Reinberger for his outstanding supervision. Thank you for always making time for my questions, great advice, motivating words, and genuine interest in my project. Further, I'd like to thank Prof. Dr. Jeanette Erdmann for giving me the chance to be a part of her lab and for her excellent feedback - I truly learned a lot! I'd like to thank Lisa Diner for taking care of my cells when I wasn't available and answering my frequent questions. Of course, I'd like to thank all the other group members. Thank you for the welcoming atmosphere, delicious cake, necessary breaks, and excellent scientific advice!\\
+  In addition, this thesis marks the end of my studies at the University of Lübeck. I'd like to thank all the friends who supported me during this time. Those who are becoming incredible scientists themselves and those who enrich my life by having totally different interests. I value your opinions very much, and thank you for taking my mind off my studies sometimes. I appreciate every single one of you; you made Lübeck feel like home.\\
+  Finally, I'd like to thank my parents for their immense support. I love you.
   }
 }
 
@@ -168,7 +168,7 @@ date=year
 \newcommand{\SensoQuest}{SensoQuest GmbH}
 \newcommand{\Hettich}{Andreas Hettich GmbH \& Co. KG}
 \newcommand{\Heraeus}{Heraeus Holding GmbH}
-\newcommand{\Gibco}{Gibco BRL}
+\newcommand{\Gibco}{Gibco\textregistered BRL}
 \newcommand{\Nikon}{Nikon Corporation}
 
 %Farben
@@ -206,7 +206,7 @@ date=year
 \DefTblrTemplate{caption-sep}{default}{}
 \DefTblrTemplate{caption-text}{default}{}
 
-\acuse{rna, dna, h, min, d, s, celsius, mL, µL, pM, nM, µM, mM, M, µg, mg, water, 24 well}
+\acuse{rna, dna, h, min, d, s, celsius, mL, µL, pM, nM, µM, mM, M, µg, mg, water, 24 well, bsa}
 
 
 %%%%%%%%%%%%%%%%%
@@ -283,10 +283,13 @@ date=year
 %               %
 %%%%%%%%%%%%%%%%%
 
+\setcounter{chapter}{19}% Equivalent to "letter S"
+\renewcommand{\thechapter}{\Alph{chapter}}
 \chapter*{Supplement}
 \setcounter{figure}{0}
 \renewcommand{\thefigure}{S.\arabic{figure}}
 \addcontentsline{toc}{chapter}{Supplement}
 \markboth{Supplement}{Supplement}
+
 \input{text_parts/supplement}
 \end{document}
